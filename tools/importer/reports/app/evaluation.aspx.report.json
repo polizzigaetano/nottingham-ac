@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/app/evaluation.aspx",
+  "path": "app/evaluation.aspx",
+  "timestamp": "2026-09-12T12:41:47.381Z",
+  "title": "Evaluation of the plan",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

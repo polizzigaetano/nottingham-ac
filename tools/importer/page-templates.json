@@ -1,0 +1,2250 @@
+{
+  "templates": [
+    {
+      "name": "carousel-landing-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/",
+        "https://www.nottingham.ac.uk/aau/",
+        "https://www.nottingham.ac.uk/aau/goals.aspx",
+        "https://www.nottingham.ac.uk/aau/governance.aspx",
+        "https://www.nottingham.ac.uk/aau/index.aspx",
+        "https://www.nottingham.ac.uk/aau/news-events/",
+        "https://www.nottingham.ac.uk/aau/news-events/index.aspx",
+        "https://www.nottingham.ac.uk/aau/news-events/previous-news-events.aspx",
+        "https://www.nottingham.ac.uk/aau/news-events/projects.aspx",
+        "https://www.nottingham.ac.uk/acne-id/",
+        "https://www.nottingham.ac.uk/acne-id/about.aspx",
+        "https://www.nottingham.ac.uk/acne-id/contact-us.aspx",
+        "https://www.nottingham.ac.uk/acne-id/index.aspx",
+        "https://www.nottingham.ac.uk/acne-id/information-for-healthcare-professionals.aspx",
+        "https://www.nottingham.ac.uk/acne-id/information-for-patients.aspx",
+        "https://www.nottingham.ac.uk/acne-id/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/acne-id/trial-progress.aspx",
+        "https://www.nottingham.ac.uk/additivemanufacturing/about/",
+        "https://www.nottingham.ac.uk/app/",
+        "https://www.nottingham.ac.uk/app/evaluation-reports.aspx",
+        "https://www.nottingham.ac.uk/app/evaluation.aspx",
+        "https://www.nottingham.ac.uk/app/index.aspx",
+        "https://www.nottingham.ac.uk/app/information-to-students.aspx",
+        "https://www.nottingham.ac.uk/app/intervention-strategies.aspx",
+        "https://www.nottingham.ac.uk/app/introduction.aspx",
+        "https://www.nottingham.ac.uk/app/objectives.aspx",
+        "https://www.nottingham.ac.uk/app/risks.aspx",
+        "https://www.nottingham.ac.uk/app/student-consultation.aspx",
+        "https://www.nottingham.ac.uk/app/whole-provider-approach.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/",
+        "https://www.nottingham.ac.uk/bbpsf/about-us/",
+        "https://www.nottingham.ac.uk/bbpsf/about-us/about-the-project.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/about-us/our-research.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/contact-us.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/index.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/news-and-events/events.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/news-and-events/news.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/our-team/",
+        "https://www.nottingham.ac.uk/bbpsf/our-team/executive-board.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/our-team/our-team.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/our-team/researchers.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/our-team/strategic-advisory-board.aspx",
+        "https://www.nottingham.ac.uk/bbpsf/work-with-us.aspx",
+        "https://www.nottingham.ac.uk/blush/",
+        "https://www.nottingham.ac.uk/cbtdd-consortium/about-us/",
+        "https://www.nottingham.ac.uk/cbtdd-consortium/research/list.aspx",
+        "https://www.nottingham.ac.uk/cbtdd-consortium/search/",
+        "https://www.nottingham.ac.uk/cce-mozambique/",
+        "https://www.nottingham.ac.uk/cce-mozambique/blog/",
+        "https://www.nottingham.ac.uk/cce-mozambique/blog/index.aspx",
+        "https://www.nottingham.ac.uk/cce-mozambique/index.aspx",
+        "https://www.nottingham.ac.uk/cce-mozambique/team.aspx",
+        "https://www.nottingham.ac.uk/cdt-rdfes/contact-us/",
+        "https://www.nottingham.ac.uk/cdt-rdfes/contact-us/contact-us.aspx",
+        "https://www.nottingham.ac.uk/china-virtual-week/",
+        "https://www.nottingham.ac.uk/china-virtual-week/index.aspx",
+        "https://www.nottingham.ac.uk/coach/",
+        "https://www.nottingham.ac.uk/coach/contact-us/",
+        "https://www.nottingham.ac.uk/coach/contact-us/contactus.aspx",
+        "https://www.nottingham.ac.uk/coach/faq/",
+        "https://www.nottingham.ac.uk/coach/faq/frequently-asked-questions.aspx",
+        "https://www.nottingham.ac.uk/coach/home.aspx",
+        "https://www.nottingham.ac.uk/coach/information-for-healthcare-professionals/",
+        "https://www.nottingham.ac.uk/coach/information-for-healthcare-professionals/information-for-healthcare-professionals.aspx",
+        "https://www.nottingham.ac.uk/coach/information-for-participants/",
+        "https://www.nottingham.ac.uk/coach/information-for-participants/information-for-participants.aspx",
+        "https://www.nottingham.ac.uk/coach/information-for-participants/participating-hospitals.aspx",
+        "https://www.nottingham.ac.uk/coach/randomised/",
+        "https://www.nottingham.ac.uk/coach/randomised/randomised.aspx",
+        "https://www.nottingham.ac.uk/coach/resources-for-site-staff/",
+        "https://www.nottingham.ac.uk/coach/resources-for-site-staff/resources-for-site-staff.aspx",
+        "https://www.nottingham.ac.uk/coach/resources-for-site-staff/study-resources.aspx",
+        "https://www.nottingham.ac.uk/coach/resources-for-site-staff/training-resources.aspx",
+        "https://www.nottingham.ac.uk/coach/study-team/",
+        "https://www.nottingham.ac.uk/coach/study-team/study-team.aspx",
+        "https://www.nottingham.ac.uk/coatings/",
+        "https://www.nottingham.ac.uk/coatings/about.aspx",
+        "https://www.nottingham.ac.uk/coatings/board.aspx",
+        "https://www.nottingham.ac.uk/coatings/contact.aspx",
+        "https://www.nottingham.ac.uk/coatings/facilities.aspx",
+        "https://www.nottingham.ac.uk/coatings/fellowship.aspx",
+        "https://www.nottingham.ac.uk/coatings/index.aspx",
+        "https://www.nottingham.ac.uk/coatings/vision.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/",
+        "https://www.nottingham.ac.uk/connect-nottingham/connect-nottingham.aspx",
+        "https://www.nottingham.ac.uk/connect/",
+        "https://www.nottingham.ac.uk/connect/connect-facebook.aspx",
+        "https://www.nottingham.ac.uk/connect/nottinghamconnect.aspx",
+        "https://www.nottingham.ac.uk/course/pg-taught-course.aspx",
+        "https://www.nottingham.ac.uk/deva/about-our-team.aspx",
+        "https://www.nottingham.ac.uk/deva/bacterial-vaginosis.aspx",
+        "https://www.nottingham.ac.uk/deva/faq.aspx",
+        "https://www.nottingham.ac.uk/deva/index.aspx",
+        "https://www.nottingham.ac.uk/deva/meet-the-team/",
+        "https://www.nottingham.ac.uk/deva/meet-the-team/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/deva/study-samples.aspx",
+        "https://www.nottingham.ac.uk/deva/taking-part.aspx",
+        "https://www.nottingham.ac.uk/deva/what-is-involved.aspx",
+        "https://www.nottingham.ac.uk/dexta/",
+        "https://www.nottingham.ac.uk/dexta/bliss/bliss.aspx",
+        "https://www.nottingham.ac.uk/dexta/contact-us/home.aspx",
+        "https://www.nottingham.ac.uk/dexta/index.aspx",
+        "https://www.nottingham.ac.uk/dexta/information-for-healthcare-professionals/information-for-healthcare-professionals.aspx",
+        "https://www.nottingham.ac.uk/dexta/information-for-parents-and-families/information-for-parents-and-families.aspx",
+        "https://www.nottingham.ac.uk/dexta/meet-the-study-team/meet-the-study-team.aspx",
+        "https://www.nottingham.ac.uk/dts/about-us.aspx",
+        "https://www.nottingham.ac.uk/dts/it-policies.aspx",
+        "https://www.nottingham.ac.uk/dts/test-area/echo-video-test.aspx",
+        "https://www.nottingham.ac.uk/dts/unicore.aspx",
+        "https://www.nottingham.ac.uk/eco/",
+        "https://www.nottingham.ac.uk/eco/index.aspx",
+        "https://www.nottingham.ac.uk/esrc-nibs/featured-outputs.aspx",
+        "https://www.nottingham.ac.uk/esrc-nibs/index.aspx",
+        "https://www.nottingham.ac.uk/esrc-nibs/news/martijn-van-den-assem-visit.aspx",
+        "https://www.nottingham.ac.uk/esrc-nibs/news/mpi-berlin-summer-institute-on-bounded-rationality.aspx",
+        "https://www.nottingham.ac.uk/esrc-nibs/news/other-outputs/christina-leuker-exchange-visit.aspx",
+        "https://www.nottingham.ac.uk/esrc-nibs/news/outputs-paper-and-publications/consumption-changes-not-income-changes-predict-changes-in-subjective-well-being.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/",
+        "https://www.nottingham.ac.uk/famoustrial/contact-us.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/faqs.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/home.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/participating-clinics.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/resources.aspx",
+        "https://www.nottingham.ac.uk/famoustrial/taking-part.aspx",
+        "https://www.nottingham.ac.uk/fiss/contact-us.aspx",
+        "https://www.nottingham.ac.uk/fiss/index.aspx",
+        "https://www.nottingham.ac.uk/fiss/information-for-healthcare-professionals.aspx",
+        "https://www.nottingham.ac.uk/fiss/information-for-potential-participants.aspx",
+        "https://www.nottingham.ac.uk/fiss/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/fiss/patient-and-public-involvement.aspx",
+        "https://www.nottingham.ac.uk/fiss/recruitment-figures-and-site-updates.aspx",
+        "https://www.nottingham.ac.uk/forest/",
+        "https://www.nottingham.ac.uk/forest/index.aspx",
+        "https://www.nottingham.ac.uk/free-speech-academic-freedom/",
+        "https://www.nottingham.ac.uk/free-speech-academic-freedom/external-resources.aspx",
+        "https://www.nottingham.ac.uk/free-speech-academic-freedom/free-speech-and-academic-freedom.aspx",
+        "https://www.nottingham.ac.uk/free-speech-academic-freedom/how-to-disagree-well.aspx",
+        "https://www.nottingham.ac.uk/free-speech-academic-freedom/index.aspx",
+        "https://www.nottingham.ac.uk/free-speech-academic-freedom/support.aspx",
+        "https://www.nottingham.ac.uk/global-connections/",
+        "https://www.nottingham.ac.uk/global-connections/index.aspx",
+        "https://www.nottingham.ac.uk/global/",
+        "https://www.nottingham.ac.uk/global/global-partnerships.aspx",
+        "https://www.nottingham.ac.uk/global/partnerships/international-sponsor-support.aspx",
+        "https://www.nottingham.ac.uk/global/partnerships/international-teaching-partnerships.aspx",
+        "https://www.nottingham.ac.uk/global/partnerships/our-teaching-partnerships.aspx",
+        "https://www.nottingham.ac.uk/global/partnerships/partnership-model-types.aspx",
+        "https://www.nottingham.ac.uk/hand-2/",
+        "https://www.nottingham.ac.uk/hand-2/contact-us/",
+        "https://www.nottingham.ac.uk/hand-2/contact-us/contact-us.aspx",
+        "https://www.nottingham.ac.uk/hand-2/home.aspx",
+        "https://www.nottingham.ac.uk/hand-2/information-for-patients/",
+        "https://www.nottingham.ac.uk/hand-2/information-for-patients/about-the-hand-2-study.aspx",
+        "https://www.nottingham.ac.uk/hand-2/information-for-patients/how-do-i-take-part.aspx",
+        "https://www.nottingham.ac.uk/hand-2/information-for-patients/information-for-patients.aspx",
+        "https://www.nottingham.ac.uk/hand-2/slick-device-video/",
+        "https://www.nottingham.ac.uk/hand-2/slick-device-video/slick-device-video.aspx",
+        "https://www.nottingham.ac.uk/health-informatics/",
+        "https://www.nottingham.ac.uk/health-informatics/index.aspx",
+        "https://www.nottingham.ac.uk/home.aspx",
+        "https://www.nottingham.ac.uk/hr/index.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/",
+        "https://www.nottingham.ac.uk/ideal-backpacs/back-pain-information.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/contact-us.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/faqs.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/index.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/information-for-participants.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/participant-information-videos.aspx",
+        "https://www.nottingham.ac.uk/ideal-backpacs/taking-part.aspx",
+        "https://www.nottingham.ac.uk/impact-trial/",
+        "https://www.nottingham.ac.uk/impact-trial/contact-us.aspx",
+        "https://www.nottingham.ac.uk/impact-trial/home.aspx",
+        "https://www.nottingham.ac.uk/impact-trial/information-for-families.aspx",
+        "https://www.nottingham.ac.uk/impact-trial/information-for-healthcare-professionals.aspx",
+        "https://www.nottingham.ac.uk/impact-trial/resources.aspx",
+        "https://www.nottingham.ac.uk/impact-trial/trial-updates.aspx",
+        "https://www.nottingham.ac.uk/impactcampaign/index.aspx",
+        "https://www.nottingham.ac.uk/impetus/index.aspx",
+        "https://www.nottingham.ac.uk/index.aspx",
+        "https://www.nottingham.ac.uk/international-summer-winter-schools/frequently-asked-questions/",
+        "https://www.nottingham.ac.uk/international-summer-winter-schools/international-summer-winter-schools.aspx",
+        "https://www.nottingham.ac.uk/international-summer-winter-schools/what-do-the-schools-cover/celebration-dinner.aspx",
+        "https://www.nottingham.ac.uk/international-summer-winter-schools/what-do-the-schools-cover/explore-our-research-facilities.aspx",
+        "https://www.nottingham.ac.uk/international-summer-winter-schools/your-next-steps/",
+        "https://www.nottingham.ac.uk/jobs/home.aspx",
+        "https://www.nottingham.ac.uk/moose/",
+        "https://www.nottingham.ac.uk/moose/about-our-team.aspx",
+        "https://www.nottingham.ac.uk/moose/about-the-study.aspx",
+        "https://www.nottingham.ac.uk/moose/contact-us.aspx",
+        "https://www.nottingham.ac.uk/moose/home.aspx",
+        "https://www.nottingham.ac.uk/moose/resources-for-patients.aspx",
+        "https://www.nottingham.ac.uk/moose/sites-and-recruitment.aspx",
+        "https://www.nottingham.ac.uk/nctu/collaborate-with-us.aspx",
+        "https://www.nottingham.ac.uk/nctu/index.aspx",
+        "https://www.nottingham.ac.uk/nctu/our-research/our-research.aspx",
+        "https://www.nottingham.ac.uk/nctu/short-courses/fundamentals-of-clinical-trials.aspx",
+        "https://www.nottingham.ac.uk/nctu/short-courses/short-courses.aspx",
+        "https://www.nottingham.ac.uk/ndss/",
+        "https://www.nottingham.ac.uk/ndss/about.aspx",
+        "https://www.nottingham.ac.uk/ndss/contact-us.aspx",
+        "https://www.nottingham.ac.uk/ndss/der-ic.aspx",
+        "https://www.nottingham.ac.uk/ndss/index.aspx",
+        "https://www.nottingham.ac.uk/news-heat-trial/",
+        "https://www.nottingham.ac.uk/news-heat-trial/contact-us/",
+        "https://www.nottingham.ac.uk/news-heat-trial/contact-us/contact-us.aspx",
+        "https://www.nottingham.ac.uk/news-heat-trial/frequently-asked-questions/",
+        "https://www.nottingham.ac.uk/news-heat-trial/frequently-asked-questions/frequently-asked-questions.aspx",
+        "https://www.nottingham.ac.uk/news-heat-trial/information-for-hospitals/",
+        "https://www.nottingham.ac.uk/news-heat-trial/information-for-hospitals/information-for-hospitals.aspx",
+        "https://www.nottingham.ac.uk/news-heat-trial/information-for-parents/",
+        "https://www.nottingham.ac.uk/news-heat-trial/information-for-parents/information-for-parents.aspx",
+        "https://www.nottingham.ac.uk/news-heat-trial/meet-the-team/",
+        "https://www.nottingham.ac.uk/news-heat-trial/meet-the-team/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/news-heat-trial/news-heat-trial.aspx",
+        "https://www.nottingham.ac.uk/nmrc-commercial/index.aspx",
+        "https://www.nottingham.ac.uk/nmrc-commercial/nmcs-case-studies/case-studies.aspx",
+        "https://www.nottingham.ac.uk/nottingham-elite-performance-academy/",
+        "https://www.nottingham.ac.uk/nottingham-elite-performance-academy/fees-and-funding.aspx",
+        "https://www.nottingham.ac.uk/nottingham-elite-performance-academy/how-to-apply.aspx",
+        "https://www.nottingham.ac.uk/nottingham-elite-performance-academy/nepa-partners.aspx",
+        "https://www.nottingham.ac.uk/nottingham-elite-performance-academy/nepa.aspx",
+        "https://www.nottingham.ac.uk/nottingham-elite-performance-academy/the-nepa-offer.aspx",
+        "https://www.nottingham.ac.uk/nu-sense/",
+        "https://www.nottingham.ac.uk/nu-sense/events/",
+        "https://www.nottingham.ac.uk/nu-sense/home.aspx",
+        "https://www.nottingham.ac.uk/nu-sense/news/",
+        "https://www.nottingham.ac.uk/nu-sense/people/",
+        "https://www.nottingham.ac.uk/nu-sense/people/people.aspx",
+        "https://www.nottingham.ac.uk/nu-sense/publications/",
+        "https://www.nottingham.ac.uk/nu-sense/publications/publications.aspx",
+        "https://www.nottingham.ac.uk/open-days/index.aspx",
+        "https://www.nottingham.ac.uk/otter/",
+        "https://www.nottingham.ac.uk/otter/about-our-team.aspx",
+        "https://www.nottingham.ac.uk/otter/contact-us.aspx",
+        "https://www.nottingham.ac.uk/otter/home.aspx",
+        "https://www.nottingham.ac.uk/otter/resources-for-clinicians.aspx",
+        "https://www.nottingham.ac.uk/otter/resources-for-patients.aspx",
+        "https://www.nottingham.ac.uk/pearls/",
+        "https://www.nottingham.ac.uk/pearls/index.aspx",
+        "https://www.nottingham.ac.uk/pgstudy/index-old24.aspx",
+        "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
+        "https://www.nottingham.ac.uk/policy-and-engagement/net-zero/profiles/ives/chris-ives.aspx",
+        "https://www.nottingham.ac.uk/policy-and-engagement/net-zero/profiles/pappa/marianthi-pappa.aspx",
+        "https://www.nottingham.ac.uk/policy-and-engagement/net-zero/research-topics/green-economies.aspx",
+        "https://www.nottingham.ac.uk/policy-and-engagement/net-zero/research-topics/health-and-well-being.aspx",
+        "https://www.nottingham.ac.uk/pop-i/",
+        "https://www.nottingham.ac.uk/pop-i/index.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/",
+        "https://www.nottingham.ac.uk/project-yolanda/index.aspx",
+        "https://www.nottingham.ac.uk/r4u/",
+        "https://www.nottingham.ac.uk/r4u/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/r4u/newsletters.aspx",
+        "https://www.nottingham.ac.uk/r4u/r4unad.aspx",
+        "https://www.nottingham.ac.uk/racing/",
+        "https://www.nottingham.ac.uk/racing/about-us.aspx",
+        "https://www.nottingham.ac.uk/racing/key-links.aspx",
+        "https://www.nottingham.ac.uk/racing/support-us.aspx",
+        "https://www.nottingham.ac.uk/relief/",
+        "https://www.nottingham.ac.uk/relief/home.aspx",
+        "https://www.nottingham.ac.uk/relief/information-for-participants.aspx",
+        "https://www.nottingham.ac.uk/relief/information-for-researchers.aspx",
+        "https://www.nottingham.ac.uk/relief/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/relief/training.aspx",
+        "https://www.nottingham.ac.uk/relief/trial-updates.aspx",
+        "https://www.nottingham.ac.uk/research/blogs/",
+        "https://www.nottingham.ac.uk/research/research.aspx",
+        "https://www.nottingham.ac.uk/sbrc/about/facilities/facilities.aspx",
+        "https://www.nottingham.ac.uk/sbrc/about/team/stephan-heeb.aspx",
+        "https://www.nottingham.ac.uk/sbrc/engagement/engagement.aspx",
+        "https://www.nottingham.ac.uk/sbrc/index.aspx",
+        "https://www.nottingham.ac.uk/sbrc/sbrc-microbytes/sbrc-microbytes.aspx",
+        "https://www.nottingham.ac.uk/snap3-preloading/how-to-use-a-nicotine-patch.aspx",
+        "https://www.nottingham.ac.uk/starship/home.aspx",
+        "https://www.nottingham.ac.uk/starship/main-pages/information/information-bengali.aspx",
+        "https://www.nottingham.ac.uk/starship/main-pages/information/information-polish.aspx",
+        "https://www.nottingham.ac.uk/starship/site-information/barts/barts-polish.aspx",
+        "https://www.nottingham.ac.uk/starship/site-information/lancashire/lancashire-arabic.aspx",
+        "https://www.nottingham.ac.uk/studentservices/engagement/",
+        "https://www.nottingham.ac.uk/studentservices/myhelp-zone.aspx",
+        "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/pharmacy/",
+        "https://www.nottingham.ac.uk/transcocon/",
+        "https://www.nottingham.ac.uk/transcocon/about.aspx",
+        "https://www.nottingham.ac.uk/transcocon/contact.aspx",
+        "https://www.nottingham.ac.uk/transcocon/dissemination.aspx",
+        "https://www.nottingham.ac.uk/transcocon/index.aspx",
+        "https://www.nottingham.ac.uk/transcocon/institutes-and-team-profiles.aspx",
+        "https://www.nottingham.ac.uk/transcocon/news/transnational-project-meeting-%e2%80%93-nottingham.aspx",
+        "https://www.nottingham.ac.uk/transcocon/news/transnational-project-meeting-%e2%80%93-porto.aspx",
+        "https://www.nottingham.ac.uk/transcocon/news/transnational-project-meeting-bielefeld.aspx",
+        "https://www.nottingham.ac.uk/transcocon/news/transnational-project-meeting-sligo.aspx",
+        "https://www.nottingham.ac.uk/transcocon/open-access-resources.aspx",
+        "https://www.nottingham.ac.uk/transcocon/project-meetings.aspx",
+        "https://www.nottingham.ac.uk/transcocon/student-engagement.aspx",
+        "https://www.nottingham.ac.uk/ukdctn/funding-awards/",
+        "https://www.nottingham.ac.uk/ukdctn/index.aspx",
+        "https://www.nottingham.ac.uk/ukdctn/join-the-network/",
+        "https://www.nottingham.ac.uk/ukdctn/news.aspx",
+        "https://www.nottingham.ac.uk/ukdctn/news/blister-study-results-published.aspx",
+        "https://www.nottingham.ac.uk/unit/",
+        "https://www.nottingham.ac.uk/unit/about.aspx",
+        "https://www.nottingham.ac.uk/unit/contact-us.aspx",
+        "https://www.nottingham.ac.uk/unit/index.aspx",
+        "https://www.nottingham.ac.uk/unit/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/virtual/catch-up/",
+        "https://www.nottingham.ac.uk/virtual/international-applications/entry-requirements.aspx",
+        "https://www.nottingham.ac.uk/vision/issues/",
+        "https://www.nottingham.ac.uk/vision/issues/index.aspx",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/community.aspx",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/digital.aspx",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/global.aspx",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/health-and-wellbeing.aspx",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/index.aspx",
+        "https://www.nottingham.ac.uk/ways-to-change-the-world/sustainability.aspx",
+        "https://www.nottingham.ac.uk/zero-carbon/about-us.aspx",
+        "https://www.nottingham.ac.uk/zero-carbon/contact-us.aspx",
+        "https://www.nottingham.ac.uk/zero-carbon/electrification.aspx",
+        "https://www.nottingham.ac.uk/zero-carbon/home.aspx",
+        "https://www.nottingham.ac.uk/zero-carbon/hybrid-propulsion-systems.aspx",
+        "https://www.nottingham.ac.uk/zero-carbon/news-and-insights.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": [
+        {
+          "name": "hero-minimal-dark-2",
+          "instances": [
+            ".homepage-hero-banner"
+          ]
+        },
+        {
+          "name": "search-course-light",
+          "instances": [
+            ".search-container",
+            ".course-finder-label"
+          ]
+        },
+        {
+          "name": "cards-promo-dark",
+          "instances": [
+            ".homepage-campaign-tiles"
+          ]
+        },
+        {
+          "name": "cards-ranking-gold",
+          "instances": [
+            ".homepage-rankings",
+            ".ranking-tile-container"
+          ]
+        },
+        {
+          "name": "columns-minimal-dark-withimg-2",
+          "instances": [
+            ".homepage-image-cta-block"
+          ]
+        },
+        {
+          "name": "cards-minimal-dark-withimg-5",
+          "instances": [
+            ".homepage-image-cta-row"
+          ]
+        },
+        {
+          "name": "carousel-minimal-dark-withimg-5",
+          "instances": [
+            ".news-section .news-carousel",
+            ".news-section"
+          ]
+        },
+        {
+          "name": "carousel-events-light",
+          "instances": [
+            ".events-section"
+          ]
+        },
+        {
+          "name": "cards-logos-light",
+          "instances": [
+            ".homepage-partnerships",
+            ".partnerships-container"
+          ]
+        }
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "hero",
+          "selector": [
+            ".homepage-hero-banner"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2",
+            "search-course-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s2",
+          "name": "campaign-tiles",
+          "selector": [
+            ".homepage-campaign-tiles"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s3",
+          "name": "ranking-tiles",
+          "selector": [
+            ".homepage-rankings",
+            ".ranking-tile-container"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-ranking-gold"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s4",
+          "name": "research",
+          "selector": [
+            ".homepage-image-cta-block",
+            ".container-max-width"
+          ],
+          "style": "highlight",
+          "blocks": [
+            "columns-minimal-dark-withimg-2",
+            "cards-minimal-dark-withimg-5"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "university-news",
+          "selector": [
+            ".news-section"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-minimal-dark-withimg-5"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s6",
+          "name": "featured-events",
+          "selector": [
+            ".events-section"
+          ],
+          "style": "highlight",
+          "blocks": [
+            "carousel-events-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s7",
+          "name": "partnerships",
+          "selector": [
+            ".homepage-partnerships",
+            ".partnerships-container"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-logos-light"
+          ],
+          "defaultContent": []
+        }
+      ]
+    },
+    {
+      "name": "rich-text-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+        "https://www.nottingham.ac.uk/about/index.aspx",
+        "https://www.nottingham.ac.uk/about/structure/professionalservices/estates.aspx",
+        "https://www.nottingham.ac.uk/about/vice-chancellor/vice-chancellors-special-guest-events/dr-tedros-adhanom-ghebreyesus.aspx",
+        "https://www.nottingham.ac.uk/about/visitorinformation/mapsanddirections/mapsanddirections.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/",
+        "https://www.nottingham.ac.uk/brewingscience/brewing-apprenticeship-training.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/brewing-short-courses/",
+        "https://www.nottingham.ac.uk/brewingscience/brewing-short-courses/brewing-short-courses.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/cuckoo-collaborative-2020.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/current-student-information.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/e-learning.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/employability-and-careers.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/index.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/scholarship-2023.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/study-with-us/",
+        "https://www.nottingham.ac.uk/brewingscience/study-with-us/full-time-1-year-msc-in-brewing-science-and-practice.aspx",
+        "https://www.nottingham.ac.uk/brewingscience/study-with-us/part-time-pg-diploma-in-brewing-science.aspx",
+        "https://www.nottingham.ac.uk/businessalumni/",
+        "https://www.nottingham.ac.uk/businessalumni/how-we-can-help-you/",
+        "https://www.nottingham.ac.uk/businessalumni/how-we-can-help-you/executive-education.aspx",
+        "https://www.nottingham.ac.uk/businessalumni/how-we-can-help-you/index.aspx",
+        "https://www.nottingham.ac.uk/businessalumni/how-you-can-support-us/",
+        "https://www.nottingham.ac.uk/businessalumni/how-you-can-support-us/ementoring.aspx",
+        "https://www.nottingham.ac.uk/businessalumni/how-you-can-support-us/index.aspx",
+        "https://www.nottingham.ac.uk/businessalumni/index.aspx",
+        "https://www.nottingham.ac.uk/businessalumni/nubs-alumni-hall-of-fame/",
+        "https://www.nottingham.ac.uk/businessalumni/nubs-alumni-hall-of-fame/index.aspx",
+        "https://www.nottingham.ac.uk/cancerresearchnottingham/index.aspx",
+        "https://www.nottingham.ac.uk/cancerresearchnottingham/news.aspx",
+        "https://www.nottingham.ac.uk/cancerresearchnottingham/our-mission/",
+        "https://www.nottingham.ac.uk/cancerresearchnottingham/research-areas/drug-discoverytranslational-therapeutics/",
+        "https://www.nottingham.ac.uk/cancerresearchnottingham/research-areas/palliative-care/palliative-care.aspx",
+        "https://www.nottingham.ac.uk/careers/alumni/first-job/",
+        "https://www.nottingham.ac.uk/careers/alumni/graduated-in-2025.aspx",
+        "https://www.nottingham.ac.uk/careers/employers/events/termsconditions.aspx",
+        "https://www.nottingham.ac.uk/careers/index.aspx",
+        "https://www.nottingham.ac.uk/careers/students/career-insights/linkedin%e2%80%a6-the-new-facebook.aspx",
+        "https://www.nottingham.ac.uk/ccs/",
+        "https://www.nottingham.ac.uk/ccs/cancer-research/",
+        "https://www.nottingham.ac.uk/ccs/cancer-research/cancer-research.aspx",
+        "https://www.nottingham.ac.uk/ccs/people/",
+        "https://www.nottingham.ac.uk/ccs/people/index.aspx",
+        "https://www.nottingham.ac.uk/ccs/study-with-us/",
+        "https://www.nottingham.ac.uk/ccs/study-with-us/index.aspx",
+        "https://www.nottingham.ac.uk/cele-precourse/",
+        "https://www.nottingham.ac.uk/conference/fac-eng/eg-ice2017/venue-and-travel/venue-and-travel.aspx",
+        "https://www.nottingham.ac.uk/conference/index.aspx",
+        "https://www.nottingham.ac.uk/conference/past-conferences.aspx",
+        "https://www.nottingham.ac.uk/connectedcommunities/",
+        "https://www.nottingham.ac.uk/coronavirus/",
+        "https://www.nottingham.ac.uk/coronavirus/communications/",
+        "https://www.nottingham.ac.uk/coronavirus/communications/archive-of-communications.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/current-students/covid-19-vaccine.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/frequently-asked-questions/i-am-ill-and-will-miss-a-deadline-what-should-i-do.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/frequently-asked-questions/i-have-symptoms-of-coronavirus-what-should-i-do.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/frequently-asked-questions/ive-tested-positive-do-i-need-to-tell-friends-and-family.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/frequently-asked-questions/someone-in-my-household-is-isolating-as-theyve-been-contacted-by-nhs-track-and-trace-they-have-no-symptoms-should-i-isolate.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/index.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/university-testing-service/covid-19-testing.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/university-testing-service/frequently-asked-questions/what-happens-positive-test-result.aspx",
+        "https://www.nottingham.ac.uk/coronavirus/university-testing-service/location-and-times.aspx",
+        "https://www.nottingham.ac.uk/cspi/centre-activities/ideologies-discussion-group.aspx",
+        "https://www.nottingham.ac.uk/cspi/centre-members/index.aspx",
+        "https://www.nottingham.ac.uk/cspi/index.aspx",
+        "https://www.nottingham.ac.uk/cspi/podcasts-videos.aspx",
+        "https://www.nottingham.ac.uk/cspi/research/grants-and-publications.aspx",
+        "https://www.nottingham.ac.uk/currentstudents/news/2019/empower-%e2%80%93-new-health-and-fitness-initiative-for-women-students.aspx",
+        "https://www.nottingham.ac.uk/currentstudents/news/2019/find-a-fountain-%e2%80%93-refill-reduce.aspx",
+        "https://www.nottingham.ac.uk/currentstudents/studentopportunities/index.aspx",
+        "https://www.nottingham.ac.uk/departments/",
+        "https://www.nottingham.ac.uk/diversityfestival/",
+        "https://www.nottingham.ac.uk/diversityfestival/2021/contributors.aspx",
+        "https://www.nottingham.ac.uk/diversityfestival/2021/diversity-festival.aspx",
+        "https://www.nottingham.ac.uk/diversityfestival/2021/events/local/research-across-borders.aspx",
+        "https://www.nottingham.ac.uk/diversityfestival/2021/recorded-content/recorded-content.aspx",
+        "https://www.nottingham.ac.uk/events/",
+        "https://www.nottingham.ac.uk/fees/tuition-fees-student-services.aspx",
+        "https://www.nottingham.ac.uk/fees/tuitionfees/202425/other-fees.aspx",
+        "https://www.nottingham.ac.uk/fees/tuitionfees/archive/index.aspx",
+        "https://www.nottingham.ac.uk/fic/events-and-workshops.aspx",
+        "https://www.nottingham.ac.uk/fic/food-innovation-centre.aspx",
+        "https://www.nottingham.ac.uk/fic/our-services.aspx",
+        "https://www.nottingham.ac.uk/fortheworld/",
+        "https://www.nottingham.ac.uk/governance-and-assurance/",
+        "https://www.nottingham.ac.uk/governance-and-assurance/home.aspx",
+        "https://www.nottingham.ac.uk/home/alerts/",
+        "https://www.nottingham.ac.uk/home/events/ingenuity-unleashed-encouraging-technology-entrepreneurship-for-all.aspx",
+        "https://www.nottingham.ac.uk/home/events/olympia-at-broadway.aspx",
+        "https://www.nottingham.ac.uk/home/featureevents/2019/fundamentals-of-clinical-trials.aspx",
+        "https://www.nottingham.ac.uk/home/featureevents/2021/from-the-individual-to-the-general.aspx",
+        "https://www.nottingham.ac.uk/home/featureevents/2023/russell-group-roadshow.aspx",
+        "https://www.nottingham.ac.uk/home/featurenews/2015/the-excellence-award-for-the-university-of-nottingham.aspx",
+        "https://www.nottingham.ac.uk/home/redirects/sportsuniversityoftheyear.aspx",
+        "https://www.nottingham.ac.uk/hr/aboutus/about-us.aspx",
+        "https://www.nottingham.ac.uk/hr/guidesandsupport/absenceandannualleave/sicknessabsence/sickpayscheme/accidentthirdpartyclaim.aspx",
+        "https://www.nottingham.ac.uk/hr/guidesandsupport/healthandwellbeing/occupational-health/pre-employment-checks.aspx",
+        "https://www.nottingham.ac.uk/hr/guidesandsupport/msplapsupport/maternity/informingyourlinemanager.aspx",
+        "https://www.nottingham.ac.uk/ifam/contactus.aspx",
+        "https://www.nottingham.ac.uk/ifam/index.aspx",
+        "https://www.nottingham.ac.uk/isac/event-records/isac-advisory-board-meeting.aspx",
+        "https://www.nottingham.ac.uk/isac/news-items/3d-orbisims-launched.aspx",
+        "https://www.nottingham.ac.uk/isac/news-items/isac-and-nice-msi-victorious-in-baltimore.aspx",
+        "https://www.nottingham.ac.uk/jobs/candidate-guidance/writing-your-application.aspx",
+        "https://www.nottingham.ac.uk/jobs/moving-to-nottingham/international-applicants/immigration/immigration-routes/tier-5-visa.aspx",
+        "https://www.nottingham.ac.uk/jobs/moving-to-nottingham/support-for-others.aspx",
+        "https://www.nottingham.ac.uk/jobs/moving-to-nottingham/whats-on-in-nottingham.aspx",
+        "https://www.nottingham.ac.uk/m/student-recruitment-statistics.aspx",
+        "https://www.nottingham.ac.uk/master-researchcentres/newsandevents/news/testnews.aspx",
+        "https://www.nottingham.ac.uk/ncmh/vikings/wirral-and-west-lancashire-viking-page.aspx",
+        "https://www.nottingham.ac.uk/neuroscience/people/",
+        "https://www.nottingham.ac.uk/neuroscience/people/index.aspx",
+        "https://www.nottingham.ac.uk/news/expertiseguide/becoming-an-expert-in-the-media-guide-to-expertise.aspx",
+        "https://www.nottingham.ac.uk/news/feedback-form.aspx",
+        "https://www.nottingham.ac.uk/news/find-an-expert.aspx",
+        "https://www.nottingham.ac.uk/news/pressreleases/",
+        "https://www.nottingham.ac.uk/ngi/about.aspx",
+        "https://www.nottingham.ac.uk/ngi/index.aspx",
+        "https://www.nottingham.ac.uk/ngi/phd-students-opportunities/index.aspx",
+        "https://www.nottingham.ac.uk/ngi/work-with-us/",
+        "https://www.nottingham.ac.uk/nmpresearch/eppoc/research-studies/",
+        "https://www.nottingham.ac.uk/nmpresearch/eppoc/research-studies/home.aspx",
+        "https://www.nottingham.ac.uk/pctd/centre-activities/past-events.aspx",
+        "https://www.nottingham.ac.uk/ppsc/student-statistics/student-statistics-2016-17.aspx",
+        "https://www.nottingham.ac.uk/prior-care-exp/news.aspx",
+        "https://www.nottingham.ac.uk/psawards/",
+        "https://www.nottingham.ac.uk/psawards/categories.aspx",
+        "https://www.nottingham.ac.uk/psawards/event.aspx",
+        "https://www.nottingham.ac.uk/psawards/nominations.aspx",
+        "https://www.nottingham.ac.uk/psawards/reflections/",
+        "https://www.nottingham.ac.uk/psawards/reflections/2022-awards.aspx",
+        "https://www.nottingham.ac.uk/qualitymanual/academic-regulations/pgt-regs-sep20.aspx",
+        "https://www.nottingham.ac.uk/qualitymanual/academic-regulations/ug-regs-not-hons-sep15.aspx",
+        "https://www.nottingham.ac.uk/qualitymanual/contingency-classification-and-progression-regulations.aspx",
+        "https://www.nottingham.ac.uk/qualitymanual/legacy-exceptional-regulations-covid-19-1920.aspx",
+        "https://www.nottingham.ac.uk/qualitymanual/research-degree-progs/pgr-supregs-dclinpsy-presept23.aspx",
+        "https://www.nottingham.ac.uk/qualitymanual/studies-away-from-university/index.aspx",
+        "https://www.nottingham.ac.uk/research/groups/adultmentalhealth/",
+        "https://www.nottingham.ac.uk/research/groups/ai/ai-and-spin-outs/",
+        "https://www.nottingham.ac.uk/research/groups/ai/ai-projects/foundations-of-ai.aspx",
+        "https://www.nottingham.ac.uk/research/groups/all-in/interviews/hw-interview.aspx",
+        "https://www.nottingham.ac.uk/research/groups/allergy-and-infectiousdiseases/alumni/alumni.aspx",
+        "https://www.nottingham.ac.uk/research/groups/biobank/people/index.aspx",
+        "https://www.nottingham.ac.uk/research/groups/whscr/activities/2021/a-conversation-with-cath-williams.aspx",
+        "https://www.nottingham.ac.uk/researcher-academy/news/latest-news/postgraduate-researchers-from-diverse-backgrounds-a-framework-for-defining-measuring-and-supporting-success.aspx",
+        "https://www.nottingham.ac.uk/researcher-academy/people/",
+        "https://www.nottingham.ac.uk/science/contact.aspx",
+        "https://www.nottingham.ac.uk/science/news-events/science-public-lectures/seeing-the-invisible.aspx",
+        "https://www.nottingham.ac.uk/science/research/n3centre/n3centre-researchers/professor-stephen-coombes.aspx",
+        "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/scientists-recognised-for-crop-and-soil-research-with-prestigious-rank-prize.aspx",
+        "https://www.nottingham.ac.uk/sciencepartnership/news/funding-for-new-research-to-deliver-cleaner-and-greener-chemicals.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/index.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/resources.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/tools-and-equipment.aspx",
+        "https://www.nottingham.ac.uk/totemm/",
+        "https://www.nottingham.ac.uk/totemm/index.aspx",
+        "https://www.nottingham.ac.uk/totemm/people.aspx",
+        "https://www.nottingham.ac.uk/ugstudy/clearing-prize-draw-terms-and-conditions.aspx",
+        "https://www.nottingham.ac.uk/ugstudy/offer-holder-survey-2026.aspx",
+        "https://www.nottingham.ac.uk/vascular-research/",
+        "https://www.nottingham.ac.uk/vascular-research/people/",
+        "https://www.nottingham.ac.uk/vascular-research/people/index.aspx",
+        "https://www.nottingham.ac.uk/virtual/home-applications/fees-and-funding.aspx",
+        "https://www.nottingham.ac.uk/virtual/international-applications/visa-and-immigration-support.aspx",
+        "https://www.nottingham.ac.uk/visit/",
+        "https://www.nottingham.ac.uk/visit/index.aspx",
+        "https://www.nottingham.ac.uk/wrc/about-us/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/wrc/facilities/index.aspx",
+        "https://www.nottingham.ac.uk/wrc/germplasm-resources/",
+        "https://www.nottingham.ac.uk/wrc/home.aspx",
+        "https://www.nottingham.ac.uk/wrc/research-areas/hybrid-wheat-production.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "search-landing-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/achieveit/",
+        "https://www.nottingham.ac.uk/achieveit/achieve-it.aspx",
+        "https://www.nottingham.ac.uk/advancedtherapeutics/contact-us.aspx",
+        "https://www.nottingham.ac.uk/advancedtherapeutics/index.aspx",
+        "https://www.nottingham.ac.uk/advancedtherapeutics/newsandevents/events/cdt-colloquium-at-ucl2017.aspx",
+        "https://www.nottingham.ac.uk/advancedtherapeutics/newsandevents/news/2019/chloe-stewarts-training-project-placement-in-astrazeneca.aspx",
+        "https://www.nottingham.ac.uk/advancedtherapeutics/newsandevents/news/phd-project-generation-event-at-the-university-of-nottingham.aspx",
+        "https://www.nottingham.ac.uk/advancedtherapeutics/newsandevents/news/science4u-ucl.aspx",
+        "https://www.nottingham.ac.uk/exploreit/",
+        "https://www.nottingham.ac.uk/exploreit/explore-it.aspx",
+        "https://www.nottingham.ac.uk/feed1/health-care-professionals/engagement-with-health-care-professionals.aspx",
+        "https://www.nottingham.ac.uk/feed1/health-care-professionals/our-feed1-stars.aspx",
+        "https://www.nottingham.ac.uk/feed1/home.aspx",
+        "https://www.nottingham.ac.uk/feed1/information-for-parents-and-families/information-for-parents-and-families.aspx",
+        "https://www.nottingham.ac.uk/feed1/study-team/study-team.aspx",
+        "https://www.nottingham.ac.uk/kcs/",
+        "https://www.nottingham.ac.uk/kcs/falls.aspx",
+        "https://www.nottingham.ac.uk/kcs/index.aspx",
+        "https://www.nottingham.ac.uk/kcs/parents.aspx",
+        "https://www.nottingham.ac.uk/kcs/poisonings.aspx",
+        "https://www.nottingham.ac.uk/kcs/scalds.aspx",
+        "https://www.nottingham.ac.uk/kcs/why.aspx",
+        "https://www.nottingham.ac.uk/poise/",
+        "https://www.nottingham.ac.uk/poise/contact-us/",
+        "https://www.nottingham.ac.uk/poise/contact-us/contact-us.aspx",
+        "https://www.nottingham.ac.uk/poise/health-care-professionals/",
+        "https://www.nottingham.ac.uk/poise/health-care-professionals/health-care-professionals.aspx",
+        "https://www.nottingham.ac.uk/poise/health-care-professionals/recruiting-centres.aspx",
+        "https://www.nottingham.ac.uk/poise/health-care-professionals/study-resources.aspx",
+        "https://www.nottingham.ac.uk/poise/health-care-professionals/training.aspx",
+        "https://www.nottingham.ac.uk/poise/home.aspx",
+        "https://www.nottingham.ac.uk/poise/information-for-women/",
+        "https://www.nottingham.ac.uk/poise/information-for-women/information-for-women.aspx",
+        "https://www.nottingham.ac.uk/poise/information-for-women/recruiting-centres.aspx",
+        "https://www.nottingham.ac.uk/poise/meet-the-team/",
+        "https://www.nottingham.ac.uk/poise/meet-the-team/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/poise/news/",
+        "https://www.nottingham.ac.uk/poise/news/news.aspx",
+        "https://www.nottingham.ac.uk/sciencepartnership/index.aspx",
+        "https://www.nottingham.ac.uk/seoa/index.aspx",
+        "https://www.nottingham.ac.uk/seoa/news.aspx",
+        "https://www.nottingham.ac.uk/seoa/news/oarsi-early-bird-registration.aspx",
+        "https://www.nottingham.ac.uk/seoa/news/osteoarthritis-patients-willing-to-accept-treatment-associated-risks.aspx",
+        "https://www.nottingham.ac.uk/seoa/news/probe-into-links-between-sports-injuries-and-osteoarthritis.aspx",
+        "https://www.nottingham.ac.uk/seoa/news/womens-football-funding-boost.aspx",
+        "https://www.nottingham.ac.uk/tb-dili/",
+        "https://www.nottingham.ac.uk/tb-dili/healthcare-professionals/",
+        "https://www.nottingham.ac.uk/tb-dili/healthcare-professionals/healthcare-professionals.aspx",
+        "https://www.nottingham.ac.uk/tb-dili/healthcare-professionals/recruitment-tables.aspx",
+        "https://www.nottingham.ac.uk/tb-dili/healthcare-professionals/study-resources.aspx",
+        "https://www.nottingham.ac.uk/tb-dili/home.aspx",
+        "https://www.nottingham.ac.uk/transform/",
+        "https://www.nottingham.ac.uk/transform/home.aspx",
+        "https://www.nottingham.ac.uk/transform/teams/belgium/home.aspx",
+        "https://www.nottingham.ac.uk/transform/teams/finland/pia-leppakumpu.aspx",
+        "https://www.nottingham.ac.uk/transform/teams/finland/salla-maria-seppanen.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing page with a prominent search block and a form",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form",
+      "urls": [
+        "https://www.nottingham.ac.uk/acord-project/",
+        "https://www.nottingham.ac.uk/acord-project/about.aspx",
+        "https://www.nottingham.ac.uk/acord-project/contact.aspx",
+        "https://www.nottingham.ac.uk/acord-project/events.aspx",
+        "https://www.nottingham.ac.uk/acord-project/events/teaching-and-learning-conference-12-14-september-2019.aspx",
+        "https://www.nottingham.ac.uk/acord-project/index.aspx",
+        "https://www.nottingham.ac.uk/acord-project/news.aspx",
+        "https://www.nottingham.ac.uk/acord-project/news/acord-event-was-a-success.aspx",
+        "https://www.nottingham.ac.uk/aspire-itn/aspire-associates.aspx",
+        "https://www.nottingham.ac.uk/aspire-itn/aspire-blog/aspire-blogs-2017/",
+        "https://www.nottingham.ac.uk/aspire-itn/aspire-publications.aspx",
+        "https://www.nottingham.ac.uk/aspire-itn/aspirepartners.aspx",
+        "https://www.nottingham.ac.uk/aspire-itn/index.aspx",
+        "https://www.nottingham.ac.uk/climateethicseconomics/about.aspx",
+        "https://www.nottingham.ac.uk/climateethicseconomics/events/climate-change-and-discounting-the-future.aspx",
+        "https://www.nottingham.ac.uk/climateethicseconomics/events/workshop-2-travel-and-accommodation.aspx",
+        "https://www.nottingham.ac.uk/climateethicseconomics/home.aspx",
+        "https://www.nottingham.ac.uk/climateethicseconomics/papers/workshop-3.aspx",
+        "https://www.nottingham.ac.uk/codev/events.aspx",
+        "https://www.nottingham.ac.uk/codev/news.aspx",
+        "https://www.nottingham.ac.uk/do-not-use-master-non-corporate-website/",
+        "https://www.nottingham.ac.uk/do-not-use-master-non-corporate-website/about.aspx",
+        "https://www.nottingham.ac.uk/do-not-use-master-non-corporate-website/contact.aspx",
+        "https://www.nottingham.ac.uk/do-not-use-master-non-corporate-website/events.aspx",
+        "https://www.nottingham.ac.uk/do-not-use-master-non-corporate-website/index.aspx",
+        "https://www.nottingham.ac.uk/do-not-use-master-non-corporate-website/news.aspx",
+        "https://www.nottingham.ac.uk/esr/index.aspx",
+        "https://www.nottingham.ac.uk/esr/terms-of-reference.aspx",
+        "https://www.nottingham.ac.uk/esr/uk-research-facilities/eon-comb.aspx",
+        "https://www.nottingham.ac.uk/esr/uk-research-facilities/eon-environ.aspx",
+        "https://www.nottingham.ac.uk/esr/uk-research-facilities/imp-elect.aspx",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/about.aspx",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/gallery.aspx",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/index.aspx",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/institute-and-team-profiles.aspx",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/publications-and-reports.aspx",
+        "https://www.nottingham.ac.uk/europeanjuniorleadershipacademy/videos.aspx",
+        "https://www.nottingham.ac.uk/futformrise/",
+        "https://www.nottingham.ac.uk/futformrise/contact.aspx",
+        "https://www.nottingham.ac.uk/futformrise/index.aspx",
+        "https://www.nottingham.ac.uk/futformrise/our-secondees/",
+        "https://www.nottingham.ac.uk/futformrise/our-secondees/jatin-mistry-inovapotek-2017.aspx",
+        "https://www.nottingham.ac.uk/futformrise/our-secondees/secondees.aspx",
+        "https://www.nottingham.ac.uk/futformrise/people.aspx",
+        "https://www.nottingham.ac.uk/futformrise/project-partners/",
+        "https://www.nottingham.ac.uk/futformrise/project-partners/abiel.aspx",
+        "https://www.nottingham.ac.uk/futformrise/project-partners/hy2care.aspx",
+        "https://www.nottingham.ac.uk/futformrise/project-partners/inovapotek.aspx",
+        "https://www.nottingham.ac.uk/futformrise/project-partners/projectpartnershome.aspx",
+        "https://www.nottingham.ac.uk/genius/index.aspx",
+        "https://www.nottingham.ac.uk/genius/news/job-as-market-development-innovation-officer-with-the-gsa.aspx",
+        "https://www.nottingham.ac.uk/genius/resources/photos/esnc-university-challenge/esncuniversitychallenge.aspx",
+        "https://www.nottingham.ac.uk/genius/training-programmes/internship-programme-summer-2014.aspx",
+        "https://www.nottingham.ac.uk/genius/university-challenge.aspx",
+        "https://www.nottingham.ac.uk/himr/about.aspx",
+        "https://www.nottingham.ac.uk/himr/events/first-masterclassnottingham.aspx",
+        "https://www.nottingham.ac.uk/himr/index.aspx",
+        "https://www.nottingham.ac.uk/himr/projects.aspx",
+        "https://www.nottingham.ac.uk/himr/students/irati-markuerkiaga.aspx",
+        "https://www.nottingham.ac.uk/ifdctn/about-the-federation/",
+        "https://www.nottingham.ac.uk/ifdctn/collaborative-projects/collaborative-projects.aspx",
+        "https://www.nottingham.ac.uk/ifdctn/how-to-get-involved/",
+        "https://www.nottingham.ac.uk/ifdctn/how-to-get-involved/how-to-get-involved.aspx",
+        "https://www.nottingham.ac.uk/ifdctn/index.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/",
+        "https://www.nottingham.ac.uk/kenya-nottingham/about.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/contact.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/index.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/news.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/partners/academic-partners.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/partners/non-hei-partners.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/partners/partners.aspx",
+        "https://www.nottingham.ac.uk/kenya-nottingham/staff/staff.aspx",
+        "https://www.nottingham.ac.uk/letterspage/",
+        "https://www.nottingham.ac.uk/letterspage/aboutus/",
+        "https://www.nottingham.ac.uk/letterspage/aboutus/index.aspx",
+        "https://www.nottingham.ac.uk/letterspage/aboutus/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/letterspage/aboutus/our-editorial-board.aspx",
+        "https://www.nottingham.ac.uk/letterspage/faq.aspx",
+        "https://www.nottingham.ac.uk/letterspage/index.aspx",
+        "https://www.nottingham.ac.uk/letterspage/the-letters-page-vol-1.aspx",
+        "https://www.nottingham.ac.uk/letterspage/the-letters-page-vol-2.aspx",
+        "https://www.nottingham.ac.uk/letterspage/the-letters-page-vol-3.aspx",
+        "https://www.nottingham.ac.uk/letterspage/the-letters-page-vol-4.aspx",
+        "https://www.nottingham.ac.uk/mrcihr/",
+        "https://www.nottingham.ac.uk/mrcihr/index.aspx",
+        "https://www.nottingham.ac.uk/nucleus/",
+        "https://www.nottingham.ac.uk/nucleus/about.aspx",
+        "https://www.nottingham.ac.uk/nucleus/contact.aspx",
+        "https://www.nottingham.ac.uk/nucleus/experiments/",
+        "https://www.nottingham.ac.uk/nucleus/experiments/location.aspx",
+        "https://www.nottingham.ac.uk/nucleus/funders.aspx",
+        "https://www.nottingham.ac.uk/nucleus/index.aspx",
+        "https://www.nottingham.ac.uk/nucleus/network.aspx",
+        "https://www.nottingham.ac.uk/nucleus/people.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/capacity-builiding-training-outreach.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/plant-roots.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/research-themes.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/rice.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/sensors.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/soil-amendments.aspx",
+        "https://www.nottingham.ac.uk/nucleus/research-themes/soil-physics.aspx",
+        "https://www.nottingham.ac.uk/nucleus/workshops/",
+        "https://www.nottingham.ac.uk/nucleus/workshops/kickoff-workshop.aspx",
+        "https://www.nottingham.ac.uk/reach/news.aspx",
+        "https://www.nottingham.ac.uk/transmissions-utc/research/aims.aspx",
+        "https://www.nottingham.ac.uk/transmissions-utc/research/dynamics.aspx",
+        "https://www.nottingham.ac.uk/urbanfloodresilience/",
+        "https://www.nottingham.ac.uk/urbanfloodresilience/index.aspx",
+        "https://www.nottingham.ac.uk/urbanfloodresilience/learning-and-action-alliances/newcastle-learning-and-action-alliance.aspx",
+        "https://www.nottingham.ac.uk/urbanfloodresilience/newcastle-blue-and-green-declaration/newcastle-blue-green-declaration.aspx",
+        "https://www.nottingham.ac.uk/urbanfloodresilience/research/wp3-inter-operability.aspx",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/about.aspx",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/how-to-find-the-utc.aspx",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/index.aspx",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/people.aspx",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/research/mechatronics/mechatronics.aspx",
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/study-with-us.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/about.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/facilities/",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/facilities/drive-stands.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/facilities/facilities-index.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/facilities/materials-characterisation-and-structural-integrity.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/facilities/rotordynamics-and-electrification.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/facilities/thermofluids.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/index.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/experimental-investigations-of-transmission-components-and-sub-systems.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/extreme-environment-and-novel-experimental-material-characterisation.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/multiscale-simulation-and-efficient-numerical-modelling.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/oil-systems-thermal-management-and-multiphase-flow.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/older-research-titles/electro-mechanical-interactions.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/research.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/rotordynamics-and-balancing.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/research/tribology-and-wear.aspx",
+        "https://www.nottingham.ac.uk/utc-transmissionsys/utc-people.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/additivemanufacturing/events/index.aspx",
+        "https://www.nottingham.ac.uk/additivemanufacturing/partners/",
+        "https://www.nottingham.ac.uk/additivemanufacturing/seminars/",
+        "https://www.nottingham.ac.uk/cht/case-studies/mental-health/virtual-reality-therapy-for-mental-health.aspx",
+        "https://www.nottingham.ac.uk/cht/cht-homepage.aspx",
+        "https://www.nottingham.ac.uk/cht/news/2018-news/healthcare-technologies-dominates-awards-ceremony.aspx",
+        "https://www.nottingham.ac.uk/cht/news/2018-news/prof-steve-morgan-awarded-a-prestigious-royal-society-industry-fellowship.aspx",
+        "https://www.nottingham.ac.uk/cht/our-capabilities/evaluation-trials-and-testing/",
+        "https://www.nottingham.ac.uk/eco/about-the-research/",
+        "https://www.nottingham.ac.uk/eco/about-the-research/about-the-research.aspx",
+        "https://www.nottingham.ac.uk/eco/about-the-research/evidence.aspx",
+        "https://www.nottingham.ac.uk/eco/about-the-research/toolkit.aspx",
+        "https://www.nottingham.ac.uk/eco/blog.aspx",
+        "https://www.nottingham.ac.uk/eco/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/eco/outputs.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/about.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/blog.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/contact.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/data.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/policy-recommendations.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/training.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/working-papers.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/workshop-ii.aspx",
+        "https://www.nottingham.ac.uk/project-yolanda/workshop-materials.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/additivemanufacturing/news.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-cards-landing",
+      "urls": [
+        "https://www.nottingham.ac.uk/alumni/learn/",
+        "https://www.nottingham.ac.uk/alumni/support-us/support-us/gifts-in-wills/",
+        "https://www.nottingham.ac.uk/alumni/support-us/support-us/scholarships-appeal-print.aspx",
+        "https://www.nottingham.ac.uk/alumni/support-us/volunteer/future-ready.aspx",
+        "https://www.nottingham.ac.uk/alumni/update-your-details.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/cafe-connect.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/contact-us.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/news-and-case-studies/emotions-in-food-choice.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/news-and-case-studies/older-adult-drinking.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/news-and-case-studies/self-harm.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/projects.aspx",
+        "https://www.nottingham.ac.uk/connect-nottingham/what-we-offer.aspx",
+        "https://www.nottingham.ac.uk/dts/",
+        "https://www.nottingham.ac.uk/dts/access-it-on-campus.aspx",
+        "https://www.nottingham.ac.uk/dts/accounts-and-access/associate-checklist-non-unicore.aspx",
+        "https://www.nottingham.ac.uk/dts/accounts-and-access/associate-checklist-unicore.aspx",
+        "https://www.nottingham.ac.uk/dts/accounts-and-access/checklist-for-new-staff.aspx",
+        "https://www.nottingham.ac.uk/dts/accounts-and-access/multi-factor-authentication.aspx",
+        "https://www.nottingham.ac.uk/dts/accounts-and-access/password.aspx",
+        "https://www.nottingham.ac.uk/dts/connect-to-wifi.aspx",
+        "https://www.nottingham.ac.uk/dts/help/",
+        "https://www.nottingham.ac.uk/dts/help/it-support.aspx",
+        "https://www.nottingham.ac.uk/dts/index.aspx",
+        "https://www.nottingham.ac.uk/dts/nottinghamhub.aspx",
+        "https://www.nottingham.ac.uk/dts/prepare-your-laptop-and-mobile.aspx",
+        "https://www.nottingham.ac.uk/dts/uon-online-equipment-guidance.aspx",
+        "https://www.nottingham.ac.uk/nmrc-commercial/nmcs-mission/mission.aspx",
+        "https://www.nottingham.ac.uk/primis/about/",
+        "https://www.nottingham.ac.uk/primis/about/capabilities.aspx",
+        "https://www.nottingham.ac.uk/primis/index.aspx",
+        "https://www.nottingham.ac.uk/primis/projects/ukhsa.aspx",
+        "https://www.nottingham.ac.uk/primis/publications.aspx",
+        "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/profset-food-engineering-launchpad.aspx",
+        "https://www.nottingham.ac.uk/utc/",
+        "https://www.nottingham.ac.uk/utc/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by a grid of cards and supporting content blocks",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-11",
+      "urls": [
+        "https://www.nottingham.ac.uk/bench/"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/bench/about.aspx",
+        "https://www.nottingham.ac.uk/bench/people.aspx",
+        "https://www.nottingham.ac.uk/bench/subsitedata.xml",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/about.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/contact.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/index.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/news-and-events/",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/news-and-events/events.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/news-and-events/index.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/art.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/collection-display-reception-and-societal-engagement.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/communication-of-cultures-and-cultures-of-communication.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/design-of-the-visitng-experience.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/experiential-tourism-and-people-to-people-dialogue.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/heritage-and-histories.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/index.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/informal-learning-and-science-education.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/maritime-cultural-heritage.aspx",
+        "https://www.nottingham.ac.uk/chinaculturalvisitinghub/themes/the-silk-road.aspx",
+        "https://www.nottingham.ac.uk/governance-and-assurance/subsitedata.xml",
+        "https://www.nottingham.ac.uk/nedial/",
+        "https://www.nottingham.ac.uk/nedial/case-studies/",
+        "https://www.nottingham.ac.uk/nedial/case-studies/casestudies.aspx",
+        "https://www.nottingham.ac.uk/nedial/edi-network.aspx",
+        "https://www.nottingham.ac.uk/nedial/index.aspx",
+        "https://www.nottingham.ac.uk/pgstudy/subsitedata.xml",
+        "https://www.nottingham.ac.uk/researcher-academy/subsitedata.xml"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-12",
+      "urls": [
+        "https://www.nottingham.ac.uk/bench/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/bluegreencities/about/",
+        "https://www.nottingham.ac.uk/bluegreencities/about/about.aspx",
+        "https://www.nottingham.ac.uk/bluegreencities/index.aspx",
+        "https://www.nottingham.ac.uk/bluegreencities/links.aspx",
+        "https://www.nottingham.ac.uk/bluegreencities/research/wp3.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form",
+      "urls": [
+        "https://www.nottingham.ac.uk/bn/compare/forthcoming-events/seminar-sophie-bradley.aspx",
+        "https://www.nottingham.ac.uk/bn/compare/forthcoming-events/team-science-away-day-2018.aspx",
+        "https://www.nottingham.ac.uk/bn/compare/forthcoming-events/team-science-away-day-2019.aspx",
+        "https://www.nottingham.ac.uk/bn/compare/technologies/bioluminescence-microscopy.aspx",
+        "https://www.nottingham.ac.uk/bn/compare/vacancies.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/brewingscience/study-with-us/study-with-us-brewing-courses.aspx",
+        "https://www.nottingham.ac.uk/ccs/about-us.aspx",
+        "https://www.nottingham.ac.uk/ccs/podcasts.aspx",
+        "https://www.nottingham.ac.uk/fees/tuitionfees/202728/postgraduate-research.aspx",
+        "https://www.nottingham.ac.uk/fees/tuitionfees/202728/postgraduate-taught.aspx",
+        "https://www.nottingham.ac.uk/fic/case-studies/case-study-dosa.aspx",
+        "https://www.nottingham.ac.uk/hop-on/news.aspx",
+        "https://www.nottingham.ac.uk/nmpresearch/hdqol-c/about-hdqol-c.aspx",
+        "https://www.nottingham.ac.uk/nmpresearch/hdqol-c/documents.aspx",
+        "https://www.nottingham.ac.uk/pctd/news.aspx",
+        "https://www.nottingham.ac.uk/research/groups/cfam/research/research-projects/dialling-up-performance-for-on-demand-manufacture/research-challenge-2-materials.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/case-study.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/data-management.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/ethics-and-equity.aspx",
+        "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/participant-wellbeing.aspx",
+        "https://www.nottingham.ac.uk/totemm/about.aspx",
+        "https://www.nottingham.ac.uk/totemm/news/",
+        "https://www.nottingham.ac.uk/totemm/news/news.aspx",
+        "https://www.nottingham.ac.uk/totemm/resources.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/careers/students/graduatejobs/career-paths/medicine/academic.aspx",
+        "https://www.nottingham.ac.uk/careers/students/work-experience/on-offer/digital-marketing-academy/",
+        "https://www.nottingham.ac.uk/cele-precourse/induction/",
+        "https://www.nottingham.ac.uk/cele-precourse/induction/index.aspx",
+        "https://www.nottingham.ac.uk/cele-precourse/next-steps/",
+        "https://www.nottingham.ac.uk/cele-precourse/next-steps/index.aspx",
+        "https://www.nottingham.ac.uk/connectedcommunities/index.aspx",
+        "https://www.nottingham.ac.uk/connectedcommunities/projects/southwell-workhouse.aspx",
+        "https://www.nottingham.ac.uk/hop-on/team/",
+        "https://www.nottingham.ac.uk/hop-on/team/index.aspx",
+        "https://www.nottingham.ac.uk/ifam/research/themes/centre-for-additive-manufacturing.aspx",
+        "https://www.nottingham.ac.uk/ncmh/index.aspx",
+        "https://www.nottingham.ac.uk/ncmh/schedule.aspx",
+        "https://www.nottingham.ac.uk/nmrc-commercial/news/coronation-microscopic-message.aspx",
+        "https://www.nottingham.ac.uk/nmrc-commercial/submit-a-characterisation-request.aspx",
+        "https://www.nottingham.ac.uk/vascular-research/index.aspx",
+        "https://www.nottingham.ac.uk/vascular-research/news.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-16",
+      "urls": [
+        "https://www.nottingham.ac.uk/cbtdd-consortium/cbtdd-consortium.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-17",
+      "urls": [
+        "https://www.nottingham.ac.uk/cbtdd-consortium/clinical-trials-working-group/clinical-trials-working-group.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "rich-article-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/cbtrc/fundraise-for-us/do-your-own-fundraising/",
+        "https://www.nottingham.ac.uk/cbtrc/help.aspx",
+        "https://www.nottingham.ac.uk/cbtrc/home.aspx",
+        "https://www.nottingham.ac.uk/cbtrc/our-research/our-research.aspx",
+        "https://www.nottingham.ac.uk/cbtrc/stories/stories.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form article layout mixing text with columns, quotes, tabs or embedded media",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-13",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-rdfes/",
+        "https://www.nottingham.ac.uk/cdt-rdfes/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-rdfes/about-the-centre/",
+        "https://www.nottingham.ac.uk/cdt-rdfes/about-the-centre/about-the-centre.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "accordion-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-rdfes/current-vacancies/",
+        "https://www.nottingham.ac.uk/cdt-rdfes/current-vacancies/current-vacancies.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Page whose main content is an accordion/expandable list, optionally with a contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-14",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-rdfes/how-to-apply/",
+        "https://www.nottingham.ac.uk/cdt-rdfes/how-to-apply/how-to-apply.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-15",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-rdfes/our-heritage/",
+        "https://www.nottingham.ac.uk/cdt-rdfes/our-heritage/our-heritage.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/about-the-centre/",
+        "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/index.aspx",
+        "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/research-themes/research-themes.aspx",
+        "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/student-community/student-community.aspx",
+        "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/student-community/women-in-hydrogen.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/index.aspx",
+        "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/newsandevents/index.aspx",
+        "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/newsandevents/news-2024/graduation-2024.aspx",
+        "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/our-history.aspx",
+        "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/student-representatives/"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/conference/fac-eng/icdvrat2018/accommodation/",
+        "https://www.nottingham.ac.uk/conference/fac-mhs/medicine/international-symposium-on-atopic-dermatitis/index.aspx",
+        "https://www.nottingham.ac.uk/currentstudents/news/",
+        "https://www.nottingham.ac.uk/news/index.aspx",
+        "https://www.nottingham.ac.uk/research/beacons-of-excellence/green-chemicals/our-experts/anna-croft/index.aspx",
+        "https://www.nottingham.ac.uk/research/beacons-of-excellence/precision-imaging/students-zone/jose-pedro-manzano/index.aspx",
+        "https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/news/2023/the-slavery-free-campus-blueprint.aspx",
+        "https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/programmes/systems/index.aspx",
+        "https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/resources/",
+        "https://www.nottingham.ac.uk/research/beacons-of-excellence/smart-products/training/jose-berumen-salazar/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-7",
+      "urls": [
+        "https://www.nottingham.ac.uk/conference/fac-eng/ycsec2026/index.aspx",
+        "https://www.nottingham.ac.uk/ifam/research/themes/process.aspx",
+        "https://www.nottingham.ac.uk/ifam/services/index.aspx",
+        "https://www.nottingham.ac.uk/nmpresearch/hdqol-c/",
+        "https://www.nottingham.ac.uk/nmpresearch/hdqol-c/home.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-9",
+      "urls": [
+        "https://www.nottingham.ac.uk/connect/connect-flickr.aspx",
+        "https://www.nottingham.ac.uk/connect/connect-linkedin.aspx",
+        "https://www.nottingham.ac.uk/connect/connect-twitter.aspx",
+        "https://www.nottingham.ac.uk/connect/connect-youtube.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-13",
+      "urls": [
+        "https://www.nottingham.ac.uk/connectedcommunities/contactus.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-14",
+      "urls": [
+        "https://www.nottingham.ac.uk/course/pg-course-page.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/course/research.aspx",
+        "https://www.nottingham.ac.uk/course/taught.aspx",
+        "https://www.nottingham.ac.uk/impactcampaign/donate/make-a-donation.aspx",
+        "https://www.nottingham.ac.uk/impactcampaign/homepagefeaturebanner/1-you-make-the-extraordinary-possible.aspx",
+        "https://www.nottingham.ac.uk/impactcampaign/news-and-views/items/news/2022/great-egg-spectations.aspx",
+        "https://www.nottingham.ac.uk/impactcampaign/news-and-views/items/news/alt/nottingham-life-cycle-7-%e2%80%93-raising-500000-for-childrens-brain-tumour-research.aspx",
+        "https://www.nottingham.ac.uk/impactcampaign/projects/"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/currentstudents/mature-students/mature-students.aspx",
+        "https://www.nottingham.ac.uk/departments/byfaculty.aspx",
+        "https://www.nottingham.ac.uk/departments/professionalservicedepartments.aspx",
+        "https://www.nottingham.ac.uk/departments/researchcentresandinstitutes.aspx",
+        "https://www.nottingham.ac.uk/hr/guidesandsupport/msplapsupport/surrogacy/index.aspx",
+        "https://www.nottingham.ac.uk/pgstudy/already-applied/",
+        "https://www.nottingham.ac.uk/pgstudy/already-applied/already-applied.aspx",
+        "https://www.nottingham.ac.uk/pgstudy/courses/part-time-courses.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-7",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-8",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/about-the-network/"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/about-the-network/about.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/about-the-network/call-for-feasibility-studies.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/about-the-network/closed-loop-approach.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/contact-us-site-map.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/index.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/news-press-releases.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-9",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/events/"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/events/events.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/events/future-proposal-forum-jan-2019.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/events/workshop-jan-2018.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/events/workshop-march-2017.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-10",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/cancer-projects.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/chronic-wounds-projects.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/critical-care.aspx",
+        "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/projects-publications.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/dboard/"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/dboard/about.aspx",
+        "https://www.nottingham.ac.uk/dboard/collaborators.aspx",
+        "https://www.nottingham.ac.uk/dboard/contact.aspx",
+        "https://www.nottingham.ac.uk/dboard/external-advisory-committee.aspx",
+        "https://www.nottingham.ac.uk/dboard/index.aspx",
+        "https://www.nottingham.ac.uk/dboard/links.aspx",
+        "https://www.nottingham.ac.uk/dboard/people.aspx",
+        "https://www.nottingham.ac.uk/dboard/project-partners.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Body content combined with a form region (contact/enquiry/sign-up)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-15",
+      "urls": [
+        "https://www.nottingham.ac.uk/dboard/dissemination/"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-8",
+      "urls": [
+        "https://www.nottingham.ac.uk/dboard/dissemination/d-board-newsletter-issue-1.aspx",
+        "https://www.nottingham.ac.uk/dboard/dissemination/dissemination.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-9",
+      "urls": [
+        "https://www.nottingham.ac.uk/dboard/events/applying-omics-techniques-to-discover-new-oa.aspx",
+        "https://www.nottingham.ac.uk/dboard/events/oarsiparis2014.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-16",
+      "urls": [
+        "https://www.nottingham.ac.uk/dboard/events.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "hero-cards-landing-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/debi/",
+        "https://www.nottingham.ac.uk/debi/index.aspx",
+        "https://www.nottingham.ac.uk/debi/meet-the-team.aspx",
+        "https://www.nottingham.ac.uk/debi/resources-for-clinicians.aspx",
+        "https://www.nottingham.ac.uk/debi/resources-for-participants.aspx",
+        "https://www.nottingham.ac.uk/debi/sites-and-recruitment.aspx",
+        "https://www.nottingham.ac.uk/debi/subsitedata.xml"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by a grid of cards and supporting content blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/departments/a-z.aspx",
+        "https://www.nottingham.ac.uk/psawards/about.aspx",
+        "https://www.nottingham.ac.uk/psawards/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "general-content-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/eco/blogs.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page with a mix of standard content blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-7",
+      "urls": [
+        "https://www.nottingham.ac.uk/eco/media/",
+        "https://www.nottingham.ac.uk/eco/media/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-11",
+      "urls": [
+        "https://www.nottingham.ac.uk/fic/case-studies/biomara.aspx",
+        "https://www.nottingham.ac.uk/researcher-academy/partnership/",
+        "https://www.nottingham.ac.uk/researcher-academy/partnership/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-7",
+      "urls": [
+        "https://www.nottingham.ac.uk/gerc/aboutgerc/capabilities/capabilities.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/gerc/geoenergyresearchcentre.aspx",
+        "https://www.nottingham.ac.uk/gerc/phd-vacancies.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-8",
+      "urls": [
+        "https://www.nottingham.ac.uk/gerc/news/subsidence-scotland-map.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-9",
+      "urls": [
+        "https://www.nottingham.ac.uk/gerc/our-phd-students/current-phd-students.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-cards-landing-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/gild/",
+        "https://www.nottingham.ac.uk/gild/about-us.aspx",
+        "https://www.nottingham.ac.uk/gild/contact-us.aspx",
+        "https://www.nottingham.ac.uk/gild/gild-trial.aspx",
+        "https://www.nottingham.ac.uk/gild/information-for-healthcare-workers.aspx",
+        "https://www.nottingham.ac.uk/gild/information-for-women-and-birthing-people.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by a grid of cards and supporting content blocks",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-17",
+      "urls": [
+        "https://www.nottingham.ac.uk/grace/events/eventsarticles/navigation-2021.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-18",
+      "urls": [
+        "https://www.nottingham.ac.uk/grace/facilities/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/grace/researchdevelopment/",
+        "https://www.nottingham.ac.uk/grace/sign-up-to-our-mailing-list.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-19",
+      "urls": [
+        "https://www.nottingham.ac.uk/grace/resources/glossariestutorials.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "media-rich-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/homeforeczema/clinical-practice-set.aspx",
+        "https://www.nottingham.ac.uk/homeforeczema/index.aspx",
+        "https://www.nottingham.ac.uk/homeforeczema/meetings-and-events/home-i-meeting-2010.aspx",
+        "https://www.nottingham.ac.uk/homeforeczema/patients/",
+        "https://www.nottingham.ac.uk/homeforeczema/publications/home-publications.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Content page featuring embedded video/media alongside carousels or galleries",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-18",
+      "urls": [
+        "https://www.nottingham.ac.uk/impetus/about.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "general-content-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/impetus/academic-placements/"
+      ],
+      "coverageGaps": [],
+      "description": "General content page with a mix of standard content blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-9",
+      "urls": [
+        "https://www.nottingham.ac.uk/impetus/events-and-activities.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-20",
+      "urls": [
+        "https://www.nottingham.ac.uk/impetus/phd-research-studentships.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-7",
+      "urls": [
+        "https://www.nottingham.ac.uk/indecon/about.aspx",
+        "https://www.nottingham.ac.uk/indecon/contact.aspx",
+        "https://www.nottingham.ac.uk/indecon/index.aspx",
+        "https://www.nottingham.ac.uk/indecon/news/dsc2014call.aspx",
+        "https://www.nottingham.ac.uk/indecon/news/dsc2014prog.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/innovationfellowships/",
+        "https://www.nottingham.ac.uk/innovationfellowships/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-12",
+      "urls": [
+        "https://www.nottingham.ac.uk/interpreggen/en/",
+        "https://www.nottingham.ac.uk/interpreggen/en/index.aspx",
+        "https://www.nottingham.ac.uk/interpreggen/ru/"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-10",
+      "urls": [
+        "https://www.nottingham.ac.uk/interpreggen/en/news.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-article-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/isac/news-items/challenging-materials-from-lab-to-forest-with-biome-bioplastics.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form article layout mixing text with columns, quotes, tabs or embedded media",
+      "blocks": []
+    },
+    {
+      "name": "hero-cards-landing-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/isac/news-items/studying-tumour-metabolism-from-every-angle.aspx",
+        "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/frequently-asked-questions.aspx",
+        "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/getting-here/getting-here.aspx",
+        "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/index.aspx",
+        "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/plan-your-day/accessibility-and-inclusivity.aspx",
+        "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/plan-your-day/plan-your-day.aspx",
+        "https://www.nottingham.ac.uk/ugstudy/visitingus/",
+        "https://www.nottingham.ac.uk/ugstudy/visitingus/visitingus.aspx",
+        "https://www.nottingham.ac.uk/virtual/chat.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by a grid of cards and supporting content blocks",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/kenya-nottingham/partners/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-7",
+      "urls": [
+        "https://www.nottingham.ac.uk/kenya-nottingham/staff/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "media-rich-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/lipp/index.aspx",
+        "https://www.nottingham.ac.uk/lipp/language-gender-and-leadership-network/",
+        "https://www.nottingham.ac.uk/lipp/language-gender-and-leadership-network/drama.aspx",
+        "https://www.nottingham.ac.uk/lipp/online-cpd-courses/online-cpd-courses.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Content page featuring embedded video/media alongside carousels or galleries",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-19",
+      "urls": [
+        "https://www.nottingham.ac.uk/lipp/language-gender-and-leadership-network/narratives.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "rich-article-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/manufacturingfoodfutures/events/epsrc-systems-change.aspx",
+        "https://www.nottingham.ac.uk/manufacturingfoodfutures/index.aspx",
+        "https://www.nottingham.ac.uk/manufacturingfoodfutures/news-and-events.aspx",
+        "https://www.nottingham.ac.uk/manufacturingfoodfutures/news/food-factory-2016.aspx",
+        "https://www.nottingham.ac.uk/manufacturingfoodfutures/reports/presentations.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form article layout mixing text with columns, quotes, tabs or embedded media",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/masi/",
+        "https://www.nottingham.ac.uk/masi/board-members/",
+        "https://www.nottingham.ac.uk/masi/index.aspx",
+        "https://www.nottingham.ac.uk/masi/news/",
+        "https://www.nottingham.ac.uk/masi/news/news.aspx",
+        "https://www.nottingham.ac.uk/masi/project-aim/",
+        "https://www.nottingham.ac.uk/masi/project-aim/programme-workflow.aspx",
+        "https://www.nottingham.ac.uk/masi/project-aim/project-aim.aspx",
+        "https://www.nottingham.ac.uk/masi/research-themes/",
+        "https://www.nottingham.ac.uk/masi/research-themes/research-themes.aspx",
+        "https://www.nottingham.ac.uk/masi/research-themes/theme-a-nanocluster-fabrication.aspx",
+        "https://www.nottingham.ac.uk/masi/research-themes/theme-bsupport-design.aspx",
+        "https://www.nottingham.ac.uk/masi/research-themes/theme-cimaging-and-analysis.aspx",
+        "https://www.nottingham.ac.uk/masi/research-themes/theme-dcatalysis.aspx",
+        "https://www.nottingham.ac.uk/masi/work-with-us/",
+        "https://www.nottingham.ac.uk/masi/work-with-us/contact-us.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-8",
+      "urls": [
+        "https://www.nottingham.ac.uk/master-collaborative-non-uon/events/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "accordion-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/master-collaborative-non-uon/events/events.aspx",
+        "https://www.nottingham.ac.uk/master-collaborative-non-uon/news/news.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Page whose main content is an accordion/expandable list, optionally with a contact form",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-9",
+      "urls": [
+        "https://www.nottingham.ac.uk/master-collaborative-non-uon/news/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "general-content-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/mcddm/events/2021-03-24-march-lecture.aspx",
+        "https://www.nottingham.ac.uk/mcddm/news/",
+        "https://www.nottingham.ac.uk/mcddm/news/the-engineer-collaborate-to-innovate.aspx",
+        "https://www.nottingham.ac.uk/mcddm/training/home.aspx",
+        "https://www.nottingham.ac.uk/mcddm/virtual-tour.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page with a mix of standard content blocks",
+      "blocks": []
+    },
+    {
+      "name": "carousel-landing-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/midlands-innovation/about-us/people/",
+        "https://www.nottingham.ac.uk/midlands-innovation/midlands-innovation.aspx",
+        "https://www.nottingham.ac.uk/midlands-innovation/news/2016-articles/highereducationtechnician%e2%80%99sforum2017.aspx",
+        "https://www.nottingham.ac.uk/midlands-innovation/news/2017-articles/radbuildingworks.aspx",
+        "https://www.nottingham.ac.uk/midlands-innovation/news/news-2018.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "blocks": []
+    },
+    {
+      "name": "card-grid-landing-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/myeplg/",
+        "https://www.nottingham.ac.uk/myeplg/about-us.aspx",
+        "https://www.nottingham.ac.uk/myeplg/contact.aspx",
+        "https://www.nottingham.ac.uk/myeplg/core-mentor-updates.aspx",
+        "https://www.nottingham.ac.uk/myeplg/index.aspx",
+        "https://www.nottingham.ac.uk/myeplg/newsletters.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing page built primarily from a large grid of cards, often with a hero and supporting blocks",
+      "blocks": []
+    },
+    {
+      "name": "media-rich-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/n-ready/about-us/",
+        "https://www.nottingham.ac.uk/n-ready/about-us/about-us.aspx",
+        "https://www.nottingham.ac.uk/n-ready/baby-me-nrt.aspx",
+        "https://www.nottingham.ac.uk/n-ready/contact-us/contact-us.aspx",
+        "https://www.nottingham.ac.uk/n-ready/links/"
+      ],
+      "coverageGaps": [],
+      "description": "Content page featuring embedded video/media alongside carousels or galleries",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-10",
+      "urls": [
+        "https://www.nottingham.ac.uk/ngi/study-with-us/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-11",
+      "urls": [
+        "https://www.nottingham.ac.uk/npd/events/city-of-science-and-healthcare-innovation/innovation-showcase.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-12",
+      "urls": [
+        "https://www.nottingham.ac.uk/npd/in-review/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-13",
+      "urls": [
+        "https://www.nottingham.ac.uk/npd/media-galleries/nottingham-parliament-day-media.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-14",
+      "urls": [
+        "https://www.nottingham.ac.uk/npd/what-is-nottingham-in-parliament-day/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-15",
+      "urls": [
+        "https://www.nottingham.ac.uk/npd/what-is-nottingham-in-parliament-day/what-is-nottingham-in-parliament-day.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-16",
+      "urls": [
+        "https://www.nottingham.ac.uk/nucleus/research-themes/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-8",
+      "urls": [
+        "https://www.nottingham.ac.uk/open-days/",
+        "https://www.nottingham.ac.uk/ugstudy/visitingus/opendays/",
+        "https://www.nottingham.ac.uk/ugstudy/visitingus/opendays/opendays.aspx",
+        "https://www.nottingham.ac.uk/virtual/eu-applications/entry-requirements.aspx",
+        "https://www.nottingham.ac.uk/virtual/home-applications/entry-requirements.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-21",
+      "urls": [
+        "https://www.nottingham.ac.uk/open-days/video.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/posnoc/",
+        "https://www.nottingham.ac.uk/posnoc/about-breast-cancer.aspx",
+        "https://www.nottingham.ac.uk/posnoc/contact.aspx",
+        "https://www.nottingham.ac.uk/posnoc/data-protection-information.aspx",
+        "https://www.nottingham.ac.uk/posnoc/healthcare-professionals/",
+        "https://www.nottingham.ac.uk/posnoc/healthcare-professionals/centres.aspx",
+        "https://www.nottingham.ac.uk/posnoc/healthcare-professionals/index.aspx",
+        "https://www.nottingham.ac.uk/posnoc/healthcare-professionals/protocol.aspx",
+        "https://www.nottingham.ac.uk/posnoc/healthcare-professionals/timeline.aspx",
+        "https://www.nottingham.ac.uk/posnoc/index.aspx",
+        "https://www.nottingham.ac.uk/posnoc/resources-and-publications.aspx",
+        "https://www.nottingham.ac.uk/posnoc/taking-part.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Body content combined with a form region (contact/enquiry/sign-up)",
+      "blocks": []
+    },
+    {
+      "name": "data-table-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/power-electronics/about/member-institutions.aspx",
+        "https://www.nottingham.ac.uk/power-electronics/events/pastevents/pastevents.aspx",
+        "https://www.nottingham.ac.uk/power-electronics/index.aspx",
+        "https://www.nottingham.ac.uk/power-electronics/research-themes/publications-converters.aspx",
+        "https://www.nottingham.ac.uk/power-electronics/what-is-power-electronics.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero followed by one or more data tables",
+      "blocks": []
+    },
+    {
+      "name": "card-grid-landing",
+      "urls": [
+        "https://www.nottingham.ac.uk/project-sage/",
+        "https://www.nottingham.ac.uk/project-sage/about/",
+        "https://www.nottingham.ac.uk/project-sage/about/about.aspx",
+        "https://www.nottingham.ac.uk/project-sage/about/research-applications.aspx",
+        "https://www.nottingham.ac.uk/project-sage/consortium.aspx",
+        "https://www.nottingham.ac.uk/project-sage/contact.aspx",
+        "https://www.nottingham.ac.uk/project-sage/deliverables.aspx",
+        "https://www.nottingham.ac.uk/project-sage/index.aspx",
+        "https://www.nottingham.ac.uk/project-sage/publications.aspx",
+        "https://www.nottingham.ac.uk/project-sage/research-unifiedtheory.aspx",
+        "https://www.nottingham.ac.uk/project-sage/work-packages.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Landing page built primarily from a large grid of cards, often with a hero and supporting blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-11",
+      "urls": [
+        "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/transforming-our-food-systems.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-20",
+      "urls": [
+        "https://www.nottingham.ac.uk/sciencepartnership/our-team/researchers-wp1.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-21",
+      "urls": [
+        "https://www.nottingham.ac.uk/sciencepartnership/work-with-us/"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-8",
+      "urls": [
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-3",
+      "urls": [
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/about-and-strategic-vision.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/grants.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/partnerships.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/emergingtechnologies/",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/emergingtechnologies/index.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/index.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/index.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/sciencepoliticsandpublics/",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/sciencepoliticsandpublics/index.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/conferences.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/multimedia.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/people.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "rich-text-page-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/climatechangeassocialissue.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/communicatinguncertainty.aspx",
+        "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/publicattitudestofracking.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-2",
+      "urls": [
+        "https://www.nottingham.ac.uk/scope/about.aspx",
+        "https://www.nottingham.ac.uk/scope/index.aspx",
+        "https://www.nottingham.ac.uk/scope/issues/",
+        "https://www.nottingham.ac.uk/scope/issues/2001/may.aspx",
+        "https://www.nottingham.ac.uk/scope/issues/2004/may.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-10",
+      "urls": [
+        "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/mathematical-sciences/contact-us/",
+        "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/mechanical-materials-and-manufacturing/before-you-arrive/msc.aspx",
+        "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/mechanical-materials-and-manufacturing/students-union/",
+        "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/natural-sciences/before-you-arrive/"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-17",
+      "urls": [
+        "https://www.nottingham.ac.uk/thank-you/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-page-22",
+      "urls": [
+        "https://www.nottingham.ac.uk/ugstudy/include/kis-how-to-use-data.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner followed by body text/content sections",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-18",
+      "urls": [
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/images-multimedia/utclogo.bmp"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-19",
+      "urls": [
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/research/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-20",
+      "urls": [
+        "https://www.nottingham.ac.uk/utc-manuonwingtech/research/mechatronics/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "media-embed-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/virtual/",
+        "https://www.nottingham.ac.uk/virtual/index.aspx",
+        "https://www.nottingham.ac.uk/virtual/lectures.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Page centred on embedded media (video/iframe) with minimal supporting content",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/vision/",
+        "https://www.nottingham.ac.uk/vision/index.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page",
+      "urls": [
+        "https://www.nottingham.ac.uk/vision/culture-communication/",
+        "https://www.nottingham.ac.uk/vision/culture-communication/culture-and-communication.aspx",
+        "https://www.nottingham.ac.uk/vision/healthy-lives/",
+        "https://www.nottingham.ac.uk/vision/healthy-lives/healthy-lives.aspx",
+        "https://www.nottingham.ac.uk/vision/society-and-communities/",
+        "https://www.nottingham.ac.uk/vision/society-and-communities/society-and-communities.aspx",
+        "https://www.nottingham.ac.uk/vision/sustainable-futures/",
+        "https://www.nottingham.ac.uk/vision/sustainable-futures/sustainable-futures.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/vision/issues/2018/summer.aspx",
+        "https://www.nottingham.ac.uk/vision/issues/2018/winter.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-21",
+      "urls": [
+        "https://www.nottingham.ac.uk/vision/issues/2019/summer.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "content-with-form-10",
+      "urls": [
+        "https://www.nottingham.ac.uk/vision/subscribe/",
+        "https://www.nottingham.ac.uk/vision/subscribe/subscribe.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Body content combined with a form region (contact/enquiry/sign-up)",
+      "blocks": []
+    },
+    {
+      "name": "media-rich-page-5",
+      "urls": [
+        "https://www.nottingham.ac.uk/yes/cases/richard-gibbs.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Content page featuring embedded video/media alongside carousels or galleries",
+      "blocks": []
+    },
+    {
+      "name": "media-rich-page-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/yes/express-an-interest-yes2026.aspx",
+        "https://www.nottingham.ac.uk/yes/index.aspx",
+        "https://www.nottingham.ac.uk/yes/technicians.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Content page featuring embedded video/media alongside carousels or galleries",
+      "blocks": []
+    },
+    {
+      "name": "media-rich-page-6",
+      "urls": [
+        "https://www.nottingham.ac.uk/yes/news/innovating-wellness.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Content page featuring embedded video/media alongside carousels or galleries",
+      "blocks": []
+    },
+    {
+      "name": "minimal-content-page-22",
+      "urls": [
+        "https://www.nottingham.ac.uk/zero-carbon/"
+      ],
+      "coverageGaps": [],
+      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
+      "blocks": []
+    },
+    {
+      "name": "hero-content-with-form-10",
+      "urls": [
+        "https://www.nottingham.ac.uk/zero-carbon/blogs/next-gen-single-aisle-aircraft.aspx"
+      ],
+      "coverageGaps": [],
+      "description": "Hero banner with body content and a sidebar/contact form",
+      "blocks": []
+    }
+  ],
+  "metadata": {
+    "projectType": "xwalk"
+  }
+}

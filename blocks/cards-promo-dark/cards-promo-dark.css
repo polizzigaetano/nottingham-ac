@@ -1,0 +1,101 @@
+/*
+ * cards-promo-dark — promotional tiles (navy background, gold-accent shadow).
+ * Source: nottingham.ac.uk homepage .campaign-tile. Two side-by-side tiles,
+ * each with a heading, one-line description and an underlined inline CTA link.
+ * Values extracted from source computed styles.
+ */
+
+.cards-promo-dark ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+}
+
+.cards-promo-dark-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  background-color: var(--uon-navy);
+  color: #fff;
+  box-shadow: 4px 6px 8px -4px rgb(0 0 0 / 55%);
+}
+
+.cards-promo-dark-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-promo-dark-body > *:first-child {
+  margin-top: 0;
+}
+
+.cards-promo-dark-body > *:last-child {
+  margin-bottom: 0;
+}
+
+/* heading — Lora bold */
+.cards-promo-dark-body h1,
+.cards-promo-dark-body h2,
+.cards-promo-dark-body h3 {
+  margin: 0 0 15px;
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #fff;
+}
+
+/* one-line description */
+.cards-promo-dark-body p {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.cards-promo-dark-body p:last-child {
+  margin-bottom: 0;
+}
+
+/*
+ * CTA — the source uses a plain underlined inline link, but EDS auto-decorates
+ * a standalone <p><a> into a .button inside a .button-container. Reset that
+ * decoration back to an underlined inline link.
+ */
+.cards-promo-dark-body .button-container {
+  margin: 0;
+}
+
+main .cards-promo-dark a,
+main .cards-promo-dark a.button:any-link {
+  display: inline-block;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 5px 5px 0 0;
+  background-color: transparent;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+main .cards-promo-dark a:hover,
+main .cards-promo-dark a.button:any-link:hover {
+  color: var(--uon-gold);
+  text-decoration: underline;
+}
+
+@media (width >= 600px) {
+  .cards-promo-dark ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

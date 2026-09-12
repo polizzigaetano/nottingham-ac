@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/aau/news-events/",
+  "path": "aau/news-events",
+  "timestamp": "2026-09-12T12:39:08.293Z",
+  "title": "Research, events and webinars",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

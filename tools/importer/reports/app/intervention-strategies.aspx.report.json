@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/app/intervention-strategies.aspx",
+  "path": "app/intervention-strategies.aspx",
+  "timestamp": "2026-09-12T12:42:14.065Z",
+  "title": "Intervention strategies and expected outcomes",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

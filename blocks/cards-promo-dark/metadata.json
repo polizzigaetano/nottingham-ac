@@ -1,0 +1,14 @@
+{
+  "variantName": "cards-promo-dark",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false
+  },
+  "contentPattern": "Row of promotional tiles, each with heading, one-line description and a CTA link (no image)",
+  "usage": "Homepage campaign promo tiles",
+  "options": [],
+  "memberVariantIds": ["cards-promo-dark"]
+}

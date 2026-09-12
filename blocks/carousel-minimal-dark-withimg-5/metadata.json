@@ -1,0 +1,14 @@
+{
+  "variantName": "carousel-minimal-dark-withimg-5",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "moderate",
+    "hasBackgroundImage": false
+  },
+  "contentPattern": "Rotating carousel of news cards (image, headline, teaser, Read more) with arrows and dot pagination",
+  "usage": "Homepage university news carousel",
+  "options": [],
+  "memberVariantIds": ["carousel-minimal-dark-withimg-5"]
+}

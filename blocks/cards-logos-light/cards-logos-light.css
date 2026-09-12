@@ -1,0 +1,64 @@
+/* Cards (logos, light) — partnership/accreditation logo strip.
+   Values extracted from source .homepage-partnerships on nottingham.ac.uk. */
+
+.cards-logos-light {
+  display: block;
+  margin: 60px 0;
+}
+
+.cards-logos-light-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px 50px;
+}
+
+.cards-logos-light-logo {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-logos-light-logo p {
+  margin: 0;
+}
+
+.cards-logos-light-logo picture {
+  display: block;
+  line-height: 0;
+}
+
+.cards-logos-light-logo img {
+  max-height: 139px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (width >= 900px) {
+  .cards-logos-light-list {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  /* Source lays each logo in an equal-width column, 25px inner padding
+     (~50px between adjacent logos), image centered. */
+  .cards-logos-light-logo {
+    flex: 1 1 0;
+    padding: 0 25px;
+  }
+
+  .cards-logos-light-logo:first-child {
+    padding-left: 0;
+  }
+
+  .cards-logos-light-logo:last-child {
+    padding-right: 0;
+  }
+}

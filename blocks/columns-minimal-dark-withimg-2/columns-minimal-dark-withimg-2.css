@@ -1,0 +1,114 @@
+/* columns-minimal-dark-withimg-2 -- dark navy feature banner
+ * Cream section (.section.highlight, set globally). Two equal columns:
+ * LEFT = navy card with white heading + paragraph + white pill CTA,
+ * RIGHT = large photographic image. Values from source computed styles. */
+
+.columns-minimal-dark-withimg-2 > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  align-items: stretch;
+}
+
+/* LEFT: navy content card */
+.columns-minimal-dark-withimg-2-content-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--uon-navy);
+  padding: 40px;
+}
+
+.columns-minimal-dark-withimg-2-content-col > *:first-child {
+  margin-top: 0;
+}
+
+.columns-minimal-dark-withimg-2-content-col h3 {
+  margin: 0 0 15px;
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.columns-minimal-dark-withimg-2-content-col p {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.columns-minimal-dark-withimg-2-content-col p:last-child {
+  margin-bottom: 0;
+}
+
+/* White pill CTA with right-pointing arrow (source has an arrow icon) */
+.columns-minimal-dark-withimg-2-content-col a:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 68px;
+  background-color: #fff;
+  color: var(--uon-navy);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.columns-minimal-dark-withimg-2-content-col a:any-link::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid var(--uon-navy);
+  border-right: 2px solid var(--uon-navy);
+  transform: rotate(45deg);
+}
+
+.columns-minimal-dark-withimg-2-content-col a:hover {
+  background-color: var(--uon-gold);
+  border-color: var(--uon-gold);
+  color: var(--uon-navy);
+  text-decoration: none;
+}
+
+.columns-minimal-dark-withimg-2-content-col a:hover::after {
+  border-top-color: var(--uon-navy);
+  border-right-color: var(--uon-navy);
+}
+
+/* RIGHT: image fills its column */
+.columns-minimal-dark-withimg-2-img-col {
+  order: -1;
+}
+
+.columns-minimal-dark-withimg-2-img-col picture {
+  display: block;
+  height: 100%;
+}
+
+.columns-minimal-dark-withimg-2-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 2 / 1;
+}
+
+@media (width >= 900px) {
+  .columns-minimal-dark-withimg-2 > div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .columns-minimal-dark-withimg-2-img-col {
+    order: 0;
+  }
+
+  .columns-minimal-dark-withimg-2-img-col img {
+    aspect-ratio: auto;
+  }
+}

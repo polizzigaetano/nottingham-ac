@@ -1,0 +1,14 @@
+{
+  "variantName": "cards-minimal-dark-withimg-5",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false
+  },
+  "contentPattern": "Row of image tiles, each a photo with an overlaid pill CTA link",
+  "usage": "Homepage research image tiles",
+  "options": [],
+  "memberVariantIds": ["cards-minimal-dark-withimg-5"]
+}
