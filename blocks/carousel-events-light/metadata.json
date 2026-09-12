@@ -1,0 +1,14 @@
+{
+  "variantName": "carousel-events-light",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasBackgroundImage": false
+  },
+  "contentPattern": "Rotating carousel of event cards (image, date block, title, Read more) with slider navigation",
+  "usage": "Homepage featured events carousel",
+  "options": [],
+  "memberVariantIds": ["carousel-events-light"]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/aau/goals.aspx",
+  "path": "aau/goals.aspx",
+  "timestamp": "2026-09-12T12:38:44.356Z",
+  "title": "Goals and objectives",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

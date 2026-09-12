@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/",
+  "path": "index",
+  "timestamp": "2026-09-12T11:04:22.829Z",
+  "title": "University of Nottingham",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "hero-minimal-dark-2",
+    "search-course-light",
+    "search-course-light",
+    "search-course-light",
+    "search-course-light",
+    "cards-promo-dark",
+    "cards-ranking-gold",
+    "cards-ranking-gold",
+    "cards-ranking-gold",
+    "cards-ranking-gold",
+    "columns-minimal-dark-withimg-2",
+    "cards-minimal-dark-withimg-5",
+    "carousel-minimal-dark-withimg-5",
+    "carousel-minimal-dark-withimg-5",
+    "carousel-events-light",
+    "cards-logos-light",
+    "cards-logos-light"
+  ]
+}

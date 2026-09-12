@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/aau/",
+  "path": "aau",
+  "timestamp": "2026-09-12T12:38:37.093Z",
+  "title": "The Association of African Universities Europe Regional Office",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

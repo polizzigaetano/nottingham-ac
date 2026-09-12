@@ -1,0 +1,18 @@
+{
+  "type": "xwalk",
+  "sites": {
+    "nottingham-ac": {
+      "previewOrg": "polizzigaetano",
+      "previewSite": "nottingham-ac",
+      "contentHostUrl": "author-p151992-e1858597.adobeaemcloud.com",
+      "aemSitePath": "/content/nottingham-ac",
+      "aemAssetsFolderPath": "/content/dam/nottingham-ac",
+      "aemSiteName": "nottingham-ac",
+      "aemSiteTitle": "Nottingham Uni",
+      "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json"
+    }
+  },
+  "features": [
+    "site-planning"
+  ]
+}

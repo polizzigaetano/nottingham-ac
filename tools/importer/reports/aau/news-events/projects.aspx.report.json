@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/aau/news-events/projects.aspx",
+  "path": "aau/news-events/projects.aspx",
+  "timestamp": "2026-09-12T12:39:33.524Z",
+  "title": "Projects",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

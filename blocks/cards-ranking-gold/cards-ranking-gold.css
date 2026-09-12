@@ -1,0 +1,78 @@
+/* Cards (ranking, gold) — gold stat tiles, navy text. Values extracted from source. */
+
+.cards-ranking-gold ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+}
+
+/* Each tile: gold background, navy text, centered content */
+.cards-ranking-gold .cards-ranking-gold-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 32px;
+  background-color: var(--uon-gold);
+  color: var(--uon-navy);
+  text-align: center;
+}
+
+.cards-ranking-gold .cards-ranking-gold-body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Large stat figure (1st / Top 20 / Top 100) */
+.cards-ranking-gold .cards-ranking-gold-stat {
+  margin: 0 0 10px;
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--uon-navy);
+}
+
+/* Supporting label (bold) */
+.cards-ranking-gold .cards-ranking-gold-body p {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--uon-navy);
+}
+
+.cards-ranking-gold .cards-ranking-gold-body p:last-child {
+  margin-bottom: 0;
+}
+
+.cards-ranking-gold .cards-ranking-gold-body strong {
+  font-weight: 700;
+}
+
+/* Citation link — navy, underlined */
+.cards-ranking-gold .cards-ranking-gold-body a:any-link {
+  color: var(--uon-navy);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.cards-ranking-gold .cards-ranking-gold-body a:hover {
+  color: var(--uon-navy);
+}
+
+@media (width >= 900px) {
+  .cards-ranking-gold ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cards-ranking-gold .cards-ranking-gold-stat {
+    font-size: 50px;
+  }
+}

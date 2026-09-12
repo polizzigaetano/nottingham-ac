@@ -1,0 +1,157 @@
+/* Block: carousel-events-light -- values from source computed styles */
+
+.carousel-events-light {
+  display: block;
+  position: relative;
+}
+
+.carousel-events-light-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 88%;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousel-events-light-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* Card: white panel, image beside the text content */
+.carousel-events-light-slide {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.carousel-events-light-image {
+  flex: 0 0 33%;
+  align-self: stretch;
+}
+
+.carousel-events-light-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-events-light-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+/* Prominent date: large day, month underneath */
+.carousel-events-light-date {
+  margin: 0 0 16px;
+  color: var(--uon-navy);
+  font-family: var(--body-font-family);
+}
+
+.carousel-events-light-day {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--uon-navy);
+}
+
+.carousel-events-light-month {
+  display: block;
+  margin-top: -5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--uon-navy);
+}
+
+/* Title: body font (not heading font), medium weight */
+.carousel-events-light-body h3 {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26.6px;
+  color: var(--uon-navy);
+}
+
+.carousel-events-light-body p {
+  margin: 0;
+}
+
+/* Read more: plain underlined navy link, not an EDS button */
+.carousel-events-light-body a,
+.carousel-events-light-body a.button:any-link {
+  margin: auto 0 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: var(--uon-navy);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-decoration: underline;
+  display: inline;
+  white-space: normal;
+}
+
+.carousel-events-light-body a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Navigation: arrows + dots */
+.carousel-events-light-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.carousel-events-light-arrow {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--uon-navy);
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 8px;
+}
+
+.carousel-events-light-dots {
+  display: flex;
+  gap: 8px;
+}
+
+.carousel-events-light-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--uon-navy);
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.carousel-events-light-dot[aria-current="true"] {
+  opacity: 1;
+}
+
+@media (width >= 900px) {
+  .carousel-events-light-track {
+    grid-auto-columns: calc((100% - 24px) / 2);
+  }
+}

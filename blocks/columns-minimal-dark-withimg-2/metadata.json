@@ -1,0 +1,14 @@
+{
+  "variantName": "columns-minimal-dark-withimg-2",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false
+  },
+  "contentPattern": "Two-column feature banner: text column (heading + paragraph + CTA) and a large image column",
+  "usage": "Homepage research feature banner",
+  "options": [],
+  "memberVariantIds": ["columns-minimal-dark-withimg-2"]
+}

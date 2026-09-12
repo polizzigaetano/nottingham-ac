@@ -1,0 +1,14 @@
+{
+  "variantName": "cards-logos-light",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasBackgroundImage": false
+  },
+  "contentPattern": "Horizontal row of partner/accreditation logo images; scrolls on mobile",
+  "usage": "Homepage partnerships logo strip",
+  "options": [],
+  "memberVariantIds": ["cards-logos-light"]
+}

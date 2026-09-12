@@ -1,0 +1,191 @@
+.carousel-minimal-dark-withimg-5 {
+  display: block;
+  position: relative;
+  margin-bottom: 45px;
+  color: var(--text-color);
+}
+
+/* --- Track: horizontally scrolling strip of cards --- */
+.carousel-minimal-dark-withimg-5-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 88%;
+  gap: 22px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.carousel-minimal-dark-withimg-5-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* --- Slide / card: image + text, bordered white card --- */
+.carousel-minimal-dark-withimg-5-slide {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.carousel-minimal-dark-withimg-5-image {
+  margin: 0;
+}
+
+.carousel-minimal-dark-withimg-5-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.carousel-minimal-dark-withimg-5-body {
+  padding: 24px;
+}
+
+.carousel-minimal-dark-withimg-5-body h3 {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text-color);
+}
+
+.carousel-minimal-dark-withimg-5-body p {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-color);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+/* the "Read more" link sits in its own paragraph and must not be clamped */
+.carousel-minimal-dark-withimg-5-body p:last-child {
+  display: block;
+  overflow: visible;
+  margin-bottom: 0;
+}
+
+.carousel-minimal-dark-withimg-5-body a:any-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+.carousel-minimal-dark-withimg-5-body a:hover {
+  color: var(--link-hover-color);
+}
+
+/* --- Navigation: arrows on the sides, dots centered below --- */
+.carousel-minimal-dark-withimg-5-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.carousel-minimal-dark-withimg-5-arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* CSS chevron drawn with borders to match source thin navy arrows */
+.carousel-minimal-dark-withimg-5-arrow::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: 0 auto;
+  border-right: 3px solid var(--uon-navy);
+  border-bottom: 3px solid var(--uon-navy);
+}
+
+.carousel-minimal-dark-withimg-5-prev {
+  left: -6px;
+}
+
+.carousel-minimal-dark-withimg-5-prev::before {
+  transform: rotate(135deg);
+}
+
+.carousel-minimal-dark-withimg-5-next {
+  right: -6px;
+}
+
+.carousel-minimal-dark-withimg-5-next::before {
+  transform: rotate(-45deg);
+}
+
+.carousel-minimal-dark-withimg-5-dots {
+  display: flex;
+  gap: 14px;
+}
+
+.carousel-minimal-dark-withimg-5-dot {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--uon-navy);
+  cursor: pointer;
+  opacity: 0.35;
+  font-size: 0;
+}
+
+.carousel-minimal-dark-withimg-5-dot[aria-current="true"] {
+  opacity: 1;
+}
+
+@media (width >= 900px) {
+  /* 2 cards visible on desktop */
+  .carousel-minimal-dark-withimg-5-track {
+    grid-auto-columns: calc((100% - 22px) / 2);
+  }
+
+  /* horizontal card: image left (~38%), text right */
+  .carousel-minimal-dark-withimg-5-slide {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .carousel-minimal-dark-withimg-5-image {
+    flex: 0 0 38%;
+  }
+
+  .carousel-minimal-dark-withimg-5-body {
+    flex: 1;
+  }
+
+  /* pull arrows out to the sides of the track */
+  .carousel-minimal-dark-withimg-5-prev {
+    left: -40px;
+  }
+
+  .carousel-minimal-dark-withimg-5-next {
+    right: -40px;
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  /* Fonts */
+  --heading-font-family: "Lora", "Georgia Bold", georgia, serif;
+  --body-font-family: "Circular", arial, sans-serif;
+
+  /* Brand colors */
+  --uon-navy: #10263b;
+  --uon-gold: #deb406;
+  --uon-cream: #faf6ef;
+
+  /* Semantic colors */
+  --background-color: #fff;
+  --text-color: #10263b;
+  --link-color: #10263b;
+  --link-hover-color: #deb406;
+
+  /* Layout */
+  --section-padding: 48px;
+  --nav-height: 86px;
+
+  /* Heading sizes (desktop) */
+  --heading-size-xxl: 48px;
+  --heading-size-xl: 32px;
+  --heading-size-l: 28px;
+  --heading-size-m: 22px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}

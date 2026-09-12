@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/app/index.aspx",
+  "path": "app/index.aspx",
+  "timestamp": "2026-09-12T12:41:56.555Z",
+  "title": "Access and participation plan",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

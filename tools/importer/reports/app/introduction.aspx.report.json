@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/app/introduction.aspx",
+  "path": "app/introduction.aspx",
+  "timestamp": "2026-09-12T12:42:21.158Z",
+  "title": "Introduction and strategic aim",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}
