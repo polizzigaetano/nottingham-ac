@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/frequently-asked-questions.aspx",
+  "path": "open-days/undergraduate-open-days/frequently-asked-questions",
+  "timestamp": "2026-09-13T11:59:22.607Z",
+  "title": "Frequently asked questions",
+  "template": "hero-cards-landing-2",
+  "blocks": [
+    "hero-minimal-dark-2"
+  ]
+}

@@ -8,7 +8,16 @@
     "hasBackgroundImage": false
   },
   "contentPattern": "Row of image tiles, each a photo with an overlaid pill CTA link",
-  "usage": "Homepage research image tiles",
+  "usage": {
+    "pagesUsing": [
+      "/ugstudy/visitingus/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-13T11:20:19.556449Z",
+    "note": "Homepage research image tiles"
+  },
   "options": [],
-  "memberVariantIds": ["cards-minimal-dark-withimg-5"]
+  "memberVariantIds": [
+    "cards-minimal-dark-withimg-5"
+  ]
 }

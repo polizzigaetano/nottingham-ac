@@ -31,19 +31,6 @@
   --heading-font-size-xs: 16px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
 @media (width >= 900px) {
   :root {
     /* heading sizes (desktop) */
@@ -300,6 +287,39 @@ main > .section:first-of-type {
   main > .section > div {
     padding: 0 32px;
   }
+}
+
+/* breadcrumb (default-content ordered list of links + current page) */
+main .default-content-wrapper > ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  font-size: var(--body-font-size-s);
+}
+
+main .default-content-wrapper > ol > li {
+  display: flex;
+  align-items: center;
+  color: var(--uon-navy);
+}
+
+main .default-content-wrapper > ol > li:not(:last-child)::after {
+  content: '›';
+  margin-left: 8px;
+  color: var(--uon-navy);
+}
+
+main .default-content-wrapper > ol > li > a:any-link {
+  color: #0f7d9a;
+  text-decoration: underline;
+}
+
+main .default-content-wrapper > ol > li > a:hover {
+  text-decoration: none;
 }
 
 /* section metadata */

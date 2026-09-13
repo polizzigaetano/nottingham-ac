@@ -1693,7 +1693,69 @@
       ],
       "coverageGaps": [],
       "description": "Hero banner followed by a grid of cards and supporting content blocks",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "hero-minimal-dark-2",
+          "instances": [
+            ".herobanner"
+          ]
+        },
+        {
+          "name": "cards-minimal-dark-withimg-5",
+          "instances": [
+            ".tileblock",
+            ".tile-block"
+          ]
+        },
+        {
+          "name": "columns-minimal-dark-withimg-2",
+          "instances": [
+            ".promocard"
+          ]
+        }
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/ugstudy/visitingus/",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "hero",
+          "selector": [
+            ".herobanner"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s2",
+          "name": "intro-and-tiles",
+          "selector": [
+            ".tileblock",
+            ".tile-block"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-minimal-dark-withimg-5"
+          ],
+          "defaultContent": [
+            ".container.responsivegrid"
+          ]
+        },
+        {
+          "id": "s3",
+          "name": "discover-city",
+          "selector": [
+            ".promocard"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-minimal-dark-withimg-2"
+          ],
+          "defaultContent": []
+        }
+      ]
     },
     {
       "name": "minimal-content-page-6",
