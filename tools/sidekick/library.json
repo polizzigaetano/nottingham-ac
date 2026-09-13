@@ -1,0 +1,71 @@
+{
+  "blocks": {
+    "total": 15,
+    "offset": 0,
+    "limit": 15,
+    "data": [
+      {
+        "name": "Cards",
+        "path": "/tools/sidekick/blocks/cards"
+      },
+      {
+        "name": "Cards – Logos (Light)",
+        "path": "/tools/sidekick/blocks/cards-logos-light"
+      },
+      {
+        "name": "Cards – Minimal Dark w/ Image (5-up)",
+        "path": "/tools/sidekick/blocks/cards-minimal-dark-withimg-5"
+      },
+      {
+        "name": "Cards – Promo (Dark)",
+        "path": "/tools/sidekick/blocks/cards-promo-dark"
+      },
+      {
+        "name": "Cards – Ranking / Stats (Gold)",
+        "path": "/tools/sidekick/blocks/cards-ranking-gold"
+      },
+      {
+        "name": "Carousel – Events (Light)",
+        "path": "/tools/sidekick/blocks/carousel-events-light"
+      },
+      {
+        "name": "Carousel – News (Minimal Dark w/ Image, 5-up)",
+        "path": "/tools/sidekick/blocks/carousel-minimal-dark-withimg-5"
+      },
+      {
+        "name": "Columns",
+        "path": "/tools/sidekick/blocks/columns"
+      },
+      {
+        "name": "Columns – Minimal Dark w/ Image (2-up)",
+        "path": "/tools/sidekick/blocks/columns-minimal-dark-withimg-2"
+      },
+      {
+        "name": "Footer",
+        "path": "/tools/sidekick/blocks/footer"
+      },
+      {
+        "name": "Fragment",
+        "path": "/tools/sidekick/blocks/fragment"
+      },
+      {
+        "name": "Header",
+        "path": "/tools/sidekick/blocks/header"
+      },
+      {
+        "name": "Hero",
+        "path": "/tools/sidekick/blocks/hero"
+      },
+      {
+        "name": "Hero – Minimal Dark (2)",
+        "path": "/tools/sidekick/blocks/hero-minimal-dark-2"
+      },
+      {
+        "name": "Search – Course Finder (Light)",
+        "path": "/tools/sidekick/blocks/search-course-light"
+      }
+    ]
+  },
+  ":names": ["blocks"],
+  ":type": "multi-sheet"
+}

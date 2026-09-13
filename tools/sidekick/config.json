@@ -1,5 +1,13 @@
 {
   "project": "AEM XWalk Boilerplate",
   "editUrlLabel": "AEM Editor",
-  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open"
+  "editUrlPattern": "{{contentSourceUrl}}{{pathname}}?cmd=open",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "url": "/tools/sidekick/library.html",
+      "isPalette": true
+    }
+  ]
 }

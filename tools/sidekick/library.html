@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sidekick Library</title>
+    <script type="module" src="https://www.aem.live/tools/sidekick/library/index.js"></script>
+  </head>
+  <body>
+    <sidekick-library></sidekick-library>
+    <script type="module">
+      const library = document.querySelector('sidekick-library');
+      library.config = {
+        base: '/tools/sidekick/library.json',
+      };
+    </script>
+  </body>
+</html>
