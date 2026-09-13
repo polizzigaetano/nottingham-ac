@@ -40,6 +40,18 @@ export default async function decorate(block) {
 
   const dom = document.createElement('div');
   dom.innerHTML = html;
+
+  // The nav fragment lives at /content/nav.plain.html and references images
+  // with relative paths (e.g. images/uon-logo.svg). Those resolve against the
+  // current page's folder, so they 404 on nested pages. Anchor every relative
+  // image to the fragment's own folder so the logo/icons work at any depth.
+  dom.querySelectorAll('img[src]').forEach((img) => {
+    const src = img.getAttribute('src');
+    if (src && !/^(https?:)?\/\//.test(src) && !src.startsWith('/')) {
+      img.setAttribute('src', `/content/${src}`);
+    }
+  });
+
   const sections = [...dom.children];
   const brandSection = sections[0];
   const navSection = sections[1];
@@ -71,7 +83,7 @@ export default async function decorate(block) {
   const toggleLabel = document.createElement('span');
   toggleLabel.className = 'header-menu-toggle-label';
   toggleLabel.textContent = 'Menu';
-  toggle.append(toggleIcon, toggleLabel);
+  toggle.append(toggleLabel, toggleIcon);
 
   bar.append(brand, search, toggle);
 
@@ -81,8 +93,44 @@ export default async function decorate(block) {
   panel.setAttribute('aria-label', 'Main navigation');
   panel.hidden = true;
 
+  // Two-pane layout: a left rail of section buttons + a shared right area that
+  // shows the active section's groups (multi-column on desktop).
+  const inner = document.createElement('div');
+  inner.className = 'header-panel-inner';
+
+  const rail = document.createElement('div');
+  rail.className = 'header-rail';
+
   const list = document.createElement('ul');
   list.className = 'header-nav-list';
+
+  const buttons = [];
+
+  // Activate one section: mark its button expanded and show its subpanel,
+  // collapsing every other section (single-open in both layouts).
+  function activate(btn) {
+    buttons.forEach((other) => {
+      const isTarget = other === btn;
+      other.setAttribute('aria-expanded', String(isTarget));
+      other.nextElementSibling.hidden = !isTarget;
+    });
+  }
+
+  // On mobile the menu is a drill-down: tapping a section replaces the list
+  // with that section's groups (single-open) and reveals a "Back to menu"
+  // button. On desktop the section is just activated in the shared right pane.
+  function drillInto(btn) {
+    activate(btn);
+    block.classList.add('nav-drilled');
+  }
+
+  function drillBack() {
+    block.classList.remove('nav-drilled');
+    buttons.forEach((b) => {
+      b.setAttribute('aria-expanded', 'false');
+      b.nextElementSibling.hidden = true;
+    });
+  }
 
   if (navSection) {
     const nodes = [...navSection.children];
@@ -100,41 +148,73 @@ export default async function decorate(block) {
         sub.className = 'header-subpanel';
         sub.hidden = true;
         btn.addEventListener('click', () => {
-          const open = btn.getAttribute('aria-expanded') === 'true';
-          // close siblings for a single-open accordion
-          list.querySelectorAll('.header-nav-btn[aria-expanded="true"]').forEach((other) => {
-            if (other !== btn) {
-              other.setAttribute('aria-expanded', 'false');
-              other.nextElementSibling.hidden = true;
-            }
-          });
-          btn.setAttribute('aria-expanded', String(!open));
-          sub.hidden = open;
+          if (isDesktop.matches) {
+            activate(btn);
+          } else {
+            drillInto(btn);
+          }
+        });
+        // desktop: hovering a section switches the active pane (source behavior)
+        btn.addEventListener('mouseenter', () => {
+          if (isDesktop.matches) activate(btn);
         });
         item.append(btn, sub);
         currentSub = sub;
+        buttons.push(btn);
         list.append(item);
-      } else if (currentSub && (node.tagName === 'H3' || node.tagName === 'UL')) {
+      } else if (currentSub && node.tagName === 'H3') {
+        // start a new column group. On mobile the heading collapses its links
+        // (sub-accordion); on desktop CSS keeps everything expanded.
+        const group = document.createElement('div');
+        group.className = 'header-group';
+        const heading = document.createElement('button');
+        heading.type = 'button';
+        heading.className = 'header-group-heading';
+        heading.setAttribute('aria-expanded', 'false');
+        heading.textContent = node.textContent.trim();
+        heading.addEventListener('click', () => {
+          if (isDesktop.matches) return;
+          const open = heading.getAttribute('aria-expanded') === 'true';
+          heading.setAttribute('aria-expanded', String(!open));
+          group.classList.toggle('header-group-open', !open);
+        });
+        group.append(heading);
+        currentSub.append(group);
+      } else if (currentSub && node.tagName === 'UL') {
         const clone = node.cloneNode(true);
-        clone.className = node.tagName === 'H3' ? 'header-group-heading' : 'header-group-links';
-        currentSub.append(clone);
+        clone.className = 'header-group-links';
+        // attach to the most recent group column (fall back to the subpanel)
+        const lastGroup = currentSub.querySelector('.header-group:last-child');
+        (lastGroup || currentSub).append(clone);
       }
     });
   }
-  panel.append(list);
+
+  // "Back to menu" control for the mobile drill-down (hidden on desktop via CSS)
+  const back = document.createElement('button');
+  back.type = 'button';
+  back.className = 'header-back';
+  back.textContent = 'Back to menu';
+  back.addEventListener('click', drillBack);
+  rail.append(back);
+  rail.append(list);
 
   if (secondarySection) {
     const secondary = document.createElement('div');
     secondary.className = 'header-secondary';
     [...secondarySection.children].forEach((ul) => secondary.append(ul.cloneNode(true)));
-    panel.append(secondary);
+    rail.append(secondary);
   }
+
+  inner.append(rail);
+  panel.append(inner);
 
   function closePanel() {
     toggle.setAttribute('aria-expanded', 'false');
     toggle.setAttribute('aria-label', 'Open navigation');
     panel.hidden = true;
     block.classList.remove('nav-open');
+    drillBack();
   }
 
   toggle.addEventListener('click', () => {
@@ -146,6 +226,11 @@ export default async function decorate(block) {
       toggle.setAttribute('aria-label', 'Close navigation');
       panel.hidden = false;
       block.classList.add('nav-open');
+      // On desktop the panel always shows an active section (first one by default).
+      if (isDesktop.matches && buttons.length
+        && !buttons.some((b) => b.getAttribute('aria-expanded') === 'true')) {
+        activate(buttons[0]);
+      }
     }
   });
 

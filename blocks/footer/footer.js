@@ -15,6 +15,16 @@ export default async function decorate(block) {
 
   const dom = document.createElement('div');
   dom.innerHTML = html;
+
+  // Anchor relative fragment images (social icons) to /content so they resolve
+  // at any page depth instead of against the current page's folder.
+  dom.querySelectorAll('img[src]').forEach((img) => {
+    const src = img.getAttribute('src');
+    if (src && !/^(https?:)?\/\//.test(src) && !src.startsWith('/')) {
+      img.setAttribute('src', `/content/${src}`);
+    }
+  });
+
   const sections = [...dom.children];
 
   block.textContent = '';
