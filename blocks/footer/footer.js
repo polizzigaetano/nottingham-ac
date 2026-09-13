@@ -1,15 +1,13 @@
 // Nottingham footer — navy footer with a contact + social column, four link
 // columns, and a legal bar. All copy/links/images come from
-// /content/footer.plain.html; this file only reads that DOM and lays it out.
+// /footer.plain.html; this file only reads that DOM and lays it out.
 
 /**
  * loads and decorates the footer
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
-  // metadata-independent dual-fetch: /content first (localhost), then root (DA/EDS prod)
-  let resp = await fetch('/content/footer.plain.html');
-  if (!resp.ok) resp = await fetch('/footer.plain.html');
+  const resp = await fetch('/footer.plain.html');
   if (!resp.ok) return;
   const html = await resp.text();
 
