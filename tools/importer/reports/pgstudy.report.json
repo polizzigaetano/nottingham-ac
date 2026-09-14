@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/pgstudy/",
+  "path": "pgstudy",
+  "timestamp": "2026-09-13T15:48:46.510Z",
+  "title": "Postgraduate study",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

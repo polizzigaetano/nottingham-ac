@@ -59,7 +59,11 @@
         "cards-minimal-dark-withimg-5",
         "carousel-minimal-dark-withimg-5",
         "carousel-events-light",
-        "cards-logos-light"
+        "cards-logos-light",
+        "carousel-hero-dark",
+        "cards-nav-light",
+        "cards-icon-light",
+        "columns-video-light"
       ]
     }
   ]

@@ -13,12 +13,31 @@
  *    (Scene7 src) and a `.cmp-tile__title` heading.
  */
 export default function parse(element, { document }) {
-  // Prefer the homepage tile class; fall back to the cmp-tile grid.
+  // Prefer the homepage tile class; fall back to the cmp-tile grid; then the
+  // study-with-us image-tile shapes.
   let tiles = element.querySelectorAll('.imageWhiteCTA-card');
   let mode = 'homepage';
   if (!tiles.length) {
+    // Degree-apprenticeships news/events tiles: each `.sys_*` column has an
+    // <a class="sys_CTA-ImageAndTextBlock" href> wrapping a `.sys_image`
+    // (background image) + `.sys_CTA-textOverlay .sys_CTA-name` (pill title),
+    // with a caption <p> below the link.
+    tiles = element.querySelectorAll('.sys_CTA-ImageAndTextBlock');
+    if (tiles.length) mode = 'sys-cta';
+  }
+  if (!tiles.length) {
     tiles = element.querySelectorAll('.cmp-tile');
     mode = 'cmp-tile';
+  }
+  if (!tiles.length) {
+    // Study-with-us .ctaTiles-component: each tile = `.image-container` (img + .cta pill).
+    tiles = element.querySelectorAll('.image-container');
+    mode = 'image-container';
+  }
+  if (!tiles.length) {
+    // Study-with-us .statsTilesBlock-component .tiles-block: tiles = `.tile-content`.
+    tiles = element.querySelectorAll('.tile-content');
+    mode = 'image-container';
   }
 
   const cells = [];
@@ -26,6 +45,39 @@ export default function parse(element, { document }) {
     let image;
     let ctaHref;
     let ctaLabel;
+
+    if (mode === 'sys-cta') {
+      // tile is the <a class="sys_CTA-ImageAndTextBlock">. The photo is the
+      // <img> inside `.sys_image` (avoid the pill icon in `.sys_CTA-textOverlay`).
+      image = tile.querySelector('.sys_image img');
+      const name = tile.querySelector('.sys_CTA-name');
+      ctaHref = tile.getAttribute('href');
+      ctaLabel = name ? name.textContent.trim()
+        : (tile.getAttribute('title') || tile.textContent.trim());
+      // Caption <p> is a sibling of the anchor, below it in the column.
+      const caption = tile.parentElement
+        ? tile.parentElement.querySelector(':scope > p') : null;
+
+      const imageCell = [];
+      if (image) {
+        imageCell.push(document.createComment(' field:image '));
+        imageCell.push(image);
+      }
+
+      const textCell = [document.createComment(' field:text ')];
+      if (ctaHref) {
+        const a = document.createElement('a');
+        a.href = ctaHref;
+        a.textContent = ctaLabel || ctaHref;
+        textCell.push(a);
+      } else if (ctaLabel) {
+        textCell.push(document.createTextNode(ctaLabel));
+      }
+      if (caption && caption.textContent.trim()) textCell.push(caption);
+
+      cells.push([imageCell, textCell]);
+      return;
+    }
 
     if (mode === 'cmp-tile') {
       image = tile.querySelector('.cmp-tile__image img, img');

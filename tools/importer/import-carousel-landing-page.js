@@ -141,11 +141,13 @@ export default {
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
 
-    // 6. Sanitized path — map homepage/root URL to /index
-    const rawPath = new URL(params.originalURL).pathname
-      .replace(/\/$/, '')
-      .replace(/\.html?$/, '');
-    const path = WebImporter.FileUtils.sanitizePath(rawPath === '' ? '/index' : rawPath);
+    // 6. Sanitized path — strip .aspx/.html, collapse /index, map root to /index
+    let rawPath = new URL(params.originalURL).pathname
+      .replace(/\.(aspx|html?)$/i, '')
+      .replace(/\/index$/i, '')
+      .replace(/\/$/, '');
+    if (rawPath === '') rawPath = '/index';
+    const path = WebImporter.FileUtils.sanitizePath(rawPath);
 
     return [{
       element: main,

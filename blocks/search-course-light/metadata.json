@@ -8,7 +8,16 @@
     "hasBackgroundImage": false
   },
   "contentPattern": "Course-search panel: keyword input, study-level select and a submit button, with a heading",
-  "usage": "Homepage course finder panel overlapping the hero",
+  "usage": {
+    "pagesUsing": [
+      "/studywithus/study-with-us-aspx"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-13T14:01:50.005680Z",
+    "note": "Homepage course finder panel overlapping the hero"
+  },
   "options": [],
-  "memberVariantIds": ["search-course-light"]
+  "memberVariantIds": [
+    "search-course-light"
+  ]
 }

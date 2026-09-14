@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+  "path": "studywithus/ugstudy/find-uon",
+  "timestamp": "2026-09-13T15:47:35.836Z",
+  "title": "Find your course",
+  "template": "hero-cards-landing-2",
+  "blocks": [
+    "columns-minimal-dark-withimg-2",
+    "columns-minimal-dark-withimg-2"
+  ]
+}

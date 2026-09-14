@@ -1,0 +1,16 @@
+{
+  "variantName": "cards-nav-light",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Light image-top navigation cards; a photo on top with a title and short caption below in a light panel. The whole card is a link. Typically 2-up on desktop.",
+  "contentPattern": "One row per card: cell 1 = image, cell 2 = body (title, caption paragraph, and a link whose href makes the whole card clickable).",
+  "usage": {
+    "documentPaths": [
+      "/workingwithbusiness/degree-apprenticeships/degree-apprenticeships-aspx"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-nav-light"
+  ]
+}

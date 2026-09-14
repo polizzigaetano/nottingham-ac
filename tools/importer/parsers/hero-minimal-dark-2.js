@@ -8,14 +8,18 @@
  */
 export default function parse(element, { document }) {
   // Background image: prefer the desktop banner image, fall back to any banner image.
+  // Study-with-us (.heroSearch-component .hero-image-background) exposes the background
+  // as a bare <img> directly under the anchor, covered by the trailing `img` fallback.
   const bgImage = element.querySelector(
-    '.desktop-banner-image, img.mobile-banner-image, .banner-background img, img',
+    '.desktop-banner-image, img.mobile-banner-image, .banner-background img, .hero-background-image img, img',
   );
 
   // Content: heading, supporting paragraph and single CTA.
-  const heading = element.querySelector('.banner-title, h1, h2');
+  // On study-with-us the heading + CTA live inside `.hero-background-image` and the CTA
+  // uses the generic `.cta` pill class.
+  const heading = element.querySelector('.banner-title, .hero-background-image h1, h1, h2');
   const text = element.querySelector('.banner-text, p');
-  const cta = element.querySelector('.banner-content a, a.stripe-white-cta, a');
+  const cta = element.querySelector('.banner-content a, a.stripe-white-cta, .hero-background-image a.cta, a.cta, a');
 
   if (!heading && !text && !cta && !bgImage) {
     element.replaceWith(...element.childNodes);

@@ -1,0 +1,16 @@
+{
+  "variantName": "carousel-hero-dark",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Full-bleed dark auto-cycling hero banner; each slide is a background image with an overlaid lower-left text panel (heading + subtext + pill CTA). Previous/pause/next controls and dot pagination bottom-right.",
+  "contentPattern": "One row per slide: cell 1 = background image, cell 2 = text (heading, optional subtext paragraph, CTA link).",
+  "usage": {
+    "documentPaths": [
+      "/workingwithbusiness/degree-apprenticeships/degree-apprenticeships-aspx"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "carousel-hero-dark"
+  ]
+}
