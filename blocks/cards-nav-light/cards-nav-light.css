@@ -1,0 +1,94 @@
+/* Cards (nav, light) — image-top navigation cards, a navy serif title + short
+ * caption below in a light panel; the whole card is a link.
+ * Visual values extracted from the source UoN degree-apprenticeships page:
+ * card border 1px solid rgb(230,230,230), white panel, 3:2 image, centered
+ * text, image zoom on hover (scale 1.04, transition transform 0.2s). */
+
+.cards-nav-light ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 28px;
+}
+
+.cards-nav-light .cards-nav-light-card {
+  display: block;
+}
+
+.cards-nav-light .cards-nav-light-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+/* Image sits at the top, 3:2 like the source; clipped by the card overflow so
+ * the hover zoom stays inside the card frame. */
+.cards-nav-light .cards-nav-light-image {
+  overflow: hidden;
+}
+
+.cards-nav-light .cards-nav-light-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+  transition: transform 0.2s ease;
+}
+
+/* Light panel: white background, centered text like the source. */
+.cards-nav-light .cards-nav-light-body {
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+}
+
+.cards-nav-light .cards-nav-light-body h2,
+.cards-nav-light .cards-nav-light-body h3 {
+  margin: 0 0 8px;
+  font-family: var(--heading-font-family, serif);
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--uon-navy);
+  transition: color 0.2s ease;
+}
+
+.cards-nav-light .cards-nav-light-body p {
+  margin: 0;
+  font-size: var(--body-font-size-s, 16px);
+  line-height: 1.5;
+  color: #0a0a0a;
+}
+
+/* Hover: subtle image zoom (matches source) plus a brand-gold title shift. */
+.cards-nav-light .cards-nav-light-link:hover {
+  box-shadow: 0 4px 16px rgb(16 38 59 / 12%);
+}
+
+.cards-nav-light .cards-nav-light-link:hover .cards-nav-light-image img {
+  transform: scale(1.04);
+}
+
+.cards-nav-light .cards-nav-light-link:hover .cards-nav-light-body h2,
+.cards-nav-light .cards-nav-light-link:hover .cards-nav-light-body h3 {
+  color: var(--uon-gold);
+}
+
+.cards-nav-light .cards-nav-light-link:focus-visible {
+  outline: 2px solid var(--uon-gold);
+  outline-offset: 2px;
+}
+
+@media (width >= 600px) {
+  .cards-nav-light ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

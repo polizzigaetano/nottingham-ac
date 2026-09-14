@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+  "path": "studywithus/international-applicants",
+  "timestamp": "2026-09-13T15:48:56.004Z",
+  "title": "Information for international applicants",
+  "template": "carousel-landing-page",
+  "blocks": [
+    "search-course-light",
+    "search-course-light"
+  ]
+}

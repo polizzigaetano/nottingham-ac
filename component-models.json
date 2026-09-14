@@ -142,6 +142,32 @@
     ]
   },
   {
+    "id": "cards-icon-light-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Icon",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Caption",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "cards-logos-light-item",
     "fields": [
       {
@@ -182,6 +208,32 @@
         "name": "text",
         "value": "",
         "label": "CTA",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-nav-light-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text (title, caption, link)",
         "valueType": "string"
       }
     ]
@@ -256,6 +308,32 @@
     ]
   },
   {
+    "id": "carousel-hero-dark-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Background image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text (heading, subtext, CTA)",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "carousel-minimal-dark-withimg-5-item",
     "fields": [
       {
@@ -283,6 +361,25 @@
   },
   {
     "id": "columns-minimal-dark-withimg-2",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "columns-video-light",
     "fields": [
       {
         "component": "text",

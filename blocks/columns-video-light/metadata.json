@@ -1,0 +1,16 @@
+{
+  "variantName": "columns-video-light",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Light two-column section: a text panel (heading + paragraphs) beside an embedded video (16:9 iframe). Stacks on mobile, side-by-side at desktop.",
+  "contentPattern": "One row, two cells: a text cell (heading + paragraphs) and a video cell holding a link to the embed/player URL (converted to an iframe at runtime).",
+  "usage": {
+    "documentPaths": [
+      "/workingwithbusiness/degree-apprenticeships/degree-apprenticeships-aspx"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-video-light"
+  ]
+}

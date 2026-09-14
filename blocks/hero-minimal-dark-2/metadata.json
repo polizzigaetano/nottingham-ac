@@ -10,10 +10,11 @@
   "contentPattern": "Full-bleed background image with overlaid heading, short paragraph and a single CTA button",
   "usage": {
     "pagesUsing": [
-      "/ugstudy/visitingus/index"
+      "/ugstudy/visitingus/index",
+      "/studywithus/study-with-us-aspx"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-09-13T11:20:19.556449Z",
+    "reuseCount": 2,
+    "lastUsed": "2026-09-13T14:01:50.005680Z",
     "note": "Homepage / landing hero banner"
   },
   "options": [],

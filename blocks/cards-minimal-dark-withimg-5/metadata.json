@@ -10,10 +10,12 @@
   "contentPattern": "Row of image tiles, each a photo with an overlaid pill CTA link",
   "usage": {
     "pagesUsing": [
-      "/ugstudy/visitingus/index"
+      "/ugstudy/visitingus/index",
+      "/studywithus/study-with-us-aspx",
+      "/workingwithbusiness/degree-apprenticeships/degree-apprenticeships-aspx"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-09-13T11:20:19.556449Z",
+    "reuseCount": 3,
+    "lastUsed": "2026-09-13",
     "note": "Homepage research image tiles"
   },
   "options": [],

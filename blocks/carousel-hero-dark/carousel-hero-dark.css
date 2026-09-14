@@ -1,0 +1,229 @@
+/* Carousel (hero, dark) — full-bleed auto-cycling hero banner.
+ * Visual design migrated from nottingham.ac.uk .banner.cycle:
+ *   dark navy image overlay, white serif heading in a navy keyline box,
+ *   pink square CTA with chevron, dark-grey square prev/pause/next controls.
+ * Structural layout only in the base; brand colour/type via design tokens. */
+
+.carousel-hero-dark {
+  position: relative;
+}
+
+.carousel-hero-dark .carousel-hero-dark-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.carousel-hero-dark .carousel-hero-dark-slide {
+  position: relative;
+  display: grid;
+  min-height: 320px;
+  background-color: var(--uon-navy, #10263b);
+  overflow: hidden;
+}
+
+/* only the active slide is shown */
+.carousel-hero-dark .carousel-hero-dark-slide[aria-hidden="true"] {
+  display: none;
+}
+
+/* background image fills the slide */
+.carousel-hero-dark .carousel-hero-dark-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.carousel-hero-dark .carousel-hero-dark-image picture,
+.carousel-hero-dark .carousel-hero-dark-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* dark navy overlay: strongest at the left where the text sits, fading right.
+ * Mirrors the source overlay-gradient-blue5 PNG. */
+.carousel-hero-dark .carousel-hero-dark-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgb(16 38 59 / 88%) 0%,
+    rgb(16 38 59 / 65%) 35%,
+    rgb(16 38 59 / 25%) 70%,
+    rgb(16 38 59 / 10%) 100%
+  );
+  pointer-events: none;
+}
+
+/* text panel overlaid on the image, lower-left, inside a navy keyline box */
+.carousel-hero-dark .carousel-hero-dark-body {
+  position: relative;
+  z-index: 2;
+  place-self: end start;
+  max-width: 340px;
+  margin: 20px;
+  padding: 18px 20px;
+  border: 2px solid var(--uon-navy, #10263b);
+  color: #fff;
+}
+
+.carousel-hero-dark .carousel-hero-dark-body h1,
+.carousel-hero-dark .carousel-hero-dark-body h2,
+.carousel-hero-dark .carousel-hero-dark-body h3 {
+  margin: 0 0 12px;
+  font-family: var(--heading-font-family, serif);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #fff;
+}
+
+/* subtext line */
+.carousel-hero-dark .carousel-hero-dark-body p {
+  margin: 0 0 16px;
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.carousel-hero-dark .carousel-hero-dark-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* pink square CTA with trailing chevron — overrides global pill button */
+.carousel-hero-dark .carousel-hero-dark-body p.button-container {
+  margin: 0;
+}
+
+main .carousel-hero-dark .carousel-hero-dark-body a,
+main .carousel-hero-dark .carousel-hero-dark-body a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  max-width: none;
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 0;
+  padding: 8px 12px 8px 10px;
+  background-color: #de1b5c;
+  color: #fff;
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+main .carousel-hero-dark .carousel-hero-dark-body a::after,
+main .carousel-hero-dark .carousel-hero-dark-body a.button:any-link::after {
+  content: "\203A"; /* › chevron */
+  font-weight: 700;
+  line-height: 1;
+}
+
+main .carousel-hero-dark .carousel-hero-dark-body a:hover,
+main .carousel-hero-dark .carousel-hero-dark-body a.button:any-link:hover {
+  background-color: #b30f49;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* controls: prev / pause / next + dots, bottom-right */
+.carousel-hero-dark .carousel-hero-dark-nav {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* dark-grey square buttons with a white keyline, matching source .control */
+.carousel-hero-dark .carousel-hero-dark-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 0;
+  background: #434341;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel-hero-dark .carousel-hero-dark-arrow:hover {
+  background: #2c2c2b;
+}
+
+.carousel-hero-dark .carousel-hero-dark-dots {
+  display: flex;
+  gap: 6px;
+  margin-left: 8px;
+}
+
+.carousel-hero-dark .carousel-hero-dark-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.carousel-hero-dark .carousel-hero-dark-dot[aria-current="true"] {
+  background: #fff;
+}
+
+@media (width >= 600px) {
+  .carousel-hero-dark .carousel-hero-dark-slide {
+    min-height: 380px;
+  }
+
+  .carousel-hero-dark .carousel-hero-dark-body {
+    max-width: 380px;
+    margin: 28px;
+    padding: 20px 22px;
+  }
+
+  .carousel-hero-dark .carousel-hero-dark-body h1,
+  .carousel-hero-dark .carousel-hero-dark-body h2,
+  .carousel-hero-dark .carousel-hero-dark-body h3 {
+    font-size: 30px;
+  }
+}
+
+@media (width >= 900px) {
+  .carousel-hero-dark .carousel-hero-dark-slide {
+    min-height: 350px;
+  }
+
+  .carousel-hero-dark .carousel-hero-dark-body {
+    max-width: 380px;
+    margin: 32px;
+  }
+
+  .carousel-hero-dark .carousel-hero-dark-body h1,
+  .carousel-hero-dark .carousel-hero-dark-body h2,
+  .carousel-hero-dark .carousel-hero-dark-body h3 {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 1200px) {
+  .carousel-hero-dark .carousel-hero-dark-slide {
+    min-height: 360px;
+  }
+}

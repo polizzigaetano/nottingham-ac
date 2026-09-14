@@ -1,0 +1,87 @@
+/* Columns (video, light) — a light two-column section: a navy serif lead
+ * text panel beside a 16:9 embedded video. Stacked on mobile, side-by-side
+ * (50/50) on desktop, top-aligned as on the source. */
+
+.columns-video-light .columns-video-light-row {
+  display: grid;
+  gap: 24px;
+  align-items: start;
+}
+
+/* Text column — lead heading + supporting paragraph. */
+.columns-video-light .columns-video-light-text > *:first-child {
+  margin-top: 0;
+}
+
+.columns-video-light .columns-video-light-text h2 {
+  margin: 0 0 16px;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-l);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--uon-navy);
+}
+
+/* Media column — the video. EDS wraps the embed in a <p>; strip its margins
+ * so the video top-aligns with the heading. */
+.columns-video-light .columns-video-light-media {
+  margin: 0;
+}
+
+.columns-video-light .columns-video-light-media > p {
+  margin: 0;
+}
+
+.columns-video-light .columns-video-light-text p {
+  margin: 0 0 12px;
+  font-size: var(--body-font-size-s);
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.columns-video-light .columns-video-light-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive 16:9 embed. */
+.columns-video-light .columns-video-light-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+}
+
+.columns-video-light .columns-video-light-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.columns-video-light .columns-video-light-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-video-light .columns-video-light-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .columns-video-light .columns-video-light-text {
+    padding-right: 24px;
+  }
+
+  /* Subtle vertical divider between the two columns, as on the source. */
+  .columns-video-light .columns-video-light-media {
+    padding-left: 24px;
+    border-left: 1px solid #e0ddd8;
+  }
+
+  .columns-video-light .columns-video-light-text h2 {
+    font-size: var(--heading-font-size-xl);
+  }
+}
