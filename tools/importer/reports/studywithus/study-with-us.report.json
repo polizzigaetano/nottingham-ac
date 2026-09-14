@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+  "path": "studywithus/study-with-us",
+  "timestamp": "2026-09-13T15:40:42.088Z",
+  "title": "Study with us | University of Nottingham",
+  "template": "minimal-content-page-4",
+  "blocks": [
+    "hero-minimal-dark-2",
+    "search-course-light",
+    "cards-minimal-dark-withimg-5",
+    "cards-minimal-dark-withimg-5",
+    "cards-ranking-gold",
+    "cards-promo-dark"
+  ]
+}

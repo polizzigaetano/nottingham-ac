@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx",
+  "path": "workingwithbusiness/degree-apprenticeships/degree-apprenticeships",
+  "timestamp": "2026-09-13T15:44:23.908Z",
+  "title": "Degree Apprenticeships - The University of Nottingham",
+  "template": "degree-apprenticeships",
+  "blocks": [
+    "carousel-hero-dark",
+    "cards-nav-light",
+    "cards-icon-light",
+    "columns-video-light",
+    "cards-promo-dark",
+    "cards-promo-dark",
+    "cards-promo-dark",
+    "cards-minimal-dark-withimg-5"
+  ]
+}

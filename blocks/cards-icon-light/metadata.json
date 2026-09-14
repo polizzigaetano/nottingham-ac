@@ -1,0 +1,16 @@
+{
+  "variantName": "cards-icon-light",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Light 4-up credibility strip; each tile is a small icon above a short centered caption. No large numeric figure (distinct from cards-ranking-gold).",
+  "contentPattern": "One row per tile: cell 1 = icon image, cell 2 = caption text.",
+  "usage": {
+    "documentPaths": [
+      "/workingwithbusiness/degree-apprenticeships/degree-apprenticeships-aspx"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-icon-light"
+  ]
+}

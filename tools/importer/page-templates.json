@@ -243,6 +243,7 @@
         "https://www.nottingham.ac.uk/otter/resources-for-patients.aspx",
         "https://www.nottingham.ac.uk/pearls/",
         "https://www.nottingham.ac.uk/pearls/index.aspx",
+        "https://www.nottingham.ac.uk/pgstudy/",
         "https://www.nottingham.ac.uk/pgstudy/index-old24.aspx",
         "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
         "https://www.nottingham.ac.uk/policy-and-engagement/net-zero/profiles/ives/chris-ives.aspx",
@@ -284,6 +285,7 @@
         "https://www.nottingham.ac.uk/studentservices/engagement/",
         "https://www.nottingham.ac.uk/studentservices/myhelp-zone.aspx",
         "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/pharmacy/",
+        "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
         "https://www.nottingham.ac.uk/transcocon/",
         "https://www.nottingham.ac.uk/transcocon/about.aspx",
         "https://www.nottingham.ac.uk/transcocon/contact.aspx",
@@ -325,8 +327,8 @@
         "https://www.nottingham.ac.uk/zero-carbon/hybrid-propulsion-systems.aspx",
         "https://www.nottingham.ac.uk/zero-carbon/news-and-insights.aspx"
       ],
-      "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
+      "representativeUrl": "https://www.nottingham.ac.uk/",
+      "description": "To be named in naming step",
       "blocks": [
         {
           "name": "hero-minimal-dark-2",
@@ -387,7 +389,6 @@
           ]
         }
       ],
-      "representativeUrl": "https://www.nottingham.ac.uk/",
       "sections": [
         {
           "id": "s1",
@@ -478,7 +479,9 @@
           ],
           "defaultContent": []
         }
-      ]
+      ],
+      "coverageGaps": [],
+      "urlPattern": "/*"
     },
     {
       "name": "rich-text-page",
@@ -634,6 +637,7 @@
         "https://www.nottingham.ac.uk/science/research/n3centre/n3centre-researchers/professor-stephen-coombes.aspx",
         "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/scientists-recognised-for-crop-and-soil-research-with-prestigious-rank-prize.aspx",
         "https://www.nottingham.ac.uk/sciencepartnership/news/funding-for-new-research-to-deliver-cleaner-and-greener-chemicals.aspx",
+        "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
         "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/",
         "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/index.aspx",
         "https://www.nottingham.ac.uk/survivors-voices-ethical-toolkit/resources.aspx",
@@ -656,9 +660,25 @@
         "https://www.nottingham.ac.uk/wrc/home.aspx",
         "https://www.nottingham.ac.uk/wrc/research-areas/hybrid-wheat-production.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+      "description": "Generic rich-text content page: heading, paragraphs, lists, links and related items — all default content, no interactive blocks.",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/*",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Detail content",
+          "selector": [
+            "#serviceDetail"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#serviceDetail"
+          ]
+        }
+      ]
     },
     {
       "name": "search-landing-page",
@@ -720,9 +740,11 @@
         "https://www.nottingham.ac.uk/transform/teams/finland/pia-leppakumpu.aspx",
         "https://www.nottingham.ac.uk/transform/teams/finland/salla-maria-seppanen.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/achieveit/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing page with a prominent search block and a form",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form",
@@ -867,9 +889,11 @@
         "https://www.nottingham.ac.uk/utc-transmissionsys/research/tribology-and-wear.aspx",
         "https://www.nottingham.ac.uk/utc-transmissionsys/utc-people.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/acord-project/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-3",
@@ -899,18 +923,22 @@
         "https://www.nottingham.ac.uk/project-yolanda/workshop-ii.aspx",
         "https://www.nottingham.ac.uk/project-yolanda/workshop-materials.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/additivemanufacturing/events/index.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-with-form-5",
       "urls": [
         "https://www.nottingham.ac.uk/additivemanufacturing/news.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/additivemanufacturing/news.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/additivemanufacturing/*"
     },
     {
       "name": "hero-cards-landing",
@@ -952,18 +980,22 @@
         "https://www.nottingham.ac.uk/utc/",
         "https://www.nottingham.ac.uk/utc/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/alumni/learn/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by a grid of cards and supporting content blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-11",
       "urls": [
         "https://www.nottingham.ac.uk/bench/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/bench/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-2",
@@ -998,18 +1030,22 @@
         "https://www.nottingham.ac.uk/pgstudy/subsitedata.xml",
         "https://www.nottingham.ac.uk/researcher-academy/subsitedata.xml"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/bench/about.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-12",
       "urls": [
         "https://www.nottingham.ac.uk/bench/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/bench/index.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/bench/*"
     },
     {
       "name": "hero-content-page-4",
@@ -1020,9 +1056,11 @@
         "https://www.nottingham.ac.uk/bluegreencities/links.aspx",
         "https://www.nottingham.ac.uk/bluegreencities/research/wp3.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/bluegreencities/about/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/bluegreencities/*"
     },
     {
       "name": "hero-content-with-form",
@@ -1033,9 +1071,11 @@
         "https://www.nottingham.ac.uk/bn/compare/technologies/bioluminescence-microscopy.aspx",
         "https://www.nottingham.ac.uk/bn/compare/vacancies.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/bn/compare/forthcoming-events/seminar-sophie-bradley.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/bn/compare/*"
     },
     {
       "name": "hero-content-page",
@@ -1060,9 +1100,11 @@
         "https://www.nottingham.ac.uk/totemm/news/news.aspx",
         "https://www.nottingham.ac.uk/totemm/resources.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/brewingscience/study-with-us/study-with-us-brewing-courses.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "rich-text-page-2",
@@ -1085,27 +1127,33 @@
         "https://www.nottingham.ac.uk/vascular-research/index.aspx",
         "https://www.nottingham.ac.uk/vascular-research/news.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/careers/students/graduatejobs/career-paths/medicine/academic.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-page-16",
       "urls": [
         "https://www.nottingham.ac.uk/cbtdd-consortium/cbtdd-consortium.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cbtdd-consortium/cbtdd-consortium.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/cbtdd-consortium/*"
     },
     {
       "name": "hero-content-page-17",
       "urls": [
         "https://www.nottingham.ac.uk/cbtdd-consortium/clinical-trials-working-group/clinical-trials-working-group.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cbtdd-consortium/clinical-trials-working-group/clinical-trials-working-group.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/cbtdd-consortium/clinical-trials-working-group/*"
     },
     {
       "name": "rich-article-page",
@@ -1116,9 +1164,11 @@
         "https://www.nottingham.ac.uk/cbtrc/our-research/our-research.aspx",
         "https://www.nottingham.ac.uk/cbtrc/stories/stories.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cbtrc/fundraise-for-us/do-your-own-fundraising/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Long-form article layout mixing text with columns, quotes, tabs or embedded media",
-      "blocks": []
+      "urlPattern": "/cbtrc/*"
     },
     {
       "name": "hero-content-page-13",
@@ -1126,9 +1176,11 @@
         "https://www.nottingham.ac.uk/cdt-rdfes/",
         "https://www.nottingham.ac.uk/cdt-rdfes/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-rdfes/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "minimal-content-page-3",
@@ -1136,9 +1188,11 @@
         "https://www.nottingham.ac.uk/cdt-rdfes/about-the-centre/",
         "https://www.nottingham.ac.uk/cdt-rdfes/about-the-centre/about-the-centre.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-rdfes/about-the-centre/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/cdt-rdfes/*"
     },
     {
       "name": "accordion-page",
@@ -1146,9 +1200,11 @@
         "https://www.nottingham.ac.uk/cdt-rdfes/current-vacancies/",
         "https://www.nottingham.ac.uk/cdt-rdfes/current-vacancies/current-vacancies.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-rdfes/current-vacancies/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Page whose main content is an accordion/expandable list, optionally with a contact form",
-      "blocks": []
+      "urlPattern": "/cdt-rdfes/*"
     },
     {
       "name": "hero-content-page-14",
@@ -1156,9 +1212,11 @@
         "https://www.nottingham.ac.uk/cdt-rdfes/how-to-apply/",
         "https://www.nottingham.ac.uk/cdt-rdfes/how-to-apply/how-to-apply.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-rdfes/how-to-apply/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/cdt-rdfes/*"
     },
     {
       "name": "hero-content-page-15",
@@ -1166,9 +1224,11 @@
         "https://www.nottingham.ac.uk/cdt-rdfes/our-heritage/",
         "https://www.nottingham.ac.uk/cdt-rdfes/our-heritage/our-heritage.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-rdfes/our-heritage/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/cdt-rdfes/*"
     },
     {
       "name": "hero-content-page-5",
@@ -1179,9 +1239,11 @@
         "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/student-community/student-community.aspx",
         "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/student-community/women-in-hydrogen.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-sustainable-hydrogen/about-the-centre/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/cdt-sustainable-hydrogen/*"
     },
     {
       "name": "hero-content-page-6",
@@ -1192,9 +1254,11 @@
         "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/our-history.aspx",
         "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/student-representatives/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cdt-transformative-pharmaceutical-technologies/index.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/cdt-transformative-pharmaceutical-technologies/*"
     },
     {
       "name": "hero-content-page-3",
@@ -1210,9 +1274,11 @@
         "https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/resources/",
         "https://www.nottingham.ac.uk/research/beacons-of-excellence/smart-products/training/jose-berumen-salazar/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/conference/fac-eng/icdvrat2018/accommodation/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-page-7",
@@ -1223,9 +1289,11 @@
         "https://www.nottingham.ac.uk/nmpresearch/hdqol-c/",
         "https://www.nottingham.ac.uk/nmpresearch/hdqol-c/home.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/conference/fac-eng/ycsec2026/index.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-page-9",
@@ -1235,27 +1303,33 @@
         "https://www.nottingham.ac.uk/connect/connect-twitter.aspx",
         "https://www.nottingham.ac.uk/connect/connect-youtube.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/connect/connect-flickr.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/connect/*"
     },
     {
       "name": "content-with-form-13",
       "urls": [
         "https://www.nottingham.ac.uk/connectedcommunities/contactus.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/connectedcommunities/contactus.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/connectedcommunities/*"
     },
     {
       "name": "content-with-form-14",
       "urls": [
         "https://www.nottingham.ac.uk/course/pg-course-page.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/course/pg-course-page.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/course/*"
     },
     {
       "name": "content-with-form-6",
@@ -1268,9 +1342,11 @@
         "https://www.nottingham.ac.uk/impactcampaign/news-and-views/items/news/alt/nottingham-life-cycle-7-%e2%80%93-raising-500000-for-childrens-brain-tumour-research.aspx",
         "https://www.nottingham.ac.uk/impactcampaign/projects/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/course/research.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "rich-text-page-4",
@@ -1284,27 +1360,33 @@
         "https://www.nottingham.ac.uk/pgstudy/already-applied/already-applied.aspx",
         "https://www.nottingham.ac.uk/pgstudy/courses/part-time-courses.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/currentstudents/mature-students/mature-students.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "carousel-landing-page-7",
       "urls": [
         "https://www.nottingham.ac.uk/cyclops-network/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "carousel-landing-page-8",
       "urls": [
         "https://www.nottingham.ac.uk/cyclops-network/about-the-network/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/about-the-network/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/*"
     },
     {
       "name": "carousel-landing-page-5",
@@ -1313,9 +1395,11 @@
         "https://www.nottingham.ac.uk/cyclops-network/about-the-network/call-for-feasibility-studies.aspx",
         "https://www.nottingham.ac.uk/cyclops-network/about-the-network/closed-loop-approach.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/about-the-network/about.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/about-the-network/*"
     },
     {
       "name": "carousel-landing-page-6",
@@ -1324,18 +1408,22 @@
         "https://www.nottingham.ac.uk/cyclops-network/index.aspx",
         "https://www.nottingham.ac.uk/cyclops-network/news-press-releases.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/contact-us-site-map.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/*"
     },
     {
       "name": "carousel-landing-page-9",
       "urls": [
         "https://www.nottingham.ac.uk/cyclops-network/events/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/events/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/*"
     },
     {
       "name": "carousel-landing-page-3",
@@ -1345,18 +1433,22 @@
         "https://www.nottingham.ac.uk/cyclops-network/events/workshop-jan-2018.aspx",
         "https://www.nottingham.ac.uk/cyclops-network/events/workshop-march-2017.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/events/events.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/events/*"
     },
     {
       "name": "carousel-landing-page-10",
       "urls": [
         "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/*"
     },
     {
       "name": "carousel-landing-page-4",
@@ -1366,18 +1458,22 @@
         "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/critical-care.aspx",
         "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/projects-publications.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/cyclops-network/feasibility-projects-pubs/cancer-projects.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/cyclops-network/feasibility-projects-pubs/*"
     },
     {
       "name": "hero-content-with-form-6",
       "urls": [
         "https://www.nottingham.ac.uk/dboard/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/dboard/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-5",
@@ -1391,18 +1487,22 @@
         "https://www.nottingham.ac.uk/dboard/people.aspx",
         "https://www.nottingham.ac.uk/dboard/project-partners.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/dboard/about.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Body content combined with a form region (contact/enquiry/sign-up)",
-      "blocks": []
+      "urlPattern": "/dboard/*"
     },
     {
       "name": "content-with-form-15",
       "urls": [
         "https://www.nottingham.ac.uk/dboard/dissemination/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/dboard/dissemination/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/dboard/*"
     },
     {
       "name": "content-with-form-8",
@@ -1410,9 +1510,11 @@
         "https://www.nottingham.ac.uk/dboard/dissemination/d-board-newsletter-issue-1.aspx",
         "https://www.nottingham.ac.uk/dboard/dissemination/dissemination.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/dboard/dissemination/d-board-newsletter-issue-1.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/dboard/dissemination/*"
     },
     {
       "name": "content-with-form-9",
@@ -1420,18 +1522,22 @@
         "https://www.nottingham.ac.uk/dboard/events/applying-omics-techniques-to-discover-new-oa.aspx",
         "https://www.nottingham.ac.uk/dboard/events/oarsiparis2014.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/dboard/events/applying-omics-techniques-to-discover-new-oa.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/dboard/events/*"
     },
     {
       "name": "content-with-form-16",
       "urls": [
         "https://www.nottingham.ac.uk/dboard/events.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/dboard/events.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/dboard/*"
     },
     {
       "name": "hero-cards-landing-3",
@@ -1444,9 +1550,11 @@
         "https://www.nottingham.ac.uk/debi/sites-and-recruitment.aspx",
         "https://www.nottingham.ac.uk/debi/subsitedata.xml"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/debi/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by a grid of cards and supporting content blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "rich-text-page-5",
@@ -1455,18 +1563,22 @@
         "https://www.nottingham.ac.uk/psawards/about.aspx",
         "https://www.nottingham.ac.uk/psawards/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/departments/a-z.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "general-content-page-2",
       "urls": [
         "https://www.nottingham.ac.uk/eco/blogs.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/eco/blogs.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page with a mix of standard content blocks",
-      "blocks": []
+      "urlPattern": "/eco/*"
     },
     {
       "name": "rich-text-page-7",
@@ -1474,9 +1586,11 @@
         "https://www.nottingham.ac.uk/eco/media/",
         "https://www.nottingham.ac.uk/eco/media/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/eco/media/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/eco/*"
     },
     {
       "name": "hero-content-page-11",
@@ -1485,18 +1599,22 @@
         "https://www.nottingham.ac.uk/researcher-academy/partnership/",
         "https://www.nottingham.ac.uk/researcher-academy/partnership/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/fic/case-studies/biomara.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-with-form-7",
       "urls": [
         "https://www.nottingham.ac.uk/gerc/aboutgerc/capabilities/capabilities.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/gerc/aboutgerc/capabilities/capabilities.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/gerc/aboutgerc/capabilities/*"
     },
     {
       "name": "hero-content-with-form-2",
@@ -1504,27 +1622,33 @@
         "https://www.nottingham.ac.uk/gerc/geoenergyresearchcentre.aspx",
         "https://www.nottingham.ac.uk/gerc/phd-vacancies.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/gerc/geoenergyresearchcentre.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/gerc/*"
     },
     {
       "name": "hero-content-with-form-8",
       "urls": [
         "https://www.nottingham.ac.uk/gerc/news/subsidence-scotland-map.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/gerc/news/subsidence-scotland-map.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/gerc/news/*"
     },
     {
       "name": "hero-content-with-form-9",
       "urls": [
         "https://www.nottingham.ac.uk/gerc/our-phd-students/current-phd-students.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/gerc/our-phd-students/current-phd-students.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/gerc/our-phd-students/*"
     },
     {
       "name": "hero-cards-landing-4",
@@ -1536,27 +1660,33 @@
         "https://www.nottingham.ac.uk/gild/information-for-healthcare-workers.aspx",
         "https://www.nottingham.ac.uk/gild/information-for-women-and-birthing-people.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/gild/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by a grid of cards and supporting content blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-17",
       "urls": [
         "https://www.nottingham.ac.uk/grace/events/eventsarticles/navigation-2021.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/grace/events/eventsarticles/navigation-2021.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/grace/events/eventsarticles/*"
     },
     {
       "name": "content-with-form-18",
       "urls": [
         "https://www.nottingham.ac.uk/grace/facilities/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/grace/facilities/index.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/grace/facilities/*"
     },
     {
       "name": "hero-content-with-form-3",
@@ -1564,18 +1694,22 @@
         "https://www.nottingham.ac.uk/grace/researchdevelopment/",
         "https://www.nottingham.ac.uk/grace/sign-up-to-our-mailing-list.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/grace/researchdevelopment/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/grace/*"
     },
     {
       "name": "content-with-form-19",
       "urls": [
         "https://www.nottingham.ac.uk/grace/resources/glossariestutorials.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/grace/resources/glossariestutorials.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/grace/resources/*"
     },
     {
       "name": "media-rich-page",
@@ -1586,45 +1720,55 @@
         "https://www.nottingham.ac.uk/homeforeczema/patients/",
         "https://www.nottingham.ac.uk/homeforeczema/publications/home-publications.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/homeforeczema/clinical-practice-set.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Content page featuring embedded video/media alongside carousels or galleries",
-      "blocks": []
+      "urlPattern": "/homeforeczema/*"
     },
     {
       "name": "hero-content-page-18",
       "urls": [
         "https://www.nottingham.ac.uk/impetus/about.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/impetus/about.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/impetus/*"
     },
     {
       "name": "general-content-page-3",
       "urls": [
         "https://www.nottingham.ac.uk/impetus/academic-placements/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/impetus/academic-placements/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page with a mix of standard content blocks",
-      "blocks": []
+      "urlPattern": "/impetus/*"
     },
     {
       "name": "rich-text-page-9",
       "urls": [
         "https://www.nottingham.ac.uk/impetus/events-and-activities.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/impetus/events-and-activities.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/impetus/*"
     },
     {
       "name": "content-with-form-20",
       "urls": [
         "https://www.nottingham.ac.uk/impetus/phd-research-studentships.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/impetus/phd-research-studentships.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/impetus/*"
     },
     {
       "name": "content-with-form-7",
@@ -1635,9 +1779,11 @@
         "https://www.nottingham.ac.uk/indecon/news/dsc2014call.aspx",
         "https://www.nottingham.ac.uk/indecon/news/dsc2014prog.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/indecon/about.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/indecon/*"
     },
     {
       "name": "hero-content-with-form-4",
@@ -1645,9 +1791,11 @@
         "https://www.nottingham.ac.uk/innovationfellowships/",
         "https://www.nottingham.ac.uk/innovationfellowships/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/innovationfellowships/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-page-12",
@@ -1656,27 +1804,33 @@
         "https://www.nottingham.ac.uk/interpreggen/en/index.aspx",
         "https://www.nottingham.ac.uk/interpreggen/ru/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/interpreggen/en/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/interpreggen/*"
     },
     {
       "name": "rich-text-page-10",
       "urls": [
         "https://www.nottingham.ac.uk/interpreggen/en/news.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/interpreggen/en/news.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/interpreggen/en/*"
     },
     {
       "name": "rich-article-page-3",
       "urls": [
         "https://www.nottingham.ac.uk/isac/news-items/challenging-materials-from-lab-to-forest-with-biome-bioplastics.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/isac/news-items/challenging-materials-from-lab-to-forest-with-biome-bioplastics.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Long-form article layout mixing text with columns, quotes, tabs or embedded media",
-      "blocks": []
+      "urlPattern": "/isac/news-items/*"
     },
     {
       "name": "hero-cards-landing-2",
@@ -1687,12 +1841,13 @@
         "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/index.aspx",
         "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/plan-your-day/accessibility-and-inclusivity.aspx",
         "https://www.nottingham.ac.uk/open-days/undergraduate-open-days/plan-your-day/plan-your-day.aspx",
+        "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
         "https://www.nottingham.ac.uk/ugstudy/visitingus/",
         "https://www.nottingham.ac.uk/ugstudy/visitingus/visitingus.aspx",
         "https://www.nottingham.ac.uk/virtual/chat.aspx"
       ],
-      "coverageGaps": [],
-      "description": "Hero banner followed by a grid of cards and supporting content blocks",
+      "representativeUrl": "https://www.nottingham.ac.uk/isac/news-items/studying-tumour-metabolism-from-every-angle.aspx",
+      "description": "To be named in naming step",
       "blocks": [
         {
           "name": "hero-minimal-dark-2",
@@ -1714,7 +1869,6 @@
           ]
         }
       ],
-      "representativeUrl": "https://www.nottingham.ac.uk/ugstudy/visitingus/",
       "sections": [
         {
           "id": "s1",
@@ -1755,25 +1909,31 @@
           ],
           "defaultContent": []
         }
-      ]
+      ],
+      "coverageGaps": [],
+      "urlPattern": "/*"
     },
     {
       "name": "minimal-content-page-6",
       "urls": [
         "https://www.nottingham.ac.uk/kenya-nottingham/partners/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/kenya-nottingham/partners/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/kenya-nottingham/*"
     },
     {
       "name": "minimal-content-page-7",
       "urls": [
         "https://www.nottingham.ac.uk/kenya-nottingham/staff/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/kenya-nottingham/staff/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/kenya-nottingham/*"
     },
     {
       "name": "media-rich-page-3",
@@ -1783,18 +1943,22 @@
         "https://www.nottingham.ac.uk/lipp/language-gender-and-leadership-network/drama.aspx",
         "https://www.nottingham.ac.uk/lipp/online-cpd-courses/online-cpd-courses.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/lipp/index.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Content page featuring embedded video/media alongside carousels or galleries",
-      "blocks": []
+      "urlPattern": "/lipp/*"
     },
     {
       "name": "hero-content-page-19",
       "urls": [
         "https://www.nottingham.ac.uk/lipp/language-gender-and-leadership-network/narratives.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/lipp/language-gender-and-leadership-network/narratives.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/lipp/language-gender-and-leadership-network/*"
     },
     {
       "name": "rich-article-page-2",
@@ -1805,9 +1969,11 @@
         "https://www.nottingham.ac.uk/manufacturingfoodfutures/news/food-factory-2016.aspx",
         "https://www.nottingham.ac.uk/manufacturingfoodfutures/reports/presentations.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/manufacturingfoodfutures/events/epsrc-systems-change.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Long-form article layout mixing text with columns, quotes, tabs or embedded media",
-      "blocks": []
+      "urlPattern": "/manufacturingfoodfutures/*"
     },
     {
       "name": "hero-content-page-2",
@@ -1829,18 +1995,22 @@
         "https://www.nottingham.ac.uk/masi/work-with-us/",
         "https://www.nottingham.ac.uk/masi/work-with-us/contact-us.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/masi/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "minimal-content-page-8",
       "urls": [
         "https://www.nottingham.ac.uk/master-collaborative-non-uon/events/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/master-collaborative-non-uon/events/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/master-collaborative-non-uon/*"
     },
     {
       "name": "accordion-page-2",
@@ -1848,18 +2018,22 @@
         "https://www.nottingham.ac.uk/master-collaborative-non-uon/events/events.aspx",
         "https://www.nottingham.ac.uk/master-collaborative-non-uon/news/news.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/master-collaborative-non-uon/events/events.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Page whose main content is an accordion/expandable list, optionally with a contact form",
-      "blocks": []
+      "urlPattern": "/master-collaborative-non-uon/*"
     },
     {
       "name": "minimal-content-page-9",
       "urls": [
         "https://www.nottingham.ac.uk/master-collaborative-non-uon/news/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/master-collaborative-non-uon/news/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/master-collaborative-non-uon/*"
     },
     {
       "name": "general-content-page",
@@ -1870,9 +2044,11 @@
         "https://www.nottingham.ac.uk/mcddm/training/home.aspx",
         "https://www.nottingham.ac.uk/mcddm/virtual-tour.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/mcddm/events/2021-03-24-march-lecture.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page with a mix of standard content blocks",
-      "blocks": []
+      "urlPattern": "/mcddm/*"
     },
     {
       "name": "carousel-landing-page-2",
@@ -1883,9 +2059,11 @@
         "https://www.nottingham.ac.uk/midlands-innovation/news/2017-articles/radbuildingworks.aspx",
         "https://www.nottingham.ac.uk/midlands-innovation/news/news-2018.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/midlands-innovation/about-us/people/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing layout with a top carousel/feature banner, mixed content, and a form region",
-      "blocks": []
+      "urlPattern": "/midlands-innovation/*"
     },
     {
       "name": "card-grid-landing-2",
@@ -1897,9 +2075,11 @@
         "https://www.nottingham.ac.uk/myeplg/index.aspx",
         "https://www.nottingham.ac.uk/myeplg/newsletters.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/myeplg/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing page built primarily from a large grid of cards, often with a hero and supporting blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "media-rich-page-2",
@@ -1910,72 +2090,88 @@
         "https://www.nottingham.ac.uk/n-ready/contact-us/contact-us.aspx",
         "https://www.nottingham.ac.uk/n-ready/links/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/n-ready/about-us/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Content page featuring embedded video/media alongside carousels or galleries",
-      "blocks": []
+      "urlPattern": "/n-ready/*"
     },
     {
       "name": "minimal-content-page-10",
       "urls": [
         "https://www.nottingham.ac.uk/ngi/study-with-us/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/ngi/study-with-us/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/ngi/*"
     },
     {
       "name": "minimal-content-page-11",
       "urls": [
         "https://www.nottingham.ac.uk/npd/events/city-of-science-and-healthcare-innovation/innovation-showcase.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/npd/events/city-of-science-and-healthcare-innovation/innovation-showcase.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/npd/events/city-of-science-and-healthcare-innovation/*"
     },
     {
       "name": "minimal-content-page-12",
       "urls": [
         "https://www.nottingham.ac.uk/npd/in-review/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/npd/in-review/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/npd/*"
     },
     {
       "name": "minimal-content-page-13",
       "urls": [
         "https://www.nottingham.ac.uk/npd/media-galleries/nottingham-parliament-day-media.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/npd/media-galleries/nottingham-parliament-day-media.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/npd/media-galleries/*"
     },
     {
       "name": "minimal-content-page-14",
       "urls": [
         "https://www.nottingham.ac.uk/npd/what-is-nottingham-in-parliament-day/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/npd/what-is-nottingham-in-parliament-day/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/npd/*"
     },
     {
       "name": "minimal-content-page-15",
       "urls": [
         "https://www.nottingham.ac.uk/npd/what-is-nottingham-in-parliament-day/what-is-nottingham-in-parliament-day.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/npd/what-is-nottingham-in-parliament-day/what-is-nottingham-in-parliament-day.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/npd/what-is-nottingham-in-parliament-day/*"
     },
     {
       "name": "minimal-content-page-16",
       "urls": [
         "https://www.nottingham.ac.uk/nucleus/research-themes/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/nucleus/research-themes/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/nucleus/*"
     },
     {
       "name": "hero-content-page-8",
@@ -1986,18 +2182,22 @@
         "https://www.nottingham.ac.uk/virtual/eu-applications/entry-requirements.aspx",
         "https://www.nottingham.ac.uk/virtual/home-applications/entry-requirements.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/open-days/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-21",
       "urls": [
         "https://www.nottingham.ac.uk/open-days/video.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/open-days/video.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Standard content page with a sidebar or inline form (e.g. contact/enquiry)",
-      "blocks": []
+      "urlPattern": "/open-days/*"
     },
     {
       "name": "content-with-form-4",
@@ -2015,9 +2215,11 @@
         "https://www.nottingham.ac.uk/posnoc/resources-and-publications.aspx",
         "https://www.nottingham.ac.uk/posnoc/taking-part.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/posnoc/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Body content combined with a form region (contact/enquiry/sign-up)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "data-table-page",
@@ -2028,9 +2230,11 @@
         "https://www.nottingham.ac.uk/power-electronics/research-themes/publications-converters.aspx",
         "https://www.nottingham.ac.uk/power-electronics/what-is-power-electronics.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/power-electronics/about/member-institutions.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero followed by one or more data tables",
-      "blocks": []
+      "urlPattern": "/power-electronics/*"
     },
     {
       "name": "card-grid-landing",
@@ -2047,36 +2251,44 @@
         "https://www.nottingham.ac.uk/project-sage/research-unifiedtheory.aspx",
         "https://www.nottingham.ac.uk/project-sage/work-packages.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/project-sage/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Landing page built primarily from a large grid of cards, often with a hero and supporting blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "rich-text-page-11",
       "urls": [
         "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/transforming-our-food-systems.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/transforming-our-food-systems.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/science/schools-centres-and-institutes/food-systems-institute/news-and-activities/news/*"
     },
     {
       "name": "hero-content-page-20",
       "urls": [
         "https://www.nottingham.ac.uk/sciencepartnership/our-team/researchers-wp1.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/sciencepartnership/our-team/researchers-wp1.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/sciencepartnership/our-team/*"
     },
     {
       "name": "hero-content-page-21",
       "urls": [
         "https://www.nottingham.ac.uk/sciencepartnership/work-with-us/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/sciencepartnership/work-with-us/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/sciencepartnership/*"
     },
     {
       "name": "rich-text-page-8",
@@ -2084,9 +2296,11 @@
         "https://www.nottingham.ac.uk/sciencetechnologyandsociety/",
         "https://www.nottingham.ac.uk/sciencetechnologyandsociety/index.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/sciencetechnologyandsociety/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "rich-text-page-3",
@@ -2107,9 +2321,11 @@
         "https://www.nottingham.ac.uk/sciencetechnologyandsociety/multimedia.aspx",
         "https://www.nottingham.ac.uk/sciencetechnologyandsociety/people.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/sciencetechnologyandsociety/*"
     },
     {
       "name": "rich-text-page-6",
@@ -2118,9 +2334,11 @@
         "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/communicatinguncertainty.aspx",
         "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/publicattitudestofracking.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/climatechangeassocialissue.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "General content page composed of rich-text/content regions without distinct structured blocks",
-      "blocks": []
+      "urlPattern": "/sciencetechnologyandsociety/about/research-themes/energyandclimatechange/casestudies/*"
     },
     {
       "name": "minimal-content-page-2",
@@ -2131,9 +2349,11 @@
         "https://www.nottingham.ac.uk/scope/issues/2001/may.aspx",
         "https://www.nottingham.ac.uk/scope/issues/2004/may.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/scope/about.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/scope/*"
     },
     {
       "name": "hero-content-page-10",
@@ -2143,54 +2363,189 @@
         "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/mechanical-materials-and-manufacturing/students-union/",
         "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/natural-sciences/before-you-arrive/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/studentservices/welcome/school-and-department-welcome/mathematical-sciences/contact-us/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/studentservices/welcome/school-and-department-welcome/*"
+    },
+    {
+      "name": "minimal-content-page-4",
+      "urls": [
+        "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+        "https://www.nottingham.ac.uk/vision/",
+        "https://www.nottingham.ac.uk/vision/index.aspx"
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+      "description": "To be named in naming step",
+      "blocks": [
+        {
+          "name": "hero-minimal-dark-2",
+          "instances": [
+            ".heroSearch-component .hero-image-background"
+          ]
+        },
+        {
+          "name": "search-course-light",
+          "instances": [
+            ".heroSearch-component .search-block"
+          ]
+        },
+        {
+          "name": "cards-minimal-dark-withimg-5",
+          "instances": [
+            ".ctaTiles-component",
+            ".statsTilesBlock-component .tiles-block"
+          ]
+        },
+        {
+          "name": "cards-ranking-gold",
+          "instances": [
+            ".statsTilesBlock-component .stats-block"
+          ]
+        },
+        {
+          "name": "cards-promo-dark",
+          "instances": [
+            ".largeCards-component"
+          ]
+        }
+      ],
+      "coverageGaps": [],
+      "urlPattern": "/*",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Hero banner",
+          "selector": [
+            ".heroSearch-component .hero-image-background",
+            ".heroSearch-component"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s2",
+          "name": "Course finder + intro band",
+          "selector": [
+            ".heroSearch-component .search-block"
+          ],
+          "style": "dark",
+          "blocks": [
+            "search-course-light"
+          ],
+          "defaultContent": [
+            ".search-block .search-col.mb-5"
+          ]
+        },
+        {
+          "id": "s3",
+          "name": "Study options tile grid",
+          "selector": [
+            ".ctaTiles-component"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-minimal-dark-withimg-5"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s4",
+          "name": "#WeAreUoN stats + campus tiles",
+          "selector": [
+            ".statsTilesBlock-component"
+          ],
+          "style": "highlight",
+          "blocks": [
+            "cards-ranking-gold",
+            "cards-minimal-dark-withimg-5"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "Why study / career promo cards",
+          "selector": [
+            ".largeCards-component"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s6",
+          "name": "Bottom call-to-action links",
+          "selector": [
+            ".multiCTAStrip-component"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".multiCTAStrip-component .cta"
+          ]
+        }
+      ]
     },
     {
       "name": "minimal-content-page-17",
       "urls": [
         "https://www.nottingham.ac.uk/thank-you/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/thank-you/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-page-22",
       "urls": [
         "https://www.nottingham.ac.uk/ugstudy/include/kis-how-to-use-data.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/ugstudy/include/kis-how-to-use-data.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner followed by body text/content sections",
-      "blocks": []
+      "urlPattern": "/ugstudy/include/*"
     },
     {
       "name": "minimal-content-page-18",
       "urls": [
         "https://www.nottingham.ac.uk/utc-manuonwingtech/images-multimedia/utclogo.bmp"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/utc-manuonwingtech/images-multimedia/utclogo.bmp",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/utc-manuonwingtech/images-multimedia/*"
     },
     {
       "name": "minimal-content-page-19",
       "urls": [
         "https://www.nottingham.ac.uk/utc-manuonwingtech/research/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/utc-manuonwingtech/research/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/utc-manuonwingtech/*"
     },
     {
       "name": "minimal-content-page-20",
       "urls": [
         "https://www.nottingham.ac.uk/utc-manuonwingtech/research/mechatronics/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/utc-manuonwingtech/research/mechatronics/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/utc-manuonwingtech/research/*"
     },
     {
       "name": "media-embed-page",
@@ -2199,19 +2554,11 @@
         "https://www.nottingham.ac.uk/virtual/index.aspx",
         "https://www.nottingham.ac.uk/virtual/lectures.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/virtual/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Page centred on embedded media (video/iframe) with minimal supporting content",
-      "blocks": []
-    },
-    {
-      "name": "minimal-content-page-4",
-      "urls": [
-        "https://www.nottingham.ac.uk/vision/",
-        "https://www.nottingham.ac.uk/vision/index.aspx"
-      ],
-      "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "minimal-content-page",
@@ -2225,9 +2572,11 @@
         "https://www.nottingham.ac.uk/vision/sustainable-futures/",
         "https://www.nottingham.ac.uk/vision/sustainable-futures/sustainable-futures.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/vision/culture-communication/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/vision/*"
     },
     {
       "name": "minimal-content-page-5",
@@ -2235,18 +2584,22 @@
         "https://www.nottingham.ac.uk/vision/issues/2018/summer.aspx",
         "https://www.nottingham.ac.uk/vision/issues/2018/winter.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/vision/issues/2018/summer.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/vision/issues/2018/*"
     },
     {
       "name": "minimal-content-page-21",
       "urls": [
         "https://www.nottingham.ac.uk/vision/issues/2019/summer.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/vision/issues/2019/summer.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/vision/issues/2019/*"
     },
     {
       "name": "content-with-form-10",
@@ -2254,18 +2607,194 @@
         "https://www.nottingham.ac.uk/vision/subscribe/",
         "https://www.nottingham.ac.uk/vision/subscribe/subscribe.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/vision/subscribe/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Body content combined with a form region (contact/enquiry/sign-up)",
-      "blocks": []
+      "urlPattern": "/vision/*"
+    },
+    {
+      "name": "degree-apprenticeships",
+      "urls": [
+        "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx"
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx",
+      "description": "Degree Apprenticeships landing page: hero carousel, intro, employer/apprentice nav cards, credibility icon strip, programme overview + video, vacancies promo, news/events tiles, question-zone promo, and connect CTAs.",
+      "blocks": [
+        {
+          "name": "carousel-hero-dark",
+          "instances": [
+            ".banner.cycle"
+          ]
+        },
+        {
+          "name": "cards-nav-light",
+          "instances": [
+            ".sys_twoColumns5050:has(.card)"
+          ]
+        },
+        {
+          "name": "cards-icon-light",
+          "instances": [
+            ".sys_fourColumns"
+          ]
+        },
+        {
+          "name": "columns-video-light",
+          "instances": [
+            ".sys_twoColumns5050:has(.kalturaEmbed)"
+          ]
+        },
+        {
+          "name": "cards-promo-dark",
+          "instances": [
+            ".sys_twoColumns5050:not(:has(.card)):not(:has(.kalturaEmbed))",
+            ".sys_twoColumns_3070"
+          ]
+        },
+        {
+          "name": "cards-minimal-dark-withimg-5",
+          "instances": [
+            ".sys_threeColumns:has(.sys_CTA-ImageAndTextBlock)"
+          ]
+        }
+      ],
+      "urlPattern": "/workingwithbusiness/degree-apprenticeships/*",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "Page title",
+          "selector": [
+            ".breadcrumbs + *",
+            "h1"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "h1"
+          ]
+        },
+        {
+          "id": "s2",
+          "name": "Hero banner carousel",
+          "selector": [
+            ".banner.cycle"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel-hero-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s3",
+          "name": "Intro lead paragraph",
+          "selector": [
+            ".sys_twoColumns5050:has(.card)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "s4",
+          "name": "For employers / apprentices tiles",
+          "selector": [
+            ".sys_twoColumns5050:has(.card)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-nav-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s5",
+          "name": "Ranking / credibility strip",
+          "selector": [
+            ".sys_fourColumns"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-icon-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s6",
+          "name": "Programme overview + video",
+          "selector": [
+            ".sys_twoColumns5050:has(.kalturaEmbed)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-video-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s7",
+          "name": "Vacancies promo",
+          "selector": [
+            ".sys_twoColumns5050:not(:has(.card)):not(:has(.kalturaEmbed))"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s8",
+          "name": "Latest news and events tiles",
+          "selector": [
+            ".sys_threeColumns:has(.sys_CTA-ImageAndTextBlock)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-minimal-dark-withimg-5"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s9",
+          "name": "Question zone promo",
+          "selector": [
+            ".sys_twoColumns_3070"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s10",
+          "name": "Connect CTA row",
+          "selector": [
+            ".sys_threeColumns:has(.CTA-LinkedIn)",
+            ".sys_threeColumns:not(:has(.sys_CTA-ImageAndTextBlock))"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".CTA-LinkedIn",
+            ".CTA-Twitter",
+            ".CTA-ArrowRoundRight"
+          ]
+        }
+      ]
     },
     {
       "name": "media-rich-page-5",
       "urls": [
         "https://www.nottingham.ac.uk/yes/cases/richard-gibbs.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/yes/cases/richard-gibbs.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Content page featuring embedded video/media alongside carousels or galleries",
-      "blocks": []
+      "urlPattern": "/yes/cases/*"
     },
     {
       "name": "media-rich-page-4",
@@ -2274,36 +2803,44 @@
         "https://www.nottingham.ac.uk/yes/index.aspx",
         "https://www.nottingham.ac.uk/yes/technicians.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/yes/express-an-interest-yes2026.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Content page featuring embedded video/media alongside carousels or galleries",
-      "blocks": []
+      "urlPattern": "/yes/*"
     },
     {
       "name": "media-rich-page-6",
       "urls": [
         "https://www.nottingham.ac.uk/yes/news/innovating-wellness.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/yes/news/innovating-wellness.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Content page featuring embedded video/media alongside carousels or galleries",
-      "blocks": []
+      "urlPattern": "/yes/news/*"
     },
     {
       "name": "minimal-content-page-22",
       "urls": [
         "https://www.nottingham.ac.uk/zero-carbon/"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/zero-carbon/",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Sparse page with no detectable content blocks (plain text or navigation-only layout)",
-      "blocks": []
+      "urlPattern": "/*"
     },
     {
       "name": "hero-content-with-form-10",
       "urls": [
         "https://www.nottingham.ac.uk/zero-carbon/blogs/next-gen-single-aisle-aircraft.aspx"
       ],
+      "representativeUrl": "https://www.nottingham.ac.uk/zero-carbon/blogs/next-gen-single-aisle-aircraft.aspx",
+      "description": "To be named in naming step",
+      "blocks": [],
       "coverageGaps": [],
-      "description": "Hero banner with body content and a sidebar/contact form",
-      "blocks": []
+      "urlPattern": "/zero-carbon/blogs/*"
     }
   ],
   "metadata": {
