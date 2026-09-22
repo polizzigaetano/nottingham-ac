@@ -251,6 +251,18 @@
     ]
   },
   {
+    "id": "cards-promo-light-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text (heading, description, CTA)",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "cards-ranking-gold-item",
     "fields": [
       {
@@ -258,6 +270,18 @@
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "cards-steps-light-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text (title, description, CTA)",
         "valueType": "string"
       }
     ]
@@ -398,6 +422,25 @@
     ]
   },
   {
+    "id": "columns-withimg-light",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -475,6 +518,24 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "nav-anchor-light-item",
+    "fields": [
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "linkText",
+        "label": "Link text",
+        "value": ""
       }
     ]
   },

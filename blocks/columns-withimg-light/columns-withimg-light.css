@@ -1,0 +1,127 @@
+/* Columns (with image, light) — light two-column feature banner: a text panel
+ * (navy serif heading + paragraphs + gold pill CTA) beside a large photographic
+ * image that bleeds flush to the text (no gap, full-bleed height). Stacked on
+ * mobile, side-by-side (image left / text right) at desktop — matching the
+ * source feature-block--reverse. Values extracted from source computed styles. */
+
+.columns-withimg-light > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: stretch;
+}
+
+/* --- Text panel --- */
+.columns-withimg-light .columns-withimg-light-content-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 32px 24px;
+}
+
+.columns-withimg-light .columns-withimg-light-content-col > *:first-child {
+  margin-top: 0;
+}
+
+.columns-withimg-light .columns-withimg-light-content-col h2,
+.columns-withimg-light .columns-withimg-light-content-col h3 {
+  margin: 0 0 24px;
+  font-family: var(--heading-font-family, serif);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--uon-navy, #10263b);
+}
+
+.columns-withimg-light .columns-withimg-light-content-col p {
+  margin: 0 0 20px;
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--uon-navy, #10263b);
+}
+
+.columns-withimg-light .columns-withimg-light-content-col p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Gold pill CTA (source uses a plain standalone link, not an EDS button) --- */
+.columns-withimg-light .columns-withimg-light-content-col p > a:only-child:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  border: 0;
+  border-radius: 54px;
+  padding: 18px 40px;
+  background-color: var(--uon-gold, #deb406);
+  color: var(--uon-navy, #10263b);
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.columns-withimg-light .columns-withimg-light-content-col p > a:only-child:any-link:hover,
+.columns-withimg-light .columns-withimg-light-content-col p > a:only-child:any-link:focus-visible {
+  background-color: #c99f05;
+  color: var(--uon-navy, #10263b);
+  text-decoration: none;
+}
+
+/* --- Image column (full-bleed, fills full panel height) --- */
+.columns-withimg-light .columns-withimg-light-img-col {
+  margin: 0;
+}
+
+.columns-withimg-light .columns-withimg-light-img-col picture {
+  display: block;
+  height: 100%;
+}
+
+.columns-withimg-light .columns-withimg-light-img-col img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .columns-withimg-light > div {
+    flex-direction: row;
+  }
+
+  .columns-withimg-light .columns-withimg-light-content-col,
+  .columns-withimg-light .columns-withimg-light-img-col {
+    flex: 1 1 0;
+    width: 50%;
+    min-width: 0;
+  }
+
+  /* source feature-block--reverse: image on the left, text on the right */
+  .columns-withimg-light .columns-withimg-light-img-col {
+    order: -1;
+  }
+
+  .columns-withimg-light .columns-withimg-light-content-col {
+    padding: 48px 56px;
+  }
+
+  .columns-withimg-light .columns-withimg-light-content-col h2,
+  .columns-withimg-light .columns-withimg-light-content-col h3 {
+    font-size: 42px;
+    margin-bottom: 28px;
+  }
+
+  .columns-withimg-light .columns-withimg-light-content-col p {
+    font-size: 22px;
+  }
+
+  .columns-withimg-light .columns-withimg-light-img-col img {
+    min-height: 100%;
+  }
+}

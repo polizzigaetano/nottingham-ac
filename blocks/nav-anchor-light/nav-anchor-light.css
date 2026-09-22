@@ -1,0 +1,75 @@
+/* Nav (anchor, light) — light horizontal section-navigation bar.
+ * A single row of links; scrolls horizontally on narrow screens.
+ * Visual design extracted from the source .sub-nav: navy bold links on a
+ * light/cream bar, subtle grey hover fill, gold underline on the current page.
+ * Decorated DOM: nav.nav-anchor-light-bar > ul.nav-anchor-light-list
+ *   > li.nav-anchor-light-item > p > a
+ */
+
+.nav-anchor-light .nav-anchor-light-bar {
+  background-color: var(--uon-cream, #faf6ef);
+}
+
+.nav-anchor-light .nav-anchor-light-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  max-width: 1200px;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nav-anchor-light .nav-anchor-light-list::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-anchor-light .nav-anchor-light-item {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+/* EDS wraps each authored link in a <p>; strip its default block margins. */
+.nav-anchor-light .nav-anchor-light-item > p {
+  margin: 0;
+}
+
+.nav-anchor-light .nav-anchor-light-item a:any-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 3px solid transparent;
+  color: var(--uon-navy, #10263b);
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+/* subtle grey fill on hover (source: rgb(243, 244, 245)), text stays navy */
+.nav-anchor-light .nav-anchor-light-item a:hover,
+.nav-anchor-light .nav-anchor-light-item a:focus-visible {
+  background-color: #f3f4f5;
+  color: var(--uon-navy, #10263b);
+  text-decoration: none;
+}
+
+/* active / current-page link — brand gold underline indicator */
+.nav-anchor-light .nav-anchor-light-active:any-link,
+.nav-anchor-light a.nav-anchor-light-active:hover {
+  border-bottom-color: var(--uon-gold, #deb406);
+  background-color: transparent;
+}
+
+@media (width >= 900px) {
+  .nav-anchor-light .nav-anchor-light-list {
+    gap: 32px;
+    padding: 24px 40px;
+  }
+}

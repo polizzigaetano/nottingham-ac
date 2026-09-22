@@ -661,10 +661,8 @@
         "https://www.nottingham.ac.uk/wrc/research-areas/hybrid-wheat-production.aspx"
       ],
       "representativeUrl": "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
-      "description": "Generic rich-text content page: heading, paragraphs, lists, links and related items — all default content, no interactive blocks.",
+      "description": "To be named in naming step",
       "blocks": [],
-      "coverageGaps": [],
-      "urlPattern": "/*",
       "sections": [
         {
           "id": "s1",
@@ -678,7 +676,9 @@
             "#serviceDetail"
           ]
         }
-      ]
+      ],
+      "coverageGaps": [],
+      "urlPattern": "/*"
     },
     {
       "name": "search-landing-page",
@@ -2177,16 +2177,165 @@
       "name": "hero-content-page-8",
       "urls": [
         "https://www.nottingham.ac.uk/open-days/",
+        "https://www.nottingham.ac.uk/study/campus-visit/open-days.html",
         "https://www.nottingham.ac.uk/ugstudy/visitingus/opendays/",
         "https://www.nottingham.ac.uk/ugstudy/visitingus/opendays/opendays.aspx",
         "https://www.nottingham.ac.uk/virtual/eu-applications/entry-requirements.aspx",
         "https://www.nottingham.ac.uk/virtual/home-applications/entry-requirements.aspx"
       ],
       "representativeUrl": "https://www.nottingham.ac.uk/open-days/",
-      "description": "To be named in naming step",
-      "blocks": [],
+      "description": "Open Days landing page: hero + section-nav bar, breadcrumb, What-to-expect (light img+text), Accessibility (dark img+text), On-the-day numbered steps, Download-the-app (dark), 3-up light promo cards, and a ready-to-experience banner.",
+      "blocks": [
+        {
+          "name": "hero-minimal-dark-2",
+          "instances": [
+            ".featureblock.feature-block--dark-bg.feature-block--standard"
+          ]
+        },
+        {
+          "name": "nav-anchor-light",
+          "instances": [
+            ".sub-nav"
+          ]
+        },
+        {
+          "name": "columns-withimg-light",
+          "instances": [
+            ".featureblock.feature-block--reverse"
+          ]
+        },
+        {
+          "name": "columns-minimal-dark-withimg-2",
+          "instances": [
+            ".featureblock.feature-block--dark-bg:not(.feature-block--standard)",
+            ".cmp-container--blue.cmp-internal:has(a[href*=\"apps.apple\"])"
+          ]
+        },
+        {
+          "name": "cards-steps-light",
+          "instances": [
+            ".card-list"
+          ]
+        },
+        {
+          "name": "cards-promo-light",
+          "instances": [
+            ".featureblock.feature-block--white-bg"
+          ]
+        }
+      ],
       "coverageGaps": [],
-      "urlPattern": "/*"
+      "urlPattern": "/*",
+      "sections": [
+        {
+          "id": "s2",
+          "name": "Hero",
+          "selector": [
+            ".featureblock.feature-block--dark-bg.feature-block--standard"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s3",
+          "name": "Section nav bar",
+          "selector": [
+            ".sub-nav"
+          ],
+          "style": null,
+          "blocks": [
+            "nav-anchor-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s4",
+          "name": "Breadcrumb",
+          "selector": [
+            ".breadcrumbs"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".cmp-breadcrumbs__list"
+          ]
+        },
+        {
+          "id": "s5",
+          "name": "What to expect",
+          "selector": [
+            ".featureblock.feature-block--reverse"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-withimg-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s6",
+          "name": "Accessibility",
+          "selector": [
+            ".featureblock.feature-block--dark-bg:not(.feature-block--standard)"
+          ],
+          "style": "dark",
+          "blocks": [
+            "columns-minimal-dark-withimg-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s7",
+          "name": "On the day (steps)",
+          "selector": [
+            ".card-list"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-steps-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s8",
+          "name": "Download the app",
+          "selector": [
+            ".cmp-container--blue.cmp-internal:has(a[href*=\"apps.apple\"])"
+          ],
+          "style": "dark",
+          "blocks": [
+            "columns-minimal-dark-withimg-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s9",
+          "name": "Promo cards",
+          "selector": [
+            ".featureblock.feature-block--white-bg"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s10",
+          "name": "Ready-to-experience banner",
+          "selector": [
+            ".promoCard-banner"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".promoCard-content"
+          ]
+        }
+      ]
     },
     {
       "name": "content-with-form-21",
@@ -2411,8 +2560,6 @@
           ]
         }
       ],
-      "coverageGaps": [],
-      "urlPattern": "/*",
       "sections": [
         {
           "id": "s1",
@@ -2490,7 +2637,9 @@
             ".multiCTAStrip-component .cta"
           ]
         }
-      ]
+      ],
+      "coverageGaps": [],
+      "urlPattern": "/*"
     },
     {
       "name": "minimal-content-page-17",
@@ -2619,7 +2768,7 @@
         "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx"
       ],
       "representativeUrl": "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx",
-      "description": "Degree Apprenticeships landing page: hero carousel, intro, employer/apprentice nav cards, credibility icon strip, programme overview + video, vacancies promo, news/events tiles, question-zone promo, and connect CTAs.",
+      "description": "To be named in naming step",
       "blocks": [
         {
           "name": "carousel-hero-dark",
@@ -2659,7 +2808,6 @@
           ]
         }
       ],
-      "urlPattern": "/workingwithbusiness/degree-apprenticeships/*",
       "sections": [
         {
           "id": "s1",
@@ -2783,7 +2931,8 @@
             ".CTA-ArrowRoundRight"
           ]
         }
-      ]
+      ],
+      "urlPattern": "/workingwithbusiness/degree-apprenticeships/*"
     },
     {
       "name": "media-rich-page-5",

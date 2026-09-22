@@ -1,0 +1,16 @@
+{
+  "variantName": "cards-steps-light",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Vertical list of numbered step rows on a light background. Each row has an auto-incrementing circular number marker (gold), a serif title, supporting text and an optional CTA button/link.",
+  "contentPattern": "One row per step: a single rich-text cell containing the step title, description and optional CTA link. Numbers are generated automatically in document order.",
+  "usage": {
+    "documentPaths": [
+      "/study/campus-visit/open-days"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-steps-light"
+  ]
+}

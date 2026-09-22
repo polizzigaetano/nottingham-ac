@@ -28,7 +28,11 @@
       "carousel-hero-dark",
       "cards-nav-light",
       "cards-icon-light",
-      "columns-video-light"
+      "columns-video-light",
+      "nav-anchor-light",
+      "columns-withimg-light",
+      "cards-steps-light",
+      "cards-promo-light"
     ]
   },
   {
@@ -62,9 +66,21 @@
     ]
   },
   {
+    "id": "cards-promo-light",
+    "components": [
+      "cards-promo-light-item"
+    ]
+  },
+  {
     "id": "cards-ranking-gold",
     "components": [
       "cards-ranking-gold-item"
+    ]
+  },
+  {
+    "id": "cards-steps-light",
+    "components": [
+      "cards-steps-light-item"
     ]
   },
   {
@@ -122,6 +138,21 @@
     ]
   },
   {
+    "id": "columns-withimg-light",
+    "components": [
+      "column"
+    ]
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
@@ -134,6 +165,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "nav-anchor-light",
+    "components": [
+      "nav-anchor-light-item"
     ]
   }
 ]

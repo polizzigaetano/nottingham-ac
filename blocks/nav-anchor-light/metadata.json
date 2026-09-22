@@ -1,0 +1,16 @@
+{
+  "variantName": "nav-anchor-light",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Light horizontal section-navigation bar on a cream/beige background; a single row of navy text links that scrolls horizontally on narrow screens. The current-page link is underlined in gold.",
+  "contentPattern": "One row per link: each row is a single link (label + href). The block marks the link matching the current page as active.",
+  "usage": {
+    "documentPaths": [
+      "/study/campus-visit/open-days"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "nav-anchor-light"
+  ]
+}

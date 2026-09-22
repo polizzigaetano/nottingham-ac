@@ -1,0 +1,16 @@
+{
+  "variantName": "columns-withimg-light",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Light two-column feature banner: a text panel (navy serif heading + paragraphs + CTA button) beside a large photographic image, on a light/beige background. Stacks on mobile, side-by-side at desktop. Light sibling of columns-minimal-dark-withimg-2. Supports a reverse (image-first) layout.",
+  "contentPattern": "One row, two cells: a content cell (heading, paragraphs, CTA) and an image cell.",
+  "usage": {
+    "documentPaths": [
+      "/study/campus-visit/open-days"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-withimg-light"
+  ]
+}
