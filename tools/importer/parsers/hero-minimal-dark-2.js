@@ -7,6 +7,58 @@
  * Model fields: image (Background Image), imageAlt (collapsed into alt), text.
  */
 export default function parse(element, { document }) {
+  // Mode B: Open Days feature-block hero (.feature-block--dark-bg.feature-block--standard).
+  // Content lives in .feature-block__text (eyebrow h2 + heading/date paragraphs + CTA),
+  // image/video poster in .feature-block__media (a Scene7 DM <img>).
+  const fbText = element.querySelector('.feature-block__text');
+  const fbMedia = element.querySelector('.feature-block__media');
+  if (fbText || fbMedia) {
+    const fbImage = (fbMedia || element).querySelector(
+      '.video-fullWidth__img, .image-container img, img',
+    );
+
+    const contentCell = [document.createComment(' field:text ')];
+    // Eyebrow / section label (h2.text-container__title).
+    const eyebrow = fbText && fbText.querySelector('.text-container__title, h1, h2, h3');
+    if (eyebrow && eyebrow.textContent.trim()) contentCell.push(eyebrow);
+    // Heading + date paragraphs.
+    const fbParas = fbText
+      ? Array.from(fbText.querySelectorAll('.text-container__text p, .feature-block__text-content p'))
+        .filter((p) => p.textContent.trim())
+      : [];
+    fbParas.forEach((p) => contentCell.push(p));
+    // CTA button.
+    const fbCta = fbText && fbText.querySelector(
+      '.text-container__button-component a[href], .button-component a[href], a.button[href]',
+    );
+    if (fbCta) {
+      const a = document.createElement('a');
+      a.setAttribute('href', fbCta.getAttribute('href'));
+      a.textContent = (fbCta.textContent || '').replace(/\s+/g, ' ').trim();
+      contentCell.push(a);
+    }
+
+    if (contentCell.length === 1 && !fbImage) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const fbCells = [];
+    // Row 2: background image (field:image). imageAlt collapses into the <img> alt.
+    if (fbImage) {
+      fbCells.push([[document.createComment(' field:image '), fbImage]]);
+    } else {
+      fbCells.push(['']);
+    }
+    // Row 3: content (field:text).
+    fbCells.push([contentCell]);
+
+    const fbBlock = WebImporter.Blocks.createBlock(document, { name: 'hero-minimal-dark-2', cells: fbCells });
+    element.replaceWith(fbBlock);
+    return;
+  }
+
+  // Mode A: homepage / study-with-us banner hero.
   // Background image: prefer the desktop banner image, fall back to any banner image.
   // Study-with-us (.heroSearch-component .hero-image-background) exposes the background
   // as a bare <img> directly under the anchor, covered by the trailing `img` fallback.

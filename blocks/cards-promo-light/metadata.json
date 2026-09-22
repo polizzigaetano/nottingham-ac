@@ -1,0 +1,16 @@
+{
+  "variantName": "cards-promo-light",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "A row of light, text-only promo cards (typically 3-up on desktop): white card with a navy serif heading, a short paragraph and a CTA link. No images. Light sibling of cards-promo-dark.",
+  "contentPattern": "One row per card: a single rich-text cell containing the heading, description and CTA link.",
+  "usage": {
+    "documentPaths": [
+      "/study/campus-visit/open-days"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-promo-light"
+  ]
+}

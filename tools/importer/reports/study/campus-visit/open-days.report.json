@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/study/campus-visit/open-days.html",
+  "path": "study/campus-visit/open-days",
+  "timestamp": "2026-09-22T13:12:29.260Z",
+  "title": "Open days",
+  "template": "hero-content-page-8",
+  "blocks": [
+    "hero-minimal-dark-2",
+    "nav-anchor-light",
+    "columns-withimg-light",
+    "columns-minimal-dark-withimg-2",
+    "columns-minimal-dark-withimg-2",
+    "cards-steps-light",
+    "cards-promo-light",
+    "cards-promo-light",
+    "cards-promo-light"
+  ]
+}

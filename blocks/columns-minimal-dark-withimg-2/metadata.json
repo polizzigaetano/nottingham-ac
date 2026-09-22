@@ -10,10 +10,11 @@
   "contentPattern": "Two-column feature banner: text column (heading + paragraph + CTA) and a large image column",
   "usage": {
     "pagesUsing": [
-      "/ugstudy/visitingus/index"
+      "/ugstudy/visitingus/index",
+      "/study/campus-visit/open-days"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-09-13T11:20:19.556449Z",
+    "reuseCount": 2,
+    "lastUsed": "2026-09-22T12:40:53.387Z",
     "note": "Homepage research feature banner"
   },
   "options": [],

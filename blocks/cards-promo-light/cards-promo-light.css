@@ -1,0 +1,122 @@
+/* Cards (promo, light) — a row of light, text-only promo cards
+ * (heading + paragraph + CTA). Values extracted from the University of
+ * Nottingham open-days page (white cards on a cream band, navy serif
+ * headings, full-width outline-pill CTAs). Scoped to .cards-promo-light,
+ * mobile-first with a 3-up grid from 900px.
+ *
+ * NOTE: on this page each source card is authored as its own
+ * cards-promo-light instance, so the three cards are separate blocks that
+ * sit next to each other inside .cards-promo-light-container. The container
+ * therefore owns the cream band + the 3-up grid; the block owns a single
+ * card. */
+
+/* --- Section band: cream background + 3-up grid of card instances --- */
+.cards-promo-light-container {
+  background-color: var(--uon-cream, #faf6ef);
+  display: grid;
+  gap: 24px;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+/* neutralise the default `.section > div` max-width/centering that each
+ * wrapper would otherwise inherit, so the grid controls the layout */
+.cards-promo-light-container > .cards-promo-light-wrapper {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* stretch the instance -> block -> list -> card chain to full row height so
+ * side-by-side cards are equal height */
+.cards-promo-light-container > .cards-promo-light-wrapper,
+.cards-promo-light,
+.cards-promo-light .cards-promo-light-list,
+.cards-promo-light .cards-promo-light-card {
+  height: 100%;
+}
+
+/* --- List (single card per instance) --- */
+.cards-promo-light .cards-promo-light-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* --- Card --- */
+.cards-promo-light .cards-promo-light-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 40px;
+  background-color: #fff;
+  color: var(--uon-navy, #10263b);
+}
+
+.cards-promo-light .cards-promo-light-card > *:first-child {
+  margin-top: 0;
+}
+
+/* --- Heading (navy serif, weight 400, tight tracking) --- */
+.cards-promo-light .cards-promo-light-card h2,
+.cards-promo-light .cards-promo-light-card h3 {
+  margin: 0 0 24px;
+  font-family: var(--heading-font-family, serif);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--uon-navy, #10263b);
+}
+
+/* --- Paragraph --- */
+.cards-promo-light .cards-promo-light-card p {
+  margin: 0;
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--uon-navy, #10263b);
+}
+
+/* --- CTA: full-width outline pill (anchor is not .button-decorated) --- */
+.cards-promo-light .cards-promo-light-card p:last-child {
+  margin-top: 24px;
+}
+
+.cards-promo-light .cards-promo-light-card a:any-link {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 18px 34px;
+  border: 1px solid rgb(207 212 216);
+  border-radius: 54px;
+  color: var(--uon-navy, #10263b);
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cards-promo-light .cards-promo-light-card a:hover,
+.cards-promo-light .cards-promo-light-card a:focus-visible {
+  border-color: var(--uon-navy, #10263b);
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .cards-promo-light-container {
+    grid-template-columns: repeat(3, minmax(0, 400px));
+    gap: 40px;
+    padding: 56px 32px;
+  }
+
+  .cards-promo-light .cards-promo-light-card h2,
+  .cards-promo-light .cards-promo-light-card h3 {
+    font-size: 42px;
+  }
+}

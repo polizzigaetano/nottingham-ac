@@ -1,0 +1,121 @@
+/* Cards (steps, light) — vertical numbered step rows on a light background.
+ * Each row: a circular number marker + a body (title, text, CTA).
+ * Visual design extracted from nottingham.ac.uk .card-list. */
+
+.cards-steps-light .cards-steps-light-list {
+  counter-reset: step;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cards-steps-light .cards-steps-light-step {
+  counter-increment: step;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  background-color: rgb(243 244 245);
+  border: 1px solid rgb(207 212 216);
+  border-radius: 0;
+}
+
+/* Circular number marker — pale gold disc with a navy numeral. */
+.cards-steps-light .cards-steps-light-number {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(242 225 155);
+  color: var(--uon-navy, #10263b);
+  font-family: var(--body-font-family, sans-serif);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.24px;
+}
+
+.cards-steps-light .cards-steps-light-number::before {
+  content: counter(step);
+}
+
+.cards-steps-light .cards-steps-light-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.cards-steps-light .cards-steps-light-body > *:first-child {
+  margin-top: 0;
+}
+
+.cards-steps-light .cards-steps-light-body h2,
+.cards-steps-light .cards-steps-light-body h3 {
+  margin: 0;
+  font-family: var(--heading-font-family, serif);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: -0.16px;
+  color: var(--uon-navy, #10263b);
+}
+
+.cards-steps-light .cards-steps-light-body p {
+  margin: 0;
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  line-height: 1.375;
+  color: var(--uon-navy, #10263b);
+}
+
+/* CTA — white outline pill matching the source button--secondary button--outline.
+ * The source link is a single <a> in its own <p>; style both the plain link
+ * and the EDS-decorated .button variant. */
+.cards-steps-light .cards-steps-light-body p:has(> a:only-child) {
+  margin-top: 16px;
+}
+
+.cards-steps-light .cards-steps-light-body p:has(> a:only-child) > a:any-link,
+.cards-steps-light .cards-steps-light-body a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  border: 1px solid rgb(207 212 216);
+  border-radius: 54px;
+  background-color: #fff;
+  color: var(--uon-navy, #10263b);
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+}
+
+.cards-steps-light .cards-steps-light-body p:has(> a:only-child) > a:any-link:hover,
+.cards-steps-light .cards-steps-light-body p:has(> a:only-child) > a:any-link:focus-visible,
+.cards-steps-light .cards-steps-light-body a.button:any-link:hover,
+.cards-steps-light .cards-steps-light-body a.button:any-link:focus-visible {
+  border-color: var(--uon-navy, #10263b);
+  background-color: #fff;
+  color: var(--uon-navy, #10263b);
+}
+
+@media (width >= 900px) {
+  .cards-steps-light .cards-steps-light-step {
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .cards-steps-light .cards-steps-light-body h2,
+  .cards-steps-light .cards-steps-light-body h3 {
+    font-size: 32px;
+  }
+}
