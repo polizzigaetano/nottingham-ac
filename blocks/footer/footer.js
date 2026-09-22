@@ -3,6 +3,39 @@
 // /footer.plain.html; this file only reads that DOM and lays it out.
 
 /**
+ * Rebuilds a paragraph authored as "- <a>...</a> - <a>...</a>" (links
+ * separated by literal dash text, copied from a source site that only
+ * added the dash visually via CSS) into a real <ul><li> list, so it renders
+ * through the same list styling as an authored <ul>.
+ * @param {Element} p
+ * @returns {Element} ul
+ */
+function dashParagraphToList(p) {
+  const ul = document.createElement('ul');
+  let li = null;
+  const openItem = () => {
+    li = document.createElement('li');
+    ul.append(li);
+  };
+  [...p.childNodes].forEach((node) => {
+    if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'A') {
+      if (!li) openItem();
+      li.append(node.cloneNode(true));
+      return;
+    }
+    node.textContent.split('-').forEach((part, i) => {
+      if (i > 0) openItem();
+      const text = part.trim();
+      if (text) {
+        if (!li) openItem();
+        li.append(document.createTextNode(text));
+      }
+    });
+  });
+  return ul;
+}
+
+/**
  * loads and decorates the footer
  * @param {Element} block The footer block element
  */
@@ -38,9 +71,17 @@ export default async function decorate(block) {
     const contact = document.createElement('div');
     contact.className = 'footer-contact';
     [...sections[0].children].forEach((node) => {
-      const clone = node.cloneNode(true);
-      if (node.tagName === 'UL') clone.className = 'footer-social';
-      contact.append(clone);
+      if (node.tagName === 'UL') {
+        const clone = node.cloneNode(true);
+        clone.className = 'footer-social';
+        contact.append(clone);
+      } else if (node.tagName === 'P' && node.querySelector('a')) {
+        const list = dashParagraphToList(node);
+        list.className = 'footer-social';
+        contact.append(list);
+      } else {
+        contact.append(node.cloneNode(true));
+      }
     });
     top.append(contact);
   }
@@ -57,7 +98,10 @@ export default async function decorate(block) {
         currentCol.append(node.cloneNode(true));
         cols.append(currentCol);
       } else if (currentCol) {
-        currentCol.append(node.cloneNode(true));
+        const item = node.tagName === 'P' && node.querySelector('a')
+          ? dashParagraphToList(node)
+          : node.cloneNode(true);
+        currentCol.append(item);
       }
     });
     top.append(cols);
@@ -69,9 +113,17 @@ export default async function decorate(block) {
     const legal = document.createElement('div');
     legal.className = 'footer-legal';
     [...sections[2].children].forEach((node) => {
-      const clone = node.cloneNode(true);
-      if (node.tagName === 'UL') clone.className = 'footer-legal-links';
-      legal.append(clone);
+      if (node.tagName === 'UL') {
+        const clone = node.cloneNode(true);
+        clone.className = 'footer-legal-links';
+        legal.append(clone);
+      } else if (node.tagName === 'P' && node.querySelector('a')) {
+        const list = dashParagraphToList(node);
+        list.className = 'footer-legal-links';
+        legal.append(list);
+      } else {
+        legal.append(node.cloneNode(true));
+      }
     });
     footer.append(legal);
   }
