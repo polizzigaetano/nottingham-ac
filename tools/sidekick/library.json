@@ -1,12 +1,16 @@
 {
   "blocks": {
-    "total": 15,
+    "total": 23,
     "offset": 0,
-    "limit": 15,
+    "limit": 23,
     "data": [
       {
         "name": "Cards",
         "path": "/tools/sidekick/blocks/cards"
+      },
+      {
+        "name": "Cards – Icon (Light)",
+        "path": "/tools/sidekick/blocks/cards-icon-light"
       },
       {
         "name": "Cards – Logos (Light)",
@@ -17,16 +21,32 @@
         "path": "/tools/sidekick/blocks/cards-minimal-dark-withimg-5"
       },
       {
+        "name": "Cards – Nav (Light)",
+        "path": "/tools/sidekick/blocks/cards-nav-light"
+      },
+      {
         "name": "Cards – Promo (Dark)",
         "path": "/tools/sidekick/blocks/cards-promo-dark"
+      },
+      {
+        "name": "Cards – Promo (Light)",
+        "path": "/tools/sidekick/blocks/cards-promo-light"
       },
       {
         "name": "Cards – Ranking / Stats (Gold)",
         "path": "/tools/sidekick/blocks/cards-ranking-gold"
       },
       {
+        "name": "Cards – Steps (Light)",
+        "path": "/tools/sidekick/blocks/cards-steps-light"
+      },
+      {
         "name": "Carousel – Events (Light)",
         "path": "/tools/sidekick/blocks/carousel-events-light"
+      },
+      {
+        "name": "Carousel – Hero (Dark)",
+        "path": "/tools/sidekick/blocks/carousel-hero-dark"
       },
       {
         "name": "Carousel – News (Minimal Dark w/ Image, 5-up)",
@@ -39,6 +59,14 @@
       {
         "name": "Columns – Minimal Dark w/ Image (2-up)",
         "path": "/tools/sidekick/blocks/columns-minimal-dark-withimg-2"
+      },
+      {
+        "name": "Columns – Video (Light)",
+        "path": "/tools/sidekick/blocks/columns-video-light"
+      },
+      {
+        "name": "Columns – w/ Image (Light)",
+        "path": "/tools/sidekick/blocks/columns-withimg-light"
       },
       {
         "name": "Footer",
@@ -59,6 +87,10 @@
       {
         "name": "Hero – Minimal Dark (2)",
         "path": "/tools/sidekick/blocks/hero-minimal-dark-2"
+      },
+      {
+        "name": "Nav – Anchor (Light)",
+        "path": "/tools/sidekick/blocks/nav-anchor-light"
       },
       {
         "name": "Search – Course Finder (Light)",
