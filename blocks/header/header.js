@@ -63,10 +63,13 @@ export default async function decorate(block) {
 
   const brand = document.createElement('div');
   brand.className = 'header-brand';
-  if (brandSection) {
-    const logoLink = brandSection.querySelector('a');
-    if (logoLink) brand.append(logoLink);
-  }
+  const logoLink = brandSection?.querySelector('a') || document.createElement('a');
+  if (!logoLink.hasAttribute('href')) logoLink.href = '/';
+  const logo = logoLink.querySelector('img') || document.createElement('img');
+  logo.src = '/content/dam/nottingham-ac/UoN-Logo-Dark.svg';
+  logo.alt = 'University of Nottingham';
+  logoLink.append(logo);
+  brand.append(logoLink);
 
   const search = buildSearch();
 
