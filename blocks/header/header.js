@@ -1,5 +1,5 @@
 // Nottingham header — logo + site search + click-to-open navigation panel.
-// All copy/links/images come from /content/nav.plain.html; this file only
+// All copy/links/images come from /nav.plain.html; this file only
 // reads that DOM and builds the bar, search form, and accordion panel.
 
 // media query match that indicates mobile/tablet width
@@ -32,9 +32,7 @@ function buildSearch() {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  // metadata-independent dual-fetch: /content first (localhost), then root (DA/EDS prod)
-  let resp = await fetch('/content/nav.plain.html');
-  if (!resp.ok) resp = await fetch('/nav.plain.html');
+  const resp = await fetch('/nav.plain.html');
   if (!resp.ok) return;
   const html = await resp.text();
 
@@ -65,10 +63,13 @@ export default async function decorate(block) {
 
   const brand = document.createElement('div');
   brand.className = 'header-brand';
-  if (brandSection) {
-    const logoLink = brandSection.querySelector('a');
-    if (logoLink) brand.append(logoLink);
-  }
+  const logoLink = brandSection?.querySelector('a') || document.createElement('a');
+  if (!logoLink.hasAttribute('href')) logoLink.href = '/';
+  const logo = logoLink.querySelector('img') || document.createElement('img');
+  logo.src = '/media_1039a9ef34d6ce696838401b9b594bde4dcd76325.svg';
+  logo.alt = 'University of Nottingham';
+  logoLink.append(logo);
+  brand.append(logoLink);
 
   const search = buildSearch();
 

@@ -190,7 +190,7 @@
     "id": "cards-minimal-dark-withimg-5-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
@@ -473,7 +473,7 @@
     "id": "hero-minimal-dark-2",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Background Image",
