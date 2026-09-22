@@ -66,7 +66,7 @@ export default async function decorate(block) {
   const logoLink = brandSection?.querySelector('a') || document.createElement('a');
   if (!logoLink.hasAttribute('href')) logoLink.href = '/';
   const logo = logoLink.querySelector('img') || document.createElement('img');
-  logo.src = '/content/dam/nottingham-ac/UoN-Logo-Dark.svg';
+  logo.src = '/media_1039a9ef34d6ce696838401b9b594bde4dcd76325.svg';
   logo.alt = 'University of Nottingham';
   logoLink.append(logo);
   brand.append(logoLink);
