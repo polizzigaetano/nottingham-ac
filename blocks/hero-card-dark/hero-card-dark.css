@@ -1,0 +1,128 @@
+/* Hero (card, dark) — full-bleed photographic banner with an opaque navy
+ * card overlapping the top edge, containing a heading, subtitle and a
+ * single solid white pill CTA (no border, no chevron). */
+
+/* Full-bleed: cancel the section wrapper max-width and gutters */
+.hero-card-dark-wrapper {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.hero-card-dark-container {
+  margin: 0 !important;
+}
+
+.hero-card-dark {
+  position: relative;
+  min-height: 380px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background photo (full-bleed, behind everything, clipped to the block) */
+.hero-card-dark-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero-card-dark-media picture,
+.hero-card-dark-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+
+/* Opaque card, overlapping the block's own top edge so it bleeds into
+ * whatever precedes this section — the block itself must stay overflow:
+ * visible (default) for the bleed to show instead of being clipped. */
+.hero-card-dark-content {
+  position: absolute;
+  z-index: 2;
+  top: -24px;
+  left: 16px;
+  right: 16px;
+  padding: 28px 24px;
+  background-color: var(--uon-navy);
+  color: #fff;
+}
+
+.hero-card-dark-content h1,
+.hero-card-dark-content h2,
+.hero-card-dark-content h3 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.hero-card-dark-content p {
+  margin: 16px 0 0;
+  color: #fff;
+  font-size: var(--body-font-size-s);
+}
+
+/* solid white pill CTA — no border, no chevron */
+.hero-card-dark-content p:has(> a) {
+  margin-top: 24px;
+}
+
+.hero-card-dark-content a:any-link {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 68px;
+  padding: 10px 32px;
+  background-color: #fff;
+  color: var(--uon-navy);
+  font-size: var(--body-font-size-s);
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.hero-card-dark-content a:hover,
+.hero-card-dark-content a:focus-visible {
+  background-color: var(--uon-gold);
+  color: var(--uon-navy);
+  text-decoration: none;
+}
+
+@media (width >= 600px) {
+  .hero-card-dark-content {
+    right: auto;
+    max-width: 380px;
+  }
+}
+
+@media (width >= 900px) {
+  .hero-card-dark {
+    min-height: 480px;
+  }
+
+  .hero-card-dark-content {
+    top: -32px;
+    left: 32px;
+    max-width: 420px;
+    padding: 36px 40px;
+  }
+
+  .hero-card-dark-content h1,
+  .hero-card-dark-content h2,
+  .hero-card-dark-content h3 {
+    font-size: 36px;
+  }
+
+  .hero-card-dark-content p {
+    font-size: var(--body-font-size-m);
+  }
+
+  .hero-card-dark-content a:any-link {
+    font-size: var(--body-font-size-m);
+  }
+}

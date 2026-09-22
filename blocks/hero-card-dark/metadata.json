@@ -1,0 +1,21 @@
+{
+  "variantName": "hero-card-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "card",
+    "hasBackgroundImage": true
+  },
+  "contentPattern": "Full-bleed background image with an opaque navy card overlapping the top edge, containing a heading, short paragraph and a single CTA button",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null,
+    "note": "Created from a design screenshot, not yet used on any page"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-card-dark"
+  ]
+}
