@@ -1,0 +1,17 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 7,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.nottingham.ac.uk/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  }
+}

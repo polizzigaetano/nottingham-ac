@@ -1,0 +1,528 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-23T11:40:21.098Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "study-campus-visit-open-days-html",
+  "url": "https://www.nottingham.ac.uk/study/campus-visit/open-days.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-23T11:40:21.098Z",
+  "finalUrl": "https://www.nottingham.ac.uk/study/campus-visit/open-days.html",
+  "title": "Open days",
+  "description": null,
+  "og": {
+    "title": "Open days ",
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Open days"
+    },
+    {
+      "tag": "h2",
+      "text": "What to expect"
+    },
+    {
+      "tag": "h2",
+      "text": "Accessibility and inclusivity"
+    },
+    {
+      "tag": "h2",
+      "text": "On the day"
+    },
+    {
+      "tag": "h2",
+      "text": "Getting here"
+    },
+    {
+      "tag": "h2",
+      "text": "Plan your open day"
+    },
+    {
+      "tag": "h2",
+      "text": "FAQs"
+    },
+    {
+      "tag": "h2",
+      "text": "Download the app"
+    },
+    {
+      "tag": "h3",
+      "text": "Benefits:"
+    },
+    {
+      "tag": "h2",
+      "text": "Can’t make it to one of our main Open Days?"
+    },
+    {
+      "tag": "h2",
+      "text": "Talk to a student"
+    },
+    {
+      "tag": "h2",
+      "text": "Attend a virtual open day"
+    },
+    {
+      "tag": "h2",
+      "text": "Book a campus tour"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to experience Nottingham for yourself?"
+    },
+    {
+      "tag": "h2",
+      "text": "Get in touch"
+    },
+    {
+      "tag": "h2",
+      "text": "Quick links"
+    },
+    {
+      "tag": "h2",
+      "text": "Students"
+    },
+    {
+      "tag": "h2",
+      "text": "Staff"
+    },
+    {
+      "tag": "h2",
+      "text": "Alumni"
+    }
+  ],
+  "body": [
+    "Visit Nottingham. Your way.",
+    "Saturday 10 October 2026",
+    "Book your place",
+    "Plan your day",
+    "Travel",
+    "Accessibility and inclusivity",
+    "Frequently asked questions",
+    "University of Nottingham",
+    "Open days",
+    "Our Open Days give you an exciting, first-hand look at what it’s really like to study and live in Nottingham. You can learn more about your course, meet academics and chat to current students.",
+    "From subject talks and accommodation tours to discovering our facilities and soaking up the atmosphere, you’ll be right at the heart of the action – helping you decide whether life as a Nottingham student is right for you. Curious what to expect? Watch our video to find out more.",
+    "We’re 1st in the UK for graduates entering highly skilled jobs* and ranked among the Top 20 in the UK and the world’s Top 100**.",
+    "*HESA Graduate Outcomes 2025",
+    "** QS World University Rankings 2026",
+    "Find out about Accessibility and Inclusivity at our open days.",
+    "Open days are a great way to learn more about your course, meet academics and chat to students. They also help you to get a feel for the place, so that you can decide whether life as a Nottingham student is right for you.",
+    "Browse subject talks and browser sessions, tours and informational sessions to make sure you don't miss a thing",
+    "Use the interactive maps to navigate our campuses and easily locate buildings, accomodation sites and other key points of interest",
+    "Receive instant notifications about room changes and important updates throughout the day",
+    "Download the app",
+    "Visit the University of Nottingham forum: where prospective and current students discuss UoN.",
+    "Book your free place on a Virtual Open Day and get all the info you need to plan your future at Nottingham.",
+    "Experience University Park Campus and discover our award-winning green spaces for yourself.",
+    "Join us on campus or online to get the answers you need to take your next step with confidence.",
+    "Academic schools and departments",
+    "Professional services",
+    "Sport",
+    "Cripps Health Centre",
+    "Lakeside Arts",
+    "Conferences",
+    "Help and support",
+    "Student services",
+    "Health and wellbeing",
+    "Digital services",
+    "Moodle",
+    "Library",
+    "Working here",
+    "Wellbeing",
+    "Digital services",
+    "Vacancies",
+    "Community",
+    "Connect",
+    "Donate",
+    "Privacy",
+    "Terms and conditions",
+    "Accessibility",
+    "Posting rules",
+    "Freedom of information",
+    "Charity gateway",
+    "Cookie policy",
+    "Modern slavery statement",
+    "Contact us",
+    "Cookies Settings",
+    "Copyright 2010-2026 University of Nottingham"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": null
+    },
+    {
+      "label": "Book your place",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html"
+    },
+    {
+      "label": "Book your place",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html"
+    },
+    {
+      "label": "Plan your day",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/plan-your-day.html"
+    },
+    {
+      "label": "Travel",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/travel.html"
+    },
+    {
+      "label": "Accessibility and inclusivity",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/accessibility-and-inclusivity.html"
+    },
+    {
+      "label": "Frequently asked questions",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/frequently-asked-questions.html"
+    },
+    {
+      "label": "University of Nottingham",
+      "href": "https://www.nottingham.ac.uk/"
+    },
+    {
+      "label": "Book your place",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html"
+    },
+    {
+      "label": "Accessibility information",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/accessibility-and-inclusivity.html"
+    },
+    {
+      "label": "Travel information",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/travel.html"
+    },
+    {
+      "label": "Plan your day",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/plan-your-day.html"
+    },
+    {
+      "label": "Your questions answered",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/frequently-asked-questions.html"
+    },
+    {
+      "label": "Ask a question",
+      "href": "https://www.thestudentroom.co.uk/forumdisplay.php?f=25"
+    },
+    {
+      "label": "View our campuses",
+      "href": "https://www.nottingham.ac.uk/open-days/find-your-nottingham-live/book-your-virtual-open-day.aspx"
+    },
+    {
+      "label": "Book your campus tour",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/campus-tours.html"
+    },
+    {
+      "label": "Book your place",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html"
+    },
+    {
+      "label": "Academic schools and departments",
+      "href": "https://www.nottingham.ac.uk/departments/byfaculty.aspx"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx"
+    },
+    {
+      "label": "Sport",
+      "href": "https://www.nottingham.ac.uk/sport/sport.aspx"
+    },
+    {
+      "label": "Cripps Health Centre",
+      "href": "https://www.unhs.co.uk/"
+    },
+    {
+      "label": "Lakeside Arts",
+      "href": "https://www.lakesidearts.org.uk/"
+    },
+    {
+      "label": "Conferences",
+      "href": "https://www.nottingham.ac.uk/conference/facilities/index.aspx"
+    },
+    {
+      "label": "Help and support",
+      "href": "https://www.nottingham.ac.uk/help-and-support/home.html"
+    },
+    {
+      "label": "Student services",
+      "href": "https://www.nottingham.ac.uk/studentservices/index.aspx"
+    },
+    {
+      "label": "Health and wellbeing",
+      "href": "https://www.nottingham.ac.uk/CurrentStudents/Wellbeing/Student-Wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/student/student-services.aspx"
+    },
+    {
+      "label": "Moodle",
+      "href": "https://moodle.nottingham.ac.uk/login/index.php"
+    },
+    {
+      "label": "Library",
+      "href": "https://www.nottingham.ac.uk/library/"
+    },
+    {
+      "label": "Working here",
+      "href": "https://www.nottingham.ac.uk/working-here/index.aspx"
+    },
+    {
+      "label": "Wellbeing",
+      "href": "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Vacancies",
+      "href": "https://jobs.nottingham.ac.uk/vacancies.aspx"
+    },
+    {
+      "label": "Community",
+      "href": "https://www.nottingham.ac.uk/alumni/alumni.aspx"
+    },
+    {
+      "label": "Connect",
+      "href": "https://www.nottingham.ac.uk/alumni/news-and-events/news.aspx"
+    },
+    {
+      "label": "Donate",
+      "href": "https://www.nottingham.ac.uk/alumni/support-us/support-us.aspx"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "https://www.nottingham.ac.uk/utilities/terms.aspx"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx"
+    },
+    {
+      "label": "Posting rules",
+      "href": "https://www.nottingham.ac.uk/utilities/posting-rules.aspx"
+    },
+    {
+      "label": "Freedom of information",
+      "href": "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx"
+    },
+    {
+      "label": "Charity gateway",
+      "href": "https://www.nottingham.ac.uk/governance/gateway.aspx"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.nottingham.ac.uk/utilities/cookies.aspx"
+    },
+    {
+      "label": "Modern slavery statement",
+      "href": "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.nottingham.ac.uk/contact/"
+    },
+    {
+      "label": "Cookies Settings",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+    "https://www.nottingham.ac.uk/pgstudy/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
+    "https://www.nottingham.ac.uk/open-days/",
+    "https://www.nottingham.ac.uk/virtualnottingham/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/student-experience/life-on-campus.aspx",
+    "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx",
+    "https://su.nottingham.ac.uk/societies",
+    "https://www.nottingham.ac.uk/sport/sport.aspx",
+    "https://www.nottingham.ac.uk/studentservices/",
+    "https://www.nottingham.ac.uk/Student-Living/Community-Engagement/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/clearing.html",
+    "https://www.nottingham.ac.uk/about/facilities/facilities.aspx",
+    "https://www.nottingham.ac.uk/library/",
+    "https://www.nottingham.ac.uk/help-and-support/home.html",
+    "https://www.nottingham.ac.uk/about/",
+    "https://www.nottingham.ac.uk/about/history/abriefhistoryoftheuniversity.aspx",
+    "https://www.nottingham.ac.uk/about/keydates/",
+    "https://www.nottingham.ac.uk/about/structure/universitystructure.aspx",
+    "https://www.nottingham.ac.uk/global/home.aspx",
+    "https://www.nottingham.ac.uk/about/facts/factsandfigures.aspx",
+    "https://www.nottingham.ac.uk/departments/byfaculty.aspx",
+    "https://www.nottingham.ac.uk/departments/a-z.aspx",
+    "https://www.nottingham.ac.uk/departments/researchcentresandinstitutes.aspx",
+    "https://www.nottingham.ac.uk/departments/professionalservicedepartments.aspx",
+    "https://www.nottingham.ac.uk/jobs/home.aspx",
+    "https://www.nottingham.ac.uk/jobs/howtoapply/index.aspx",
+    "https://www.nottingham.ac.uk/hr/services/reward-and-benefits.aspx",
+    "https://www.nottingham.ac.uk/jobs/frequentlyaskedquestions/index.aspx",
+    "https://www.nottingham.ac.uk/jobs/contactus/index.aspx",
+    "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+    "https://www.nottingham.ac.uk/visit/",
+    "https://www.nottingham.ac.uk/about/vice-chancellor/vice-chancellor.aspx",
+    "https://www.lakesidearts.org.uk/",
+    "https://www.nottingham.ac.uk/sport/sport-facilities/david-ross-sports-village.aspx",
+    "https://www.nottingham.ac.uk/research/research.aspx",
+    "https://www.nottingham.ac.uk/vision/",
+    "https://www.nottingham.ac.uk/fabs/research-innovation/engagement-and-partnerships.aspx",
+    "https://www.nottingham.ac.uk/research/atoz/facultyresearch.aspx",
+    "https://www.nottingham.ac.uk/conference/facilities/index.aspx",
+    "https://www.nottingham.ac.uk/contact/staff-search/uk-staff-look-up.aspx",
+    "https://www.nottingham.ac.uk/news/index.aspx",
+    "https://www.nottingham.ac.uk/research/research-areas/index.aspx",
+    "https://www.nottingham.ac.uk/researcher-academy/",
+    "https://www.nottingham.ac.uk/workingwithbusiness/",
+    "https://digitalresearch.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/expertise.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/develop-workforce/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/recruit-our-students-and-graduates.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/collaborativefunding.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/spacefacilities.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/case-studies/case-studies.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/index.aspx",
+    "https://www.nottingham.ac.uk/news/",
+    "https://www.nottingham.ac.uk/news/meettheteam/index.aspx",
+    "https://www.nottingham.ac.uk/help-and-support/home/contact-us.html",
+    "https://www.nottingham.ac.uk/contact/",
+    "https://www.nottingham.ac.uk/studywithus/visitingus/visiting-us.aspx",
+    "https://www.nottingham.ac.uk/currentstudents/",
+    "https://www.nottingham.ac.uk/alumni/alumni.aspx",
+    "https://www.nottingham.edu.my/",
+    "https://www.nottingham.edu.cn/en/index.aspx",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days.html",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days/plan-your-day.html",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days/travel.html",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days/accessibility-and-inclusivity.html",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days/frequently-asked-questions.html",
+    "https://apps.apple.com/us/app/uon-open-days/id6755816261",
+    "https://play.google.com/store/apps/details?id=uk.ac.nottingham.aio&hl=en_GB",
+    "https://www.thestudentroom.co.uk/forumdisplay.php?f=25",
+    "https://www.nottingham.ac.uk/open-days/find-your-nottingham-live/book-your-virtual-open-day.aspx",
+    "https://www.nottingham.ac.uk/study/campus-visit/campus-tours.html",
+    "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx",
+    "https://www.unhs.co.uk/",
+    "https://www.nottingham.ac.uk/studentservices/index.aspx",
+    "https://www.nottingham.ac.uk/CurrentStudents/Wellbeing/Student-Wellbeing.aspx",
+    "https://www.nottingham.ac.uk/dts/student/student-services.aspx",
+    "https://moodle.nottingham.ac.uk/login/index.php",
+    "https://www.nottingham.ac.uk/working-here/index.aspx",
+    "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx",
+    "https://www.nottingham.ac.uk/dts/",
+    "https://jobs.nottingham.ac.uk/vacancies.aspx",
+    "https://www.nottingham.ac.uk/alumni/news-and-events/news.aspx",
+    "https://www.nottingham.ac.uk/alumni/support-us/support-us.aspx",
+    "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx",
+    "https://www.nottingham.ac.uk/utilities/terms.aspx",
+    "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx",
+    "https://www.nottingham.ac.uk/utilities/posting-rules.aspx",
+    "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx",
+    "https://www.nottingham.ac.uk/governance/gateway.aspx",
+    "https://www.nottingham.ac.uk/utilities/cookies.aspx",
+    "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx",
+    "https://www.facebook.com/UniofNottingham/",
+    "https://www.instagram.com/uniofnottingham",
+    "https://www.youtube.com/channel/UCzdaFtpPWb-Pn6oYXQTCnxA",
+    "https://www.tiktok.com/@uniofnottingham?lang=en",
+    "https://www.linkedin.com/school/university-of-nottingham/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/UoN-Logo-Dark.svg",
+        "alt": "University of Nottingham Logo",
+        "w": 197,
+        "h": 72
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/Open_Day_06_2025-LGL07690?wid=1440&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "Student helpers and visitors in the Great Hall during June Open Day 2025",
+        "w": 1440,
+        "h": 960
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/DSC00837_Uni_Park_10-05-2025_SL?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/SL-00671-1?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/open-days/images/plan-your-day.png?wid=160&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "Download the app",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/app-store.svg",
+        "alt": "Download on app store",
+        "w": 141,
+        "h": 42
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/play-store.svg",
+        "alt": "Get it on google play",
+        "w": 141,
+        "h": 42
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/Engineering-Science-Technology-Fair-2024-LGL-DSC07414?qlt=85&wid=1280&ts=1788268521661&dpr=off",
+        "alt": "Engineering, Science and Technology Fair 2024",
+        "w": 1440,
+        "h": 960
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/DSC00875_Uni_Park_10-05-2025_SL?wid=1440&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "",
+        "w": 1440,
+        "h": 2160
+      }
+    ],
+    "allImgCount": 9,
+    "cssBackgrounds": [],
+    "modals": [
+      "Your browser does not support the video tag. (function initVideoPlayers() { const videoElements = document.querySelectorAll(\".video-play\"); if (!videoElements || videoElements.length === 0) { console.warn(\"[Video] No video elements found yet, retrying...\"); setTimeout(initVideoPlayers, 300); return; } videoElements.forEach(video => { const url = video.getAttribute(\"data-hls-url\"); if (!url) { //console.warn(\"[Video] No data-hls-url found on element\", video); return; } //console.log(\"[Video] Attaching to:\", url); const isHls = url.toLowerCase().endsWith(\".m3u8\"); const isMp4 = url.toLowerCase().endsWith(\".mp4\"); if (isHls) { if (Hls.isSupported()) { const hls = new Hls(); hls.loadSource(url); hls.attachMedia(video); } else if (video.canPlayType(\"application/vnd.apple.mpegurl\")) { video.src = url; } else { console.warn(\"[Video] HLS not supported in this browser.\"); } } else if (isMp4) { video.src = url; } else { console.warn(\"[Video] Unknown format:\", url); } }); })();"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 19,
+    "mainTextLen": 6380,
+    "realImageCount": 9,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/study-campus-visit-open-days-html.png",
+  "renderedHtml": "pages/study-campus-visit-open-days-html.html"
+}

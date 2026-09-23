@@ -111,7 +111,7 @@ main .carousel-hero-dark .carousel-hero-dark-body a.button:any-link {
   border: 2px solid transparent;
   border-radius: 0;
   padding: 8px 12px 8px 10px;
-  background-color: #de1b5c;
+  background-color: var(--uon-pink, #d7336c);
   color: #fff;
   font-family: var(--body-font-family, sans-serif);
   font-size: 16px;
@@ -130,7 +130,7 @@ main .carousel-hero-dark .carousel-hero-dark-body a.button:any-link::after {
 
 main .carousel-hero-dark .carousel-hero-dark-body a:hover,
 main .carousel-hero-dark .carousel-hero-dark-body a.button:any-link:hover {
-  background-color: #b30f49;
+  background-color: #b31e54; /* darkened --uon-pink */
   color: #fff;
   text-decoration: none;
 }

@@ -1,0 +1,531 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-23T11:40:23.337Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "studywithus-ugstudy-find-uon-html",
+  "url": "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-23T11:40:23.337Z",
+  "finalUrl": "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+  "title": "Find your course",
+  "description": "Find your University of Nottingham study options and discover more about life in Nottingham ",
+  "og": {
+    "title": "Find your course ",
+    "description": "Find your University of Nottingham study options and discover more about life in Nottingham ",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Find your ideal course"
+    },
+    {
+      "tag": "h2",
+      "text": "Undergraduate study"
+    },
+    {
+      "tag": "h2",
+      "text": "Visit us on an Open Day"
+    },
+    {
+      "tag": "h2",
+      "text": "Quick links"
+    },
+    {
+      "tag": "h3",
+      "text": "Applying"
+    },
+    {
+      "tag": "h3",
+      "text": "Help and support"
+    },
+    {
+      "tag": "h3",
+      "text": "International students"
+    },
+    {
+      "tag": "h3",
+      "text": "Stay up to date"
+    },
+    {
+      "tag": "h2",
+      "text": "International scholarships"
+    },
+    {
+      "tag": "h2",
+      "text": "A place for you"
+    },
+    {
+      "tag": "h2",
+      "text": "Our campuses"
+    },
+    {
+      "tag": "h2",
+      "text": "Accommodation"
+    },
+    {
+      "tag": "h2",
+      "text": "Sport at UoN"
+    },
+    {
+      "tag": "h2",
+      "text": "Student life"
+    },
+    {
+      "tag": "h2",
+      "text": "University rankings"
+    },
+    {
+      "tag": "h2",
+      "text": "Your Limitless future starts here"
+    },
+    {
+      "tag": "h2",
+      "text": "Get in touch"
+    },
+    {
+      "tag": "h2",
+      "text": "Quick links"
+    },
+    {
+      "tag": "h2",
+      "text": "Students"
+    },
+    {
+      "tag": "h2",
+      "text": "Staff"
+    },
+    {
+      "tag": "h2",
+      "text": "Alumni"
+    }
+  ],
+  "body": [
+    "Homepage",
+    "Find your course",
+    "Change what’s next with a University of Nottingham degree. Gain real-world experience, build in-demand skills and graduate ready to succeed at the UK’s top university for highly skilled graduate jobs (HESA 2026).",
+    "See what life at Nottingham is really like. Explore your subject, tour our campuses and talk to the people who’ll support you – from academics to current students.",
+    "Find out how to apply, key dates and what happens after you submit your application.",
+    "Get answers to your questions – from course choices to student life, finance and accommodation.",
+    "Join a truly global community. Discover entry requirements, fees, scholarships and support.",
+    "Get updates on courses, events and application advice – straight to your inbox.",
+    "Make a Nottingham education more affordable. Our scholarships reward academic excellence, leadership potential and financial need – helping to reduce tuition fees and living costs.",
+    "Each of our campuses has its own character, community and specialist facilities. Wherever you’re based, you’ll find the space, support and opportunities to thrive.",
+    "Feel at home in Nottingham. Choose from a range of accommodation close to your studies, with easy access to campus, social spaces and sport facilities.",
+    "Stay active and get involved. From social sport to elite competition, you’ll find facilities, clubs and support for every level.",
+    "Live and learn in one of the UK’s best student cities. With culture, nightlife and green spaces on your doorstep, there’s something for everyone.",
+    "Discover how studying at Nottingham can help you build the skills, ideas and confidence to shape what comes next.",
+    "for number of graduates in highly skilled jobs",
+    "in Russell Group for work experience",
+    "in the world",
+    "UK student city",
+    "Your success after graduation is just as important as your time on campus. That's why we're committed to empowering you to achieve your dreams, whatever they may be.",
+    "Academic schools and departments",
+    "Professional services",
+    "Sport",
+    "Cripps Health Centre",
+    "Lakeside Arts",
+    "Conferences",
+    "Help and support",
+    "Student services",
+    "Health and wellbeing",
+    "Digital services",
+    "Moodle",
+    "Library",
+    "Working here",
+    "Wellbeing",
+    "Digital services",
+    "Vacancies",
+    "Community",
+    "Connect",
+    "Donate",
+    "Privacy",
+    "Terms and conditions",
+    "Accessibility",
+    "Posting rules",
+    "Freedom of information",
+    "Charity gateway",
+    "Cookie policy",
+    "Modern slavery statement",
+    "Contact us",
+    "Cookies Settings",
+    "Copyright 2010-2026 University of Nottingham"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": null
+    },
+    {
+      "label": "Search",
+      "href": null
+    },
+    {
+      "label": "View undergraduate courses",
+      "href": "https://www.nottingham.ac.uk/studywithus/ugstudy/See_all_courses.html"
+    },
+    {
+      "label": "View postgraduate courses",
+      "href": "https://www.nottingham.ac.uk/pgstudy/courses/courses.aspx"
+    },
+    {
+      "label": "Homepage",
+      "href": "https://www.nottingham.ac.uk"
+    },
+    {
+      "label": "Book your place",
+      "href": "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html"
+    },
+    {
+      "label": "Learn more about applying",
+      "href": "https://www.nottingham.ac.uk/studywithus/ugstudy/applying.html"
+    },
+    {
+      "label": "Access help and support",
+      "href": "https://www.nottingham.ac.uk/help-and-support/home.html"
+    },
+    {
+      "label": "International study",
+      "href": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx"
+    },
+    {
+      "label": "Sign up to emails",
+      "href": "https://www.nottingham.ac.uk/studywithus/ugstudy/sign-up-email.html"
+    },
+    {
+      "label": "Explore scholarships",
+      "href": "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/international-undergraduate-excellence-scholarship.aspx"
+    },
+    {
+      "label": "Explore our campuses",
+      "href": "https://www.nottingham.ac.uk/studywithus/why-study/campuses/nottingham.aspx"
+    },
+    {
+      "label": "View accommodation",
+      "href": "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx"
+    },
+    {
+      "label": "Explore sport at UoN",
+      "href": "https://www.nottingham.ac.uk/sport/sport.aspx"
+    },
+    {
+      "label": "Explore student life",
+      "href": "https://www.nottingham.ac.uk/studywithus/student-experience/index.aspx"
+    },
+    {
+      "label": "Launch your career with us",
+      "href": "https://www.nottingham.ac.uk/studywithus/why-study/employability.aspx"
+    },
+    {
+      "label": "Academic schools and departments",
+      "href": "https://www.nottingham.ac.uk/departments/byfaculty.aspx"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx"
+    },
+    {
+      "label": "Sport",
+      "href": "https://www.nottingham.ac.uk/sport/sport.aspx"
+    },
+    {
+      "label": "Cripps Health Centre",
+      "href": "https://www.unhs.co.uk/"
+    },
+    {
+      "label": "Lakeside Arts",
+      "href": "https://www.lakesidearts.org.uk/"
+    },
+    {
+      "label": "Conferences",
+      "href": "https://www.nottingham.ac.uk/conference/facilities/index.aspx"
+    },
+    {
+      "label": "Help and support",
+      "href": "https://www.nottingham.ac.uk/help-and-support/home.html"
+    },
+    {
+      "label": "Student services",
+      "href": "https://www.nottingham.ac.uk/studentservices/index.aspx"
+    },
+    {
+      "label": "Health and wellbeing",
+      "href": "https://www.nottingham.ac.uk/CurrentStudents/Wellbeing/Student-Wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/student/student-services.aspx"
+    },
+    {
+      "label": "Moodle",
+      "href": "https://moodle.nottingham.ac.uk/login/index.php"
+    },
+    {
+      "label": "Library",
+      "href": "https://www.nottingham.ac.uk/library/"
+    },
+    {
+      "label": "Working here",
+      "href": "https://www.nottingham.ac.uk/working-here/index.aspx"
+    },
+    {
+      "label": "Wellbeing",
+      "href": "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Vacancies",
+      "href": "https://jobs.nottingham.ac.uk/vacancies.aspx"
+    },
+    {
+      "label": "Community",
+      "href": "https://www.nottingham.ac.uk/alumni/alumni.aspx"
+    },
+    {
+      "label": "Connect",
+      "href": "https://www.nottingham.ac.uk/alumni/news-and-events/news.aspx"
+    },
+    {
+      "label": "Donate",
+      "href": "https://www.nottingham.ac.uk/alumni/support-us/support-us.aspx"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "https://www.nottingham.ac.uk/utilities/terms.aspx"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx"
+    },
+    {
+      "label": "Posting rules",
+      "href": "https://www.nottingham.ac.uk/utilities/posting-rules.aspx"
+    },
+    {
+      "label": "Freedom of information",
+      "href": "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx"
+    },
+    {
+      "label": "Charity gateway",
+      "href": "https://www.nottingham.ac.uk/governance/gateway.aspx"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.nottingham.ac.uk/utilities/cookies.aspx"
+    },
+    {
+      "label": "Modern slavery statement",
+      "href": "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://www.nottingham.ac.uk/contact/"
+    },
+    {
+      "label": "Cookies Settings",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+    "https://www.nottingham.ac.uk/pgstudy/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/degree-apprenticeships/degree-apprenticeships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
+    "https://www.nottingham.ac.uk/open-days/",
+    "https://www.nottingham.ac.uk/virtualnottingham/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/student-experience/life-on-campus.aspx",
+    "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx",
+    "https://su.nottingham.ac.uk/societies",
+    "https://www.nottingham.ac.uk/sport/sport.aspx",
+    "https://www.nottingham.ac.uk/studentservices/",
+    "https://www.nottingham.ac.uk/Student-Living/Community-Engagement/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/clearing.html",
+    "https://www.nottingham.ac.uk/about/facilities/facilities.aspx",
+    "https://www.nottingham.ac.uk/library/",
+    "https://www.nottingham.ac.uk/help-and-support/home.html",
+    "https://www.nottingham.ac.uk/about/",
+    "https://www.nottingham.ac.uk/about/history/abriefhistoryoftheuniversity.aspx",
+    "https://www.nottingham.ac.uk/about/keydates/",
+    "https://www.nottingham.ac.uk/about/structure/universitystructure.aspx",
+    "https://www.nottingham.ac.uk/global/home.aspx",
+    "https://www.nottingham.ac.uk/about/facts/factsandfigures.aspx",
+    "https://www.nottingham.ac.uk/departments/byfaculty.aspx",
+    "https://www.nottingham.ac.uk/departments/a-z.aspx",
+    "https://www.nottingham.ac.uk/departments/researchcentresandinstitutes.aspx",
+    "https://www.nottingham.ac.uk/departments/professionalservicedepartments.aspx",
+    "https://www.nottingham.ac.uk/jobs/home.aspx",
+    "https://www.nottingham.ac.uk/jobs/howtoapply/index.aspx",
+    "https://www.nottingham.ac.uk/hr/services/reward-and-benefits.aspx",
+    "https://www.nottingham.ac.uk/jobs/frequentlyaskedquestions/index.aspx",
+    "https://www.nottingham.ac.uk/jobs/contactus/index.aspx",
+    "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+    "https://www.nottingham.ac.uk/visit/",
+    "https://www.nottingham.ac.uk/about/vice-chancellor/vice-chancellor.aspx",
+    "https://www.lakesidearts.org.uk/",
+    "https://www.nottingham.ac.uk/sport/sport-facilities/david-ross-sports-village.aspx",
+    "https://www.nottingham.ac.uk/research/research.aspx",
+    "https://www.nottingham.ac.uk/vision/",
+    "https://www.nottingham.ac.uk/fabs/research-innovation/engagement-and-partnerships.aspx",
+    "https://www.nottingham.ac.uk/research/atoz/facultyresearch.aspx",
+    "https://www.nottingham.ac.uk/conference/facilities/index.aspx",
+    "https://www.nottingham.ac.uk/contact/staff-search/uk-staff-look-up.aspx",
+    "https://www.nottingham.ac.uk/news/index.aspx",
+    "https://www.nottingham.ac.uk/research/research-areas/index.aspx",
+    "https://www.nottingham.ac.uk/researcher-academy/",
+    "https://www.nottingham.ac.uk/workingwithbusiness/",
+    "https://digitalresearch.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/expertise.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/develop-workforce/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/recruit-our-students-and-graduates.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/collaborativefunding.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/spacefacilities.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/case-studies/case-studies.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/index.aspx",
+    "https://www.nottingham.ac.uk/news/",
+    "https://www.nottingham.ac.uk/news/meettheteam/index.aspx",
+    "https://www.nottingham.ac.uk/help-and-support/home/contact-us.html",
+    "https://www.nottingham.ac.uk/contact/",
+    "https://www.nottingham.ac.uk/studywithus/visitingus/visiting-us.aspx",
+    "https://www.nottingham.ac.uk/currentstudents/",
+    "https://www.nottingham.ac.uk/alumni/alumni.aspx",
+    "https://www.nottingham.edu.my/",
+    "https://www.nottingham.edu.cn/en/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/See_all_courses.html",
+    "https://www.nottingham.ac.uk/pgstudy/courses/courses.aspx",
+    "https://www.nottingham.ac.uk/study/campus-visit/open-days/book-your-place.html",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/applying.html",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/sign-up-email.html",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/international-undergraduate-excellence-scholarship.aspx",
+    "https://www.nottingham.ac.uk/studywithus/why-study/campuses/nottingham.aspx",
+    "https://www.nottingham.ac.uk/studywithus/student-experience/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/why-study/employability.aspx",
+    "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx",
+    "https://www.unhs.co.uk/",
+    "https://www.nottingham.ac.uk/studentservices/index.aspx",
+    "https://www.nottingham.ac.uk/CurrentStudents/Wellbeing/Student-Wellbeing.aspx",
+    "https://www.nottingham.ac.uk/dts/student/student-services.aspx",
+    "https://moodle.nottingham.ac.uk/login/index.php",
+    "https://www.nottingham.ac.uk/working-here/index.aspx",
+    "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx",
+    "https://www.nottingham.ac.uk/dts/",
+    "https://jobs.nottingham.ac.uk/vacancies.aspx",
+    "https://www.nottingham.ac.uk/alumni/news-and-events/news.aspx",
+    "https://www.nottingham.ac.uk/alumni/support-us/support-us.aspx",
+    "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx",
+    "https://www.nottingham.ac.uk/utilities/terms.aspx",
+    "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx",
+    "https://www.nottingham.ac.uk/utilities/posting-rules.aspx",
+    "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx",
+    "https://www.nottingham.ac.uk/governance/gateway.aspx",
+    "https://www.nottingham.ac.uk/utilities/cookies.aspx",
+    "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx",
+    "https://www.facebook.com/UniofNottingham/",
+    "https://www.instagram.com/uniofnottingham",
+    "https://www.youtube.com/channel/UCzdaFtpPWb-Pn6oYXQTCnxA",
+    "https://www.tiktok.com/@uniofnottingham?lang=en",
+    "https://www.linkedin.com/school/university-of-nottingham/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/UoN-Logo-Dark.svg",
+        "alt": "University of Nottingham Logo",
+        "w": 197,
+        "h": 72
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/DSC01646_Uni_Park_10-05-2025_SL?wid=1440&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "Three students walk through campus",
+        "w": 1440,
+        "h": 960
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/Open_Day_06_2025-LGL07520-A?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/DSC02912_Jubilee_11-06-2025_SL?wid=1440&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "",
+        "w": 1440,
+        "h": 961
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/HL01102018PRP9918?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/CC26102022LGLDSC09224?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/BUCS_FIXTURES_09-10-2024_406?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/PTAIT_20201010_7791?fmt=jpg&qlt=85,0&resMode=sharp2&wid=680",
+        "alt": "",
+        "w": 680,
+        "h": 454
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/74208-Reputation-Campaign-hero-video-60s-thumbnail?wid=1440&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "Change what's next",
+        "w": 1440,
+        "h": 810
+      },
+      {
+        "src": "https://nottingham.scene7.com/is/image/nottingham/Business-Library-28042022-DSC09274?wid=1440&fmt=jpg&qlt=85,0&resMode=sharp2",
+        "alt": "",
+        "w": 1440,
+        "h": 960
+      }
+    ],
+    "allImgCount": 10,
+    "cssBackgrounds": [],
+    "modals": [
+      "Your browser does not support the video tag. (function initVideoPlayers() { const videoElements = document.querySelectorAll(\".video-play\"); if (!videoElements || videoElements.length === 0) { console.warn(\"[Video] No video elements found yet, retrying...\"); setTimeout(initVideoPlayers, 300); return; } videoElements.forEach(video => { const url = video.getAttribute(\"data-hls-url\"); if (!url) { //console.warn(\"[Video] No data-hls-url found on element\", video); return; } //console.log(\"[Video] Attaching to:\", url); const isHls = url.toLowerCase().endsWith(\".m3u8\"); const isMp4 = url.toLowerCase().endsWith(\".mp4\"); if (isHls) { if (Hls.isSupported()) { const hls = new Hls(); hls.loadSource(url); hls.attachMedia(video); } else if (video.canPlayType(\"application/vnd.apple.mpegurl\")) { video.src = url; } else { console.warn(\"[Video] HLS not supported in this browser.\"); } } else if (isMp4) { video.src = url; } else { console.warn(\"[Video] Unknown format:\", url); } }); })();"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 20,
+    "mainTextLen": 6630,
+    "realImageCount": 10,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/studywithus-ugstudy-find-uon-html.png",
+  "renderedHtml": "pages/studywithus-ugstudy-find-uon-html.html"
+}

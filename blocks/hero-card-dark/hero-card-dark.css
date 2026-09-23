@@ -76,7 +76,7 @@
 .hero-card-dark-content a:any-link {
   display: inline-flex;
   align-items: center;
-  border-radius: 68px;
+  border-radius: var(--cta-radius, 68px);
   padding: 10px 32px;
   background-color: #fff;
   color: var(--uon-navy);
