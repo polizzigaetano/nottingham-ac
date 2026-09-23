@@ -1,3 +1,7 @@
 helix-importer-ui
 dompurify.min.js
 *.min.js
+
+# analysis / migration scratch scripts (not shipped to the site)
+stardust/
+migration-work/
