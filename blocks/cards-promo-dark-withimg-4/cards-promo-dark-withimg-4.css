@@ -108,7 +108,7 @@
 
 .cards-promo-dark-withimg-4 .cards-promo-dark-withimg-4-body p a:hover,
 .cards-promo-dark-withimg-4 .cards-promo-dark-withimg-4-body p a:focus-visible {
-  background-color: #f0c72a;
+  background-color: #c99f05; /* darkened --uon-gold, consistent with other gold pills */
   color: var(--uon-navy);
   text-decoration: none;
 }

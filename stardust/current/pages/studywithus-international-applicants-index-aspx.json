@@ -1,0 +1,620 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-23T11:40:19.804Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "studywithus-international-applicants-index-aspx",
+  "url": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-23T11:40:19.804Z",
+  "finalUrl": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+  "title": "Information for international applicants",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "International students"
+    },
+    {
+      "tag": "h2",
+      "text": "Study with us"
+    },
+    {
+      "tag": "h2",
+      "text": "Your country"
+    },
+    {
+      "tag": "h2",
+      "text": "Scholarships, funding and finance"
+    },
+    {
+      "tag": "h2",
+      "text": "English language"
+    },
+    {
+      "tag": "h2",
+      "text": "Accommodation"
+    },
+    {
+      "tag": "h2",
+      "text": "Student life"
+    },
+    {
+      "tag": "h2",
+      "text": "Careers and employability"
+    },
+    {
+      "tag": "h2",
+      "text": "Why choose Nottingham?"
+    },
+    {
+      "tag": "h2",
+      "text": "How to apply"
+    },
+    {
+      "tag": "h2",
+      "text": "Preparing for Nottingham"
+    }
+  ],
+  "body": [
+    "Study in Nottingham",
+    "Fast track your future at a QS world top 100 university and build the skills that global employers are looking for.",
+    "Study on our beautiful UK campuses in a top student city as part of a vibrant international community.",
+    "Connect with staff and students.",
+    "Stay up to date with financial support/scholarships, events, student life and more.",
+    "Find information, entry requirements and official representatives from your country.",
+    "Plan your finances and find out about scholarships.",
+    "Learn about English language requirements and support.",
+    "Choose where to live from a range of options.",
+    "Explore Nottingham, one of the best student cities in the world.",
+    "Read why more of our graduates enter highly skilled employment than any other UK university.",
+    "Enjoy world-class teaching, award-winning campuses and outstanding sport and leisure facilities.",
+    "Discover Nottingham",
+    "Find out how to apply to study at the University of Nottingham.",
+    "How to apply",
+    "“It's the total package of all the support I've received at University of Nottingham which has furthered my career and helped me in other aspects of my life. It has opened many opportunities and drastically improved my network and, as they say, your network is your net worth.” Abdulquadri Ademakinwa - Architecture and Environmental Design MArch (Digital Engineer, Laing O'Rourke and Bouygues Travaux Publics)",
+    "“It's the total package of all the support I've received at University of Nottingham which has furthered my career and helped me in other aspects of my life. It has opened many opportunities and drastically improved my network and, as they say, your network is your net worth.”",
+    "Abdulquadri Ademakinwa - Architecture and Environmental Design MArch (Digital Engineer, Laing O'Rourke and Bouygues Travaux Publics)",
+    "Top 100 world university",
+    "QS World University Rankings 2027",
+    "1st in the UK for high-skilled jobs",
+    "HESA Graduate Outcomes 2026",
+    "3x sports university of the Year",
+    "The Times and the Sunday Times Good University Guide",
+    "7th in the UK for research power",
+    "Research Excellence Framework 2021",
+    "Top 10 in the UK for student life",
+    "UniCompare 2026",
+    "Find courses",
+    "Contact or meet us",
+    "Preparing for Nottingham Find out how to prepare for coming to Nottingham after receiving an offer to study with us. Get ready",
+    "Find out how to prepare for coming to Nottingham after receiving an offer to study with us.",
+    "Get ready",
+    "+44(0) 115 951 5151",
+    "Lines are open:",
+    "Monday-Friday 9.00am-4.30pm",
+    "University of Nottingham",
+    "University Park",
+    "Nottingham, NG7 2RD",
+    "United Kingdom",
+    "Applicant help and support",
+    "Academic schools and departments",
+    "Professional services",
+    "Sport",
+    "Cripps Health Centre",
+    "Lakeside Arts",
+    "Conferences",
+    "Student services",
+    "Health and wellbeing",
+    "Digital services",
+    "Moodle",
+    "Library",
+    "Working here",
+    "Wellbeing",
+    "Digital services",
+    "Vacancies",
+    "Community",
+    "Connect",
+    "Donate",
+    "Copyright © 2010 - 2026 University of Nottingham",
+    "Privacy",
+    "| Terms and conditions",
+    "| Accessibility",
+    "| Posting rules",
+    "| Freedom of information",
+    "| Charity gateway",
+    "| Cookie policy |",
+    "Cookies Settings",
+    "| Modern slavery statement"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": null
+    },
+    {
+      "label": "University of Nottingham",
+      "href": "/index.aspx"
+    },
+    {
+      "label": "Study with us",
+      "href": "/studywithus/study-with-us.aspx"
+    },
+    {
+      "label": "home",
+      "href": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx"
+    },
+    {
+      "label": "Country-specific information",
+      "href": "https://www.nottingham.ac.uk/studywithus/international-applicants/country-info/"
+    },
+    {
+      "label": "Scholarships, funding and finance",
+      "href": "#"
+    },
+    {
+      "label": "English language",
+      "href": "#"
+    },
+    {
+      "label": "Accommodation",
+      "href": "https://www.nottingham.ac.uk/Student-Living/Accommodation/Index.aspx"
+    },
+    {
+      "label": "More",
+      "href": "#"
+    },
+    {
+      "label": "Find courses",
+      "href": "/studywithus/study-with-us.aspx"
+    },
+    {
+      "label": "Contact or meet us",
+      "href": "/studywithus/international-applicants/contact-us/contact-or-meet-us.aspx"
+    },
+    {
+      "label": "Sign up for an open day",
+      "href": "/open-days/index.aspx"
+    },
+    {
+      "label": "Sign up for email updates",
+      "href": "https://www.nottingham.ac.uk/studywithus/ugstudy/articles/sign-up-for-email-updates.html"
+    },
+    {
+      "label": "Your country Find information, entry requirements and official representatives from your country.",
+      "href": "/studywithus/international-applicants/country-info/country-information.aspx"
+    },
+    {
+      "label": "Scholarships, funding and finance Plan your finances and find out about scholarships.",
+      "href": "/studywithus/international-applicants/scholarships-funding-finance/scholarships-funding-and-finance.aspx"
+    },
+    {
+      "label": "English language Learn about English language requirements and support.",
+      "href": "/studywithus/international-applicants/english-language/english-language-requirements.aspx"
+    },
+    {
+      "label": "Accommodation Choose where to live from a range of options.",
+      "href": "/student-living/accommodation/index.aspx"
+    },
+    {
+      "label": "Student life Explore Nottingham, one of the best student cities in the world.",
+      "href": "/studywithus/international-applicants/international-student-life/international-student-life.aspx"
+    },
+    {
+      "label": "Careers and employability Read why more of our graduates enter highly skilled employment than any other UK university.",
+      "href": "/studywithus/why-study/employability.aspx"
+    },
+    {
+      "label": "Discover Nottingham",
+      "href": "/studywithus/why-study/index.aspx"
+    },
+    {
+      "label": "How to apply",
+      "href": "/studywithus/what-next/how-to-apply.aspx"
+    },
+    {
+      "label": "Find courses",
+      "href": "/studywithus/study-with-us.aspx"
+    },
+    {
+      "label": "Contact or meet us",
+      "href": "/studywithus/international-applicants/contact-us/contact-or-meet-us.aspx"
+    },
+    {
+      "label": "Get ready",
+      "href": "/studentservices/welcome/international-students/international-students-home.aspx"
+    },
+    {
+      "label": "Applicant help and support",
+      "href": "https://www.nottingham.ac.uk/help-and-support/home.html"
+    },
+    {
+      "label": "Academic schools and departments",
+      "href": "https://www.nottingham.ac.uk/departments/byfaculty.aspx"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx"
+    },
+    {
+      "label": "Sport",
+      "href": "https://www.nottingham.ac.uk/sport/index.aspx"
+    },
+    {
+      "label": "Cripps Health Centre",
+      "href": "https://www.unhs.co.uk/"
+    },
+    {
+      "label": "Lakeside Arts",
+      "href": "https://www.lakesidearts.org.uk/"
+    },
+    {
+      "label": "Conferences",
+      "href": "https://www.nottingham.ac.uk/conference/facilities/index.aspx"
+    },
+    {
+      "label": "Student services",
+      "href": "https://www.nottingham.ac.uk/studentservices/index.aspx"
+    },
+    {
+      "label": "Health and wellbeing",
+      "href": "https://www.nottingham.ac.uk/StudentServices/HealthWelfare/index.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Moodle",
+      "href": "https://moodle.nottingham.ac.uk/login/index.php"
+    },
+    {
+      "label": "Library",
+      "href": "https://www.nottingham.ac.uk/library/"
+    },
+    {
+      "label": "Working here",
+      "href": "https://www.nottingham.ac.uk/working-here/index.aspx"
+    },
+    {
+      "label": "Wellbeing",
+      "href": "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Vacancies",
+      "href": "https://www.nottingham.ac.uk/jobs/home.aspx"
+    },
+    {
+      "label": "Community",
+      "href": "https://www.nottingham.ac.uk/alumni/alumni.aspx"
+    },
+    {
+      "label": "Connect",
+      "href": "https://www.nottingham.ac.uk/alumni/newseventsandfeatures/index.aspx"
+    },
+    {
+      "label": "Donate",
+      "href": "https://www.nottingham.ac.uk/alumni/donatenow/index.aspx"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "https://www.nottingham.ac.uk/utilities/terms.aspx"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx"
+    },
+    {
+      "label": "Posting rules",
+      "href": "https://www.nottingham.ac.uk/utilities/posting-rules.aspx"
+    },
+    {
+      "label": "Freedom of information",
+      "href": "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx"
+    },
+    {
+      "label": "Charity gateway",
+      "href": "https://www.nottingham.ac.uk/governance/gateway.aspx"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.nottingham.ac.uk/utilities/cookies.aspx"
+    },
+    {
+      "label": "Modern slavery statement",
+      "href": "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+    }
+  ],
+  "links": [
+    "https://www.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+    "https://www.nottingham.ac.uk/pgstudy/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/services/degree-apprenticeships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
+    "https://www.nottingham.ac.uk/open-days/",
+    "https://www.nottingham.ac.uk/virtualnottingham/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/student-experience/life-on-campus.aspx",
+    "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx",
+    "https://su.nottingham.ac.uk/societies",
+    "https://www.nottingham.ac.uk/sport/",
+    "https://www.nottingham.ac.uk/studentservices/",
+    "https://www.nottingham.ac.uk/currentstudents/yourcommunity/living-in-the-community/livinginthecommunity.aspx",
+    "https://www.nottingham.ac.uk/about/facilities/facilities.aspx",
+    "https://www.nottingham.ac.uk/library/",
+    "https://www.nottingham.ac.uk/help-and-support/home.html",
+    "https://www.nottingham.ac.uk/about/",
+    "https://www.nottingham.ac.uk/about/history/abriefhistoryoftheuniversity.aspx",
+    "https://www.nottingham.ac.uk/about/keydates/",
+    "https://www.nottingham.ac.uk/about/structure/universitystructure.aspx",
+    "https://www.nottingham.ac.uk/global/home.aspx",
+    "https://www.nottingham.ac.uk/about/facts/factsandfigures.aspx",
+    "https://www.nottingham.ac.uk/departments/byfaculty.aspx",
+    "https://www.nottingham.ac.uk/departments/a-z.aspx",
+    "https://www.nottingham.ac.uk/departments/researchcentresandinstitutes.aspx",
+    "https://www.nottingham.ac.uk/departments/professionalservicedepartments.aspx",
+    "https://www.nottingham.ac.uk/jobs/home.aspx",
+    "https://www.nottingham.ac.uk/jobs/howtoapply/index.aspx",
+    "https://www.nottingham.ac.uk/hr/services/reward-and-benefits.aspx",
+    "https://www.nottingham.ac.uk/jobs/frequentlyaskedquestions/index.aspx",
+    "https://www.nottingham.ac.uk/jobs/contactus/index.aspx",
+    "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+    "https://www.nottingham.ac.uk/visit/",
+    "https://www.nottingham.ac.uk/about/vice-chancellor/vice-chancellor.aspx",
+    "https://www.lakesidearts.org.uk/",
+    "https://www.nottingham.ac.uk/Sport/Sport-Facilities/David-Ross-Sports-Village/David-Ross-Sports-Village.aspx",
+    "https://www.nottingham.ac.uk/research/research.aspx",
+    "https://www.nottingham.ac.uk/vision/",
+    "https://www.nottingham.ac.uk/fabs/research-innovation/engagement-and-partnerships.aspx",
+    "https://www.nottingham.ac.uk/research/atoz/facultyresearch.aspx",
+    "https://www.nottingham.ac.uk/conference/facilities/index.aspx",
+    "https://www.nottingham.ac.uk/contact/staff-search/uk-staff-look-up.aspx",
+    "https://www.nottingham.ac.uk/news/index.aspx",
+    "https://www.nottingham.ac.uk/research/research-areas/index.aspx",
+    "https://www.nottingham.ac.uk/researcher-academy/",
+    "https://www.nottingham.ac.uk/workingwithbusiness/",
+    "https://digitalresearch.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/expertise.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/develop-workforce.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/recruit-our-students-and-graduates.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/collaborativefunding.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/services/facilities-and-equipment.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/case-studies/case-studies.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/index.aspx",
+    "https://www.nottingham.ac.uk/news/",
+    "https://www.nottingham.ac.uk/news/meettheteam/index.aspx",
+    "https://www.nottingham.ac.uk/help-and-support/home/contact-us.html",
+    "https://www.nottingham.ac.uk/contact/",
+    "https://www.nottingham.ac.uk/studywithus/visitingus/visiting-us.aspx",
+    "https://www.nottingham.ac.uk/currentstudents/",
+    "https://www.nottingham.ac.uk/alumni/",
+    "https://www.nottingham.edu.my/index.aspx",
+    "https://www.nottingham.edu.cn/en/index.aspx",
+    "https://www.nottingham.ac.uk/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/country-info/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx#",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/hong-kong-alumni-scholarship.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/scholarships-funding-and-finance.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/international-scholarships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/undergraduate-scholarships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/masters-scholarships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/research-scholarships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/international-undergraduate-excellence-scholarship.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/international-postgraduate-scholarships.aspx",
+    "https://www.nottingham.ac.uk/Sport/Performance-Sport/Sports-Scholarships/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/International-applicants/scholarships-funding-finance/US-Federal-Aid/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/International-applicants/scholarships-funding-finance/Canada-student-loans/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/faq.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/guidance-notes.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/termsconditions.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/external-scholarships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/scholarships-funding-finance/fees.aspx",
+    "https://www.nottingham.ac.uk/studentservices/welcome/international-students/banking-and-money.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-requirements.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/english-language/english-language-equivalencies.aspx",
+    "https://www.nottingham.ac.uk/CELE/index.aspx",
+    "https://www.nottingham.ac.uk/Student-Living/Accommodation/Index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/why-study-in-the-uk/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/international-student-life/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/working-in-the-uk/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/preparing-for-nottingham/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/international-information-webinars.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/contact-us/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/international-student-life/international-student-life.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/international-student-life/students-with-families.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/apply-for-a-uk-student-visa-from-outside-the-uk.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/extend-or-switch-your-visa-from-inside-the-uk.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/frequently-asked-questions-about-visas.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/adviser.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/standard-visitor-visa.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/how-to-extend-your-student-visa.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/atas.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/working-in-the-uk/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/working-in-the-uk/after-graduation.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/spend-part-of-your-degree-here.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/international-and-european-exchange.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/fee-paying-study-abroad.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/visiting-postgraduate-research-students.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/visiting-students-modules.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/spend-part-of-your-degree-here/english-language-proficiency.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/contact-us/events-in-your-country.aspx",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/contact-us/contact-or-meet-us.aspx",
+    "https://www.nottingham.ac.uk/open-days/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/articles/sign-up-for-email-updates.html",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/country-info/country-information.aspx",
+    "https://www.nottingham.ac.uk/studywithus/why-study/employability.aspx",
+    "https://www.nottingham.ac.uk/studywithus/why-study/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/what-next/how-to-apply.aspx",
+    "https://www.nottingham.ac.uk/studentservices/welcome/international-students/international-students-home.aspx",
+    "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx",
+    "https://www.nottingham.ac.uk/sport/index.aspx",
+    "https://www.unhs.co.uk/",
+    "https://www.nottingham.ac.uk/studentservices/index.aspx",
+    "https://www.nottingham.ac.uk/StudentServices/HealthWelfare/index.aspx",
+    "https://www.nottingham.ac.uk/dts/",
+    "https://moodle.nottingham.ac.uk/login/index.php",
+    "https://www.nottingham.ac.uk/working-here/index.aspx",
+    "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx",
+    "https://www.nottingham.ac.uk/alumni/alumni.aspx",
+    "https://www.nottingham.ac.uk/alumni/newseventsandfeatures/index.aspx",
+    "https://www.nottingham.ac.uk/alumni/donatenow/index.aspx",
+    "https://www.facebook.com/UniofNottingham/",
+    "https://www.instagram.com/uniofnottingham",
+    "https://www.linkedin.com/school/university-of-nottingham/",
+    "https://www.youtube.com/channel/UCzdaFtpPWb-Pn6oYXQTCnxA",
+    "https://www.tiktok.com/@uniofnottingham?lang=en",
+    "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx",
+    "https://www.nottingham.ac.uk/utilities/terms.aspx",
+    "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx",
+    "https://www.nottingham.ac.uk/utilities/posting-rules.aspx",
+    "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx",
+    "https://www.nottingham.ac.uk/governance/gateway.aspx",
+    "https://www.nottingham.ac.uk/utilities/cookies.aspx",
+    "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/UoN-Logo-Dark.svg",
+        "alt": "University of Nottingham Logo",
+        "w": 197,
+        "h": 72
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/masters-virtual-open-day-message-tile-ptait-20230323-6036.png",
+        "alt": "Two students standing outside looking at table, smiling",
+        "w": 303,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/international-students/entry-requirements-by-country-students-male-pope-building-up-cropped-300x400.jpg",
+        "alt": "Male student carrying phone, smiling",
+        "w": 300,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/your-country-tile-b-engineering-science-technology-fair-b-2024-lgl-dsc06570.png",
+        "alt": "Three students gathered around laptop at recruitment fair",
+        "w": 550,
+        "h": 333
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/scholarships-funding-finance-tile-prospectus2017si-132.png",
+        "alt": "Three students sitting outside a cafe talking and smiling",
+        "w": 550,
+        "h": 333
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/english-language-for-international-students-32662-cropped-550x333.png",
+        "alt": "Two students standing outside talking and smiling",
+        "w": 550,
+        "h": 333
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/student-living/images-multimedia/nightingale-part-two16-9-banner-cropped-550x333.jpg",
+        "alt": "Student sitting at desk in Nightingale Hall of Residence",
+        "w": 550,
+        "h": 333
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/student-experience-tile-prospectus2017si-143.png",
+        "alt": "Group of students waiting at a tram stop",
+        "w": 550,
+        "h": 333
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/careers-tile-ptait-20230323-5787.jpg",
+        "alt": "Two students wearing white coats working in laboratory",
+        "w": 550,
+        "h": 333
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Engineering/Images/abdulquadri-ademakinwa.jpg",
+        "alt": "Head and shoulders portrait of Abdulquadri Ademakinwa",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/International-applicants/Images-mulitimedia/development/star-blue.png",
+        "alt": "Solid blue five point star",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/International-applicants/Images-mulitimedia/development/star-blue.png",
+        "alt": "Solid blue five point star",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/International-applicants/Images-mulitimedia/development/star-blue.png",
+        "alt": "Solid blue five point star",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/International-applicants/Images-mulitimedia/development/star-blue.png",
+        "alt": "Solid blue five point star",
+        "w": 400,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/studywithus/International-applicants/Images-mulitimedia/development/star-blue.png",
+        "alt": "Solid blue five point star",
+        "w": 400,
+        "h": 400
+      }
+    ],
+    "allImgCount": 15,
+    "cssBackgrounds": [
+      "https://www.nottingham.ac.uk/studywithus/international-applicants/images-mulitimedia/development/header-banner-two-women-desktop-ptait-20230328-2113.jpg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--textColor": "#10263B",
+    "--globalBlue": "#10263B",
+    "--globalLightBlue": "#009BC1",
+    "--globalRed": "#B91C2E",
+    "--globalPink": "#D7336C",
+    "--globalPurple": "#792D85",
+    "--globalTurquoise": "#37B4B0",
+    "--globalBeige": "#FAF6EF",
+    "--globalGrey": "#F3F4F5"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 11,
+    "mainTextLen": 24870,
+    "realImageCount": 15,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/studywithus-international-applicants-index-aspx.png",
+  "renderedHtml": "pages/studywithus-international-applicants-index-aspx.html"
+}

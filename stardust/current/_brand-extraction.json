@@ -1,0 +1,737 @@
+{
+  "_provenance": {
+    "generatedBy": "stardust design-system extraction (computed styles via Playwright, 1440x900 @2x)",
+    "generatedAt": "2026-09-23",
+    "source": "https://www.nottingham.ac.uk",
+    "authorized": true,
+    "repoModified": false,
+    "pagesProbed": [
+      "https://www.nottingham.ac.uk/",
+      "https://www.nottingham.ac.uk/study/home.html",
+      "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+      "https://www.nottingham.ac.uk/study/campus-visit/open-days.html",
+      "https://www.nottingham.ac.uk/research/research.aspx"
+    ],
+    "method": "per-element getComputedStyle aggregation across 5 template pages; colours frequency-ranked; CSS custom properties read from :root",
+    "note": "Analysis only. Writes stardust/current/_brand-extraction.json. No changes to blocks/, content/, styles/, or models/."
+  },
+  "palette": {
+    "brandTokens": {
+      "--bs-yellow": "#ffc107",
+      "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+      "--bs-orange": "#fd7e14",
+      "--bs-danger": "#dc3545",
+      "--bs-gray": "#6c757d",
+      "--bs-info": "#0dcaf0",
+      "--bs-success": "#198754",
+      "--globalLightBlue": "#009BC1",
+      "--globalBlue": "#10263B",
+      "--globalPurple": "#792D85",
+      "--globalPink": "#D7336C",
+      "--bs-teal": "#20c997",
+      "--bs-indigo": "#6610f2",
+      "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Free\"",
+      "--bs-primary": "#0d6efd",
+      "--globalTurquoise": "#37B4B0",
+      "--globalBeige": "#FAF6EF",
+      "--bs-dark": "#212529",
+      "--globalRed": "#B91C2E",
+      "--textColor": "#10263B",
+      "--bs-cyan": "#0dcaf0",
+      "--bs-green": "#198754",
+      "--bs-purple": "#6f42c1",
+      "--globalGrey": "#F3F4F5",
+      "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\"",
+      "--bs-secondary": "#6c757d",
+      "--bs-warning": "#ffc107",
+      "--bs-light": "#f8f9fa",
+      "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+      "--bs-pink": "#d63384",
+      "--bs-gray-dark": "#343a40",
+      "--bs-blue": "#0d6efd",
+      "--bs-red": "#dc3545",
+      "--bs-white": "#fff",
+      "--swiper-theme-color": "#007aff",
+      "--swiper-navigation-size": "44px"
+    },
+    "topBackgrounds": [
+      {
+        "value": "#FFFFFF",
+        "count": 79
+      },
+      {
+        "value": "#10263B",
+        "count": 59
+      },
+      {
+        "value": "#DEB406",
+        "count": 11
+      },
+      {
+        "value": "#18194F",
+        "count": 10
+      },
+      {
+        "value": "#FAF6EF",
+        "count": 9
+      },
+      {
+        "value": "#F3F4F5",
+        "count": 6
+      },
+      {
+        "value": "#FEFEFE",
+        "count": 6
+      },
+      {
+        "value": "#F2E19B",
+        "count": 3
+      },
+      {
+        "value": "#000000",
+        "count": 2
+      },
+      {
+        "value": "#D7336C",
+        "count": 1
+      },
+      {
+        "value": "#FDFBF9",
+        "count": 1
+      }
+    ],
+    "topTextColors": [
+      {
+        "value": "#10263B",
+        "count": 1143
+      },
+      {
+        "value": "#FFFFFF",
+        "count": 601
+      },
+      {
+        "value": "#0A0A0A",
+        "count": 24
+      },
+      {
+        "value": "#405162",
+        "count": 8
+      },
+      {
+        "value": "#000000",
+        "count": 7
+      },
+      {
+        "value": "#0D6EFD",
+        "count": 6
+      },
+      {
+        "value": "#656A78",
+        "count": 6
+      },
+      {
+        "value": "#696969",
+        "count": 5
+      },
+      {
+        "value": "#18194F",
+        "count": 5
+      },
+      {
+        "value": "#555555",
+        "count": 5
+      }
+    ],
+    "sectionBackgrounds": [
+      {
+        "value": "#FFFFFF",
+        "count": 6
+      },
+      {
+        "value": "#FAF6EF",
+        "count": 1
+      }
+    ]
+  },
+  "typography": {
+    "bodyFont": [
+      {
+        "value": "Circular, Arial, sans-serif",
+        "count": 3
+      },
+      {
+        "value": "Circular, Arial, Helvetica, sans-serif",
+        "count": 2
+      }
+    ],
+    "bodySize": [
+      {
+        "value": "16px",
+        "count": 5
+      }
+    ],
+    "bodyLineHeight": [
+      {
+        "value": "24px",
+        "count": 3
+      },
+      {
+        "value": "22px",
+        "count": 2
+      }
+    ],
+    "fontFamilies": [
+      {
+        "value": "Circular, Arial, sans-serif",
+        "count": 955
+      },
+      {
+        "value": "Circular, Arial, Helvetica, sans-serif",
+        "count": 735
+      },
+      {
+        "value": "Lora-Regular, \"Times New Roman\", Times, serif",
+        "count": 65
+      },
+      {
+        "value": "Lora, \"Georgia Bold\"",
+        "count": 31
+      },
+      {
+        "value": "\"Font Awesome 6 Brands\"",
+        "count": 15
+      },
+      {
+        "value": "Circular, Arial",
+        "count": 12
+      }
+    ],
+    "headingSizes": [
+      {
+        "value": "h2:32px",
+        "count": 35
+      },
+      {
+        "value": "h4:14px",
+        "count": 20
+      },
+      {
+        "value": "h3:19px",
+        "count": 12
+      },
+      {
+        "value": "h3:16px",
+        "count": 10
+      },
+      {
+        "value": "h2:42px",
+        "count": 10
+      },
+      {
+        "value": "h2:28.8px",
+        "count": 10
+      },
+      {
+        "value": "h2:23px",
+        "count": 6
+      },
+      {
+        "value": "h2:16px",
+        "count": 5
+      },
+      {
+        "value": "h1:56px",
+        "count": 4
+      },
+      {
+        "value": "h2:28px",
+        "count": 3
+      },
+      {
+        "value": "h2:36px",
+        "count": 3
+      },
+      {
+        "value": "h3:25.6px",
+        "count": 3
+      },
+      {
+        "value": "h1:40px",
+        "count": 1
+      },
+      {
+        "value": "h3:28px",
+        "count": 1
+      },
+      {
+        "value": "h1:42px",
+        "count": 1
+      },
+      {
+        "value": "h3:22px",
+        "count": 1
+      }
+    ],
+    "headingWeights": [
+      {
+        "value": "h2:400",
+        "count": 39
+      },
+      {
+        "value": "h2:700",
+        "count": 33
+      },
+      {
+        "value": "h4:600",
+        "count": 15
+      },
+      {
+        "value": "h3:700",
+        "count": 14
+      },
+      {
+        "value": "h3:500",
+        "count": 12
+      },
+      {
+        "value": "h1:700",
+        "count": 5
+      },
+      {
+        "value": "h4:700",
+        "count": 5
+      },
+      {
+        "value": "h1:400",
+        "count": 1
+      },
+      {
+        "value": "h3:400",
+        "count": 1
+      }
+    ],
+    "headingLineHeights": [
+      {
+        "value": "h2:normal",
+        "count": 33
+      },
+      {
+        "value": "h4:21px",
+        "count": 20
+      },
+      {
+        "value": "h2:38.4px",
+        "count": 12
+      },
+      {
+        "value": "h3:26.6px",
+        "count": 12
+      },
+      {
+        "value": "h3:20.8px",
+        "count": 10
+      },
+      {
+        "value": "h2:37.44px",
+        "count": 10
+      },
+      {
+        "value": "h2:29.9px",
+        "count": 6
+      },
+      {
+        "value": "h2:24px",
+        "count": 5
+      },
+      {
+        "value": "h1:67.2px",
+        "count": 4
+      },
+      {
+        "value": "h2:43.2px",
+        "count": 3
+      }
+    ]
+  },
+  "spacing": {
+    "sectionPaddings": [
+      {
+        "value": "0px/0px",
+        "count": 26
+      },
+      {
+        "value": "16px/16px",
+        "count": 6
+      },
+      {
+        "value": "60px/60px",
+        "count": 1
+      }
+    ]
+  },
+  "buttons": [
+    {
+      "label": "Skip to main content",
+      "bg": "#FAF6EF",
+      "color": "#10263B",
+      "border": "1px solid rgb(16, 38, 59)",
+      "borderRadius": "0px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "4.8px 8px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Clear",
+      "bg": null,
+      "color": "#10263B",
+      "border": "0px none rgb(16, 38, 59)",
+      "borderRadius": "0px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "",
+      "bg": null,
+      "color": "#FFFFFF",
+      "border": "1px solid rgb(255, 255, 255)",
+      "borderRadius": "54px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "",
+      "bg": null,
+      "color": "#FFFFFF",
+      "border": "1px solid rgb(255, 255, 255)",
+      "borderRadius": "54px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "0px 20px 0px 60px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Back to menu",
+      "bg": null,
+      "color": "#FFFFFF",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "0px 0px 0px 28px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Study",
+      "bg": null,
+      "color": "#FFFFFF",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontWeight": "400",
+      "fontSize": "42px",
+      "padding": "0px 38px 0px 0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Let's go",
+      "bg": "#10263B",
+      "color": "#FFFFFF",
+      "border": "2px solid rgb(16, 38, 59)",
+      "borderRadius": "68px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "10px 60px 10px 14px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Explore Nottingham research",
+      "bg": "#FFFFFF",
+      "color": "#10263B",
+      "border": "2px solid rgb(255, 255, 255)",
+      "borderRadius": "68px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "10px 60px 10px 14px",
+      "textTransform": "none"
+    },
+    {
+      "label": "",
+      "bg": null,
+      "color": null,
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "fontWeight": "400",
+      "fontSize": "0px",
+      "padding": "0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Go to slide 1",
+      "bg": "#10263B",
+      "color": null,
+      "border": "0px none rgba(0, 0, 0, 0)",
+      "borderRadius": "100%",
+      "fontWeight": "400",
+      "fontSize": "0px",
+      "padding": "0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Quick links",
+      "bg": null,
+      "color": "#FFFFFF",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "3px 3px 0px 0px",
+      "fontWeight": "700",
+      "fontSize": "16px",
+      "padding": "16px 20px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Students",
+      "bg": null,
+      "color": "#FFFFFF",
+      "border": "0px none rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "fontWeight": "700",
+      "fontSize": "16px",
+      "padding": "16px 20px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Cookies Settings",
+      "bg": "#FFFFFF",
+      "color": "#18194F",
+      "border": "1px solid rgb(24, 25, 79)",
+      "borderRadius": "2px",
+      "fontWeight": "600",
+      "fontSize": "13.008px",
+      "padding": "12px 10px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Reject All",
+      "bg": "#18194F",
+      "color": "#FFFFFF",
+      "border": "1px solid rgb(24, 25, 79)",
+      "borderRadius": "2px",
+      "fontWeight": "600",
+      "fontSize": "13.008px",
+      "padding": "12px 10px",
+      "textTransform": "none"
+    },
+    {
+      "label": "",
+      "bg": null,
+      "color": "#555555",
+      "border": "0px none rgb(85, 85, 85)",
+      "borderRadius": "2px",
+      "fontWeight": "400",
+      "fontSize": "14.4px",
+      "padding": "0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Allow All",
+      "bg": "#18194F",
+      "color": "#FFFFFF",
+      "border": "1px solid rgb(24, 25, 79)",
+      "borderRadius": "2px",
+      "fontWeight": "700",
+      "fontSize": "14.4px",
+      "padding": "12px 30px",
+      "textTransform": "none"
+    },
+    {
+      "label": "",
+      "bg": null,
+      "color": "#555555",
+      "border": "0px none rgb(85, 85, 85)",
+      "borderRadius": "2px",
+      "fontWeight": "700",
+      "fontSize": "14.4px",
+      "padding": "12px 30px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Filter Icon",
+      "bg": "#3860BE",
+      "color": "#555555",
+      "border": "1px solid rgb(187, 187, 187)",
+      "borderRadius": "17px",
+      "fontWeight": "700",
+      "fontSize": "14.4px",
+      "padding": "0px",
+      "textTransform": "none"
+    },
+    {
+      "label": "Clear",
+      "bg": null,
+      "color": "#696969",
+      "border": "1px solid rgba(0, 0, 0, 0)",
+      "borderRadius": "2px",
+      "fontWeight": "700",
+      "fontSize": "14.4px",
+      "padding": "1px",
+      "textTransform": "none"
+    },
+    {
+      "label": "",
+      "bg": "#10263B",
+      "color": "#FFFFFF",
+      "border": "1px solid rgb(255, 255, 255)",
+      "borderRadius": "54px",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "padding": "0px",
+      "textTransform": "none"
+    }
+  ],
+  "links": [
+    {
+      "color": "#10263B",
+      "decoration": "underline",
+      "fontWeight": "400"
+    },
+    {
+      "color": "#10263B",
+      "decoration": "none",
+      "fontWeight": "400"
+    },
+    {
+      "color": "#FFFFFF",
+      "decoration": "none",
+      "fontWeight": "400"
+    },
+    {
+      "color": "#FFFFFF",
+      "decoration": "underline",
+      "fontWeight": "400"
+    }
+  ],
+  "motifs": {
+    "borderRadius": [
+      {
+        "value": "54px",
+        "count": 27
+      },
+      {
+        "value": "68px",
+        "count": 27
+      },
+      {
+        "value": "2px",
+        "count": 20
+      },
+      {
+        "value": "4px",
+        "count": 14
+      },
+      {
+        "value": "50px",
+        "count": 5
+      },
+      {
+        "value": "100%",
+        "count": 4
+      },
+      {
+        "value": "50%",
+        "count": 3
+      }
+    ],
+    "boxShadow": [
+      {
+        "value": "rgba(0, 0, 0, 0.55) 4px 6px 8px -4px",
+        "count": 7
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+        "count": 5
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.3) 2px 3px 6px 0px",
+        "count": 5
+      }
+    ]
+  },
+  "imageTreatments": {
+    "objectFit": [
+      {
+        "value": "cover",
+        "count": 48
+      },
+      {
+        "value": "fill",
+        "count": 42
+      }
+    ],
+    "aspectRatios": [
+      {
+        "value": "3:2",
+        "count": 11
+      },
+      {
+        "value": "0.70",
+        "count": 10
+      },
+      {
+        "value": "1:1",
+        "count": 8
+      },
+      {
+        "value": "1.65",
+        "count": 6
+      },
+      {
+        "value": "2.74",
+        "count": 5
+      },
+      {
+        "value": "16:9",
+        "count": 5
+      },
+      {
+        "value": "0.73",
+        "count": 4
+      },
+      {
+        "value": "1.66",
+        "count": 3
+      }
+    ],
+    "borderRadius": []
+  },
+  "designSystemSummary": {
+    "primaryNavy": "#10263B (site --globalBlue / --textColor; dominant background + text)",
+    "accents": {
+      "gold": "#DEB406 (stat panels)",
+      "deepNavy": "#18194F (secondary dark)",
+      "pink": "#D7336C (--globalPink, primary CTA)",
+      "lightBlue": "#009BC1",
+      "turquoise": "#37B4B0",
+      "purple": "#792D85",
+      "red": "#B91C2E"
+    },
+    "neutrals": {
+      "cream": "#FAF6EF (--globalBeige, section band)",
+      "grey": "#F3F4F5 (--globalGrey)",
+      "white": "#FFFFFF"
+    },
+    "fonts": {
+      "display": "Lora (serif) — headings",
+      "body": "Circular (geometric sans), Arial fallback, 16px/24px"
+    },
+    "typeScale": "H1 56px/700 · H2 42px & 32px/700 (32px @400 common) · H3 ~19-25px · H4 14px/600",
+    "buttons": "Pill CTAs: border-radius 68px (also 54px), padding ~10px 60px 10px 14px (asymmetric — arrow room), weight 400, no uppercase. Primary = navy #10263B on light / white on navy; inverse = white bg + navy text.",
+    "links": "Body links navy #10263B, underline; on dark backgrounds white, underline on hover.",
+    "radii": "Pills 54/68px for CTAs; 2-4px for cards/tiles; 50%/100% for dots & circular controls.",
+    "shadows": "Soft elevation: rgba(0,0,0,.2) 0 0 18px and rgba(0,0,0,.3) 2px 3px 6px on cards; stronger drop on overlays.",
+    "imageTreatments": "object-fit: cover dominant; square (1:1), 3:2, 16:9 and portrait (~0.70) ratios; no rounding on images (sharp corners).",
+    "spacing": "Section rhythm mostly handled by inner blocks; explicit section padding seen at 16px and 60px; 8px base grid."
+  }
+}

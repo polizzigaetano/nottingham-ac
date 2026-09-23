@@ -1,12 +1,21 @@
 :root {
-  /* Fonts */
-  --heading-font-family: domine, lora, georgia, serif;
+  /* Fonts — source renders headings in Lora (serif); body in Circular */
+  --heading-font-family: lora, domine, georgia, serif;
   --body-font-family: circularxx, inter, arial, sans-serif;
 
-  /* Brand colors */
-  --uon-navy: #10263b;
-  --uon-gold: #deb406;
-  --uon-cream: #faf6ef;
+  /* Brand colors — reconciled against measured source tokens (site --global* vars) */
+  --uon-navy: #10263b;        /* --globalBlue / --textColor: dominant bg + text */
+  --uon-navy-deep: #18194f;   /* secondary dark: stat panels, overlays */
+  --uon-gold: #deb406;        /* stat-panel accent */
+  --uon-pink: #d7336c;        /* --globalPink: primary CTA on interior pages */
+  --uon-cream: #faf6ef;       /* --globalBeige: section band */
+  --uon-grey: #f3f4f5;        /* --globalGrey: light surface */
+
+  /* Extended brand accents (site --global* palette, used sparingly) */
+  --uon-light-blue: #009bc1;
+  --uon-turquoise: #37b4b0;
+  --uon-purple: #792d85;
+  --uon-red: #b91c2e;
 
   /* Semantic colors */
   --background-color: #fff;
@@ -18,9 +27,13 @@
   --section-padding: 48px;
   --nav-height: 86px;
 
-  /* Heading sizes (desktop) */
-  --heading-size-xxl: 48px;
-  --heading-size-xl: 32px;
+  /* Pill CTA radius (measured 68px primary, 54px secondary) */
+  --cta-radius: 68px;
+
+  /* Heading sizes (desktop) — reconciled to measured source scale */
+  --heading-size-xxl: 56px;       /* H1 */
+  --heading-size-xl-plus: 42px;   /* large section H2 */
+  --heading-size-xl: 32px;        /* H2 */
   --heading-size-l: 28px;
   --heading-size-m: 22px;
   --heading-size-s: 18px;
