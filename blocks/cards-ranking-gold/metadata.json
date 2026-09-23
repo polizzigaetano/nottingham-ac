@@ -10,10 +10,11 @@
   "contentPattern": "Row of stat/ranking tiles, each with a large stat figure, supporting label and citation link",
   "usage": {
     "pagesUsing": [
-      "/studywithus/study-with-us-aspx"
+      "/studywithus/study-with-us-aspx",
+      "/studywithus/international-applicants/index-aspx"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-09-13T14:01:50.005680Z",
+    "reuseCount": 2,
+    "lastUsed": "2026-09-23T12:57:39.620568",
     "note": "Homepage ranking / accolade stat tiles"
   },
   "options": [],

@@ -15,6 +15,59 @@
  * a link in the text cell so the block JS can make the whole card clickable.
  */
 export default function parse(element, { document }) {
+  // --- Branch B: legacy Contensis card (International applicants). The mapped
+  // instance selector is `.card-section` (the inner title+blurb block), so this
+  // parser receives ONE .card-section per call. The <img> and the card href
+  // (<a class="no-underlined">) are ANCESTORS of .card-section, not descendants.
+  // Walk up to find them, then emit a single [image][text] row.
+  if (element.matches('.card-section')
+    || (!element.querySelector('.card') && element.closest('.card'))) {
+    const section = element.matches('.card-section')
+      ? element
+      : element.querySelector('.card-section') || element;
+    const card = section.closest('.card') || section.parentElement;
+    const link = section.closest('a[href]');
+    const href = link ? link.getAttribute('href') : null;
+    const image = card ? card.querySelector('img') : null;
+    const title = section.querySelector('h2, h3, h4') || section.querySelector('h2');
+    const caption = section.querySelector('p');
+
+    if (!image && !title && !caption && !href) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const imageCell = [document.createComment(' field:image ')];
+    if (image) imageCell.push(image);
+
+    const textCell = [document.createComment(' field:text ')];
+    if (title) textCell.push(title);
+    if (caption) textCell.push(caption);
+    if (href) {
+      const a = document.createElement('a');
+      a.href = href;
+      a.textContent = (link && link.getAttribute('title'))
+        || (title && title.textContent.trim())
+        || 'Find out more';
+      const wrap = document.createElement('p');
+      wrap.appendChild(a);
+      textCell.push(wrap);
+    }
+
+    // Replace the whole card wrapper (link/card) so leftover markup isn't
+    // duplicated as stray default content. Fall back to the element itself.
+    const replaceTarget = (link && element.contains(link) === false && link.contains(element))
+      ? link
+      : element;
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: 'cards-nav-light',
+      cells: [[imageCell, textCell]],
+    });
+    replaceTarget.replaceWith(block);
+    return;
+  }
+
+  // --- Branch A: original wrapper containing multiple .card elements -----
   const cards = Array.from(element.querySelectorAll('.card'));
   const cells = [];
   const seen = new Set();

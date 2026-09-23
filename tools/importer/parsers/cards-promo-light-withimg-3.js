@@ -19,6 +19,51 @@
  * that contains multiple `.feature-block--v2` tiles.
  */
 export default function parse(element, { document }) {
+  // --- Branch B: legacy Contensis .imageTextContentCTA-card (International
+  // applicants). Each matched element is ONE tile: <img> + .cta-content holding
+  // .text-content (<span> heading + <p> description) and an <a.sys_secondary-btn>
+  // CTA. NOTE the heading is a <span>, not a heading tag — read its text.
+  if (element.matches('.imageTextContentCTA-card') || element.querySelector('.cta-content, .text-content')) {
+    const image = element.querySelector('img');
+    const textContent = element.querySelector('.text-content') || element;
+    const headingEl = textContent.querySelector('span, h1, h2, h3, h4');
+    const paras = Array.from(textContent.querySelectorAll('p')).filter((p) => p.textContent.trim());
+    const cta = element.querySelector('.cta-content a[href], a.sys_secondary-btn[href], a.button[href], a[href]');
+
+    if (!image && !headingEl && !paras.length && !cta) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const imageCell = [];
+    if (image) {
+      imageCell.push(document.createComment(' field:image '));
+      imageCell.push(image);
+    }
+
+    const textCell = [document.createComment(' field:text ')];
+    if (headingEl && headingEl.textContent.trim()) {
+      const h = document.createElement('h3');
+      h.textContent = headingEl.textContent.trim();
+      textCell.push(h);
+    }
+    paras.forEach((p) => textCell.push(p));
+    if (cta && cta.getAttribute('href')) {
+      const a = document.createElement('a');
+      a.href = cta.getAttribute('href');
+      a.textContent = (cta.textContent || '').trim() || cta.getAttribute('href');
+      textCell.push(a);
+    }
+
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: 'cards-promo-light-withimg-3',
+      cells: [[imageCell, textCell]],
+    });
+    element.replaceWith(block);
+    return;
+  }
+
+  // --- Branch A: original .feature-block--white-bg markup ----------------
   let tiles = Array.from(element.querySelectorAll('.feature-block--v2'));
   if (!tiles.length) tiles = [element];
 
