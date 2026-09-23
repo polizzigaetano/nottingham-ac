@@ -2184,7 +2184,7 @@
         "https://www.nottingham.ac.uk/virtual/home-applications/entry-requirements.aspx"
       ],
       "representativeUrl": "https://www.nottingham.ac.uk/open-days/",
-      "description": "Open Days landing page: hero + section-nav bar, breadcrumb, What-to-expect (light img+text), Accessibility (dark img+text), On-the-day numbered steps, Download-the-app (dark), 3-up light promo cards, and a ready-to-experience banner.",
+      "description": "To be named in naming step",
       "blocks": [
         {
           "name": "hero-minimal-dark-2",
@@ -2224,8 +2224,6 @@
           ]
         }
       ],
-      "coverageGaps": [],
-      "urlPattern": "/*",
       "sections": [
         {
           "id": "s2",
@@ -2335,7 +2333,9 @@
             ".promoCard-content"
           ]
         }
-      ]
+      ],
+      "coverageGaps": [],
+      "urlPattern": "/*"
     },
     {
       "name": "content-with-form-21",
@@ -2517,6 +2517,123 @@
       "blocks": [],
       "coverageGaps": [],
       "urlPattern": "/studentservices/welcome/school-and-department-welcome/*"
+    },
+    {
+      "name": "study",
+      "urls": [
+        "https://www.nottingham.ac.uk/study/home.html"
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/study/home.html",
+      "description": "Study hub landing page: video hero + course search, intro, dark image promo tiles (2x2), Open Days hero-card, light image promo cards (3-up), Our Campuses hero-card.",
+      "blocks": [
+        {
+          "name": "hero-video-dark",
+          "instances": [
+            ".content-search--withHero .video-fullWidth"
+          ]
+        },
+        {
+          "name": "search-course-light",
+          "instances": [
+            ".content-search__content"
+          ]
+        },
+        {
+          "name": "cards-promo-dark-withimg-4",
+          "instances": [
+            ".featureblock.feature-block--dark-bg"
+          ]
+        },
+        {
+          "name": "hero-card-dark",
+          "instances": [
+            ".promoCard-banner"
+          ]
+        },
+        {
+          "name": "cards-promo-light-withimg-3",
+          "instances": [
+            ".featureblock.feature-block--white-bg"
+          ]
+        }
+      ],
+      "urlPattern": "/study/*",
+      "sections": [
+        {
+          "id": "rc1",
+          "name": "Video hero",
+          "selector": [
+            ".content-search--withHero .video-fullWidth"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-video-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc2",
+          "name": "Course search",
+          "selector": [
+            ".content-search__content"
+          ],
+          "style": "dark",
+          "blocks": [
+            "search-course-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc3",
+          "name": "Study options tiles",
+          "selector": [
+            ".featureblock.feature-block--dark-bg"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-dark-withimg-4"
+          ],
+          "defaultContent": [
+            "h1"
+          ]
+        },
+        {
+          "id": "rc4",
+          "name": "Open days hero-card",
+          "selector": [
+            ".promoCard-banner"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-card-dark"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc5",
+          "name": "Light promo cards",
+          "selector": [
+            ".featureblock.feature-block--white-bg"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-light-withimg-3"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "rc6",
+          "name": "Our campuses hero-card",
+          "selector": [
+            ".promoCard-banner"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-card-dark"
+          ],
+          "defaultContent": []
+        }
+      ]
     },
     {
       "name": "minimal-content-page-4",

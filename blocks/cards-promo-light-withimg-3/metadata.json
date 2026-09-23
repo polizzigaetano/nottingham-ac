@@ -1,0 +1,16 @@
+{
+  "variantName": "cards-promo-light-withimg-3",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Grid (typically up to 3-up) of light promo cards; each card has an image on top, then a navy serif heading, an optional paragraph and a CTA, in a white/light panel. Image-led sibling of the text-only cards-promo-light.",
+  "contentPattern": "One row per card: an image cell and a body cell (heading, optional paragraph, CTA link).",
+  "usage": {
+    "documentPaths": [
+      "/study/home"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-promo-light-withimg-3"
+  ]
+}

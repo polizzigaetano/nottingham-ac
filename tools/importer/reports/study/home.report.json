@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "url": "https://www.nottingham.ac.uk/study/home.html",
+  "path": "study/home",
+  "timestamp": "2026-09-23T09:59:49.613Z",
+  "title": "Study with us",
+  "template": "study",
+  "blocks": [
+    "hero-video-dark",
+    "search-course-light",
+    "cards-promo-dark-withimg-4",
+    "cards-promo-dark-withimg-4",
+    "cards-promo-dark-withimg-4",
+    "cards-promo-dark-withimg-4",
+    "hero-card-dark",
+    "hero-card-dark",
+    "cards-promo-light-withimg-3",
+    "cards-promo-light-withimg-3",
+    "cards-promo-light-withimg-3"
+  ]
+}

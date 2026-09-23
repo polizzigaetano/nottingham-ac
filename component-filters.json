@@ -33,7 +33,10 @@
       "columns-withimg-light",
       "cards-steps-light",
       "cards-promo-light",
-      "hero-card-dark"
+      "hero-card-dark",
+      "hero-video-dark",
+      "cards-promo-dark-withimg-4",
+      "cards-promo-light-withimg-3"
     ]
   },
   {
@@ -61,9 +64,21 @@
     ]
   },
   {
+    "id": "cards-promo-dark-withimg-4",
+    "components": [
+      "cards-promo-dark-withimg-4-item"
+    ]
+  },
+  {
     "id": "cards-promo-dark",
     "components": [
       "cards-promo-dark-item"
+    ]
+  },
+  {
+    "id": "cards-promo-light-withimg-3",
+    "components": [
+      "cards-promo-light-withimg-3-item"
     ]
   },
   {

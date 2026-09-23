@@ -1,0 +1,16 @@
+{
+  "variantName": "hero-video-dark",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-bleed dark media hero: a poster image with a circular play button overlaid (top-right). Clicking play opens the video in a modal dialog. Optional heading/subtext + CTA can sit over the poster lower-left.",
+  "contentPattern": "Standalone: a poster image cell, an optional link cell whose href is the video URL (YouTube/Vimeo/mp4), and optional text (heading, subtext, CTA). Falls back to just the poster when no video URL is present.",
+  "usage": {
+    "documentPaths": [
+      "/study/home"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-video-dark"
+  ]
+}
