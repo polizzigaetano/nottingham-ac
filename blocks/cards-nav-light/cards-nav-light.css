@@ -12,6 +12,35 @@
   gap: 28px;
 }
 
+/* Multi-instance layout: when each card is authored as its own block instance
+ * (separate *-wrapper siblings in the section container), lay them out as a
+ * grid here. Scoped with :has() so a single block holding many <li> rows (its
+ * own `ul` grid above) is unaffected. Source uses a 3-up grid. */
+.cards-nav-light-container:has(> .cards-nav-light-wrapper + .cards-nav-light-wrapper) {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.cards-nav-light-container:has(> .cards-nav-light-wrapper + .cards-nav-light-wrapper)
+  > .cards-nav-light-wrapper {
+  max-width: none;
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .cards-nav-light-container:has(> .cards-nav-light-wrapper + .cards-nav-light-wrapper) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-nav-light-container:has(> .cards-nav-light-wrapper + .cards-nav-light-wrapper) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .cards-nav-light .cards-nav-light-card {
   display: block;
 }

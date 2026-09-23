@@ -15,6 +15,50 @@
  * One row per card, 1 cell: field:text = <h3>heading</h3> + <p>paragraph</p> + CTA.
  */
 export default function parse(element, { document }) {
+  // --- Branch B: legacy Contensis panels (International applicants).
+  // Instances: .sys_solid-blue-background-box (feature panels "Why choose
+  // Nottingham?" / "How to apply") and blockquote.sys_blockquoteAlt ("Preparing
+  // for Nottingham"). Each matched element is ONE panel: <h2> + <p> + a CTA <a>
+  // (wrapped in its own <p>). Emit ONE row, 1 cell (field:text = h3 + p + CTA).
+  if (element.matches('.sys_solid-blue-background-box, .sys_solid-background-box, blockquote.sys_blockquoteAlt')
+    && !element.querySelector('.feature-block__text')) {
+    const cell = [document.createComment(' field:text ')];
+
+    const titleEl = element.querySelector('h1, h2, h3, .text-container__title');
+    if (titleEl && titleEl.textContent.trim()) {
+      const h3 = document.createElement('h3');
+      h3.textContent = titleEl.textContent.trim();
+      cell.push(h3);
+    }
+
+    // Description paragraphs: skip the paragraph that only wraps the CTA link.
+    const paras = Array.from(element.querySelectorAll('p'))
+      .filter((p) => p.textContent.trim() && !(p.querySelector('a[href]') && !p.textContent.replace(p.querySelector('a[href]').textContent, '').trim()));
+    paras.forEach((p) => cell.push(p));
+
+    const source = element.querySelector('a[href]');
+    if (source && source.getAttribute('href')) {
+      const a = document.createElement('a');
+      a.setAttribute('href', source.getAttribute('href'));
+      a.textContent = (source.textContent || '').replace(/\s+/g, ' ').trim()
+        || source.getAttribute('title') || source.getAttribute('href');
+      cell.push(a);
+    }
+
+    if (cell.length === 1) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: 'cards-promo-light',
+      cells: [[cell]],
+    });
+    element.replaceWith(block);
+    return;
+  }
+
+  // --- Branch A: original .feature-block--white-bg markup ----------------
   // A card unit is a .feature-block__text; the element may be one card or a group.
   let units = Array.from(element.querySelectorAll('.feature-block__text'));
   if (!units.length) units = [element];

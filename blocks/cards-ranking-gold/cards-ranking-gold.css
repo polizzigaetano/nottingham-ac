@@ -1,5 +1,35 @@
 /* Cards (ranking, gold) — gold stat tiles, navy text. Values extracted from source. */
 
+/* Multi-instance layout: when a page authors each stat as its own block
+ * instance (rather than one block with many rows), the tiles are separate
+ * *-wrapper siblings in the section container. Lay those out as a strip here.
+ * Scoped with :has() so single-instance pages (e.g. the homepage, where one
+ * block holds all rows via the internal `ul` grid below) are untouched. */
+.cards-ranking-gold-container:has(> .cards-ranking-gold-wrapper + .cards-ranking-gold-wrapper) {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.cards-ranking-gold-container:has(> .cards-ranking-gold-wrapper + .cards-ranking-gold-wrapper)
+  > .cards-ranking-gold-wrapper {
+  max-width: none;
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .cards-ranking-gold-container:has(> .cards-ranking-gold-wrapper + .cards-ranking-gold-wrapper) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-ranking-gold-container:has(> .cards-ranking-gold-wrapper + .cards-ranking-gold-wrapper) {
+    /* 5 stats read best as an odd strip; auto-fit keeps tiles even */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
 .cards-ranking-gold ul {
   list-style: none;
   margin: 0;

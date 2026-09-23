@@ -19,6 +19,49 @@
  * to find the matching image.
  */
 export default function parse(element, { document }) {
+  // --- Branch B: legacy Contensis "standard banner" markup ---------------
+  // (.sys_standard-banner on the International-applicants page). The hero photo
+  // is a CSS background-image on a `.background-image` div (duplicated for
+  // mobile/desktop breakpoints) rather than an <img>; the heading + lede live
+  // in a nested `.banner-content`. Emit the same 1-column / 2-row Hero shape.
+  if (element.matches('.sys_standard-banner') || element.querySelector('.background-image')) {
+    // Prefer the desktop variant; fall back to the first background-image div.
+    const bgDivs = Array.from(element.querySelectorAll('.background-image'));
+    const bgDiv = bgDivs.find((d) => d.classList.contains('d-sm-block')) || bgDivs[0] || null;
+
+    let image = element.querySelector('img');
+    if (!image && bgDiv) {
+      const style = bgDiv.getAttribute('style') || '';
+      const m = style.match(/url\((['"]?)([^'")]+)\1\)/i);
+      if (m && m[2]) {
+        image = document.createElement('img');
+        image.setAttribute('src', m[2].trim());
+      }
+    }
+
+    const scope = bgDiv || element;
+    const heading = scope.querySelector('.banner-content h1, .banner-content h2, .banner-content h3, h1, h2, h3');
+    const paras = Array.from(scope.querySelectorAll('.banner-content p, p'))
+      .filter((p) => p.textContent.trim());
+
+    if (!image && !heading && !paras.length) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const cells = [];
+    if (image) cells.push([[document.createComment(' field:image '), image]]);
+    const textCell = [document.createComment(' field:text ')];
+    if (heading) textCell.push(heading);
+    paras.forEach((p) => textCell.push(p));
+    if (textCell.length > 1) cells.push([textCell]);
+
+    const block = WebImporter.Blocks.createBlock(document, { name: 'hero-card-dark', cells });
+    element.replaceWith(block);
+    return;
+  }
+
+  // --- Branch A: original .promoCard-banner markup -----------------------
   const container = element.closest('.promoCard-container') || element.parentElement || element;
 
   // Background image lives beside the banner, in the container.

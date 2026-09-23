@@ -115,6 +115,20 @@
     padding: 56px 32px;
   }
 
+  /* Adapt column count to the number of authored card instances so a section
+   * with 2 panels renders a clean 2-up and a single panel stays centered
+   * (rather than a lonely third-width card in a forced 3-col grid). The bare
+   * 3-up above remains the default for sections that actually have 3+. */
+  .cards-promo-light-container:has(> .cards-promo-light-wrapper:only-of-type) {
+    grid-template-columns: minmax(0, 640px);
+  }
+
+  .cards-promo-light-container:has(
+    > .cards-promo-light-wrapper:nth-of-type(2):last-of-type
+  ) {
+    grid-template-columns: repeat(2, minmax(0, 400px));
+  }
+
   .cards-promo-light .cards-promo-light-card h2,
   .cards-promo-light .cards-promo-light-card h3 {
     font-size: 42px;
