@@ -12,6 +12,28 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
  * If no video URL is present, the block renders just the poster (no play btn).
  * @param {Element} block
  */
+/**
+ * Add an autoplay parameter to a provider embed URL so the video starts when
+ * the modal is opened (not on page load). Files use the <video> element's
+ * play() instead, so they don't need this.
+ */
+function withAutoplay(url) {
+  try {
+    const u = new URL(url, window.location.origin);
+    if (/youtube\.com|youtu\.be|vimeo\.com/i.test(u.hostname)) {
+      u.searchParams.set('autoplay', '1');
+    }
+    return u.toString();
+  } catch (e) {
+    return url;
+  }
+}
+
+/**
+ * Build the video modal. The player's src is NOT set here — it is loaded only
+ * when the modal opens (openModal) and cleared when it closes (closeModal), so
+ * the video never plays in the background on page load.
+ */
 function buildModal(videoUrl) {
   const dialog = document.createElement('dialog');
   dialog.className = 'hero-video-dark-modal';
@@ -21,28 +43,62 @@ function buildModal(videoUrl) {
   close.className = 'hero-video-dark-close';
   close.setAttribute('aria-label', 'Close video');
   close.textContent = '×';
-  close.addEventListener('click', () => dialog.close());
 
   const frameWrap = document.createElement('div');
   frameWrap.className = 'hero-video-dark-frame';
 
-  const isFile = /\.(mp4|webm|ogg)(\?|$)/i.test(videoUrl);
+  const isFile = /\.(mp4|webm|ogg|m3u8)(\?|$)/i.test(videoUrl);
   let media;
   if (isFile) {
     media = document.createElement('video');
-    media.src = videoUrl;
     media.controls = true;
     media.setAttribute('playsinline', '');
+    media.setAttribute('preload', 'none');
   } else {
     media = document.createElement('iframe');
-    media.src = videoUrl;
     media.title = 'Video';
     media.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture');
     media.setAttribute('allowfullscreen', '');
   }
   frameWrap.append(media);
   dialog.append(close, frameWrap);
-  return dialog;
+
+  function openModal() {
+    // Load the source only now, so nothing plays until the user asks for it.
+    if (isFile) {
+      media.src = videoUrl;
+      if (typeof dialog.showModal === 'function') dialog.showModal();
+      const p = media.play();
+      if (p && typeof p.catch === 'function') p.catch(() => {});
+    } else {
+      media.src = withAutoplay(videoUrl);
+      if (typeof dialog.showModal === 'function') dialog.showModal();
+    }
+  }
+
+  function closeModal() {
+    if (isFile) media.pause();
+    // Clearing the src stops iframe playback and releases the video.
+    media.removeAttribute('src');
+    if (isFile) media.load();
+    if (dialog.open) dialog.close();
+  }
+
+  close.addEventListener('click', closeModal);
+  // Close when the backdrop (area outside the frame) is clicked.
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) closeModal();
+  });
+  // Native Escape triggers dialog 'close' — make sure the src is cleared too.
+  dialog.addEventListener('close', () => {
+    if (media.getAttribute('src')) {
+      if (isFile) media.pause();
+      media.removeAttribute('src');
+      if (isFile) media.load();
+    }
+  });
+
+  return { dialog, openModal };
 }
 
 export default function decorate(block) {
@@ -98,7 +154,7 @@ export default function decorate(block) {
 
   // Play button + modal (only when a video URL is present)
   if (videoUrl) {
-    const dialog = buildModal(videoUrl);
+    const { dialog, openModal } = buildModal(videoUrl);
     const playWrap = document.createElement('div');
     playWrap.className = 'hero-video-dark-play-wrapper';
     const play = document.createElement('button');
@@ -106,9 +162,7 @@ export default function decorate(block) {
     play.className = 'hero-video-dark-play';
     play.setAttribute('aria-label', 'Play video');
     play.textContent = '▶';
-    play.addEventListener('click', () => {
-      if (typeof dialog.showModal === 'function') dialog.showModal();
-    });
+    play.addEventListener('click', openModal);
     playWrap.append(play);
     media.append(playWrap);
     block.append(dialog);

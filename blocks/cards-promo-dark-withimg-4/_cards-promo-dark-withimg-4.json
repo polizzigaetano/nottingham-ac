@@ -36,7 +36,7 @@
       "id": "cards-promo-dark-withimg-4-item",
       "fields": [
         {
-          "component": "richtext",
+          "component": "reference",
           "valueType": "string",
           "name": "image",
           "label": "Image",

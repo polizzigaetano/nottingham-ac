@@ -242,7 +242,7 @@
     "id": "cards-promo-dark-withimg-4-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
@@ -280,7 +280,7 @@
     "id": "cards-promo-light-withimg-3-item",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Image",
@@ -525,7 +525,7 @@
     "id": "hero-card-dark",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Background Image",
@@ -577,7 +577,7 @@
     "id": "hero-video-dark",
     "fields": [
       {
-        "component": "richtext",
+        "component": "reference",
         "valueType": "string",
         "name": "image",
         "label": "Poster image",

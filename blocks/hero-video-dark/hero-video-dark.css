@@ -84,12 +84,15 @@ main > .section > .hero-video-dark-wrapper {
   color: #fff;
 }
 
-/* video modal */
+/* video modal — the dialog has a top gutter so the close button sits inside
+ * its own box (a negative offset would land outside the dialog and swallow
+ * clicks on the backdrop instead). */
 .hero-video-dark .hero-video-dark-modal {
   width: min(90vw, 960px);
-  padding: 0;
+  max-width: 960px;
+  padding: 44px 0 0;
   border: 0;
-  background: #000;
+  background: transparent;
 }
 
 .hero-video-dark .hero-video-dark-modal::backdrop {
@@ -100,6 +103,7 @@ main > .section > .hero-video-dark-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
+  background: #000;
 }
 
 .hero-video-dark .hero-video-dark-frame iframe,
@@ -113,8 +117,10 @@ main > .section > .hero-video-dark-wrapper {
 
 .hero-video-dark .hero-video-dark-close {
   position: absolute;
-  top: -40px;
+  top: 0;
   right: 0;
+  width: 40px;
+  height: 40px;
   border: 0;
   background: transparent;
   color: #fff;
