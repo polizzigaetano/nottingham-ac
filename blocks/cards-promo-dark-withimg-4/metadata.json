@@ -1,0 +1,16 @@
+{
+  "variantName": "cards-promo-dark-withimg-4",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Grid (typically 2x2) of dark promo tiles; each tile is a photo beside a navy panel containing a heading and a gold CTA link (no body copy). Image-led sibling of the text-only cards-promo-dark.",
+  "contentPattern": "One row per tile: an image cell and a body cell (heading + CTA link).",
+  "usage": {
+    "documentPaths": [
+      "/study/home"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-promo-dark-withimg-4"
+  ]
+}

@@ -1,0 +1,169 @@
+/* Cards (promo, light, with image) — light promo cards: a photo on top of a
+ * white panel with a navy serif heading, an optional paragraph and an outline
+ * pill CTA. Values extracted from source .featureblock.feature-block--white-bg.
+ *
+ * On this page three separate block instances plus a full-bleed hero-card-dark
+ * share one section; lay the three cards out up to 3-up on desktop while
+ * leaving the hero to span the full row (and keep its own full-bleed styling).
+ */
+
+/* --- Section band ---------------------------------------------------------
+ * Source cards sit on the cream page background. Tint the shared section and,
+ * on desktop, turn it into the grid that packs the three cards 3-up. The hero
+ * wrapper is forced onto its own full-width row further down. */
+.cards-promo-light-withimg-3-container {
+  background-color: var(--uon-cream, #faf6ef);
+}
+
+/* --- The card ------------------------------------------------------------- */
+.cards-promo-light-withimg-3 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  height: 100%;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Image on top, cropped to a 3:2 frame (source 680x454) */
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-image {
+  margin: 0;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-image picture,
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-image p {
+  margin: 0;
+  display: block;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+}
+
+/* White text panel */
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1 1 auto;
+  padding: 24px;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body > * {
+  margin: 0;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body h2,
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body h3 {
+  margin: 0;
+  font-family: var(--heading-font-family, serif);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.16px;
+  color: var(--uon-navy, #10263b);
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body p {
+  margin: 0;
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--uon-navy, #10263b);
+}
+
+/* push a trailing CTA to the bottom so cards align */
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body p:last-child {
+  margin-top: auto;
+}
+
+/* Outline pill CTA (authored as a plain link inside a paragraph, no .button) */
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body p a:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  align-self: flex-start;
+  padding: 12px 24px;
+  border: 1px solid rgb(207 212 216);
+  border-radius: 54px;
+  background-color: transparent;
+  color: var(--uon-navy, #10263b);
+  font-family: var(--body-font-family, sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body p a:any-link::after {
+  content: '→';
+  font-size: 18px;
+  line-height: 1;
+}
+
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body p a:hover,
+.cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body p a:focus-visible {
+  border-color: var(--uon-navy, #10263b);
+  background-color: var(--uon-navy, #10263b);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --- Tablet: two-up ------------------------------------------------------- */
+@media (width >= 600px) {
+  .cards-promo-light-withimg-3-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    padding: 40px 24px;
+  }
+
+  .cards-promo-light-withimg-3-container > .cards-promo-light-withimg-3-wrapper {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* hero (or any non-card block) spans the full row and breaks back out to
+   * the section edges so its full-bleed styling is preserved */
+  .cards-promo-light-withimg-3-container > .hero-card-dark-wrapper {
+    grid-column: 1 / -1;
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+  }
+}
+
+/* --- Desktop: three-up ---------------------------------------------------- */
+@media (width >= 900px) {
+  .cards-promo-light-withimg-3-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 32px;
+    padding: 48px 32px;
+  }
+
+  .cards-promo-light-withimg-3-container > .hero-card-dark-wrapper {
+    margin-left: -32px !important;
+    margin-right: -32px !important;
+  }
+
+  .cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body {
+    padding: 28px;
+  }
+
+  .cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body h2,
+  .cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body h3 {
+    font-size: 32px;
+  }
+}

@@ -2,16 +2,55 @@
 /* global WebImporter */
 /**
  * Parser for search-course-light. Base: search (project custom variant).
- * Source: https://www.nottingham.ac.uk/ course finder panel (.search-section).
- * Model fields: text (Heading, richtext), action (search action URL).
- * The live page renders the finder inside the hero's .search-section; the mapped
- * selectors (.search-container / .course-finder-label) may resolve to the header
- * search widget, so we walk up to the finder panel and fall back defensively.
+ * Model fields: text (Heading, richtext), action (search action URL, aem-content).
+ *
+ * Handles three source shapes for the UoN course finder:
+ *  - Homepage: finder inside the hero's `.search-section` / `.search-content`.
+ *  - study-with-us: `.search-block` mapped directly (finder in `.search-box`),
+ *    with a sibling `.search-col` intro column preserved as default content.
+ *  - study/home.html: `.content-search__content` — a "Find your ideal course"
+ *    band with an input, a study-level dropdown, a Search button and
+ *    "View undergraduate/postgraduate courses" links.
  */
 export default function parse(element, { document }) {
+  // --- Mode: content-search (study/home.html) ---
+  const contentSearch = element.matches('.content-search__content')
+    ? element
+    : element.querySelector('.content-search__content');
+  if (contentSearch) {
+    const heading = contentSearch.querySelector('.content-search__title h1, .content-search__title h2, .content-search__title h3, h1, h2, h3');
+    // Preferred action = the "View undergraduate courses" link (primary CTA),
+    // else the first real course link.
+    const actionLink = contentSearch.querySelector('.content-search__links--secondary[href], .content-search__links a[href], a[href]');
+
+    const cells = [];
+
+    // Row 2: heading (field:text).
+    const headingCell = [document.createComment(' field:text ')];
+    if (heading) {
+      const h = document.createElement('h2');
+      h.textContent = heading.textContent.replace(/\s+/g, ' ').trim();
+      headingCell.push(h);
+    } else {
+      headingCell.push(document.createTextNode('Find your ideal course'));
+    }
+    cells.push([headingCell]);
+
+    // Row 3: search action URL (field:action) — only when a real link exists.
+    if (actionLink && actionLink.getAttribute('href')) {
+      const a = document.createElement('a');
+      a.href = actionLink.getAttribute('href');
+      a.textContent = actionLink.getAttribute('href');
+      cells.push([[document.createComment(' field:action '), a]]);
+    }
+
+    const block = WebImporter.Blocks.createBlock(document, { name: 'search-course-light', cells });
+    element.replaceWith(block);
+    return;
+  }
+
+  // --- Existing modes (homepage .search-content / study-with-us .search-block) ---
   // Locate the course-finder panel regardless of which mapped selector matched.
-  // Homepage exposes `.search-content`; study-with-us maps `.search-block` directly
-  // (the element itself) and holds the finder markup inside `.search-box`.
   const panel = element.querySelector('.search-content')
     || (element.matches('.search-block') ? element : null)
     || element.querySelector('.search-block .search-box, .search-box')

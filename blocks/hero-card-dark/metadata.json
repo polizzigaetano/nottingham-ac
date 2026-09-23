@@ -9,9 +9,11 @@
   },
   "contentPattern": "Full-bleed background image with an opaque navy card overlapping the top edge, containing a heading, short paragraph and a single CTA button",
   "usage": {
-    "pagesUsing": [],
-    "reuseCount": 0,
-    "lastUsed": null,
+    "pagesUsing": [
+      "/study/home"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-23T09:37:22.247977Z",
     "note": "Created from a design screenshot, not yet used on any page"
   },
   "options": [],

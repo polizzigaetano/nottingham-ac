@@ -68,7 +68,10 @@
         "columns-withimg-light",
         "cards-steps-light",
         "cards-promo-light",
-        "hero-card-dark"
+        "hero-card-dark",
+        "hero-video-dark",
+        "cards-promo-dark-withimg-4",
+        "cards-promo-light-withimg-3"
       ]
     }
   ]
