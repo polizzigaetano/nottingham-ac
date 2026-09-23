@@ -1,0 +1,130 @@
+{
+  "_provenance": {
+    "generatedBy": "stardust:audit (degraded — bundled crawler capture, brand aggregation + report synthesized from captured evidence; CWV + a11y added via in-session Playwright lab + axe-core)",
+    "generatedAt": "2026-09-23",
+    "amendedAt": "2026-09-23 (CWV + accessibility measured on live site: Playwright PerformanceObserver two-viewport, axe-core 4.10.2 two-page)",
+    "source": "https://www.nottingham.ac.uk",
+    "authorized": true,
+    "repoModified": false,
+    "pagesCaptured": [
+      "index",
+      "study-home-html",
+      "studywithus-study-with-us-aspx",
+      "study-campus-visit-open-days-html",
+      "studywithus-international-applicants-index-aspx"
+    ],
+    "note": "Analysis only. No changes to blocks/, content/, styles/, or models/. Captures under stardust/current/ + this report under stardust/audit/."
+  },
+  "degradations": [
+    { "capability": "refero MCP", "status": "unavailable", "effect": "no Phase 5 vertical benchmarking" },
+    { "capability": "marketing-skills", "status": "unavailable", "effect": "SEO/LLM checks assessed directly from captured evidence" },
+    { "capability": "PageSpeed Insights", "status": "not-run", "effect": "PSI API not used; Core Web Vitals measured in-session via Playwright lab (PerformanceObserver) on two viewports — lab TBT is a proxy for field INP" },
+    { "capability": "impeccable report render", "status": "not-invoked", "effect": "report.html hand-authored summary rather than craft-rendered — data artifact is authoritative" },
+    { "capability": "brand-surface aggregation", "status": "partial", "effect": "bundled crawler captured structure/content/screenshots but not per-section computed styles; palette/type read from rendered HTML + screenshots" }
+  ],
+  "measurements": {
+    "brandColorShare": { "status": "surface-estimate", "value": "hero/header/footer + promo cards dominated by deep navy (#18194f / #2e3644); gold (#deb406-ish) reserved for stat panels; pink/magenta primary CTAs on interior pages; green (#68b631) as a sparing accent", "method": "screenshot + rendered-HTML color sample" },
+    "ctaVocabulary": { "status": "measured", "value": "Body CTAs are consistent and verb-led (Book now, Book your place, Apply now, Read more, Find courses, Sign up, Get ready, Explore, Discover); high raw CTA counts per page (43-53) are dominated by the shared header/footer nav, not body actions", "method": "pages/*.json#ctas aggregation" },
+    "typeScale": { "status": "measured", "value": "Serif display headings (Domine/Lora family) paired with a geometric sans body (Circular). Clear H1>H2>H3 hierarchy on every page; consistent across templates", "method": "rendered headings + screenshots" },
+    "sourcePalette": { "status": "measured", "value": "navy #18194f, slate #2e3644, blue #3860be, gold (stat panels), pink/magenta (primary CTA), green #68b631 (accent), cream section band, greys", "method": "rendered-HTML color frequency" },
+    "coreWebVitals": {
+      "status": "measured",
+      "method": "playwright-lab (PerformanceObserver, buffered; no CPU/network throttling — lab TBT proxies field INP)",
+      "desktop": { "viewport": "1440x900", "lcpMs": 1720, "cls": 0, "tbtProxyMs": 214, "longTasks": 4, "ttfbMs": 567, "fcpMs": 1720, "loadMs": 1605, "transferKB": 4448, "resources": 63, "verdict": "LCP good (<2.5s), CLS good (0), TBT good (<300ms proxy)" },
+      "mobile": { "viewport": "375x667", "lcpMs": 1260, "cls": 0.014, "tbtProxyMs": 229, "longTasks": 2, "ttfbMs": 98, "fcpMs": 1260, "loadMs": 1216, "verdict": "LCP good (<2.5s), CLS good (<0.1), TBT good (<300ms proxy) — note: unthrottled lab run; real 4G/mid-tier devices will be slower" },
+      "note": "Both viewports pass all three Core Web Vitals thresholds in an unthrottled lab run. TBT is a proxy for INP; a throttled PSI/field reading would be the authoritative INP source. Desktop transfer weight ~4.4MB across 63 resources is the main headroom for improvement."
+    },
+    "accessibility": {
+      "status": "measured",
+      "method": "axe-core 4.10.2 (wcag2a/wcag2aa/wcag21a/wcag21aa) on rendered DOM, two pages",
+      "homepage": { "violations": 1, "nodes": 1, "passes": 27, "topIssue": "select-name (critical): the course-search 'study level' <select> has no accessible name" },
+      "interior_international_applicants": { "violations": 0, "passes": 27 },
+      "note": "Automated axe scan only — covers ~30-40% of WCAG success criteria; manual keyboard/screen-reader testing not performed. The single homepage violation is a real, high-value fix (unlabeled form control on the primary conversion widget)."
+    }
+  },
+  "scorecard": {
+    "brand-expression": 82,
+    "visual-hierarchy-craft": 80,
+    "conversion-focus": 78,
+    "accessibility": 85,
+    "technical-seo": null,
+    "content-llm-visibility": 72,
+    "performance": 90,
+    "overall": 81,
+    "note": "accessibility + performance now measured (see measurements.accessibility / measurements.coreWebVitals); technical-seo still nulled this pass. accessibility 85 = strong automated result (27 passes, 1 critical select-name on homepage) but axe covers only a subset of WCAG; performance 90 = all Core Web Vitals pass on both viewports (unthrottled lab). overall is the mean of the six scored dimensions."
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "priority": "P2",
+      "dimension": "brand-expression",
+      "evidence": "Source palette measured as navy #18194f / blue #3860be / green #68b631 accent; project styles/brand.css uses --uon-navy #10263b + --uon-gold #deb406 (no blue/green). Gold stat panels + pink interior CTAs are present on the source but not tokenized in brand.css.",
+      "businessImpact": "Migrated pages will read as on-brand-ish but not pixel-faithful to the live site; the pink primary-CTA and gold stat treatments are load-bearing brand signals.",
+      "fix": "Reconcile styles/brand.css tokens with the measured source palette: confirm the exact navy, add the pink/magenta primary-CTA token and the gold stat-panel token as first-class variables; decide whether the green accent is in-scope."
+    },
+    {
+      "id": "F2",
+      "priority": "P2",
+      "dimension": "visual-hierarchy-craft",
+      "evidence": "Interior pages (international-applicants) use a two-CTA action bar (pink primary pill + navy secondary pill) repeated top and bottom; a testimonial quote in a navy keyline box; a 5-up star-ranking strip. None of these exact patterns exist as blocks (nearest: cards-icon-light, cards-ranking-gold).",
+      "businessImpact": "Without these blocks, interior study pages fall back to default content or approximate blocks, losing the source's clear primary/secondary action hierarchy.",
+      "fix": "Add 3 blocks: cta-bar-dual (pink+navy pill action bar), quote-testimonial-dark (keyline quote), cards-stars-ranking (5-up star stat strip) OR extend cards-ranking-gold with a star/icon option."
+    },
+    {
+      "id": "F3",
+      "priority": "P3",
+      "dimension": "conversion-focus",
+      "evidence": "Body CTA vocabulary is already consistent and verb-led across pages (measurements.ctaVocabulary). The homepage course-search + gold ranking stats + promo grid is a strong, reusable conversion pattern already covered by search-course-light + cards-ranking-gold + cards-promo-dark-withimg-4.",
+      "businessImpact": "Low risk — the highest-traffic conversion surfaces map cleanly to existing blocks.",
+      "fix": "No new block needed; reuse the existing homepage/study-hub block set."
+    },
+    {
+      "id": "F4",
+      "priority": "P2",
+      "dimension": "content-llm-visibility",
+      "evidence": "Key facts (rankings '1st / Top 20 / Top 100', open-day dates) render as text on the homepage (good), but on interior pages several stats sit inside star-icon graphics; Scene7 imagery is heavily used. No llms.txt observed at origin root (not fetched this pass).",
+      "businessImpact": "Answer engines may miss ranking/stat claims locked in icon graphics; strong, citable prose exists on international-applicants (29k chars) which is good.",
+      "fix": "Ensure the star-ranking block renders figure + caption as text (not baked into images); consider an llms.txt at the EDS site root during rollout."
+    },
+    {
+      "id": "F5",
+      "priority": "P1",
+      "dimension": "technical-seo",
+      "evidence": "Source IA is .aspx-heavy with cert issues on a subtree (opticord/* returned ERR_CERT_COMMON_NAME_INVALID) and 404s on guessed pillar URLs (research/business/about .aspx). The migration's import scripts already handle .aspx→clean-path (documented fix); shared header/footer chrome inflates every page.",
+      "businessImpact": "Clean-URL migration is a real SEO win vs the legacy .aspx structure; but redirects from legacy .aspx URLs must be planned or link equity is lost.",
+      "fix": "Plan a redirect map (legacy .aspx → clean EDS path) as part of rollout; the .aspx path-normalization already lives in the import scripts."
+    },
+    {
+      "id": "F6",
+      "priority": "P1",
+      "dimension": "accessibility",
+      "evidence": "axe-core 4.10.2 (wcag2a/aa, 2.1a/aa) on the live homepage: 1 critical violation, rule `select-name` — the course-search 'study level' <select> (options: Undergraduate, Postgraduate, Research opportunities, Apprenticeships, Online, Preparatory English) has no accessible name. Interior page (international-applicants) scanned clean (0 violations, 27 passes).",
+      "businessImpact": "The unlabeled control is on the homepage's primary conversion widget (course search); screen-reader users can't tell what the dropdown selects, directly excluding users at the top of the enrolment funnel.",
+      "fix": "Give the study-level <select> an accessible name — an associated <label>, or aria-label=\"Select study level\". In the migrated EDS search-course-light block, ensure the select renders with a label/aria-label; this is a one-line fix that clears the only critical automated a11y issue found."
+    },
+    {
+      "id": "F7",
+      "priority": "P3",
+      "dimension": "performance",
+      "evidence": "In-session Playwright lab (unthrottled): desktop 1440x900 LCP 1720ms / CLS 0 / TBT-proxy 214ms across 63 resources ~4.4MB; mobile 375x667 LCP 1260ms / CLS 0.014 / TBT-proxy 229ms. All three Core Web Vitals pass Google 'good' thresholds on both viewports (measurements.coreWebVitals).",
+      "businessImpact": "Low risk — the source already meets CWV in the lab. The migration should hold or improve this (EDS is built for CWV); the ~4.4MB desktop transfer is the main headroom.",
+      "fix": "No action required to pass; treat as a floor to protect. Validate a throttled PSI/field INP reading during rollout, and keep desktop transfer weight in check (image optimization, defer non-critical JS) — EDS's eager/lazy/delayed phasing already targets this."
+    }
+  ],
+  "eds_design_migration_plan": {
+    "current_library_reuse": "21 custom blocks already built and brand-styled (heroes, cards, columns, carousels, search, nav-anchor). The homepage + study-hub + open-days + study-with-us templates are already migratable/migrated with this set.",
+    "new_blocks_needed": [
+      "cta-bar-dual — pink primary + navy secondary pill action bar (repeats top/bottom on interior study pages)",
+      "quote-testimonial-dark — testimonial quote in a navy keyline box",
+      "cards-stars-ranking — 5-up star-icon ranking strip (or a star option on cards-ranking-gold)"
+    ],
+    "token_work": "Reconcile brand.css with measured source palette (F1): confirm navy, add pink primary-CTA + gold stat tokens; decide on blue/green accents.",
+    "sequencing": [
+      "1. Token reconciliation (brand.css) — cheap, unblocks visual fidelity for all subsequent blocks.",
+      "2. Migrate remaining top-IA templates (research, business, about) once their live URLs are confirmed (guessed .aspx URLs 404'd this pass).",
+      "3. Build the 3 new interior-page blocks (cta-bar-dual, quote-testimonial-dark, cards-stars-ranking).",
+      "4. Plan legacy .aspx → clean-path redirect map for rollout (F5).",
+      "5. Measure CWV + a11y on the EDS preview (this audit deferred them) and close any gaps."
+    ]
+  }
+}

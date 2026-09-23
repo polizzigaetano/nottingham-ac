@@ -134,7 +134,7 @@ a:any-link {
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  color: var(--link-color);
   text-decoration: underline;
 }
 
@@ -152,7 +152,7 @@ button.button {
   max-width: 100%;
   margin: 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
+  border-radius: var(--cta-radius);
   padding: 0.5em 1.2em;
   font: inherit;
   font-weight: 500;
@@ -224,20 +224,21 @@ button.button.secondary:disabled:focus-visible {
   color: var(--dark-color);
 }
 
-/* high-impact call-to-action */
+/* high-impact call-to-action — source pink primary CTA (interior pages) */
 a.button.accent,
 button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
+  border-color: var(--uon-pink);
+  background-color: var(--uon-pink);
+  color: #fff;
 }
 
 a.button.accent:hover,
 a.button.accent:focus-visible,
 button.button.accent:hover,
 button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
+  border-color: #b31e54;
+  background-color: #b31e54;
+  color: #fff;
 }
 
 a.button.accent[aria-disabled="true"],

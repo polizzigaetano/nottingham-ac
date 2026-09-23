@@ -1,0 +1,683 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-23T11:40:13.543Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.nottingham.ac.uk/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-23T11:40:13.543Z",
+  "finalUrl": "https://www.nottingham.ac.uk/",
+  "title": "University of Nottingham",
+  "description": "The University of Nottingham is a pioneering institution. We’re a top 20 UK university and 7th in the UK for research power. We’re working to change the world.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Come to our October Open Day"
+    },
+    {
+      "tag": "h2",
+      "text": "Find your dream course"
+    },
+    {
+      "tag": "h2",
+      "text": "Welcome to our new students"
+    },
+    {
+      "tag": "h2",
+      "text": "Hundreds of work placements"
+    },
+    {
+      "tag": "h2",
+      "text": "Research"
+    },
+    {
+      "tag": "h3",
+      "text": "From dedication to discovery,to changing lives together."
+    },
+    {
+      "tag": "h2",
+      "text": "University news"
+    },
+    {
+      "tag": "h3",
+      "text": "Digital platform created to help people navigate end of life care, grief and loss"
+    },
+    {
+      "tag": "h3",
+      "text": "Student built space experiment to take flight"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured events"
+    },
+    {
+      "tag": "h3",
+      "text": "Celebrating 20 Years of Summer Scientist Week"
+    },
+    {
+      "tag": "h3",
+      "text": "Who owns the future of research? AI, data sovereignty and the new infrastructure race"
+    }
+  ],
+  "body": [
+    "Big ideas, new experiences and exciting opportunities start here.",
+    "Your next adventure starts here.",
+    "Shape your future with an undergraduate degree.",
+    "for graduates entering highly-skilled jobs",
+    "* HESA Graduate Outcomes 2026",
+    "university in the UK",
+    "QS World University Rankings 2027",
+    "university in the world",
+    "QS World University Rankings 2027",
+    "From our world to yours. We are UoN research.",
+    "A digital platform has been launched that utilises AI to offer emotional and spiritual support to people navigating grief and loss.",
+    "A team of students from the University of Nottingham have designed and built a mini laboratory to send to the upper stratosphere aboard a high-altitude balloon to help understand how the environment affects human cells.",
+    "Go to slide 1",
+    "Go to slide 2",
+    "Go to slide 3",
+    "Go to slide 4",
+    "+44(0) 115 951 5151",
+    "Lines are open:",
+    "Monday-Friday 9.00am-4.30pm",
+    "University of Nottingham",
+    "University Park",
+    "Nottingham, NG7 2RD",
+    "United Kingdom",
+    "Applicant help and support",
+    "Academic schools and departments",
+    "Professional services",
+    "Sport",
+    "Cripps Health Centre",
+    "Lakeside Arts",
+    "Conferences",
+    "Student services",
+    "Health and wellbeing",
+    "Digital services",
+    "Moodle",
+    "Library",
+    "Working here",
+    "Wellbeing",
+    "Digital services",
+    "Vacancies",
+    "Community",
+    "Connect",
+    "Donate",
+    "Copyright © 2010 - 2026 University of Nottingham",
+    "Privacy",
+    "| Terms and conditions",
+    "| Accessibility",
+    "| Posting rules",
+    "| Freedom of information",
+    "| Charity gateway",
+    "| Cookie policy |",
+    "Cookies Settings",
+    "| Modern slavery statement"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": null
+    },
+    {
+      "label": "Book now",
+      "href": "https://www.nottingham.ac.uk/open-days/"
+    },
+    {
+      "label": "Let's go",
+      "href": null
+    },
+    {
+      "label": "Get ready to join us",
+      "href": "https://www.nottingham.ac.uk/studentservices/welcome/index.aspx"
+    },
+    {
+      "label": "Apply now",
+      "href": "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html"
+    },
+    {
+      "label": "HESA Graduate Outcomes 2026",
+      "href": "https://www.nottingham.ac.uk/studywithus/why-study/employability.aspx"
+    },
+    {
+      "label": "QS World University Rankings 2027",
+      "href": "https://www.nottingham.ac.uk/about/facts/rankings-and-achievements.aspx"
+    },
+    {
+      "label": "QS World University Rankings 2027",
+      "href": "https://www.nottingham.ac.uk/about/facts/rankings-and-achievements.aspx"
+    },
+    {
+      "label": "Explore Nottingham research",
+      "href": "https://www.nottingham.ac.uk/research/research.aspx"
+    },
+    {
+      "label": "Sustainable Development Goals",
+      "href": "https://www.nottingham.ac.uk/sustainable-development-goals/index.aspx"
+    },
+    {
+      "label": "Research impact",
+      "href": "https://www.nottingham.ac.uk/vision/"
+    },
+    {
+      "label": "Our REF2021 results",
+      "href": "https://www.nottingham.ac.uk/research/ref/"
+    },
+    {
+      "label": "See all news",
+      "href": "/news/"
+    },
+    {
+      "label": "Read more",
+      "href": "/news/digital-platform-created-to-help-people-navigate-end-of-life-care-grief-and-loss"
+    },
+    {
+      "label": "Read more",
+      "href": "/news/student-built-space-experiment-to-take-flight"
+    },
+    {
+      "label": "Go to slide 1",
+      "href": null
+    },
+    {
+      "label": "Go to slide 2",
+      "href": null
+    },
+    {
+      "label": "Go to slide 3",
+      "href": null
+    },
+    {
+      "label": "Go to slide 4",
+      "href": null
+    },
+    {
+      "label": "See all events",
+      "href": "/events/events-all.aspx?Calendar_List_EventDateSpan=All"
+    },
+    {
+      "label": "Read more",
+      "href": "/home/featureevents/2026/celebrating-20-years-of-summer-scientist-week.aspx"
+    },
+    {
+      "label": "Read more",
+      "href": "/home/featureevents/2026/who-owns-the-future-of-research-ai-data-sovereignty-and-the-new-infrastructure-race.aspx"
+    },
+    {
+      "label": "Applicant help and support",
+      "href": "https://www.nottingham.ac.uk/help-and-support/home.html"
+    },
+    {
+      "label": "Academic schools and departments",
+      "href": "https://www.nottingham.ac.uk/departments/byfaculty.aspx"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx"
+    },
+    {
+      "label": "Sport",
+      "href": "https://www.nottingham.ac.uk/sport/index.aspx"
+    },
+    {
+      "label": "Cripps Health Centre",
+      "href": "https://www.unhs.co.uk/"
+    },
+    {
+      "label": "Lakeside Arts",
+      "href": "https://www.lakesidearts.org.uk/"
+    },
+    {
+      "label": "Conferences",
+      "href": "https://www.nottingham.ac.uk/conference/facilities/index.aspx"
+    },
+    {
+      "label": "Student services",
+      "href": "https://www.nottingham.ac.uk/studentservices/index.aspx"
+    },
+    {
+      "label": "Health and wellbeing",
+      "href": "https://www.nottingham.ac.uk/StudentServices/HealthWelfare/index.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Moodle",
+      "href": "https://moodle.nottingham.ac.uk/login/index.php"
+    },
+    {
+      "label": "Library",
+      "href": "https://www.nottingham.ac.uk/library/"
+    },
+    {
+      "label": "Working here",
+      "href": "https://www.nottingham.ac.uk/working-here/index.aspx"
+    },
+    {
+      "label": "Wellbeing",
+      "href": "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Vacancies",
+      "href": "https://www.nottingham.ac.uk/jobs/home.aspx"
+    },
+    {
+      "label": "Community",
+      "href": "https://www.nottingham.ac.uk/alumni/alumni.aspx"
+    },
+    {
+      "label": "Connect",
+      "href": "https://www.nottingham.ac.uk/alumni/newseventsandfeatures/index.aspx"
+    },
+    {
+      "label": "Donate",
+      "href": "https://www.nottingham.ac.uk/alumni/donatenow/index.aspx"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "https://www.nottingham.ac.uk/utilities/terms.aspx"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx"
+    },
+    {
+      "label": "Posting rules",
+      "href": "https://www.nottingham.ac.uk/utilities/posting-rules.aspx"
+    },
+    {
+      "label": "Freedom of information",
+      "href": "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx"
+    },
+    {
+      "label": "Charity gateway",
+      "href": "https://www.nottingham.ac.uk/governance/gateway.aspx"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.nottingham.ac.uk/utilities/cookies.aspx"
+    },
+    {
+      "label": "Modern slavery statement",
+      "href": "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+    }
+  ],
+  "links": [
+    "https://www.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+    "https://www.nottingham.ac.uk/pgstudy/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/services/degree-apprenticeships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
+    "https://www.nottingham.ac.uk/open-days/",
+    "https://www.nottingham.ac.uk/virtualnottingham/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/student-experience/life-on-campus.aspx",
+    "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx",
+    "https://su.nottingham.ac.uk/societies",
+    "https://www.nottingham.ac.uk/sport/",
+    "https://www.nottingham.ac.uk/studentservices/",
+    "https://www.nottingham.ac.uk/currentstudents/yourcommunity/living-in-the-community/livinginthecommunity.aspx",
+    "https://www.nottingham.ac.uk/about/facilities/facilities.aspx",
+    "https://www.nottingham.ac.uk/library/",
+    "https://www.nottingham.ac.uk/help-and-support/home.html",
+    "https://www.nottingham.ac.uk/about/",
+    "https://www.nottingham.ac.uk/about/history/abriefhistoryoftheuniversity.aspx",
+    "https://www.nottingham.ac.uk/about/keydates/",
+    "https://www.nottingham.ac.uk/about/structure/universitystructure.aspx",
+    "https://www.nottingham.ac.uk/global/home.aspx",
+    "https://www.nottingham.ac.uk/about/facts/factsandfigures.aspx",
+    "https://www.nottingham.ac.uk/departments/byfaculty.aspx",
+    "https://www.nottingham.ac.uk/departments/a-z.aspx",
+    "https://www.nottingham.ac.uk/departments/researchcentresandinstitutes.aspx",
+    "https://www.nottingham.ac.uk/departments/professionalservicedepartments.aspx",
+    "https://www.nottingham.ac.uk/jobs/home.aspx",
+    "https://www.nottingham.ac.uk/jobs/howtoapply/index.aspx",
+    "https://www.nottingham.ac.uk/hr/services/reward-and-benefits.aspx",
+    "https://www.nottingham.ac.uk/jobs/frequentlyaskedquestions/index.aspx",
+    "https://www.nottingham.ac.uk/jobs/contactus/index.aspx",
+    "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+    "https://www.nottingham.ac.uk/visit/",
+    "https://www.nottingham.ac.uk/about/vice-chancellor/vice-chancellor.aspx",
+    "https://www.lakesidearts.org.uk/",
+    "https://www.nottingham.ac.uk/Sport/Sport-Facilities/David-Ross-Sports-Village/David-Ross-Sports-Village.aspx",
+    "https://www.nottingham.ac.uk/research/research.aspx",
+    "https://www.nottingham.ac.uk/vision/",
+    "https://www.nottingham.ac.uk/fabs/research-innovation/engagement-and-partnerships.aspx",
+    "https://www.nottingham.ac.uk/research/atoz/facultyresearch.aspx",
+    "https://www.nottingham.ac.uk/conference/facilities/index.aspx",
+    "https://www.nottingham.ac.uk/contact/staff-search/uk-staff-look-up.aspx",
+    "https://www.nottingham.ac.uk/news/index.aspx",
+    "https://www.nottingham.ac.uk/research/research-areas/index.aspx",
+    "https://www.nottingham.ac.uk/researcher-academy/",
+    "https://www.nottingham.ac.uk/workingwithbusiness/",
+    "https://digitalresearch.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/expertise.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/develop-workforce.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/recruit-our-students-and-graduates.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/collaborativefunding.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/services/facilities-and-equipment.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/case-studies/case-studies.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/index.aspx",
+    "https://www.nottingham.ac.uk/news/",
+    "https://www.nottingham.ac.uk/news/meettheteam/index.aspx",
+    "https://www.nottingham.ac.uk/help-and-support/home/contact-us.html",
+    "https://www.nottingham.ac.uk/contact/",
+    "https://www.nottingham.ac.uk/studywithus/visitingus/visiting-us.aspx",
+    "https://www.nottingham.ac.uk/currentstudents/",
+    "https://www.nottingham.ac.uk/alumni/",
+    "https://www.nottingham.edu.my/index.aspx",
+    "https://www.nottingham.edu.cn/en/index.aspx",
+    "https://www.nottingham.ac.uk/studentservices/welcome/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/why-study/employability.aspx",
+    "https://www.nottingham.ac.uk/about/facts/rankings-and-achievements.aspx",
+    "https://www.nottingham.ac.uk/sustainable-development-goals/index.aspx",
+    "https://www.nottingham.ac.uk/research/ref/",
+    "https://www.nottingham.ac.uk/news/british-wheelchair-basketball-partnership",
+    "https://www.nottingham.ac.uk/news/next-wave-of-business-led-clean-tech-innovation-launched",
+    "https://www.nottingham.ac.uk/news/digital-platform-created-to-help-people-navigate-end-of-life-care-grief-and-loss",
+    "https://www.nottingham.ac.uk/news/student-built-space-experiment-to-take-flight",
+    "https://www.nottingham.ac.uk/events/events-all.aspx?Calendar_List_EventDateSpan=All",
+    "https://www.nottingham.ac.uk/home/featureevents/2026/celebrating-20-years-of-summer-scientist-week.aspx",
+    "https://www.nottingham.ac.uk/home/featureevents/2026/who-owns-the-future-of-research-ai-data-sovereignty-and-the-new-infrastructure-race.aspx",
+    "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx",
+    "https://www.nottingham.ac.uk/sport/index.aspx",
+    "https://www.unhs.co.uk/",
+    "https://www.nottingham.ac.uk/studentservices/index.aspx",
+    "https://www.nottingham.ac.uk/StudentServices/HealthWelfare/index.aspx",
+    "https://www.nottingham.ac.uk/dts/",
+    "https://moodle.nottingham.ac.uk/login/index.php",
+    "https://www.nottingham.ac.uk/working-here/index.aspx",
+    "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx",
+    "https://www.nottingham.ac.uk/alumni/alumni.aspx",
+    "https://www.nottingham.ac.uk/alumni/newseventsandfeatures/index.aspx",
+    "https://www.nottingham.ac.uk/alumni/donatenow/index.aspx",
+    "https://www.facebook.com/UniofNottingham/",
+    "https://www.instagram.com/uniofnottingham",
+    "https://www.linkedin.com/school/university-of-nottingham/",
+    "https://www.youtube.com/channel/UCzdaFtpPWb-Pn6oYXQTCnxA",
+    "https://www.tiktok.com/@uniofnottingham?lang=en",
+    "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx",
+    "https://www.nottingham.ac.uk/utilities/terms.aspx",
+    "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx",
+    "https://www.nottingham.ac.uk/utilities/posting-rules.aspx",
+    "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx",
+    "https://www.nottingham.ac.uk/governance/gateway.aspx",
+    "https://www.nottingham.ac.uk/utilities/cookies.aspx",
+    "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/UoN-Logo-Dark.svg",
+        "alt": "University of Nottingham Logo",
+        "w": 197,
+        "h": 72
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Hero/Normal-Never-Changed-the-World/Mobile/Mobile-open-days.x3df4a9a0.png",
+        "alt": "Four student Open Day helpers smiling at the camera",
+        "w": 780,
+        "h": 600
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Hero/Normal-Never-Changed-the-World/Desktop/Open-days-desktop.x28ad4774.png",
+        "alt": "Four student Open Day helpers smiling at the camera",
+        "w": 1820,
+        "h": 500
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Tiles/Microscope.xc38aa90b.jpg?w=800&h=532&crop=800,400,0,76",
+        "alt": "Microscope ",
+        "w": 799,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Tiles/Centre-for-Sustainable-Chemistry.x574c4722.jpg?w=550&h=367&crop=550,250,0,63",
+        "alt": "Centre for SustainableChemistry",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Tiles/Vision-standard-banner.x933a2d4f.png",
+        "alt": "Face on blue background made up of lots of people standing together",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Tiles/ref-results-banner.x25fdc42f.jpg?w=550&h=275&crop=550,250,0,13",
+        "alt": "Group of people in form of world map",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Other/Sports/Wheelchair-basketball.xf102bfce.jpg?w=720&h=480&crop=720,315,0,82",
+        "alt": "British Wheelchair Basketball",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Other/Sports/Wheelchair-basketball.xf102bfce.jpg?w=720&h=480&crop=720,315,0,82",
+        "alt": "British Wheelchair Basketball",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Netzeroinnovation.x124493e0.jpg",
+        "alt": "Netzeroinnovation",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Netzeroinnovation.x124493e0.jpg",
+        "alt": "Netzeroinnovation",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/EmpathAI.x89f13109.jpg",
+        "alt": "EmpathAI",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/EmpathAI.x89f13109.jpg",
+        "alt": "EmpathAI",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Engineering/HeliaBalloon.xcfb188a4.jpg",
+        "alt": "HeliaBalloon",
+        "w": 510,
+        "h": 285
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Engineering/HeliaBalloon.xcfb188a4.jpg",
+        "alt": "HeliaBalloon",
+        "w": 510,
+        "h": 285
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Other/Sports/Wheelchair-basketball.xf102bfce.jpg?w=720&h=480&crop=720,315,0,82",
+        "alt": "British Wheelchair Basketball",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Other/Sports/Wheelchair-basketball.xf102bfce.jpg?w=720&h=480&crop=720,315,0,82",
+        "alt": "British Wheelchair Basketball",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Netzeroinnovation.x124493e0.jpg",
+        "alt": "Netzeroinnovation",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Netzeroinnovation.x124493e0.jpg",
+        "alt": "Netzeroinnovation",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/EmpathAI.x89f13109.jpg",
+        "alt": "EmpathAI",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/EmpathAI.x89f13109.jpg",
+        "alt": "EmpathAI",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Engineering/HeliaBalloon.xcfb188a4.jpg",
+        "alt": "HeliaBalloon",
+        "w": 510,
+        "h": 285
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Engineering/HeliaBalloon.xcfb188a4.jpg",
+        "alt": "HeliaBalloon",
+        "w": 510,
+        "h": 285
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Other/Sports/Wheelchair-basketball.xf102bfce.jpg?w=720&h=480&crop=720,315,0,82",
+        "alt": "British Wheelchair Basketball",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Other/Sports/Wheelchair-basketball.xf102bfce.jpg?w=720&h=480&crop=720,315,0,82",
+        "alt": "British Wheelchair Basketball",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Netzeroinnovation.x124493e0.jpg",
+        "alt": "Netzeroinnovation",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Netzeroinnovation.x124493e0.jpg",
+        "alt": "Netzeroinnovation",
+        "w": 724,
+        "h": 483
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Home/FeatureEvents/2021/Images/20-years-summer-scientist-week-Cropped-720x315.png",
+        "alt": "Celebrating 20 Years of Summer Scientist Week",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Home/FeatureEvents/2021/Images/72176-FeatureThumb-AIChemistry.jpg",
+        "alt": "Who owns the future of research? AI, data sovereignty and the new infrastructure race",
+        "w": 720,
+        "h": 315
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/russelgroup.x2b5e6786.png",
+        "alt": "Russel group logo",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/universitias21-logo.xf07b4bef.png",
+        "alt": "U21 Universitas",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/athena-awan-race-charter-gold-award.x3cc8a91d.png",
+        "alt": "Athena Swan Race Charter gold award",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/race-charter.xf76e96e7.jpg",
+        "alt": "Race charter bronze award",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/russelgroup.x2b5e6786.png",
+        "alt": "Russel group logo",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/universitias21-logo.xf07b4bef.png",
+        "alt": "U21 Universitas",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/athena-awan-race-charter-gold-award.x3cc8a91d.png",
+        "alt": "Athena Swan Race Charter gold award",
+        "w": 350,
+        "h": 200
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/Homepage-2021/Images/Partners/race-charter.xf76e96e7.jpg",
+        "alt": "Race charter bronze award",
+        "w": 350,
+        "h": 200
+      }
+    ],
+    "allImgCount": 37,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--textColor": "#10263B",
+    "--globalBlue": "#10263B",
+    "--globalLightBlue": "#009BC1",
+    "--globalRed": "#B91C2E",
+    "--globalPink": "#D7336C",
+    "--globalPurple": "#792D85",
+    "--globalTurquoise": "#37B4B0",
+    "--globalBeige": "#FAF6EF",
+    "--globalGrey": "#F3F4F5"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 12,
+    "mainTextLen": 13290,
+    "realImageCount": 37,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

@@ -55,7 +55,7 @@
   box-sizing: border-box;
   padding: 10px 60px 10px 14px;
   border: 2px solid #fff;
-  border-radius: 68px;
+  border-radius: var(--cta-radius, 68px);
   background-color: #fff;
   color: var(--uon-navy);
   font-family: var(--body-font-family);

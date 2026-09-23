@@ -1,0 +1,512 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-23T11:40:30.318Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "research-research-aspx",
+  "url": "https://www.nottingham.ac.uk/research/research.aspx",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-23T11:40:30.318Z",
+  "finalUrl": "https://www.nottingham.ac.uk/research/research.aspx",
+  "title": "World-class research",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "This is the place where research brings real-world change"
+    },
+    {
+      "tag": "h2",
+      "text": "This is the place where research transforms lives"
+    },
+    {
+      "tag": "h2",
+      "text": "Where global challenges meet their match"
+    },
+    {
+      "tag": "h2",
+      "text": "A university without borders with campuses in the UK, Malaysia and China."
+    },
+    {
+      "tag": "h2",
+      "text": "This is the place that gave the world MRI"
+    },
+    {
+      "tag": "h2",
+      "text": "News"
+    },
+    {
+      "tag": "h2",
+      "text": "Discover more about our transformative research"
+    },
+    {
+      "tag": "h3",
+      "text": "Social media"
+    },
+    {
+      "tag": "h3",
+      "text": "Blog"
+    },
+    {
+      "tag": "h3",
+      "text": "Contact us"
+    }
+  ],
+  "body": [
+    "Our campuses in the UK, China and Malaysia share a mission to deliver discoveries to shape a fairer world. Where our innovators form partnerships to drive change and transform lives in the communities we serve and across the world.",
+    "7th",
+    "in the UK for research power",
+    "REF 2021",
+    "Top 20",
+    "UK university",
+    "QS World University Rankings 2026",
+    "3000",
+    "research staff",
+    "Find a researcher",
+    "We are placed 7th in the UK for research power (REF 2021). We deliver sustainable solutions to complex global challenges, from healthcare to future transport. We ensure fairness and social justice are at the heart of all that we do.",
+    "Fifty years ago, Sir Peter Mansfield published the research paper that led to magnetic resonance imaging, an invention that transformed medicine. Today, an MRI scan is estimated to take place every three seconds, helping to improve the lives of countless people around the world",
+    "We are soon to host the UK’s most powerful MRI scanner and our innovations in medical imaging continue to revolutionise understanding of brain function and human disease.",
+    "Discover more about 50 years of MRI at Nottingham",
+    "The university has launched six spin-out companies, turning research into innovations with real-world impact.",
+    "University experts join a £2m project developing ultra-fast satellite communications data relay systems.",
+    "Join our researcher network today and stay updated on LinkedIn.",
+    "Linkedin",
+    "Explore expert insights driving innovation and global progress.",
+    "Discover more",
+    "Find out more about the research taking place across the university.",
+    "Contact us",
+    "+44(0) 115 951 5151",
+    "Lines are open:",
+    "Monday-Friday 9.00am-4.30pm",
+    "University of Nottingham",
+    "University Park",
+    "Nottingham, NG7 2RD",
+    "United Kingdom",
+    "Applicant help and support",
+    "Academic schools and departments",
+    "Professional services",
+    "Sport",
+    "Cripps Health Centre",
+    "Lakeside Arts",
+    "Conferences",
+    "Student services",
+    "Health and wellbeing",
+    "Digital services",
+    "Moodle",
+    "Library",
+    "Working here",
+    "Wellbeing",
+    "Digital services",
+    "Vacancies",
+    "Community",
+    "Connect",
+    "Donate",
+    "Copyright © 2010 - 2026 University of Nottingham",
+    "Privacy",
+    "| Terms and conditions",
+    "| Accessibility",
+    "| Posting rules",
+    "| Freedom of information",
+    "| Charity gateway",
+    "| Cookie policy |",
+    "Cookies Settings",
+    "| Modern slavery statement"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": null
+    },
+    {
+      "label": "University of Nottingham",
+      "href": "/index.aspx"
+    },
+    {
+      "label": "View research jobs",
+      "href": "https://jobs.nottingham.ac.uk/vacancies.aspx"
+    },
+    {
+      "label": "Our people and community",
+      "href": "/research/people-and-community.aspx"
+    },
+    {
+      "label": "Collaborate with us",
+      "href": "/research/collaborate-with-us.aspx"
+    },
+    {
+      "label": "Research impact and news",
+      "href": "/research/research-impact-and-news.aspx"
+    },
+    {
+      "label": "Research with us",
+      "href": "/research/research-with-us.aspx"
+    },
+    {
+      "label": "REF 2021",
+      "href": "/research/ref/index.aspx"
+    },
+    {
+      "label": "QS World University Rankings 2026",
+      "href": "/about/facts/rankings-and-achievements.aspx"
+    },
+    {
+      "label": "Find a researcher",
+      "href": "https://researchlink.nottingham.ac.uk/"
+    },
+    {
+      "label": "Contributing to the SDGs",
+      "href": "/sustainable-development-goals/index.aspx"
+    },
+    {
+      "label": "Brain imaging",
+      "href": "https://www.nottingham.ac.uk/news/brain-imaging-is-on-the-move-with-wearable-scanning-development"
+    },
+    {
+      "label": "The Rights Lab: ending global slavery",
+      "href": "/research/beacons-of-excellence/rights-lab/index.aspx"
+    },
+    {
+      "label": "China",
+      "href": "https://www.nottingham.edu.cn/en/research-and-business/home.aspx"
+    },
+    {
+      "label": "Malaysia",
+      "href": "https://www.nottingham.edu.my/Research/index.aspx"
+    },
+    {
+      "label": "Discover more about 50 years of MRI at Nottingham",
+      "href": "https://www.nottingham.ac.uk/news/50-years-of-mri-in-nottingham-from-initial-research-to-uks-most-powerful-scanner"
+    },
+    {
+      "label": "Discover more",
+      "href": "https://www.nottingham.ac.uk/news/university-of-nottingham-celebrates-six-new-spin-out-companies-in-landmark-year-for-innovation?dm_t=0,0,0,0,0,0,0,0"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://www.nottingham.ac.uk/news/funding-for-next-generation-satellite-communication"
+    },
+    {
+      "label": "Linkedin",
+      "href": "https://www.linkedin.com/company/university-of-nottingham-research/"
+    },
+    {
+      "label": "Discover more",
+      "href": "/research/blogs/research-blog.aspx"
+    },
+    {
+      "label": "Contact us",
+      "href": "/research/contact/index.aspx"
+    },
+    {
+      "label": "Applicant help and support",
+      "href": "https://www.nottingham.ac.uk/help-and-support/home.html"
+    },
+    {
+      "label": "Academic schools and departments",
+      "href": "https://www.nottingham.ac.uk/departments/byfaculty.aspx"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx"
+    },
+    {
+      "label": "Sport",
+      "href": "https://www.nottingham.ac.uk/sport/index.aspx"
+    },
+    {
+      "label": "Cripps Health Centre",
+      "href": "https://www.unhs.co.uk/"
+    },
+    {
+      "label": "Lakeside Arts",
+      "href": "https://www.lakesidearts.org.uk/"
+    },
+    {
+      "label": "Conferences",
+      "href": "https://www.nottingham.ac.uk/conference/facilities/index.aspx"
+    },
+    {
+      "label": "Student services",
+      "href": "https://www.nottingham.ac.uk/studentservices/index.aspx"
+    },
+    {
+      "label": "Health and wellbeing",
+      "href": "https://www.nottingham.ac.uk/StudentServices/HealthWelfare/index.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Moodle",
+      "href": "https://moodle.nottingham.ac.uk/login/index.php"
+    },
+    {
+      "label": "Library",
+      "href": "https://www.nottingham.ac.uk/library/"
+    },
+    {
+      "label": "Working here",
+      "href": "https://www.nottingham.ac.uk/working-here/index.aspx"
+    },
+    {
+      "label": "Wellbeing",
+      "href": "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx"
+    },
+    {
+      "label": "Digital services",
+      "href": "https://www.nottingham.ac.uk/dts/"
+    },
+    {
+      "label": "Vacancies",
+      "href": "https://www.nottingham.ac.uk/jobs/home.aspx"
+    },
+    {
+      "label": "Community",
+      "href": "https://www.nottingham.ac.uk/alumni/alumni.aspx"
+    },
+    {
+      "label": "Connect",
+      "href": "https://www.nottingham.ac.uk/alumni/newseventsandfeatures/index.aspx"
+    },
+    {
+      "label": "Donate",
+      "href": "https://www.nottingham.ac.uk/alumni/donatenow/index.aspx"
+    },
+    {
+      "label": "Privacy",
+      "href": "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "https://www.nottingham.ac.uk/utilities/terms.aspx"
+    },
+    {
+      "label": "Accessibility",
+      "href": "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx"
+    },
+    {
+      "label": "Posting rules",
+      "href": "https://www.nottingham.ac.uk/utilities/posting-rules.aspx"
+    },
+    {
+      "label": "Freedom of information",
+      "href": "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx"
+    },
+    {
+      "label": "Charity gateway",
+      "href": "https://www.nottingham.ac.uk/governance/gateway.aspx"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.nottingham.ac.uk/utilities/cookies.aspx"
+    },
+    {
+      "label": "Modern slavery statement",
+      "href": "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+    }
+  ],
+  "links": [
+    "https://www.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/studywithus/study-with-us.aspx",
+    "https://www.nottingham.ac.uk/studywithus/ugstudy/find-uon.html",
+    "https://www.nottingham.ac.uk/pgstudy/",
+    "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/services/degree-apprenticeships.aspx",
+    "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
+    "https://www.nottingham.ac.uk/open-days/",
+    "https://www.nottingham.ac.uk/virtualnottingham/index.aspx",
+    "https://www.nottingham.ac.uk/studywithus/student-experience/life-on-campus.aspx",
+    "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx",
+    "https://su.nottingham.ac.uk/societies",
+    "https://www.nottingham.ac.uk/sport/",
+    "https://www.nottingham.ac.uk/studentservices/",
+    "https://www.nottingham.ac.uk/currentstudents/yourcommunity/living-in-the-community/livinginthecommunity.aspx",
+    "https://www.nottingham.ac.uk/about/facilities/facilities.aspx",
+    "https://www.nottingham.ac.uk/library/",
+    "https://www.nottingham.ac.uk/help-and-support/home.html",
+    "https://www.nottingham.ac.uk/about/",
+    "https://www.nottingham.ac.uk/about/history/abriefhistoryoftheuniversity.aspx",
+    "https://www.nottingham.ac.uk/about/keydates/",
+    "https://www.nottingham.ac.uk/about/structure/universitystructure.aspx",
+    "https://www.nottingham.ac.uk/global/home.aspx",
+    "https://www.nottingham.ac.uk/about/facts/factsandfigures.aspx",
+    "https://www.nottingham.ac.uk/departments/byfaculty.aspx",
+    "https://www.nottingham.ac.uk/departments/a-z.aspx",
+    "https://www.nottingham.ac.uk/departments/researchcentresandinstitutes.aspx",
+    "https://www.nottingham.ac.uk/departments/professionalservicedepartments.aspx",
+    "https://www.nottingham.ac.uk/jobs/home.aspx",
+    "https://www.nottingham.ac.uk/jobs/howtoapply/index.aspx",
+    "https://www.nottingham.ac.uk/hr/services/reward-and-benefits.aspx",
+    "https://www.nottingham.ac.uk/jobs/frequentlyaskedquestions/index.aspx",
+    "https://www.nottingham.ac.uk/jobs/contactus/index.aspx",
+    "https://www.nottingham.ac.uk/about/campuses/campuses.aspx",
+    "https://www.nottingham.ac.uk/visit/",
+    "https://www.nottingham.ac.uk/about/vice-chancellor/vice-chancellor.aspx",
+    "https://www.lakesidearts.org.uk/",
+    "https://www.nottingham.ac.uk/Sport/Sport-Facilities/David-Ross-Sports-Village/David-Ross-Sports-Village.aspx",
+    "https://www.nottingham.ac.uk/research/research.aspx",
+    "https://www.nottingham.ac.uk/vision/",
+    "https://www.nottingham.ac.uk/fabs/research-innovation/engagement-and-partnerships.aspx",
+    "https://www.nottingham.ac.uk/research/atoz/facultyresearch.aspx",
+    "https://www.nottingham.ac.uk/conference/facilities/index.aspx",
+    "https://www.nottingham.ac.uk/contact/staff-search/uk-staff-look-up.aspx",
+    "https://www.nottingham.ac.uk/news/index.aspx",
+    "https://www.nottingham.ac.uk/research/research-areas/index.aspx",
+    "https://www.nottingham.ac.uk/researcher-academy/",
+    "https://www.nottingham.ac.uk/workingwithbusiness/",
+    "https://digitalresearch.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/policy-and-engagement/home.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/expertise.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/develop-workforce.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/recruit-our-students-and-graduates.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/collaborativefunding.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/services/facilities-and-equipment.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/case-studies/case-studies.aspx",
+    "https://www.nottingham.ac.uk/workingwithbusiness/index.aspx",
+    "https://www.nottingham.ac.uk/news/",
+    "https://www.nottingham.ac.uk/news/meettheteam/index.aspx",
+    "https://www.nottingham.ac.uk/help-and-support/home/contact-us.html",
+    "https://www.nottingham.ac.uk/contact/",
+    "https://www.nottingham.ac.uk/studywithus/visitingus/visiting-us.aspx",
+    "https://www.nottingham.ac.uk/currentstudents/",
+    "https://www.nottingham.ac.uk/alumni/",
+    "https://www.nottingham.edu.my/index.aspx",
+    "https://www.nottingham.edu.cn/en/index.aspx",
+    "https://www.nottingham.ac.uk/index.aspx",
+    "https://jobs.nottingham.ac.uk/vacancies.aspx",
+    "https://www.nottingham.ac.uk/research/people-and-community.aspx",
+    "https://www.nottingham.ac.uk/research/collaborate-with-us.aspx",
+    "https://www.nottingham.ac.uk/research/research-impact-and-news.aspx",
+    "https://www.nottingham.ac.uk/research/research-with-us.aspx",
+    "https://www.nottingham.ac.uk/research/ref/index.aspx",
+    "https://www.nottingham.ac.uk/about/facts/rankings-and-achievements.aspx",
+    "https://researchlink.nottingham.ac.uk/",
+    "https://www.nottingham.ac.uk/sustainable-development-goals/index.aspx",
+    "https://www.nottingham.ac.uk/news/brain-imaging-is-on-the-move-with-wearable-scanning-development",
+    "https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/index.aspx",
+    "https://www.nottingham.edu.cn/en/research-and-business/home.aspx",
+    "https://www.nottingham.edu.my/Research/index.aspx",
+    "https://www.nottingham.ac.uk/news/50-years-of-mri-in-nottingham-from-initial-research-to-uks-most-powerful-scanner",
+    "https://www.nottingham.ac.uk/news/university-of-nottingham-celebrates-six-new-spin-out-companies-in-landmark-year-for-innovation?dm_t=0,0,0,0,0,0,0,0",
+    "https://www.nottingham.ac.uk/news/funding-for-next-generation-satellite-communication",
+    "https://www.linkedin.com/company/university-of-nottingham-research/",
+    "https://www.nottingham.ac.uk/research/blogs/research-blog.aspx",
+    "https://www.nottingham.ac.uk/research/contact/index.aspx",
+    "https://www.nottingham.ac.uk/about/structure/professionalservices/professionalservices.aspx",
+    "https://www.nottingham.ac.uk/sport/index.aspx",
+    "https://www.unhs.co.uk/",
+    "https://www.nottingham.ac.uk/studentservices/index.aspx",
+    "https://www.nottingham.ac.uk/StudentServices/HealthWelfare/index.aspx",
+    "https://www.nottingham.ac.uk/dts/",
+    "https://moodle.nottingham.ac.uk/login/index.php",
+    "https://www.nottingham.ac.uk/working-here/index.aspx",
+    "https://www.nottingham.ac.uk/hr/your-benefits/your-wellbeing/staff-wellbeing.aspx",
+    "https://www.nottingham.ac.uk/alumni/alumni.aspx",
+    "https://www.nottingham.ac.uk/alumni/newseventsandfeatures/index.aspx",
+    "https://www.nottingham.ac.uk/alumni/donatenow/index.aspx",
+    "https://www.facebook.com/UniofNottingham/",
+    "https://www.instagram.com/uniofnottingham",
+    "https://www.linkedin.com/school/university-of-nottingham/",
+    "https://www.youtube.com/channel/UCzdaFtpPWb-Pn6oYXQTCnxA",
+    "https://www.tiktok.com/@uniofnottingham?lang=en",
+    "https://www.nottingham.ac.uk/utilities/privacy/privacy.aspx",
+    "https://www.nottingham.ac.uk/utilities/terms.aspx",
+    "https://www.nottingham.ac.uk/utilities/accessibility/accessibility.aspx",
+    "https://www.nottingham.ac.uk/utilities/posting-rules.aspx",
+    "https://www.nottingham.ac.uk/governance/records-and-information-management/freedom-of-information/freedom-of-information.aspx",
+    "https://www.nottingham.ac.uk/governance/gateway.aspx",
+    "https://www.nottingham.ac.uk/utilities/cookies.aspx",
+    "https://www.nottingham.ac.uk/fabs/procurement/key-university-policies/policies.aspx"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.nottingham.ac.uk/etc.clientlibs/uon/clientlibs/clientlib-v2/resources/images/UoN-Logo-Dark.svg",
+        "alt": "University of Nottingham Logo",
+        "w": 197,
+        "h": 72
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/homepage/phd-student-researching-wheat-550x250.jpg",
+        "alt": "Researcher kneeling among wheat plants in large greenhouse",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/homepage/person-wearing-meg-helmet.jpg",
+        "alt": "Person in brain scanner device smiling and playing guitar",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/people-and-community/cset-building-ningbo-campus-china-550x250.jpg",
+        "alt": "Two students sitting outside talking with trees and building behind them, Ningbo Campus",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/people-and-community/trent-building-malaysia-campus-550x250.jpg",
+        "alt": "External view of Trent Building, Malaysia Campus with trees and fountain in foreground",
+        "w": 550,
+        "h": 250
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/press-release-images/2026/ingenuity-building-university-of-nottingham-jubilee-campus.jpg",
+        "alt": "Ingenuity Building, University of Nottingham, Jubilee campus",
+        "w": 300,
+        "h": 400
+      },
+      {
+        "src": "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/press-release-images/2026/satellite-orbiting-earth.jpg",
+        "alt": "Satellite orbiting Earth",
+        "w": 300,
+        "h": 400
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [
+      "https://www.nottingham.ac.uk/research/images-multimedia/research-revamp-24/homepage/home-page-banner-desktop.jpg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://cdnapisec.kaltura.com/p/1355621/sp/135562100/embedIframeJs/uiconf_id/38386321/partner_id/1355621?iframeembed=true&playerId=kplayer&entry_id=1_3suuppm7&flashvars[streamerType]=auto",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--textColor": "#10263B",
+    "--globalBlue": "#10263B",
+    "--globalLightBlue": "#009BC1",
+    "--globalRed": "#B91C2E",
+    "--globalPink": "#D7336C",
+    "--globalPurple": "#792D85",
+    "--globalTurquoise": "#37B4B0",
+    "--globalBeige": "#FAF6EF",
+    "--globalGrey": "#F3F4F5"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 10,
+    "mainTextLen": 24528,
+    "realImageCount": 7,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "assets/screenshots/research-research-aspx.png",
+  "renderedHtml": "pages/research-research-aspx.html"
+}
