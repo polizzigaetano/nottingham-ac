@@ -2,11 +2,29 @@
   "status": "success",
   "url": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
   "path": "studywithus/international-applicants",
-  "timestamp": "2026-09-13T15:48:56.004Z",
+  "timestamp": "2026-09-23T13:53:48.040Z",
   "title": "Information for international applicants",
-  "template": "carousel-landing-page",
+  "template": "international-applicants",
   "blocks": [
-    "search-course-light",
-    "search-course-light"
+    "hero-card-dark",
+    "nav-anchor-light",
+    "cards-promo-light-withimg-3",
+    "cards-promo-light-withimg-3",
+    "cards-nav-light",
+    "cards-nav-light",
+    "cards-nav-light",
+    "cards-nav-light",
+    "cards-nav-light",
+    "cards-nav-light",
+    "cards-promo-light",
+    "cards-promo-light",
+    "cards-promo-light",
+    "columns-withimg-light",
+    "columns-withimg-light",
+    "cards-ranking-gold",
+    "cards-ranking-gold",
+    "cards-ranking-gold",
+    "cards-ranking-gold",
+    "cards-ranking-gold"
   ]
 }

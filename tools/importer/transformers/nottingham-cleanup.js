@@ -30,6 +30,17 @@ export default function transform(hookName, element, payload) {
       '.heroSearch-component .d-block.d-lg-none',
     ]);
 
+    // Hidden mobile duplicate of the in-page section nav (verified in
+    // cleaned.html: .standard-nav-with-dropdown-mobile.d-block.d-lg-none is the
+    // mobile twin of the visible desktop .standard-nav-with-dropdown-desktop).
+    // It carries a "Menu" toggle plus every expanded dropdown sub-link, which
+    // would otherwise be swept into the nav-anchor-light section and render as a
+    // long flat link dump. Remove before parsing so only the 6 top-level desktop
+    // links become the block.
+    WebImporter.DOMUtils.remove(element, [
+      '.standard-nav-with-dropdown-mobile',
+    ]);
+
     // Legacy-template page tools + hidden framework text. Scoped so modern
     // templates are untouched: `javascript:` links are never authorable content
     // (e.g. the "Print" tool), and `.hidden` blocks are only stripped inside the
@@ -40,6 +51,20 @@ export default function transform(hookName, element, payload) {
   }
 
   if (hookName === H.after) {
+    // Unwrap leftover source <blockquote> wrappers that still enclose a parsed
+    // block table. On this page the testimonial (columns-withimg-light) and the
+    // "Preparing for Nottingham" panel (cards-promo-light) are authored inside a
+    // Contensis <blockquote class="sys_blockquoteAlt">; the parser replaces the
+    // inner content but the <blockquote> remains. EDS only decorates block tables
+    // that are direct children of the section <div> — a wrapping <blockquote>
+    // leaves the table rendering as a raw "Columns Withimg Light" table. Lift the
+    // blockquote's children up in place, then drop the now-empty blockquote.
+    element.querySelectorAll('blockquote').forEach((bq) => {
+      if (!bq.querySelector('table')) return;
+      while (bq.firstChild) bq.parentNode.insertBefore(bq.firstChild, bq);
+      bq.remove();
+    });
+
     // Non-authorable global chrome (verified in cleaned.html):
     //   .headerv2-component  -> header wrapper (skip-link, flyout, header.headerv2) line 18
     //   header.headerv2      -> header line 26
@@ -64,6 +89,14 @@ export default function transform(hookName, element, payload) {
       '#breadcrumbs',
       '.sys_breadcrumbs',
       '.sys_youAreHere',
+      // Modern header breadcrumb trail on studywithus/* pages (verified in
+      // cleaned.html: <div id="L1_Breadcrumbs" class="global-breadcrumbs">
+      // "University of Nottingham > Study with us > International students",
+      // line 462). Non-authorable global chrome sitting just below the header;
+      // the template's sec-breadcrumb section (style null, first section) is
+      // skipped by the section transformer, so removing it here is consistent.
+      '#L1_Breadcrumbs',
+      '.global-breadcrumbs',
       '.campuslinks',
       '#SocialButtons',
       '#bottom',

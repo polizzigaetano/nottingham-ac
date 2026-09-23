@@ -8,6 +8,40 @@
  * Handles both the container selector (many tiles) and a single tile-container.
  */
 export default function parse(element, { document }) {
+  // --- Branch C: legacy Contensis stat panel (International applicants).
+  // Instance selector `.sys_drop-shadow-background-box` matches ONE panel per
+  // call: a decorative star <img> + a headline p.introParagraph (e.g. "Top 100
+  // world university") + a source <p> (e.g. "QS World University Rankings 2027").
+  // Do NOT depend on the star image — it is purely decorative and dropped.
+  // Emit ONE row, 1 cell (field:text = <h3>headline</h3> + <p>source</p>).
+  if (element.matches('.sys_drop-shadow-background-box')) {
+    const cell = [document.createComment(' field:text ')];
+
+    const paras = Array.from(element.querySelectorAll('p'))
+      .filter((p) => p.textContent.trim());
+    const headlineEl = element.querySelector('p.introParagraph') || paras[0] || null;
+    const sourceEls = paras.filter((p) => p !== headlineEl);
+
+    if (headlineEl && headlineEl.textContent.trim()) {
+      const h = document.createElement('h3');
+      h.textContent = headlineEl.textContent.replace(/\s+/g, ' ').trim();
+      cell.push(h);
+    }
+    sourceEls.forEach((p) => cell.push(p));
+
+    if (cell.length === 1) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: 'cards-ranking-gold',
+      cells: [[cell]],
+    });
+    element.replaceWith(block);
+    return;
+  }
+
   // Collect tiles whether element is the whole rankings block or a single tile wrapper.
   // Homepage uses `.ranking-tile`; study-with-us `.stats-block` uses `.stat` tiles.
   let tiles = [...element.querySelectorAll('.ranking-tile')];

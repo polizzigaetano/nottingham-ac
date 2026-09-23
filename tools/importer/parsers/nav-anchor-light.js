@@ -15,20 +15,62 @@
  * Each link = one row, 1 cell: field:link containing <a href>label</a>.
  */
 export default function parse(element, { document }) {
-  const links = Array.from(element.querySelectorAll('a.sub-nav__link'));
+  // Support both markups:
+  //  A) .sub-nav             → a.sub-nav__link
+  //  B) legacy Contensis .standard-nav-with-dropdown-desktop (International
+  //     applicants) → a.home-link + a.top-level-link. Dropdown toggles carry
+  //     href="#"; the actual sub-links live in sibling .dropdown-menu > .dropdown-item
+  //     which are NOT part of the anchor row, so we exclude them.
+  let links = Array.from(element.querySelectorAll('a.sub-nav__link'));
+  let legacy = false;
+  if (!links.length) {
+    legacy = true;
+    // Only the top-level anchors — never the sibling .dropdown-menu > .dropdown-item.
+    links = Array.from(element.querySelectorAll('a.home-link, a.top-level-link'));
+  }
+
+  // For legacy dropdown parents the anchor itself is a JS toggle (href="#").
+  // Resolve it to a real destination: prefer the dropdown-item whose label
+  // matches the toggle text, else the first dropdown-item under the same
+  // labelling id. Returns null when no destination can be found (item skipped).
+  const resolveHref = (source) => {
+    const raw = (source.getAttribute('href') || '').trim();
+    if (raw && raw !== '#') return raw;
+    if (!legacy) return null;
+    // The dropdown-menu immediately follows its toggle in the DOM. Prefer that
+    // sibling — toggle `id`s are NOT unique on this page (multiple share
+    // id="navbarDropdown"), so an id/aria-labelledby lookup would resolve to the
+    // wrong menu. Fall back to the id lookup only if there's no sibling menu.
+    let menu = source.nextElementSibling && source.nextElementSibling.classList.contains('dropdown-menu')
+      ? source.nextElementSibling : null;
+    if (!menu) {
+      const id = source.getAttribute('id');
+      if (id) menu = element.querySelector(`.dropdown-menu[aria-labelledby="${id}"]`);
+    }
+    if (!menu) return null;
+    const label = (source.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    const items = Array.from(menu.querySelectorAll('a.dropdown-item[href]'));
+    const match = items.find((it) => (it.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase() === label);
+    return (match || items[0] || {}).getAttribute
+      ? (match || items[0]).getAttribute('href') : null;
+  };
 
   const cells = [];
   links.forEach((source) => {
-    const href = source.getAttribute('href');
+    const href = resolveHref(source);
     if (!href) return;
 
     // Clean anchor: preserve href, use link text (or a Home fallback for the
     // icon-only landing link) as the collapsed linkText.
     const a = document.createElement('a');
     a.setAttribute('href', href);
+    const isHome = source.classList.contains('sub-nav__home-btn')
+      || source.classList.contains('home-link');
     let label = (source.textContent || '').replace(/\s+/g, ' ').trim();
-    if (!label) {
-      label = source.classList.contains('sub-nav__home-btn') ? 'Home' : href;
+    // Home links are icon-only (a material-icons "home" glyph) — normalize the
+    // label rather than emitting the raw glyph text.
+    if (isHome || !label || label.toLowerCase() === 'home') {
+      label = isHome ? 'Home' : (label || href);
     }
     a.textContent = label;
 
