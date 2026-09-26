@@ -13,6 +13,7 @@
 
   /* Extended brand accents (site --global* palette, used sparingly) */
   --uon-light-blue: #009bc1;
+  --uon-light-blue-text: #007a99; /* light-blue darkened to pass WCAG AA (4.95:1) for small text */
   --uon-turquoise: #37b4b0;
   --uon-purple: #792d85;
   --uon-red: #b91c2e;

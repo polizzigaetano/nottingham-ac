@@ -35,7 +35,7 @@
   color: var(--uon-navy, #10263b);
 }
 
-.columns-withimg-light .columns-withimg-light-content-col p {
+.columns-withimg-light .columns-withimg-light-content-col > p {
   margin: 0 0 20px;
   font-family: var(--body-font-family, sans-serif);
   font-size: 20px;
@@ -43,12 +43,12 @@
   color: var(--uon-navy, #10263b);
 }
 
-.columns-withimg-light .columns-withimg-light-content-col p:last-child {
+.columns-withimg-light .columns-withimg-light-content-col > p:last-child {
   margin-bottom: 0;
 }
 
 /* --- Gold pill CTA (source uses a plain standalone link, not an EDS button) --- */
-.columns-withimg-light .columns-withimg-light-content-col p > a:only-child:any-link {
+.columns-withimg-light .columns-withimg-light-content-col > p > a:only-child:any-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -65,8 +65,8 @@
   text-decoration: none;
 }
 
-.columns-withimg-light .columns-withimg-light-content-col p > a:only-child:any-link:hover,
-.columns-withimg-light .columns-withimg-light-content-col p > a:only-child:any-link:focus-visible {
+.columns-withimg-light .columns-withimg-light-content-col > p > a:only-child:any-link:hover,
+.columns-withimg-light .columns-withimg-light-content-col > p > a:only-child:any-link:focus-visible {
   background-color: #c99f05;
   color: var(--uon-navy, #10263b);
   text-decoration: none;
@@ -117,11 +117,40 @@
     margin-bottom: 28px;
   }
 
-  .columns-withimg-light .columns-withimg-light-content-col p {
+  .columns-withimg-light .columns-withimg-light-content-col > p {
     font-size: 22px;
   }
 
   .columns-withimg-light .columns-withimg-light-img-col img {
     min-height: 100%;
+  }
+}
+
+/* --- Pull quote in the text column (news articles) -----------------------
+ * Paragraph rules above target direct children only, so a quote's paragraphs
+ * take the global blockquote style. */
+.columns-withimg-light .columns-withimg-light-content-col blockquote {
+  margin: 0;
+}
+
+/* --- Inside an "article" section: a portrait beside the quote, not a
+ * half-width feature image ---------------------------------------------------- */
+.section.article .columns-withimg-light .columns-withimg-light-img-col img {
+  min-height: 0;
+  aspect-ratio: 1 / 1;
+}
+
+@media (width >= 900px) {
+  .section.article .columns-withimg-light > div {
+    align-items: center;
+  }
+
+  .section.article .columns-withimg-light .columns-withimg-light-img-col {
+    flex: 0 0 32%;
+    width: 32%;
+  }
+
+  .section.article .columns-withimg-light .columns-withimg-light-content-col {
+    padding: 0 0 0 32px;
   }
 }

@@ -12,6 +12,10 @@
  *   s5 university-news .news-section                  (line 654)
  *   s6 featured-events .events-section                (line 883)   style: highlight
  *   s7 partnerships    .homepage-partnerships         (line 936)
+ * Data-driven: other templates (e.g. food-systems-institute, 11 sections, all
+ * boundaries direct children of #container; sec-focus / sec-centres /
+ * sec-engage styled "light") work unchanged. Several of those selectors use
+ * :has(), which the importer's Chromium runtime supports natively.
  * Uses both hooks per the reference implementation: breaks inserted in
  * beforeTransform (while section elements still exist), styled-section
  * metadata anchored to a marker <hr> in afterTransform.

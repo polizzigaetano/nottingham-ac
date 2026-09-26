@@ -12,6 +12,63 @@
  * turns it into a carrier anchor, so the parser just emits the <img> as-is).
  */
 export default function parse(element, { document }) {
+  // --- Branch D: legacy Contensis pull quote with portrait (News press releases).
+  // Instance `article.pressReleaseMain > .quoteWithImage`:
+  //   .blockquoteImage > img  +  .blockquoteContent > blockquote
+  // where the quote text is loose text directly inside <blockquote> and the
+  // attribution is blockquote > footer > cite. One row, two cells:
+  //   [image] [<blockquote><p>quote</p><p><em>attribution</em></p></blockquote>]
+  // Quote text is kept verbatim (whitespace collapsed only) — no quote marks added.
+  if (element.matches('.quoteWithImage')) {
+    const clean = (s) => (s || '').replace(/[\s\u00a0]+/g, ' ').trim();
+    const img = element.querySelector('.blockquoteImage img') || element.querySelector('img');
+    const sourceQuote = element.querySelector('.blockquoteContent blockquote')
+      || element.querySelector('blockquote');
+
+    const quoteCell = [];
+    if (sourceQuote) {
+      const cite = sourceQuote.querySelector('footer cite') || sourceQuote.querySelector('cite, footer');
+      // Quote body = everything in the blockquote except the attribution footer.
+      const body = sourceQuote.cloneNode(true);
+      body.querySelectorAll('footer').forEach((f) => f.remove());
+      if (!sourceQuote.querySelector('footer') && cite) {
+        body.querySelectorAll('cite').forEach((c) => c.remove());
+      }
+      const quoteText = clean(body.textContent);
+      const attribution = clean(cite && cite.textContent);
+      if (quoteText || attribution) {
+        const bq = document.createElement('blockquote');
+        if (quoteText) {
+          const p = document.createElement('p');
+          p.textContent = quoteText;
+          bq.append(p);
+        }
+        if (attribution) {
+          const p = document.createElement('p');
+          const em = document.createElement('em');
+          em.textContent = attribution;
+          p.append(em);
+          bq.append(p);
+        }
+        quoteCell.push(bq);
+      }
+    }
+    const imageCell = img ? [img] : [];
+
+    if (!quoteCell.length && !imageCell.length) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    // No field hints for columns blocks — one row, two columns (image, quote).
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: 'columns-withimg-light',
+      cells: [[imageCell, quoteCell]],
+    });
+    element.replaceWith(block);
+    return;
+  }
+
   // --- Branch B: legacy Contensis testimonial (International applicants).
   // The instance selector `.sys_vertically-centred-content` matches TWO sibling
   // divs (inside sys_one_1585 / sys_two_1585): one holds a portrait <img>, the
@@ -55,6 +112,49 @@ export default function parse(element, { document }) {
     parts.forEach((part) => {
       if (part !== element && part.dataset) part.dataset.colsConsumed = '1';
     });
+
+    // No field hints for columns blocks — one row, N columns.
+    const block = WebImporter.Blocks.createBlock(document, {
+      name: 'columns-withimg-light',
+      cells: [columnCells],
+    });
+    element.replaceWith(block);
+    return;
+  }
+
+  // --- Branch C: legacy Contensis .sys_twoColumns5050 (Food Systems Institute
+  // "Our mission"): .sys_one = h2 + intro <p><span.introParagraph> + body <p>
+  // + <p><a.CTA-blueButtonWithArrow>; .sys_two = <img.img-responsive>.
+  // One row, one cell per column, in source order (text, image). Guarded so a
+  // .sys_twoColumns5050 row that holds legacy promo cards (those belong to the
+  // cards parsers) is never turned into a columns block.
+  if (element.matches('.sys_twoColumns5050, .sys_threeColumns, .sys_fourColumns')
+    && !element.querySelector('.imageTextContentCTA-card, .sys_imageTitleContentCTA-card, .imageWhiteCTA-card')) {
+    const MEDIA = 'img, picture, video, iframe';
+    const isBlank = (n) => !n.matches(MEDIA) && !n.querySelector(MEDIA)
+      && !n.textContent.replace(/[\s\u00a0]+/g, '');
+    const columnCells = Array.from(element.children)
+      .filter((col) => col.tagName === 'DIV' && !col.classList.contains('clear'))
+      .map((col) => {
+        const cell = [];
+        Array.from(col.children).forEach((child) => {
+          if (isBlank(child)) return;
+          if (/^H[1-6]$/.test(child.tagName)) {
+            // Rebuild headings to drop the trailing &nbsp; Contensis leaves behind.
+            const h = document.createElement(child.tagName);
+            h.textContent = child.textContent.replace(/[\s\u00a0]+/g, ' ').trim();
+            cell.push(h);
+          } else {
+            cell.push(child);
+          }
+        });
+        return cell;
+      });
+
+    if (!columnCells.some((cell) => cell.length)) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
 
     // No field hints for columns blocks — one row, N columns.
     const block = WebImporter.Blocks.createBlock(document, {

@@ -19,6 +19,100 @@ export default function transform(hookName, element, payload) {
       'iframe.ot-text-resize',
     ]);
 
+    // ---- Legacy news press-release template (news-press-release) ----------
+    // GUARDED: runs only when the news article marker article.pressReleaseMain
+    // is present, so no other template is affected. Runs here in cleanup's
+    // beforeTransform, i.e. before the sections transformer inserts its <hr>
+    // breaks and before any parser runs. Selectors verified in cleaned.html
+    // (news/hidden-signs-of-financial-abuse).
+    const newsArticle = element.querySelector('article.pressReleaseMain');
+    if (newsArticle) {
+      // 1. News menu -> horizontal bar directly under the lead image + H1.
+      //    #NavDiv (line 55, inside #internalNav) moved to sit right after
+      //    #content > .sys_detailImage (line 139). The nav-anchor-light parser
+      //    targets #NavDiv > ul.sys_simpleListMenu, which moves with it.
+      const newsTitle = element.querySelector('#content > .sys_detailImage');
+      const newsNav = element.querySelector('#NavDiv');
+      if (newsTitle && newsNav) newsTitle.after(newsNav);
+
+      // 2. Press-office box (#bottom > .sys_content, line 226: h2 "Media
+      //    Relations - External Relations" + address/phone/email paragraphs)
+      //    rescued to the end of the article (after .boilerplate) because
+      //    afterTransform removes #bottom. Wrapper div unwrapped so the h2 and
+      //    paragraphs import as plain default content.
+      const pressBox = element.querySelector('#bottom > .sys_content');
+      if (pressBox) {
+        newsArticle.append(...pressBox.childNodes);
+        pressBox.remove();
+      }
+
+      // 3. Date (line 144) -> <p> with the same text so it imports as a paragraph.
+      newsArticle.querySelectorAll(':scope > span.date').forEach((span) => {
+        const p = document.createElement('p');
+        p.textContent = span.textContent.trim();
+        span.replaceWith(p);
+      });
+
+      // 4. Standalone pull quote (.quoteNoImage, line 168): normalise the
+      //    <blockquote> to <blockquote><p>quote</p><p><em>cite</em></p></blockquote>
+      //    and unwrap the .quoteNoImage / .blockquoteContent wrappers.
+      //    .quoteWithImage is deliberately untouched (columns-withimg-light parser).
+      const trimEdges = (nodes) => {
+        const list = [...nodes];
+        while (list.length && list[0].nodeType === 3 && !list[0].textContent.trim()) list.shift();
+        while (list.length && list[list.length - 1].nodeType === 3
+          && !list[list.length - 1].textContent.trim()) list.pop();
+        if (list.length && list[0].nodeType === 3) {
+          list[0].textContent = list[0].textContent.replace(/^\s+/, '');
+        }
+        const last = list[list.length - 1];
+        if (last && last.nodeType === 3) last.textContent = last.textContent.replace(/\s+$/, '');
+        return list;
+      };
+      newsArticle.querySelectorAll(':scope > .quoteNoImage').forEach((wrap) => {
+        const bq = wrap.querySelector('blockquote');
+        if (!bq) return;
+        const footer = bq.querySelector(':scope > footer');
+        const cite = footer ? footer.querySelector('cite') : null;
+        const quoteNodes = trimEdges([...bq.childNodes].filter((n) => n !== footer));
+        const citeNodes = cite ? trimEdges(cite.childNodes) : [];
+
+        const newBq = document.createElement('blockquote');
+        if (quoteNodes.length) {
+          const p = document.createElement('p');
+          p.append(...quoteNodes);
+          newBq.append(p);
+        }
+        if (citeNodes.length) {
+          const p = document.createElement('p');
+          const em = document.createElement('em');
+          em.append(...citeNodes);
+          p.append(em);
+          newBq.append(p);
+        }
+        wrap.replaceWith(newBq);
+      });
+
+      // 5. Hidden / duplicate chrome on this template only:
+      //    #pageheader   -> legacy logo + campus links bar (line 8; .campuslinks
+      //                     alone is removed site-wide, the .logo img is not)
+      //    #pageTitle    -> hidden second H1 "article" (line 54)
+      //    #pageToolsTab -> Print / Email this Page tools (line 120)
+      WebImporter.DOMUtils.remove(element, ['#pageheader', '#pageTitle', '#pageToolsTab']);
+      //    Empty .introParagraph (line 145) — only if it has no content at all.
+      const isEmptyNode = (el) => !el.children.length
+        && el.textContent.replace(/[\s ]+/g, '') === '';
+      newsArticle.querySelectorAll(':scope > .introParagraph').forEach((el) => {
+        if (isEmptyNode(el)) el.remove();
+      });
+      //    Empty <strong> </strong> in the Story credits paragraph (line 191,
+      //    "via<strong> </strong><a>"). Replaced by a plain space rather than
+      //    deleted so "via" and the email link don't run together.
+      newsArticle.querySelectorAll('p strong').forEach((strong) => {
+        if (isEmptyNode(strong)) strong.replaceWith(document.createTextNode(' '));
+      });
+    }
+
     // Hidden mobile-duplicate hero variant inside the heroSearch component
     // (verified in cleaned.html: .heroSearch-component > .d-block.d-lg-none,
     // line 476, is a byte-for-byte duplicate of the visible desktop hero at
@@ -40,6 +134,27 @@ export default function transform(hookName, element, payload) {
     WebImporter.DOMUtils.remove(element, [
       '.standard-nav-with-dropdown-mobile',
     ]);
+
+    // Legacy Contensis standard banner: mobile-only duplicate copy (verified in
+    // cleaned.html, Food Systems Institute page: .sys_standard-banner >
+    // .background-image.d-block.d-sm-none at lines 472 and 670 repeat the same
+    // h1 / p / CTA as the desktop .background-image.d-none.d-sm-block sibling
+    // at lines 480 and 678, with only a different mobile image crop). The hero
+    // parser grabs the first img/h1/p/a, so without this it would take the
+    // mobile crop and leave the desktop copy behind as duplicate default
+    // content. Guarded: only removed when a desktop sibling exists AND it
+    // repeats the same heading text, so the desktop copy the parser needs is
+    // always kept and no non-duplicate content is ever stripped.
+    element.querySelectorAll('.sys_standard-banner').forEach((banner) => {
+      const mobile = banner.querySelector(':scope > .background-image.d-block.d-sm-none');
+      const desktop = banner.querySelector(':scope > .background-image.d-none.d-sm-block');
+      if (!mobile || !desktop) return;
+      const headingText = (el) => {
+        const h = el.querySelector('h1, h2, h3');
+        return h ? h.textContent.replace(/\s+/g, ' ').trim() : '';
+      };
+      if (headingText(mobile) && headingText(mobile) === headingText(desktop)) mobile.remove();
+    });
 
     // Legacy-template page tools + hidden framework text. Scoped so modern
     // templates are untouched: `javascript:` links are never authorable content
@@ -63,6 +178,20 @@ export default function transform(hookName, element, payload) {
       if (!bq.querySelector('table')) return;
       while (bq.firstChild) bq.parentNode.insertBefore(bq.firstChild, bq);
       bq.remove();
+    });
+
+    // Legacy Contensis spacer nodes inside the page body (verified in
+    // cleaned.html: <p>&nbsp;</p> at lines 603, 620, 626, 692, 821, 862, 879,
+    // 882, 895, 898 and <div class="clear">&nbsp;</div> float-clearers at lines
+    // 619, 661, 721, 748, 765, 815, 844, 861, 894). They carry no authorable
+    // content and would import as empty paragraphs. Scoped to #container and
+    // only removed when they contain nothing but whitespace/&nbsp; and no child
+    // elements (images, links, etc.), so real paragraphs are never touched.
+    // Runs after parsing so no parser selector can be affected.
+    const isBlank = (el) => !el.children.length
+      && el.textContent.replace(/[\s\u00a0]+/g, '') === '';
+    element.querySelectorAll('#container p, #container div.clear').forEach((el) => {
+      if (isBlank(el)) el.remove();
     });
 
     // Non-authorable global chrome (verified in cleaned.html):

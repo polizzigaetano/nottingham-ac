@@ -72,4 +72,13 @@
     gap: 32px;
     padding: 24px 40px;
   }
+
+  /* In a narrow "article" column the links wrap onto a second line instead of
+   * scrolling out of view behind the hidden scrollbar. */
+  .section.article .nav-anchor-light .nav-anchor-light-list {
+    flex-wrap: wrap;
+    gap: 4px 20px;
+    padding: 16px 24px;
+    overflow-x: visible;
+  }
 }
