@@ -3513,7 +3513,8 @@
         {
           "name": "columns-withimg-light",
           "instances": [
-            "article.pressReleaseMain > .quoteWithImage"
+            "article.pressReleaseMain > .quoteWithImage",
+            "article.pressReleaseMain > .quoteNoImage"
           ]
         },
         {
@@ -3563,7 +3564,6 @@
           "defaultContent": [
             "p",
             "h2",
-            "blockquote",
             ".boilerplate"
           ]
         }

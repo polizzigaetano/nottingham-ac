@@ -13,13 +13,17 @@
  */
 export default function parse(element, { document }) {
   // --- Branch D: legacy Contensis pull quote with portrait (News press releases).
-  // Instance `article.pressReleaseMain > .quoteWithImage`:
-  //   .blockquoteImage > img  +  .blockquoteContent > blockquote
+  // Instances `article.pressReleaseMain > .quoteWithImage` and `> .quoteNoImage`:
+  //   [.blockquoteImage > img  +]  .blockquoteContent > blockquote
   // where the quote text is loose text directly inside <blockquote> and the
-  // attribution is blockquote > footer > cite. One row, two cells:
-  //   [image] [<blockquote><p>quote</p><p><em>attribution</em></p></blockquote>]
+  // attribution is blockquote > footer > cite. One row:
+  //   [image] [<p>quote</p><p><em>attribution</em></p>]   (with portrait)
+  //   [<p>quote</p><p><em>attribution</em></p>]           (no portrait)
+  // Plain paragraphs, NOT <blockquote>: md2jcr (AEM Author) rejects blockquote,
+  // and treats columns-* cells as page-level content. The pull-quote look comes
+  // from the block's CSS inside an "article" section.
   // Quote text is kept verbatim (whitespace collapsed only) — no quote marks added.
-  if (element.matches('.quoteWithImage')) {
+  if (element.matches('.quoteWithImage, .quoteNoImage')) {
     const clean = (s) => (s || '').replace(/[\s\u00a0]+/g, ' ').trim();
     const img = element.querySelector('.blockquoteImage img') || element.querySelector('img');
     const sourceQuote = element.querySelector('.blockquoteContent blockquote')
@@ -36,21 +40,17 @@ export default function parse(element, { document }) {
       }
       const quoteText = clean(body.textContent);
       const attribution = clean(cite && cite.textContent);
-      if (quoteText || attribution) {
-        const bq = document.createElement('blockquote');
-        if (quoteText) {
-          const p = document.createElement('p');
-          p.textContent = quoteText;
-          bq.append(p);
-        }
-        if (attribution) {
-          const p = document.createElement('p');
-          const em = document.createElement('em');
-          em.textContent = attribution;
-          p.append(em);
-          bq.append(p);
-        }
-        quoteCell.push(bq);
+      if (quoteText) {
+        const p = document.createElement('p');
+        p.textContent = quoteText;
+        quoteCell.push(p);
+      }
+      if (attribution) {
+        const p = document.createElement('p');
+        const em = document.createElement('em');
+        em.textContent = attribution;
+        p.append(em);
+        quoteCell.push(p);
       }
     }
     const imageCell = img ? [img] : [];
@@ -60,10 +60,10 @@ export default function parse(element, { document }) {
       return;
     }
 
-    // No field hints for columns blocks — one row, two columns (image, quote).
+    // No field hints for columns blocks — one row: (image,) quote.
     const block = WebImporter.Blocks.createBlock(document, {
       name: 'columns-withimg-light',
-      cells: [[imageCell, quoteCell]],
+      cells: [imageCell.length ? [imageCell, quoteCell] : [quoteCell]],
     });
     element.replaceWith(block);
     return;

@@ -126,15 +126,46 @@
   }
 }
 
-/* --- Pull quote in the text column (news articles) -----------------------
- * Paragraph rules above target direct children only, so a quote's paragraphs
- * take the global blockquote style. */
-.columns-withimg-light .columns-withimg-light-content-col blockquote {
-  margin: 0;
+/* --- Inside an "article" section the block is a pull quote -----------------
+ * Text column = quote paragraph(s) + an attribution paragraph holding only an
+ * <em>; optional portrait beside it. Stored as plain paragraphs because AEM's
+ * content conversion (md2jcr) doesn't support <blockquote>. */
+.section.article .columns-withimg-light {
+  margin: 32px 0;
 }
 
-/* --- Inside an "article" section: a portrait beside the quote, not a
- * half-width feature image ---------------------------------------------------- */
+.section.article .columns-withimg-light .columns-withimg-light-content-col {
+  position: relative;
+  padding: 48px 0 0;
+}
+
+/* decorative opening mark, hidden from assistive tech */
+.section.article .columns-withimg-light .columns-withimg-light-content-col::before {
+  content: '\201C' / '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--heading-font-family);
+  font-size: 80px;
+  line-height: 1;
+  color: #c9cdd1;
+}
+
+.section.article .columns-withimg-light .columns-withimg-light-content-col > p {
+  margin: 0 0 12px;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.section.article .columns-withimg-light .columns-withimg-light-content-col > p:last-child:has(> em:only-child) {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: 17px;
+  line-height: 1.4;
+  color: var(--uon-light-blue-text);
+}
+
 .section.article .columns-withimg-light .columns-withimg-light-img-col img {
   min-height: 0;
   aspect-ratio: 1 / 1;
@@ -151,6 +182,24 @@
   }
 
   .section.article .columns-withimg-light .columns-withimg-light-content-col {
-    padding: 0 0 0 32px;
+    padding: 0 0 0 72px;
+  }
+
+  .section.article .columns-withimg-light .columns-withimg-light-img-col + .columns-withimg-light-content-col,
+  .section.article .columns-withimg-light .columns-withimg-light-content-col:has(+ .columns-withimg-light-img-col) {
+    margin-left: 32px;
+  }
+
+  .section.article .columns-withimg-light .columns-withimg-light-content-col::before {
+    top: -8px;
+    font-size: 100px;
+  }
+
+  .section.article .columns-withimg-light .columns-withimg-light-content-col > p {
+    font-size: 24px;
+  }
+
+  .section.article .columns-withimg-light .columns-withimg-light-content-col > p:last-child:has(> em:only-child) {
+    font-size: 17px;
   }
 }

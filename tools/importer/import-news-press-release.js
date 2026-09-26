@@ -32,7 +32,8 @@ const PAGE_TEMPLATE = {
     {
       "name": "columns-withimg-light",
       "instances": [
-        "article.pressReleaseMain > .quoteWithImage"
+        "article.pressReleaseMain > .quoteWithImage",
+        "article.pressReleaseMain > .quoteNoImage"
       ]
     },
     {
@@ -82,7 +83,6 @@ const PAGE_TEMPLATE = {
       "defaultContent": [
         "p",
         "h2",
-        "blockquote",
         ".boilerplate"
       ]
     }
