@@ -131,7 +131,7 @@ var CustomImportScript = (() => {
 
   // tools/importer/parsers/columns-withimg-light.js
   function parse2(element, { document: document2 }) {
-    if (element.matches(".quoteWithImage")) {
+    if (element.matches(".quoteWithImage, .quoteNoImage")) {
       const clean = (s) => (s || "").replace(/[\s\u00a0]+/g, " ").trim();
       const img = element.querySelector(".blockquoteImage img") || element.querySelector("img");
       const sourceQuote = element.querySelector(".blockquoteContent blockquote") || element.querySelector("blockquote");
@@ -145,21 +145,17 @@ var CustomImportScript = (() => {
         }
         const quoteText = clean(body.textContent);
         const attribution = clean(cite && cite.textContent);
-        if (quoteText || attribution) {
-          const bq = document2.createElement("blockquote");
-          if (quoteText) {
-            const p = document2.createElement("p");
-            p.textContent = quoteText;
-            bq.append(p);
-          }
-          if (attribution) {
-            const p = document2.createElement("p");
-            const em = document2.createElement("em");
-            em.textContent = attribution;
-            p.append(em);
-            bq.append(p);
-          }
-          quoteCell.push(bq);
+        if (quoteText) {
+          const p = document2.createElement("p");
+          p.textContent = quoteText;
+          quoteCell.push(p);
+        }
+        if (attribution) {
+          const p = document2.createElement("p");
+          const em = document2.createElement("em");
+          em.textContent = attribution;
+          p.append(em);
+          quoteCell.push(p);
         }
       }
       const imageCell2 = img ? [img] : [];
@@ -169,7 +165,7 @@ var CustomImportScript = (() => {
       }
       const block2 = WebImporter.Blocks.createBlock(document2, {
         name: "columns-withimg-light",
-        cells: [[imageCell2, quoteCell]]
+        cells: [imageCell2.length ? [imageCell2, quoteCell] : [quoteCell]]
       });
       element.replaceWith(block2);
       return;
@@ -334,39 +330,6 @@ var CustomImportScript = (() => {
           p.textContent = span.textContent.trim();
           span.replaceWith(p);
         });
-        const trimEdges = (nodes) => {
-          const list = [...nodes];
-          while (list.length && list[0].nodeType === 3 && !list[0].textContent.trim()) list.shift();
-          while (list.length && list[list.length - 1].nodeType === 3 && !list[list.length - 1].textContent.trim()) list.pop();
-          if (list.length && list[0].nodeType === 3) {
-            list[0].textContent = list[0].textContent.replace(/^\s+/, "");
-          }
-          const last = list[list.length - 1];
-          if (last && last.nodeType === 3) last.textContent = last.textContent.replace(/\s+$/, "");
-          return list;
-        };
-        newsArticle.querySelectorAll(":scope > .quoteNoImage").forEach((wrap) => {
-          const bq = wrap.querySelector("blockquote");
-          if (!bq) return;
-          const footer = bq.querySelector(":scope > footer");
-          const cite = footer ? footer.querySelector("cite") : null;
-          const quoteNodes = trimEdges([...bq.childNodes].filter((n) => n !== footer));
-          const citeNodes = cite ? trimEdges(cite.childNodes) : [];
-          const newBq = document.createElement("blockquote");
-          if (quoteNodes.length) {
-            const p = document.createElement("p");
-            p.append(...quoteNodes);
-            newBq.append(p);
-          }
-          if (citeNodes.length) {
-            const p = document.createElement("p");
-            const em = document.createElement("em");
-            em.append(...citeNodes);
-            p.append(em);
-            newBq.append(p);
-          }
-          wrap.replaceWith(newBq);
-        });
         WebImporter.DOMUtils.remove(element, ["#pageheader", "#pageTitle", "#pageToolsTab"]);
         const isEmptyNode = (el) => !el.children.length && el.textContent.replace(/[\s ]+/g, "") === "";
         newsArticle.querySelectorAll(":scope > .introParagraph").forEach((el) => {
@@ -510,7 +473,8 @@ var CustomImportScript = (() => {
       {
         "name": "columns-withimg-light",
         "instances": [
-          "article.pressReleaseMain > .quoteWithImage"
+          "article.pressReleaseMain > .quoteWithImage",
+          "article.pressReleaseMain > .quoteNoImage"
         ]
       },
       {
@@ -560,7 +524,6 @@ var CustomImportScript = (() => {
         "defaultContent": [
           "p",
           "h2",
-          "blockquote",
           ".boilerplate"
         ]
       }

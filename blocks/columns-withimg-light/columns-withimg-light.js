@@ -12,17 +12,6 @@ export default function decorate(block) {
 
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {
-      // aem.js wraps a cell in <p> when it starts with a <blockquote> (not a
-      // recognised wrapper), leaving invalid <p><blockquote> nesting. Unwrap it
-      // and hand the Universal Editor attributes back to the cell.
-      const wrapper = col.children.length === 1 && col.firstElementChild.tagName === 'P'
-        ? col.firstElementChild : null;
-      if (wrapper && wrapper.children.length
-        && [...wrapper.children].every((el) => el.tagName === 'BLOCKQUOTE')) {
-        [...wrapper.attributes].forEach(({ name, value }) => col.setAttribute(name, value));
-        wrapper.replaceWith(...wrapper.childNodes);
-      }
-
       const pic = col.querySelector('picture');
       if (pic && col.children.length === 1) {
         col.classList.add('columns-withimg-light-img-col');

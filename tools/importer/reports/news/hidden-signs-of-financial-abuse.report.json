@@ -2,11 +2,12 @@
   "status": "success",
   "url": "https://www.nottingham.ac.uk/news/hidden-signs-of-financial-abuse",
   "path": "news/hidden-signs-of-financial-abuse",
-  "timestamp": "2026-09-26T13:15:55.937Z",
+  "timestamp": "2026-09-26T13:40:35.880Z",
   "title": "News - Study finds banking records reveal the hidden signs of financial abuse - University of Nottingham",
   "template": "news-press-release",
   "blocks": [
     "nav-anchor-light",
+    "columns-withimg-light",
     "columns-withimg-light",
     "columns"
   ]
