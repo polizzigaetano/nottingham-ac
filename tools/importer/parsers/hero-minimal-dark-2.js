@@ -7,6 +7,83 @@
  * Model fields: image (Background Image), imageAlt (collapsed into alt), text.
  */
 export default function parse(element, { document }) {
+  // Mode C: legacy Contensis banners (Food Systems Institute):
+  //  - .sys_standard-banner: .gradient-overlay + two .background-image twins
+  //    (mobile .d-block.d-sm-none / desktop .d-none.d-sm-block), each holding
+  //    .banner-content (h1 + p + a.sys_white-btn). Image is a CSS
+  //    background-image in the inline style, not an <img>.
+  //  - .sys_fullWidthImage-TextWithCTA: one .background-image (style url) >
+  //    .overlay > .container > .main-content (p.text-content + a.sys_white-btn),
+  //    no heading.
+  // Guarded on the legacy root classes so Modes A/B are untouched.
+  if (element.matches('.sys_standard-banner, .sys_fullWidthImage-TextWithCTA')) {
+    // Prefer the desktop twin (the cleanup transformer removes the mobile one in
+    // the real import; the validator runs without transformers).
+    const scope = element.querySelector(':scope > .background-image.d-none.d-sm-block')
+      || element.querySelector(':scope > .background-image:not(.d-sm-none)')
+      || element.querySelector('.background-image')
+      || element;
+
+    // Background image: real <img> first, else the inline style url(...).
+    let image = scope.querySelector('img');
+    if (!image) {
+      const styled = [scope, ...scope.querySelectorAll('[style*="background-image"]')]
+        .find((el) => /url\(/i.test(el.getAttribute('style') || ''));
+      const m = styled && (styled.getAttribute('style') || '').match(/background-image\s*:\s*url\(\s*['"]?([^'")]+)['"]?\s*\)/i);
+      if (m) {
+        image = document.createElement('img');
+        image.setAttribute('src', m[1].trim());
+        image.setAttribute('alt', '');
+      }
+    }
+
+    const content = scope.querySelector('.banner-content, .main-content') || scope;
+    const headingSrc = content.querySelector('h1, h2, h3');
+    const paras = Array.from(content.querySelectorAll('p'))
+      .filter((p) => p.textContent.replace(/[\s\u00a0]+/g, '').length);
+    const ctaSrc = content.querySelector('a.sys_white-btn[href], a[href]');
+
+    if (!headingSrc && !paras.length && !ctaSrc && !image) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+
+    const contentCell = [document.createComment(' field:text ')];
+    if (headingSrc && headingSrc.textContent.trim()) {
+      // Only one H1 per page: a banner that is not the first H1 on the page
+      // (e.g. the "Annual Report" promo nested in .container.my-4) becomes H2.
+      const firstH1 = document.querySelector('h1');
+      const demote = headingSrc.tagName === 'H1'
+        && ((firstH1 && !element.contains(firstH1))
+          || !!element.parentElement.closest('.container, .container-grey-bg, .container-yellow-bg'));
+      const level = demote ? 'H2' : headingSrc.tagName;
+      const h = document.createElement(level);
+      h.textContent = headingSrc.textContent.replace(/\s+/g, ' ').trim();
+      contentCell.push(h);
+    }
+    paras.forEach((p) => {
+      // Rebuild as a plain <p> (drops legacy classes like .text-content).
+      const np = document.createElement('p');
+      np.innerHTML = p.innerHTML;
+      contentCell.push(np);
+    });
+    if (ctaSrc) {
+      const a = document.createElement('a');
+      a.setAttribute('href', ctaSrc.getAttribute('href'));
+      if (ctaSrc.getAttribute('title')) a.setAttribute('title', ctaSrc.getAttribute('title'));
+      a.textContent = (ctaSrc.textContent || '').replace(/\s+/g, ' ').trim();
+      contentCell.push(a);
+    }
+
+    const legacyCells = [
+      image ? [[document.createComment(' field:image '), image]] : [''],
+      [contentCell],
+    ];
+    const block = WebImporter.Blocks.createBlock(document, { name: 'hero-minimal-dark-2', cells: legacyCells });
+    element.replaceWith(block);
+    return;
+  }
+
   // Mode B: Open Days feature-block hero (.feature-block--dark-bg.feature-block--standard).
   // Content lives in .feature-block__text (eyebrow h2 + heading/date paragraphs + CTA),
   // image/video poster in .feature-block__media (a Scene7 DM <img>).

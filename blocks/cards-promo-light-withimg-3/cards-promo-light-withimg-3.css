@@ -2,16 +2,20 @@
  * white panel with a navy serif heading, an optional paragraph and an outline
  * pill CTA. Values extracted from source .featureblock.feature-block--white-bg.
  *
- * On this page three separate block instances plus a full-bleed hero-card-dark
- * share one section; lay the three cards out up to 3-up on desktop while
- * leaving the hero to span the full row (and keep its own full-bleed styling).
+ * Two authoring shapes are supported:
+ *  - one block instance per card (study hub, international applicants): the
+ *    instances are sibling wrappers in one section, so the SECTION container
+ *    is the grid (guarded below with :has(> wrapper ~ wrapper));
+ *  - one block holding many cards (Food Systems Institute): the block's own
+ *    list is the grid (guarded with ul:has(> li + li)).
+ * A full-bleed hero-card-dark sharing the section spans the full row.
  */
 
 /* --- Section band ---------------------------------------------------------
- * Source cards sit on the cream page background. Tint the shared section and,
- * on desktop, turn it into the grid that packs the three cards 3-up. The hero
- * wrapper is forced onto its own full-width row further down. */
-.cards-promo-light-withimg-3-container {
+ * Source per-card sections sit on the cream page background. Only tint when
+ * the section is built from multiple card instances; single-block sections
+ * take their background from the section style instead. */
+.cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper) {
   background-color: var(--uon-cream, #faf6ef);
 }
 
@@ -22,6 +26,12 @@
   padding: 0;
   display: grid;
   height: 100%;
+}
+
+/* one block holding many cards: the list is the grid */
+.cards-promo-light-withimg-3 ul:has(> li + li) {
+  gap: 24px;
+  height: auto;
 }
 
 .cards-promo-light-withimg-3 .cards-promo-light-withimg-3-card {
@@ -123,39 +133,56 @@
 
 /* --- Tablet: two-up ------------------------------------------------------- */
 @media (width >= 600px) {
-  .cards-promo-light-withimg-3-container {
+  .cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper) {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
     padding: 40px 24px;
   }
 
-  .cards-promo-light-withimg-3-container > .cards-promo-light-withimg-3-wrapper {
+  .cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper)
+    > .cards-promo-light-withimg-3-wrapper {
     max-width: 100%;
     margin: 0;
     padding: 0;
   }
 
-  /* hero (or any non-card block) spans the full row and breaks back out to
-   * the section edges so its full-bleed styling is preserved */
-  .cards-promo-light-withimg-3-container > .hero-card-dark-wrapper {
+  /* hero (or any non-card block) and default content span the full row; the
+   * hero breaks back out to the section edges to keep its full-bleed styling */
+  .cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper)
+    > .default-content-wrapper {
+    grid-column: 1 / -1;
+  }
+
+  .cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper)
+    > .hero-card-dark-wrapper {
     grid-column: 1 / -1;
     margin-left: -24px !important;
     margin-right: -24px !important;
+  }
+
+  .cards-promo-light-withimg-3 ul:has(> li + li) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /* --- Desktop: three-up ---------------------------------------------------- */
 @media (width >= 900px) {
-  .cards-promo-light-withimg-3-container {
+  .cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 40px 32px;
     padding: 48px 32px;
   }
 
-  .cards-promo-light-withimg-3-container > .hero-card-dark-wrapper {
+  .cards-promo-light-withimg-3-container:has(> .cards-promo-light-withimg-3-wrapper ~ .cards-promo-light-withimg-3-wrapper)
+    > .hero-card-dark-wrapper {
     margin-left: -32px !important;
     margin-right: -32px !important;
+  }
+
+  .cards-promo-light-withimg-3 ul:has(> li + li) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 32px;
   }
 
   .cards-promo-light-withimg-3 .cards-promo-light-withimg-3-body {

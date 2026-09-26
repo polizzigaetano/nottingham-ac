@@ -31,3 +31,27 @@
     order: unset;
   }
 }
+
+/* Inside an "article" section (news): a compact contact card — small photo
+ * beside the details on a grey panel, as on the source media-contact box. */
+.section.article .columns > div {
+  gap: 16px;
+  padding: 20px;
+  background-color: var(--uon-grey, #f3f4f5);
+}
+
+.section.article .columns > div > .columns-img-col {
+  flex: 0 0 120px;
+  max-width: 120px;
+}
+
+.section.article .columns > div > div p {
+  margin: 0 0 6px;
+}
+
+@media (width >= 600px) {
+  .section.article .columns > div {
+    flex-direction: row;
+    align-items: center;
+  }
+}

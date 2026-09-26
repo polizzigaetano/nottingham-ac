@@ -280,6 +280,11 @@ main > .section > div {
   padding: 0 24px;
 }
 
+/* article: narrower reading column for long-form pages (e.g. news) */
+main > .section.article > div {
+  max-width: 800px;
+}
+
 main > .section:first-of-type {
   margin-top: 0;
 }

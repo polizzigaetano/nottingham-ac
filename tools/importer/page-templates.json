@@ -3114,7 +3114,7 @@
         "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx"
       ],
       "representativeUrl": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
-      "description": "International applicants landing page (Study With Us family) — reuse-only migration.",
+      "description": "International applicants landing page (Study With Us family) \u2014 reuse-only migration.",
       "blocks": [
         {
           "name": "hero-card-dark",
@@ -3299,6 +3299,276 @@
       ],
       "coverageGaps": [],
       "urlPattern": "/studywithus/international-applicants/index.aspx"
+    },
+    {
+      "name": "food-systems-institute",
+      "urls": [
+        "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/index.aspx"
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/science/schools-centres-and-institutes/food-systems-institute/index.aspx",
+      "description": "Food Systems Institute landing page (legacy Contensis science institute template) \u2014 reuse-only migration.",
+      "urlPattern": "/science/schools-centres-and-institutes/food-systems-institute/index.aspx",
+      "blocks": [
+        {
+          "name": "hero-minimal-dark-2",
+          "instances": [
+            "#container > .sys_standard-banner",
+            "#container > .container.my-4 .sys_standard-banner",
+            "#container > .sys_fullWidthImage-TextWithCTA"
+          ]
+        },
+        {
+          "name": "nav-anchor-light",
+          "instances": [
+            "#container > .standard-nav-with-dropdown"
+          ]
+        },
+        {
+          "name": "columns-withimg-light",
+          "instances": [
+            "#container > .container.my-4 > .generalFullWidth-content > .sys_twoColumns5050"
+          ]
+        },
+        {
+          "name": "cards-promo-light-withimg-3",
+          "instances": [
+            "#container > .container-grey-bg .sys_imageTitleContentCTA-card",
+            "#container > .container-grey-bg .imageTextContentCTA-card",
+            "#container > .container.my-4 .sys_fourColumns .sys_imageTitleContentCTA-card"
+          ]
+        },
+        {
+          "name": "cards-minimal-dark-withimg-5",
+          "instances": [
+            "#container > .container-yellow-bg .imageWhiteCTA-card"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-breadcrumb",
+          "name": "breadcrumb",
+          "selector": [
+            "#L1_Breadcrumbs"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#L1_Breadcrumbs"
+          ]
+        },
+        {
+          "id": "sec-hero",
+          "name": "hero",
+          "selector": [
+            "#container > .sys_standard-banner"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "sec-subnav",
+          "name": "sub-nav",
+          "selector": [
+            "#container > .standard-nav-with-dropdown"
+          ],
+          "style": null,
+          "blocks": [
+            "nav-anchor-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "sec-mission",
+          "name": "our-mission",
+          "selector": [
+            "#container > .container.my-4:has(.generalFullWidth-content > .sys_twoColumns5050)"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-withimg-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "sec-focus",
+          "name": "our-focus",
+          "selector": [
+            "#container > .container-grey-bg:has(.sys_imageTitleContentCTA-card)"
+          ],
+          "style": "light",
+          "blocks": [
+            "cards-promo-light-withimg-3"
+          ],
+          "defaultContent": [
+            "h2",
+            "h3",
+            "p"
+          ]
+        },
+        {
+          "id": "sec-annual-report",
+          "name": "annual-report",
+          "selector": [
+            "#container > .container.my-4:has(.sys_standard-banner)"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "sec-centres",
+          "name": "translational-centres",
+          "selector": [
+            "#container > .container-grey-bg:has(.imageTextContentCTA-card)"
+          ],
+          "style": "light",
+          "blocks": [
+            "cards-promo-light-withimg-3"
+          ],
+          "defaultContent": [
+            "h2",
+            "h3",
+            "p"
+          ]
+        },
+        {
+          "id": "sec-case-studies",
+          "name": "case-studies",
+          "selector": [
+            "#container > .container.my-4:has(.sys_fourColumns)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-promo-light-withimg-3"
+          ],
+          "defaultContent": [
+            "h3",
+            ".sys_four"
+          ]
+        },
+        {
+          "id": "sec-engage",
+          "name": "engage",
+          "selector": [
+            "#container > .container-yellow-bg"
+          ],
+          "style": "light",
+          "blocks": [
+            "cards-minimal-dark-withimg-5"
+          ],
+          "defaultContent": [
+            "h2",
+            "h3",
+            "p"
+          ]
+        },
+        {
+          "id": "sec-signup",
+          "name": "sign-up",
+          "selector": [
+            "#container > .sys_fullWidthImage-TextWithCTA"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-minimal-dark-2"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "sec-social",
+          "name": "social",
+          "selector": [
+            "#container > .container.my-4:has(.CTA-X)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "a"
+          ]
+        }
+      ],
+      "coverageGaps": []
+    },
+    {
+      "name": "news-press-release",
+      "urls": [
+        "https://www.nottingham.ac.uk/news/hidden-signs-of-financial-abuse"
+      ],
+      "representativeUrl": "https://www.nottingham.ac.uk/news/hidden-signs-of-financial-abuse",
+      "description": "Central news press release (legacy template): lead image + title, section menu, article with pull quotes, media contact card, notes to editors, press-office box. Reuse-only.",
+      "urlPattern": "/news/*",
+      "blocks": [
+        {
+          "name": "nav-anchor-light",
+          "instances": [
+            "#NavDiv > ul.sys_simpleListMenu"
+          ]
+        },
+        {
+          "name": "columns-withimg-light",
+          "instances": [
+            "article.pressReleaseMain > .quoteWithImage"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            "article.pressReleaseMain > .author"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-title",
+          "name": "title",
+          "selector": [
+            "#content > .sys_detailImage"
+          ],
+          "style": "article",
+          "blocks": [],
+          "defaultContent": [
+            "img",
+            "h1"
+          ]
+        },
+        {
+          "id": "sec-nav",
+          "name": "news-menu",
+          "selector": [
+            "#NavDiv"
+          ],
+          "style": "article",
+          "blocks": [
+            "nav-anchor-light"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "sec-article",
+          "name": "article",
+          "selector": [
+            "article.pressReleaseMain"
+          ],
+          "style": "article",
+          "blocks": [
+            "columns-withimg-light",
+            "columns"
+          ],
+          "defaultContent": [
+            "p",
+            "h2",
+            "blockquote",
+            ".boilerplate"
+          ]
+        }
+      ],
+      "coverageGaps": []
     }
   ],
   "metadata": {
